@@ -1,0 +1,63 @@
+html {
+    font-family:sans-serif;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+   }
+   body {
+    margin:0
+   }
+
+
+#bg-image-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#bg-image {
+    height: 600px;
+    width: 100%;
+    background: url("assets/images/image-1.jpg") no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#aib-logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+/* navigation links */
+
+#aib-menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#aib-menu, #aib-logo {
+    line-height: 75px;
+}
+
+#aib-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#aib-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#aib-menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
