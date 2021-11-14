@@ -18,21 +18,38 @@ header
   justify-content: space-between;
   align-items: center;
 }
+
 header .logo
 {
-  color: #542cfa;
+  color: #ae2a50;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 40px;
   text-transform: uppercase;
   cursor: pointer;
+  position: relative;
 }
+
+header .center {
+  left: 50%;
+  position: absolute;
+  box-sizing: border-box;
+  transform: translateX(-50%);
+  color: whitesmoke;
+}
+
+
+
 .toggle
 {
-  position: relative;
+  position: absolute;
   width: 60px;
   height: 60px;
   background: url(https://i.ibb.co/HrfVRcx/menu.png);
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
+  top: 10%;
+  left: 90%;
   cursor: pointer;
 }
 .toggle.active
@@ -41,8 +58,20 @@ header .logo
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
+  top: 10%;
+  left: 90%;
+  position: center;
   cursor: pointer;
 }
+
+header {
+  transition: all 0.5s ease;
+  height: 65px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.8);
+  z-index: 400;
+  background-color: #013459;
+}
+
 .showcase
 {
   position: absolute;
