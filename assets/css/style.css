@@ -352,7 +352,7 @@ header {
 }
 
 
-.bank-section {
+.bank-div {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -360,7 +360,7 @@ header {
   font-family: inherit;
 }
 
-.title-box {
+.title {
   text-align: center;
   margin-bottom: 50px;
   margin: 0;
@@ -382,7 +382,6 @@ header {
 .ai-fin-image {
   position: relative;
   width: 450px;
-  top: -350px;
   margin: 20px;
 }
 
@@ -391,4 +390,121 @@ header {
   text-align: justify;
   margin-left: 500px;
   margin-right: 20px;
+}
+
+.bank-article-rm {
+  border-style: hidden;
+  box-sizing: border-box;
+  text-align:right;
+  margin-right: 20px;
+}
+
+
+figure {
+  margin: 0 0 1.3rem 0;
+  -webkit-transition: .125s linear;
+  -moz-transition: .125s linear;
+  -ms-transition: .125s linear;
+  -o-transition: .125s linear;
+  transition: .125s linear;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  padding:0;
+}
+
+body:before, body:after {
+  content: "";
+  display: table;
+}
+
+body:after { clear: both }
+
+p { margin-bottom: 1.3rem }
+
+article {
+  margin-bottom: 3rem;
+  position: relative;
+  *zoom: 1;
+}
+
+article:before, article:after {
+  content: "";
+  display: table;
+}
+
+article:after { clear: both }
+
+article figure {
+  float: left;
+  width: 32.5%;
+}
+
+article section:first-of-type {
+  float: right;
+  width: 62.5%;
+}
+
+article section:last-of-type {
+  display: none;
+  visibility: hidden;
+}
+
+section {
+  -webkit-transition: 1s linear;
+  -moz-transition: .125s linear;
+  -ms-transition: .125s linear;
+  -o-transition: .125s linear;
+  transition: 1s linear;
+}
+
+input[type=checkbox] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+[for="read_more"] {
+  position: absolute;
+  bottom: -3rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: .65rem;
+  box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
+}
+
+[for="read_more"]:hover {
+  background: rgba(0,0,0,.5);
+  color: rgb(255,255,255);
+}
+
+[for="read_more"] span:last-of-type {
+  display: none;
+  visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ section {
+  display: block;
+  visibility: visible;
+  width: 100%;
+}
+
+input[type=checkbox]:checked ~ figure { width: 100% }
+
+input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
+  display: none;
+  visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
+  display: block;
+  visibility: visible;
 }
