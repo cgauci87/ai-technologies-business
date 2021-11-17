@@ -385,17 +385,10 @@ header {
   margin: 20px;
 }
 
-.bank-article {
+section p {
   box-sizing: border-box;
   text-align: justify;
-  margin-left: 500px;
-  margin-right: 20px;
-}
-
-.bank-article-rm {
-  border-style: hidden;
-  box-sizing: border-box;
-  text-align:right;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
@@ -410,7 +403,7 @@ figure {
 }
 
 figure img {
-  max-width: 100%;
+  max-width: 450px;
   height: auto;
   padding:0;
 }
