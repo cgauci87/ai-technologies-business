@@ -8,7 +8,7 @@
 }
 header
 {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -17,6 +17,7 @@ header
   display: flex;
   justify-content: space-between;
   align-items: center;
+  opacity: 0.7;
 }
 
 header .logo
@@ -41,7 +42,7 @@ header .center {
 
 .toggle
 {
-  position: absolute;
+  position:absolute;
   width: 60px;
   height: 60px;
   background: url(https://i.ibb.co/HrfVRcx/menu.png);
@@ -74,7 +75,7 @@ header {
 
 .showcase
 {
-  position: absolute;
+  position: relative;
   right: 0;
   width: 100%;
   min-height: 100vh;
@@ -98,8 +99,8 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  opacity: 0.8;
+  object-fit:none;
+  opacity: 0.3;
 }
 .overlay
 {
@@ -112,6 +113,37 @@ header {
   mix-blend-mode: overlay;
 }
 
+
+/* ------------pop-window----------- */
+
+.ontop {
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  position: absolute;
+  background-color: black;
+  color: #aaaaaa;
+  opacity: 3;
+  filter:alpha(opacity=80);
+}
+#popup {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  color: #000000;
+  background-color: #ffffff;
+  /* To align popup window at the center of screen*/
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -150px;
+}
+
+
+/* --------------------------------- */
 
 .content-box {
   position: relative;
@@ -146,9 +178,21 @@ header {
 }
 
 
+.content h1 {
+  font-size: 40px;
+  color: white;
+}
 
+.content h2 {
+  font-size: 30px;
+  color: white;
+}
 
-
+.content h3 {
+  font-size: 20px;
+  color:turquoise;
+  text-align: right;
+}
 
 
 .text
@@ -269,4 +313,82 @@ header {
   {
     font-size: 2em;
   }
+}
+
+/* images in pop-up */
+
+.container-bk{
+
+  width: 150px;
+  margin: 0;
+  padding-top: 10px;
+  padding-right:100px;
+  padding-bottom:10px;
+  padding-left:10px;
+
+}
+
+
+.container-hc{
+
+  width: 150px;
+  margin: 0;
+  padding-top: 10px;
+  padding-right:80px;
+  padding-bottom:100px;
+  padding-left:20px;
+
+}
+
+.container-ec{
+
+  width: 150px;
+  margin: 0;
+  padding-top: 10px;
+  padding-right:60px;
+  padding-bottom:100px;
+  padding-left:30px;
+
+}
+
+
+.bank-section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  font-family: inherit;
+}
+
+.title-box {
+  text-align: center;
+  margin-bottom: 50px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.title h2 {
+  font-size: 2.9rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color:hsl(256, 98%, 48%);
+  letter-spacing: 5px;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.ai-fin-image {
+  position: relative;
+  width: 450px;
+  top: -350px;
+  margin: 20px;
+}
+
+.bank-article {
+  box-sizing: border-box;
+  text-align: justify;
+  margin-left: 500px;
+  margin-right: 20px;
 }

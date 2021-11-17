@@ -5,12 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/style.css">
-	<title>Document</title>
+	<title>Artificial Intelligence in Business World</title>
 </head>
 <body>
   <section class="showcase">
     <header>
-      <h1 class="logo center">b2b ai</h1>
+      <h1 class="logo-left">b2b ai</h1>
       <div class="toggle"></div>
     </header>
     <video src="assets/videos/sample-vid-bg.mp4" muted loop autoplay></video>
@@ -18,43 +18,136 @@
 
 	<div class="content-box">
 		<div class="content-bg"></div>
-		<div class="content"
-			<h2>Never Stop To </h2> 
-			<h3>Exploring The World</h3>
-			<br>Text with blurred background
-			<br>Text with blurred background
-			<br>Text with blurred background
-			<br>Text with blurred background
-			<br>Text with blurred background
-			<br>Text with blurred background
+		<div class="content">
+			<h1>AI think like a human. </h1> 
+			<h2>Embrace AI technologies to optimize your industry performances and functionalities. </h2>
+      <a href="#" onClick="pop('popDiv')"><h3>Learn more.</h3></a>
 		</div>
-		<a href="#">Explore</a>
     </div>
+    <div id="popDiv" class="ontop">
+
+      <div class="content">
+        <h1> choose your industry. </h1> 
+        <h2> unleash the future of innovation. </h2>
+        <a href="#" onClick="hide('popDiv')"><h3>Close.</h3></a>
+        </div>
+
+      <div class="container-bk">
+        <img src="assets/images/banking-image.png" alt="Banking and Finance" id="banking-image" style="width:150px">
+        <div class="industry-lbl">
+          <div id="banking-text"><a target="_blank" href="#">Banking & Finance</a></div>
+        </div>
+      </div> 
+
+
+      <div class="container-hc">
+        <img src="assets/images/healthcare-image.png" alt="Healthcare" id="healthcare-image" style="width:150px">
+        <div class="industry-lbl">
+          <div id="healthcare-text"><a target="_blank" href="#">Healthcare</a></div>
+        </div>
+      </div> 
+
+
+
+      <div class="container-ec">
+        <img src="assets/images/ecom_retail-image.png" alt="eCommerce and Retail" id="ecom_retail-image" style="width:150px">
+        <div class="industry-lbl">
+          <div id="ecom-text"><a target="_blank" href="#">eCommerce & Retail</a></div>
+        </div>
+      </div>
+
+  </div>
     <ul class="social">
-      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
-      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
-      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="facebook"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="twitter"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="instagram"></a></li>
     </ul>
   </section>
   <div class="menu">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">News</a></li>
-      <li><a href="#">Destination</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Podcasts</a></li>
+      <li><a href="#">Subscribe</a></li>
+      <li><a href="industries.html">Industries</a></li>
     </ul>
   </div>
+          <section class="bank-section">
 
-  </body>
+            <div class="title-box">
+              <h2 class="title">Banking and Finance</h2>
+              <i class="fas fa-money-check-alt"></i>
+              
+              <article>
+              
+                <p class="bank-article">Have you ever asked a chatbot a question about opening a savings account? Has your bank ever called you to verify account activity on your credit card? The world of artificial intelligence is booming, and it seems as though no industry or sector has remained untouched by its impact and prevalence. The world of financing and banking is among those finding important ways to leverage the power of this game-changing technology.
 
-  <script>
-		const menuToggle = document.querySelector('.toggle');
+                  Artificial intelligence has streamlined programs and procedures, automated routine tasks, improved the customer service experience and helped businesses with their bottom line. In fact, Business Insider predicts that artificial intelligence applications will save banks and financial institutions $447 billion by 2023.
+                  
+                  The majority of banks (80%) understand the potential benefits of AI, but now it’s more important than ever with the widespread impact of COVID-19, which has affected the finance industry and pushed more people to embrace the digital experience.
+                  
+                  In a recent AI News article, Mani Nagasundaram, senior vice president and head of solutions of global financial services at HCL Technologies, explained that COVID-19 has forced banks and financial institutions to respond to customers at an even faster pace — and around the clock. Artificial intelligence can free up personnel, improve security measures and ensure that the business is moving in the right technology-advanced, innovative direction.
+                  
+                  According to Forbes, 70% of financial firms are using machine learning to predict cash flow events, adjust credit scores and detect fraud.
+                  
+                  Read on to learn about 15 common examples of artificial intelligence in finance, how financial firms are using AI, information about ethics and what the future looks like for this rapidly evolving industry.</p>
+
+                  <div class="ai-fin-image">
+                    <figure>
+                      <img src="assets/images/image-1.jpg" alt="Finance industry in AI technologies" style="width:450px">
+                      <figcaption>Finance industry in AI technologies</figcaption>
+                    </figure>
+      
+                 </div>
+                        <div class="bank-article">
+                              <p>15 Common Examples of AI in Finance</p>
+                             <br>
+                              <p>Examples of Financial Firms That Are Using AI</p>
+                              <br>
+                              <p>Ethics in AI in the Finance Sector</p>
+                              <br>
+                              <p>The Future of AI in Finance</p>
+                        </div>
+  
+              </div>
+
+
+
+            </article>
+          
+         </section>
+      
+
+    <!--Menu Script -->
+    <script>const menuToggle = document.querySelector('.toggle');
 		const showcase = document.querySelector('.showcase');
 
 		menuToggle.addEventListener('click', () => {
   		menuToggle.classList.toggle('active');
   		showcase.classList.toggle('active');
-		})
+		})</script>
+  
+    <!--pop-up script -->
+    <script>
+       function pop(div) {
+        document.getElementById(div).style.display = 'block';
+    }
+    
+    function hide(div) {
+        document.getElementById(div).style.display = 'none';
+    }
+    
+    document.onkeydown = function (evt) {
+        evt = evt || window.event;
+        if (evt.keyCode == 27) {
+            hide('popDiv');
+        }
+    };
+
   </script>
+
+  <!--Font awesome Script-->
+
+  <script src="https://kit.fontawesome.com/45477b65ad.js" crossorigin="anonymous"></script>  
+
+</body>
 </html>
