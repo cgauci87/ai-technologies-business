@@ -319,7 +319,7 @@ header {
   }
 }
 
-/* images in pop-up */
+/* pop-up window */
 
 .container-bk{
 
@@ -352,9 +352,8 @@ header {
   padding-right:60px;
   padding-bottom:100px;
   padding-left:30px;
-
 }
-
+/* --END--------------- pop-up window ---------------END*/
 
 .bank-div {
   margin: 0;
@@ -397,6 +396,23 @@ section p {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Read More ANIMATION */
 figure {
   margin: 0 0 1.3rem 0;
   -webkit-transition: .125s linear;
@@ -414,7 +430,7 @@ figure img {
 
 body:before, body:after {
   content: "";
-  display: table;
+  display:block;
 }
 
 body:after { clear: both }
@@ -429,7 +445,7 @@ article {
 
 article:before, article:after {
   content: "";
-  display: table;
+  display: block;
 }
 
 article:after { clear: both }
@@ -505,3 +521,6 @@ input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
   display: block;
   visibility: visible;
 }
+
+/* --END------------Read More ANIMATION------------END-- */
+
