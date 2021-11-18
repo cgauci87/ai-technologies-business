@@ -370,14 +370,7 @@ header .center {
 }
 /* --END--------------- pop-up window ---------------END*/
 
-/*--START-------------Article: Banking and Finance-----------START-- */
-.bank-div {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: block;
-  font-family: inherit;
-}
+/*--START------------Article: GENERIC------------------------START*/
 
 .title {
   text-align: center;
@@ -398,12 +391,6 @@ header .center {
   text-align: center;
 }
 
-.ai-fin-image {
-  position: relative;
-  width: 450px;
-  margin: 20px;
-}
-
 section p {
   box-sizing: border-box;
   text-align: justify;
@@ -411,83 +398,40 @@ section p {
   margin-right: 20px;
 }
 
+  /*--END------------Article: GENERIC------------------------END*/
+
+
+/*--START-------------Article: Banking and Finance-----------START-- */
+.bank-article {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  font-family: inherit;
+}
+.ai-fin-image {
+  position: relative;
+  width: 450px;
+  margin: 20px;
+  top: -50px;
+}
 /*--END-------------Article: Banking and Finance-----------END-- */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* --START--------- Read More - animation -----------START--*/
-figure {
-  margin: 0 0 1.3rem 0;
-  -webkit-transition: .125s linear;
-  -moz-transition: .125s linear;
-  -ms-transition: .125s linear;
-  -o-transition: .125s linear;
-  transition: .125s linear;
-}
-
-figure img {
-  max-width: 450px;
-  height: auto;
-  padding:0;
-}
-
-body:before, body:after {
-  content: "";
-  display:block;
-}
-
-body:after { clear: both }
-
-p { margin-bottom: 1.3rem }
-
-article {
-  margin-bottom: 3rem;
-  position: relative;
-  *zoom: 1;
-}
-
-article:before, article:after {
-  content: "";
+/*--START-------------eCommerce and Retail-----------START-- */
+.ecom-article {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   display: block;
+  font-family: inherit;
 }
 
-article:after { clear: both }
-
-article figure {
-  float: left;
-  width: 32.5%;
+.ai-ecom-image {
+  position: relative;
+  width: 450px;
+  margin: 20px;
 }
-
-article section:first-of-type {
-  float: right;
-  width: 62.5%;
-}
-
-article section:last-of-type {
-  display: none;
-  visibility: hidden;
-}
-
-section {
-  -webkit-transition: 1s linear;
-  -moz-transition: .125s linear;
-  -ms-transition: .125s linear;
-  -o-transition: .125s linear;
-  transition: 1s linear;
-}
+/*--END-------------Article: eCommerce and Retail-----------END-- */
 
 input[type=checkbox] {
   border: 0;
@@ -500,43 +444,59 @@ input[type=checkbox] {
   position: absolute;
 }
 
-[for="read_more"] {
+#read-more-btn-ecom{
+  border:0.1em solid #000000;
+  border-radius:0.12em;
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+  color:#000000;
+  text-align: center;
+  transition: all 0.2s;
   position: absolute;
-  bottom: -3rem;
+  bottom: -66rem;
   left: 0;
   width: 100%;
   text-align: center;
   padding: .65rem;
   box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
-}
+  }
 
-[for="read_more"]:hover {
-  background: rgba(0,0,0,.5);
-  color: rgb(255,255,255);
-}
+  #read-more-btn-ecom:hover{
+    background: rgba(0,0,0,.5);
+    color: rgb(255,255,255);
+  }
 
-[for="read_more"] span:last-of-type {
-  display: none;
-  visibility: hidden;
-}
 
-input[type=checkbox]:checked ~ section {
-  display: block;
-  visibility: visible;
-  width: 100%;
-}
 
-input[type=checkbox]:checked ~ figure { width: 100% }
+    #read-more-btn-fin{
+      border:0.1em solid #000000;
+      border-radius:0.12em;
+      font-family:'Roboto', sans-serif;
+      font-weight: 300;
+      color:#000000;
+      text-align: center;
+      transition: all 0.2s;
+      position: absolute;
+      bottom: -30rem;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      padding: .65rem;
+      box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
+      }
+    
+      #read-more-btn-fin:hover{
+        background: rgba(0,0,0,.5);
+        color: rgb(255,255,255);
+    
 
-input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
-  display: none;
-  visibility: hidden;
-}
 
-input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
-  display: block;
-  visibility: visible;
-}
 
-/* --END--------- Read More - animation -----------END--*/
+
+/* Color Theme Swatches in RGBA */
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-1-rgba { color: rgba(1, 8, 12, 1); }
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-2-rgba { color: rgba(33, 141, 165, 1); }
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-3-rgba { color: rgba(80, 191, 191, 1); }
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-4-rgba { color: rgba(39, 89, 89, 1); }
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-5-rgba { color: rgba(67, 242, 224, 1); }
 
