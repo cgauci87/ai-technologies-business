@@ -1,4 +1,3 @@
-@import "compass/css3";
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *
 {
@@ -7,9 +6,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
-html,body {margin:0; padding:10px; -webkit-backface-visibility:hidden;}
-
 
 header
 {
@@ -179,8 +175,8 @@ header .center {
   left: 0;
   display: none;
   position: absolute;
-  background-color: black;
-  color: #aaaaaa;
+  background-color: rgba(39, 89, 89, 1);
+  color: black;
   opacity: 3;
   filter:alpha(opacity=80);
 }
@@ -188,8 +184,8 @@ header .center {
   width: 300px;
   height: 200px;
   position: absolute;
-  color: #000000;
-  background-color: #ffffff;
+  color: red;
+  background-color: white;
   /* To align popup window at the center of screen*/
   top: 50%;
   left: 50%;
@@ -338,40 +334,72 @@ header .center {
 /*--END-----------Socialmedia buttons-------END--*/
 
 
-/*--START---------------- pop-up window------------------START-- */
+/*--START---------------- pop-up window INTRO------------------START-- */
 
-.container-bk{
+.top-heading {
+  border-radius: 10px;
+  z-index: 100;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+}
 
-  width: 150px;
-  margin: 0;
-  padding-top: 10px;
-  padding-right:100px;
-  padding-bottom:10px;
-  padding-left:10px;
+.top-heading h3 {
+  font-size: 20px;
+  color:turquoise;
+  text-align: right;
+}
+
+
+.grid-a {
+  margin: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px 50px;
+  align-items: center;
+  padding-top: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+  padding-left: 35px;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.grid-a > article {
+  border: none;
+  background-color:#013459;
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+  border-radius: 20px;
+  text-align: center;
+  width: 250px;
+  transition: transform .3s;
+ 
+}
+
+.grid-a > article:hover {
+  transform: translateY(5px);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+}
+
+.grid-a > article img  {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 
 }
 
 
-.container-hc{
+.btn:hover{
 
-  width: 150px;
-  margin: 0;
-  padding-top: 10px;
-  padding-right:80px;
-  padding-bottom:100px;
-  padding-left:20px;
-
+  background-color: #0071e3;
+  color: white;
+  border: none;
 }
 
-.container-ec{
 
-  width: 150px;
-  margin: 0;
-  padding-top: 10px;
-  padding-right:60px;
-  padding-bottom:100px;
-  padding-left:30px;
-}
+
 /* --END--------------- pop-up window ---------------END*/
 
 /*--START------------Article: GENERIC------------------------START*/
@@ -497,286 +525,6 @@ input[type=checkbox] {
 
 /*===================================================================================================================*/
 
-@import "compass/css3";
-
-html,body {margin:0; padding:10px; -webkit-backface-visibility:hidden;}
-
-/* text-based popup styling */
-.white-popup {
-  position: relative;
-  background: #FFF;
-  padding: 25px;
-  width:auto;
-  max-width: 400px;
-  margin: 0 auto; 
-}
-
-
-
-
-
-/* 
-
-====== Zoom effect ======
-
-*/
-
-/* start state */
-.mfp-zoom-in .mfp-with-anim {
-    opacity: 0;
-    transition: all 0.2s ease-in-out; 
-    transform: scale(0.8); 
-  }
-    .mfp-bg {
-    opacity: 0;
-	  transition: all 0.3s ease-out;
-  }
-  
-  /* animate in */
-  .mfp-ready .mfp-with-anim {
-      opacity: 1;
-      transform: scale(1); 
-    }
-  .mfp-bg {
-      opacity: 0.8;
-    }
-  
-
-  /* animate out */
-  .mfp-removing .mfp-with-anim {
-      transform: scale(0.8); 
-      opacity: 0;
-    }
-  .mfp-bg {
-      opacity: 0;
-    }
-
-/* 
-
-====== Newspaper effect ======
-
-*/
-/* start state */
-.mfp-newspaper .mfp-with-anim {
-    opacity: 0;
-    -webkit-transition: all 0.2s ease-in-out; 
-    transition: all 0.5s;
-    transform: scale(0) rotate(500deg);
-  }
-  
-  .mfp-bg {
-    opacity: 0;
-	  transition: all 0.5s;
-  }
-  
-  /* animate in */
-  .mfp-ready .mfp-with-anim {
-      opacity: 1;
-      transform: scale(1) rotate(0deg);
-    }
-    .mfp-bg {
-      opacity: 0.8;
-    }
-  
-
-  /* animate out */
-  .mfp-removing .mfp-with-anim {
-      transform: scale(0) rotate(500deg);
-      opacity: 0;
-  }
-    .mfp-bg {
-      opacity: 0;
-    }
-
-/* 
-
-====== Move-horizontal effect ======
-
-*/
-
-/* start state */
-.mfp-move-horizontal .mfp-with-anim {
-    opacity: 0;
-    transition: all 0.3s;
-    transform: translateX(-50px);
-  }
-  .mfp-bg {
-    opacity: 0;
-	  transition: all 0.3s;
-  }
-  
-  /* animate in */
-  .mfp-ready .mfp-with-anim {
-      opacity: 1;
-      transform: translateX(0);
-    }
-    .mfp-bg {
-      opacity: 0.8;
-    }
-
-  
-  /* animate out */
-  .mfp-removing .mfp-with-anim {
-      transform: translateX(50px);
-      opacity: 0;
-    }
-  .mfp-bg {
-      opacity: 0;
-    }
-  
-/* 
-
-====== Move-from-top effect ======
-
-*/
-.mfp-move-from-top .mfp-content {
-   vertical-align: top; 
-  }
-  
-  /* start state */
-  .mfp-with-anim {
-    opacity: 0;
-    transition: all 0.2s;
-    transform: translateY(-100px);
-  }
-    .mfp-bg {
-    opacity: 0;
-	  transition: all 0.2s;
-  }
-  
-  /* animate in */
-  .mfp-ready .mfp-with-anim {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    .mfp-bg {
-      opacity: 0.8;
-    }
-  
-  
-  /* animate out */
-  .mfp-removing .mfp-with-anim {
-      transform: translateY(-50px);
-      opacity: 0;
-    }
-    .mfp-bg {
-      opacity: 0;
-}
-
-/* 
-====== 3d unfold ======
-*/
-.mfp-3d-unfold .mfp-content {
-    perspective: 2000px; 
-  }
-  
-  /* start state */
-  .mfp-with-anim {
-    opacity: 0;
-    transition: all 0.3s ease-in-out;
-    transform-style: preserve-3d;
-    transform: rotateY(-60deg);
-  }
-  
-  .mfp-bg {
-    opacity: 0;
-	  transition: all 0.5s;
-  }
-  
-  /* animate in */
-    .mfp-ready .mfp-with-anim {
-      opacity: 1;
-      transform: rotateY(0deg);
-    }
-    .mfp-bg {
-      opacity: 0.8;
-    }
-  
-  /* animate out */
-  .mfp-removing .mfp-with-anim {
-      transform: rotateY(60deg);
-      opacity: 0;
-    }
-    .mfp-bg {
-      opacity: 0;
-    }
-  
-/* 
-====== Zoom-out effect ======
-*/
-
-/* start state */
-  .mfp-zoom-out .mfp-with-anim {
-    opacity: 0;
-    transition: all 0.3s ease-in-out; 
-    transform: scale(1.3); 
-  }
-  
-  .mfp-bg {
-    opacity: 0;
-	  transition: all 0.3s ease-out;
-  }
-  
-  /* animate in */
-  .mfp-ready .mfp-with-anim {
-    opacity: 1;
-    transform: scale(1); 
-    }
-  .mfp-bg {
-      opacity: 0.8;
-  }
-  
-  /* animate out */
-  .mfp-removing .mfp-with-anim {
-  transform: scale(1.3); 
-  opacity: 0;
-  }
-
-  .mfp-bg {
-      opacity: 0;
-    }
-
-/* 
-
-====== "Hinge" close effect ======
-
-*/
-
-@keyframes hinge {
-	0% { transform: rotate(0); transform-origin: top left; animation-timing-function: ease-in-out; }	
-	20%, 60% { transform: rotate(80deg); transform-origin: top left; animation-timing-function: ease-in-out; }	
-	40% { transform: rotate(60deg); transform-origin: top left; animation-timing-function: ease-in-out; }	
-	80% { transform: rotate(60deg) translateY(0); opacity: 1; transform-origin: top left; animation-timing-function: ease-in-out; }	
-	100% { transform: translateY(700px); opacity: 0; }
-}
-
-.hinge {
-  animation-duration: 1s;
-	animation-name: hinge;
-}
-
-/* before-open state */
-.mfp-with-fade .mfp-content .mfp-bg {
-    opacity: 0;
-    transition: opacity .5s ease-out;
-  }
-
-  /* open state */
-  .mfp-ready .mfp-content {
-     opacity: 1; 
-    }
-
-  /*background opacity*/  
-    .mfp-bg {
-      opacity: 0.8;     
-    }
-  
-  /* closed state */
-  .mfp-removing .mfp-bg {
-      opacity: 0;
-    }
-  
-/*================================END OF ARTICLE POP-UP SCRIPT ========================================*/
 
 
 /* Color Theme Swatches in RGBA */

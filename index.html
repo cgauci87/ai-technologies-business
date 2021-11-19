@@ -25,42 +25,43 @@
     <h2>you can optimize your business performance and functionalities.</h2>
     <br>
     <h2 id="highlight">Embrace Artificial Intelligence</h2>
-      <a href="#" onClick="pop('popDiv')"><h3>Learn more.</h3></a>
+      <a href="#" onClick="pop('popup-industries')"><h3>Learn more.</h3></a>
 		</div>
     </div>
-    <div id="popDiv" class="ontop">
+    <div id="popup-industries" class="ontop">
 
-      <div class="content">
+      <div class="top-heading">
         <h1> choose your industry. </h1> 
         <h2> unleash the future of innovation. </h2>
-        <a href="#" onClick="hide('popDiv')"><h3>Close.</h3></a>
+        <a href="#" onClick="hide('popup-industries')"><h3>Close.</h3></a>
         </div>
 
-      <div class="container-bk">
-        <img src="assets/images/banking-image.png" alt="Banking and Finance" id="banking-image" style="width:150px">
-        <div class="industry-lbl">
-          <div id="banking-text"><a target="_blank" href="#">Banking & Finance</a></div>
+
+        <div class="container">
+                <main class="grid-a">
+                                 <article>
+                                      <img src='assets/images/banking-image.png' alt="Banking and Finance" style="width:150px">
+                                      <a href="#" onClick="pop('popup-bank-fin-section')"></a>
+                                      <button type="submit" class="btn">Banking & Finance</button>
+                                      </a>
+                                 </article>
+                                
+                                 <article>
+                                     <img src='assets/images/healthcare-image.png' alt="Healthcare" style="width:150px">
+                                     <div class="text">
+                                     <a href="#" onClick="pop('popup-healtcare-section')">
+                                     <button type="submit" class="btn">Healthcare</button></a>
+                                </article>
+
+                                <article>
+                                     <img src='assets/images/ecom_retail-image.png' alt="eCommerce and Retail" style="width:150px">
+                                     <a href="#" onClick="pop('popup-ecom-retail-section')">
+                                     <button type="submit" class="btn">eCommerce & Retail</button></a>
+                                </article>
+                 </main>
+                
         </div>
-      </div> 
 
-
-      <div class="container-hc">
-        <img src="assets/images/healthcare-image.png" alt="Healthcare" id="healthcare-image" style="width:150px">
-        <div class="industry-lbl">
-          <div id="healthcare-text"><a target="_blank" href="#">Healthcare</a></div>
-        </div>
-      </div> 
-
-
-
-      <div class="container-ec">
-        <img src="assets/images/ecom_retail-image.png" alt="eCommerce and Retail" id="ecom_retail-image" style="width:150px">
-        <div class="industry-lbl">
-          <div id="ecom-text"><a target="_blank" href="#">eCommerce & Retail</a></div>
-        </div>
-      </div>
-
-  </div>
     <ul class="social">
       <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="facebook"></a></li>
       <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="twitter"></a></li>
@@ -178,7 +179,7 @@
     document.onkeydown = function (evt) {
         evt = evt || window.event;
         if (evt.keyCode == 27) {
-            hide('popDiv');
+            hide('popup-industries');
         }
     };
 
