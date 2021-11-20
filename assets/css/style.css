@@ -51,7 +51,7 @@ header .center {
 /*--START----------------left menu nav----------------START*/
 .menu
 {
-  position: absolute;
+  position:absolute;
   top: 0;
   right: 0;
   width: 300px;
@@ -120,6 +120,24 @@ header .center {
   position: center;
   cursor: pointer;
 }
+
+
+
+.menu-video-container {
+  z-index: -100;
+  overflow:hidden;
+  position:absolute;
+  top: 0;
+  right: 0;
+  width: 1200px;
+  height: 100%;
+  }
+  
+  #menu-video-bg{
+    width:100%;
+   
+  }
+  
 
 /*--END----------------left menu nav----------------END*/
 
