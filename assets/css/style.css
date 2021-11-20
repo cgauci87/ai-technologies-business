@@ -340,6 +340,12 @@ header .center {
   z-index: 100;
   background: #013459;
   color: snow;
+  margin-top: 20px;
+  padding-top: 25px;
+}
+
+.top-heading h1, .top-heading h2 {
+  text-align: center;
 }
 
 .top-heading h3 {
@@ -350,10 +356,11 @@ header .center {
 
 
 .grid-a {
-  margin: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px 50px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px 40px;
   align-items: center;
   padding-top: 35px;
   padding-right: 35px;
@@ -362,30 +369,33 @@ header .center {
   justify-items: center;
   justify-content: center;
   align-content: center;
-
 }
 
 
 
 .btn  h3 {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   text-align: center;
+  word-wrap:break-word;
 }
 
 .btn {
   background: #013459;
   color: snow;
+  width: 100%;
+  display:inline-block;
+  border-radius: 20px ;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .grid-a > article {
   border: none;
   box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
   border-radius: 20px;
-  border-width: inherit;
+  width: 200px;
   text-align: center;
-  width: 250px;
   transition: transform .3s;
- 
 }
 
 .grid-a > article:hover {
@@ -394,7 +404,8 @@ header .center {
 }
 
 .grid-a > article img  {
-  width: 100%;
+  width: 150px;
+  height: 150px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 
