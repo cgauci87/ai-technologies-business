@@ -576,9 +576,35 @@ input[type=checkbox] {
 
       }
 
-/*===================================================================================================================*/
+/*=========================================Article Pages=======================================================================*/
 
+.section-bg{
+  background: whitesmoke;
+}
 
+.rhs-article {
+  margin-left: 22%;
+  background: whitesmoke;
+  text-align: justify;
+}
+
+.lhs-article-grid {
+  margin-right: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px 10px;
+    align-items: center;
+    padding-top: -55px;
+    padding-right: 35px;
+    padding-left: 35px;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  
+}
 
 /* Color Theme Swatches in RGBA */
 .human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-1-rgba { color: rgba(1, 8, 12, 1); }
