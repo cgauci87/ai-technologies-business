@@ -583,27 +583,36 @@ input[type=checkbox] {
 }
 
 .rhs-article {
-  margin-left: 22%;
+  margin-right: 1%;
+  margin-left: 15%;
   background: whitesmoke;
   text-align: justify;
+  padding-top: -150%;
+  position: absolute;
 }
 
 .lhs-article-grid {
-  margin-right: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: -70px;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 5px 10px;
-    align-items: center;
-    padding-top: -55px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px 40px;
+    align-items: left;
+    float: left;
+    padding-top: -35px;
     padding-right: 35px;
-    padding-left: 35px;
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    justify-items: left;
+    justify-content: left;
+    align-content: left;
   }
-  
+
+  .lhs-article-grid img{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
 
 /* Color Theme Swatches in RGBA */
