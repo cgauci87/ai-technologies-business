@@ -1,0 +1,125 @@
+[33mcommit ac240d71e0748b17321ac8a65ed7df400d9c81ee[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Sun Nov 21 13:14:09 2021 +0000
+
+    style images
+
+[33mcommit 896fd68be7e7535d429ca322f3a19876052733ab[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Sun Nov 21 11:00:08 2021 +0000
+
+    re-adjust images to get responsive outlook
+
+[33mcommit 49eb70dbe2bd7da106861a53f543c781e6b47624[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Sun Nov 21 09:59:06 2021 +0000
+
+    adding new page
+
+[33mcommit 6030377a70b5598caaeefe51dd6516291fdd5535[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Sat Nov 20 17:18:17 2021 +0000
+
+    styling logo
+
+[33mcommit c11e35e25671bb67fb4316b4155a8b586a2e9d5b[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Sat Nov 20 14:58:40 2021 +0000
+
+    styling nav menu
+
+[33mcommit a985b0c57a1461cf041de62b1c6ad2677735c5ad[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Sat Nov 20 12:50:00 2021 +0000
+
+    add video in nav background
+
+[33mcommit 8ba8b2b6e15a9c7988a2b66f17334a84ab67535f[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Sat Nov 20 10:46:21 2021 +0000
+
+    styling modifications of pop-up
+
+[33mcommit 3200bf9d2892efc76e86c825aee0da81b73de8c1[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Fri Nov 19 14:01:14 2021 +0000
+
+    styling pop-up content
+
+[33mcommit 3bd97b266bab405ae32e09787d12565767052645[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Fri Nov 19 11:48:11 2021 +0000
+
+    intro pop-content images, borders and labels
+
+[33mcommit 354e01dc7a2bef3e35539c45ad7348090f27f5df[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Thu Nov 18 17:51:00 2021 +0000
+
+    add animation to article pop-up
+
+[33mcommit ba32c45c0d7f0bd512fdcdbdbdb25f0b26450e0f[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Thu Nov 18 15:35:23 2021 +0000
+
+    add buttons re. read-more
+
+[33mcommit d844f6d0bfcb4896bcc011314fd2e06dd9973d8d[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Thu Nov 18 06:24:34 2021 +0000
+
+    add more comments
+
+[33mcommit c728b7b84213265292041c78be5ecf9aa1b1453f[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Thu Nov 18 06:00:42 2021 +0000
+
+    add comments in style sheet
+
+[33mcommit aa674bba86ede7600dc832a7f16fd8e42350cfb6[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Wed Nov 17 18:55:33 2021 +0000
+
+    add styling
+
+[33mcommit bb81d14d74a58f78ea9d8092b4f7aa82cf720f16[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Wed Nov 17 17:47:03 2021 +0000
+
+    add further content in respective sections
+
+[33mcommit a066bc98d2002110b06df04d8ad2e9f6c1f75e94[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Wed Nov 17 17:06:22 2021 +0000
+
+    animation readmore
+
+[33mcommit 2a607e039ebafe25bd80a026e92c797241421fe7[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Wed Nov 17 15:35:15 2021 +0000
+
+    latest changes
+
+[33mcommit d18c72e79d1f910f45c124b4ff4c570c192a7904[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Sun Nov 14 11:02:43 2021 +0000
+
+    enhance header styling
+
+[33mcommit acd11101c23f900b32d98a7b071b9f1821133038[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Fri Nov 12 09:18:48 2021 +0000
+
+    add header content-box
+
+[33mcommit 314930e9bc932c8bbc86da9de6bae6fd4e367e52[m
+Author: cgauci87 <cgauci@gmail.com>
+Date:   Thu Nov 11 17:22:55 2021 +0000
+
+    create header and style
+
+[33mcommit d132e9dbf19ea279c8918a74f4990e0d94818e55[m
+Author: cgauci87 <93311923+cgauci87@users.noreply.github.com>
+Date:   Thu Nov 11 10:32:50 2021 +0100
+
+    Initial commit
