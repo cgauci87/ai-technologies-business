@@ -612,6 +612,49 @@ input[type=checkbox] {
   max-height: auto;
 }
 
+
+/*=========================================================================================================*/
+
+.about {
+  height: 300vh;
+  display: flex;
+}
+
+.about-title {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.about-pages {
+  width: 50%;
+}
+
+.about-pages p {
+  width: 80%;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.about-pages div:nth-child(1){
+  background-color: rgb(56,134,89);
+}
+
+.about-pages div:nth-child(2){
+  background-color: rgb(129,42,110);
+}
+
+.about-pages div:nth-child(3){
+  background-color: rgb(31,88,107);
+}
+
+
+
+/*=========================================================================================================*/
+
 /* Color Theme Swatches in RGBA */
 .human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-1-rgba { color: rgba(1, 8, 12, 1); }
 .human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-2-rgba { color: rgba(33, 141, 165, 1); }
