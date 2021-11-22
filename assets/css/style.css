@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-nav{
+nav {
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -36,8 +36,9 @@ padding-top: -20px;
 }
 
 
-*/
+
 /*--START----------------left menu nav----------------START*/
+/*
 .menu
 {
   position:absolute;
@@ -138,7 +139,7 @@ padding-top: -20px;
    
   }
   
-
+*/
 
 /*--END----------------left menu nav----------------END*/
 
@@ -270,12 +271,12 @@ padding-top: -20px;
 
 .content-intro h3 {
   font-size: 20px;
-  color:turquoise;
+  color:rgba(33, 141, 165, 1);
   text-align: right;
 }
 
 #highlight {
-  color: turquoise;
+  color:rgba(33, 141, 165, 1);
 }
 
 /* --END------------intro screen-----------------END-- */
@@ -377,7 +378,7 @@ padding-top: -20px;
 
 .top-heading h3 {
   font-size: 20px;
-  color:turquoise;
+  color: rgba(33, 141, 165, 1);
   text-align: right;
 }
 
@@ -697,4 +698,47 @@ section h2 {
 section h2 span {
   font-size: 0.4em;
   line-height: 0.85em;
+}
+
+
+/*==================================================================================*/
+
+/* This first section is a simple "reset". It allows the navbar to push up against the top of the browser window with no white space around it. This code also sets the default font for your whole page. Put it at the very top of your css page.  */
+html, body, div, p, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+/* This class is applied to the containing div <div class="nav-hz"> and is used to set the background color and height of the navbar */
+.nav-hz {
+  background: #013459;
+  height: 60px; /* set same as height & line-height below */
+}
+
+/* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
+.nav-hz li {
+  display: inline-block;
+  list-style: none;
+  height: 60px; /* should be the same as line-height */
+  line-height: 60px; /* should be the same as height */
+  padding: 0 40px; /* "0" sets top and bottom padding to none */
+}
+
+/* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
+.nav-hz li:hover {
+  background: rgba(33, 141, 165, 1);
+  transition: background .3s;
+}
+
+/* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
+.nav-link {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
 }
