@@ -7,182 +7,47 @@
   font-family: 'Poppins', sans-serif;
 }
 
-nav {
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-  display: flex;
+/* Navigation Horizontal + Toogle */
+
+#logo {
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+
+#logo a {
+  text-decoration: none;
+  color: var(--clr-secondary);
+}
+
+
+.hb {
+  position: absolute;
+  top: 1.4em;
+  right: 1em;
+  display: none;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  opacity: 0.7;
-  margin: 0;
-  padding: 0;
-  transition: all 0.5s ease;
-  height: 65px;
-  box-shadow: 0 3px 5px rgba(0,0,0,0.8);
-  background-color: #013459;
-}
-
-
-
-#left-logo {
-border: solid 8px;
-border-color: white;
-border-radius: 30px;
-font-size: 30px;
-color: white;
-margin-left: 107px;
-padding-top: -20px;
-}
-
-
-
-/*--START----------------left menu nav----------------START*/
-/*
-.menu
-{
-  position:absolute;
-  top: 0;
-  right: 0;
-  width: 300px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.menu ul
-{
-  position: relative;
-}
-.menu ul li
-{
-  list-style: none;
-}
-
-
-.menu ul li b
-{
-  text-decoration:none;
-  font-size: 20px;
-  color: #013459;
-  letter-spacing: 6px;
-}
-
-
-.nav-icons {
-  margin-left: -10%;
-  color: white;
-}
-
-.menu ul li a:hover
-{
-  color: #03a9f4; 
-}
-
-@media (max-width: 991px)
-{
-  .showcase,
-  .showcase nav
-  {
-    padding: 40px;
-  }
-  .text h2
-  {
-    font-size: 3em;
-  }
-  .text h3
-  {
-    font-size: 2em;
-  }
-}
-
-.toggle
-{
-  position:absolute;
-  width: 60px;
-  height: 60px;
-  background: url(https://i.ibb.co/HrfVRcx/menu.png);
-  background-repeat: no-repeat;
-  background-size: 30px;
-  background-position: center;
-  top: 10%;
-  left: 90%;
-  cursor: pointer;
-}
-.toggle.active
-{
-  background: url(https://i.ibb.co/rt3HybH/close.png);
-  background-repeat: no-repeat;
-  background-size: 25px;
-  background-position: center;
-  top: 10%;
-  left: 90%;
-  position: center;
+  width: 30px;
+  height: 21px;
   cursor: pointer;
 }
 
-
-
-.menu-video-container {
-  z-index: -100;
-  overflow:hidden;
-  position:absolute;
-  top: 0;
-  right: 0;
-  width: 1340px;
-  height: 100%;
-  opacity: 0.4;
-  }
-  
-  #menu-video-bg{
-    width:100%;
-   
-  }
-  
-*/
-
-/*--END----------------left menu nav----------------END*/
-
-
-.showcase
-{
-  position: relative;
-  right: 0;
+.hb-line {
+  height: 3px;
   width: 100%;
-  min-height: 100vh;
-  padding: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 792px) {
+  .hb {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #111;
-  transition: 0.5s;
-  z-index: 2;
-}
-.showcase.active
-{
-  right: 300px;
+  }
 }
 
-.showcase video
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit:none;
-  opacity: 0.3;
-}
-.overlay
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(66, 8, 94);
-  mix-blend-mode: overlay;
-}
+
+
+
 
 
 /* --START----------pop-window--------START--- */
@@ -260,7 +125,7 @@ padding-top: -20px;
 
 
 .content-intro h1 {
-  font-size: 40px;
+  font-size: 40px;  
   color: white;
 }
 
@@ -278,6 +143,12 @@ padding-top: -20px;
 #highlight {
   color:rgba(33, 141, 165, 1);
 }
+
+span {
+  color: #54D17A;
+  cursor: pointer;
+}
+
 
 /* --END------------intro screen-----------------END-- */
 
@@ -673,7 +544,7 @@ section video {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit:cover;
 }
 section h2 {
   position: absolute;
@@ -703,67 +574,4 @@ section h2 span {
 
 /*==================================================================================*/
 
-/* This first section is a simple "reset". It allows the navbar to push up against the top of the browser window with no white space around it. This code also sets the default font for your whole page. Put it at the very top of your css page.  */
-html, body, div, p, ul, li {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-}
 
-/* This class is applied to the containing div <div class="nav-hz"> and is used to set the background color and height of the navbar */
-.nav-hz {
-  background: #013459;
-  height: 60px; /* set same as height & line-height below */
-  position: static;
-  width: -10px;
-  max-height: 60px;
-  max-width: -10px;
- padding-left: 60%;
- margin: 0;
-}
-
-
- .nav-hz ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: static;
-  top: 0;
-  width: 100%;
-}
-
-
-
-
-
-
-
-
-
-/* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
-.nav-hz li {
-  float: right;
-  
-}
-
-/* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
-.nav-hz li:hover {
-  background: rgba(33, 141, 165, 1);
-  transition: background .3s;
-}
-
-/* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
-.nav-link {
-  color: #fff;
-  font-size: 20px;
-  display: inline-flex;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
