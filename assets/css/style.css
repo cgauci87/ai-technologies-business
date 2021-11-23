@@ -13,7 +13,7 @@
 /* Navigation Horizontal + Toogle */
 
 header {
-  position: fixed;
+  position:fixed;
   background-color: rgb(18, 42, 49);
   width: 100%;
   z-index: 10;
@@ -21,7 +21,7 @@ header {
 
 nav {
   display: flex;
-  position: relative;
+  position:relative;
   justify-content: space-between;
   align-items: center;
   max-width: 1440px;
@@ -240,7 +240,7 @@ nav {
   }
 
   .navbar ul li a {
-    padding: 0.5em 0em;
+    padding: 0.6em 0em;
   }
 
   .navbar.active {
@@ -641,6 +641,15 @@ input[type=checkbox] {
 
 
 /*========================================ABOUT SECTION================================================================*/
+ .header-about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(102, 10, 10, 0.3);
+  background-size: cover;
+  color: whitesmoke;
+ }
 
 .about {
   height: 300vh;
@@ -660,7 +669,15 @@ input[type=checkbox] {
   width: 50%;
 }
 
-.about-pages p {
+.about-pages div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-pages div> p{
   width: 80%;
   font-size: 18px;
   line-height: 30px;
@@ -677,7 +694,7 @@ input[type=checkbox] {
 .about-pages div:nth-child(3){
   background-color: rgb(31,88,107);
 }
-}
+
 
 /*=========================================================================================================*/
 
