@@ -12,7 +12,7 @@
 /*===================================================*/
 /* Navigation Horizontal + Toogle */
 
-header {
+.nav-style {
   position:fixed;
   background-color: rgb(18, 42, 49);
   width: 100%;
