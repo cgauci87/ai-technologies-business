@@ -24,7 +24,7 @@ nav {
   position:relative;
   justify-content: space-between;
   align-items: center;
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 1em 1.25em 1em 0em;
 }
@@ -136,6 +136,66 @@ nav {
 
 /* media queries */
 
+/* ORIGINAL ORIGINAL ORIGINAL <==========
+      .about-pages div> p{
+        width: 80%;
+        font-size: 18px;
+        line-height: 30px;
+      }
+
+*/
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .about-pages div > p {
+        width: 75%;
+        font-size: 17px;
+        line-height: 30px;
+      }
+}
+
+
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about-pages div > p {
+        width: 72%;
+        font-size: 16.5px;
+        line-height: 27px;
+      }
+}
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .about-pages div > p {
+        width: 80%;
+        font-size: 17px;
+        line-height: 29px;
+    }
+
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .about-pages div > p {
+        width: 75%;
+        font-size: 17px;
+        line-height: 27px;
+    }
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .about-pages div > p {
+        width: 70%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+
+
+
 @media screen and (max-width: 1345px) {
   .tutorial-container {
     display: block;
@@ -180,10 +240,9 @@ nav {
   }
 }
 
-@media screen and (max-width: 1028px) {
-  .benefits-container {
-    flex-direction: column;
-    align-items: center;
+@media screen and (max-width: 1370px) {
+    .about   {
+    margin-right: 0;
   }
 
   .benefits-container ul {
@@ -635,7 +694,7 @@ input[type=checkbox] {
 
 
 /*========================================ABOUT SECTION================================================================*/
- .header-about {
+ header {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -643,6 +702,7 @@ input[type=checkbox] {
   background: rgba(102, 10, 10, 0.3);
   background-size: cover;
   color: whitesmoke;
+  
  }
 
 .about {
@@ -702,3 +762,4 @@ input[type=checkbox] {
 
 
 /*==================================================================================*/
+
