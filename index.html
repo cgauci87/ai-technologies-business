@@ -17,8 +17,17 @@
                              <span class="hb-line"></span>
                      </div>
 
-                </nav>
-        </header>
+                     <div class="navbar">
+                                          <ul>
+                                            <li class="nv-link"><a href="#intro">Intro</a></li>
+                                            <li class="nv-link"><a href="#about">About</a></li>
+                                            <li class="nv-link"><a href="#podcasts">Podcasts</a></li>
+                                            <li class="nv-link"><a href="#subscribe">Subscribe</a></li>
+                                            <li class="nv-link"><a href="#contact">Contact</a></li>
+                                          </ul>
+                        </div>
+                 </nav>
+       </header>
 
       <section class="intro-screen" id="intro">
                <video src="assets/videos/sample-vid-bg.mp4" autoplay loop muted></video>
@@ -28,7 +37,7 @@
                     <span onclick="window.location.href='intro.html';">Explore</span></h2>
 
       </section>
-
+    <!-- 
 		<div id="popup-industries" class="ontop">
 
 		  <div class="top-heading">
@@ -83,6 +92,7 @@
     <h2>Pretty cool right?</h2>
 
   </footer>
+  -->
 
 
                                                                   <!--ARTICLE: Retail and eCommerce --END--->
@@ -106,12 +116,39 @@
 
   </script>
 
-  
+  <script>
+
+const toggle = document.getElementsByClassName("hb")[0];
+const nvb = document.getElementsByClassName("navbar")[0];
+const nvl = document.getElementsByClassName("nv-link");
+
+toggle.addEventListener("click", () => {
+  nvb.classList.toggle("active");
+});
+
+nvl[0].addEventListener("click", () => {
+  nvb.classList.toggle("active");
+});
+
+nvl[1].addEventListener("click", () => {
+  nvb.classList.toggle("active");
+});
+
+nvl[2].addEventListener("click", () => {
+  nvb.classList.toggle("active");
+});
+
+nvl[3].addEventListener("click", () => {
+  nvb.classList.toggle("active");
+});
+
+  </script>
 
 
   <!--Font awesome Script-->
 
   <script src="https://kit.fontawesome.com/45477b65ad.js" crossorigin="anonymous"></script>  
+
 
 </body>
 </html>
