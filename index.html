@@ -18,24 +18,25 @@
                      </div>
 
                      <div class="navbar">
-                                          <ul>
-                                            <li class="nv-link"><a href="#intro">Intro</a></li>
-                                            <li class="nv-link"><a href="#split">About</a></li>
-                                            <li class="nv-link"><a href="#podcasts">Podcasts</a></li>
-                                            <li class="nv-link"><a href="#subscribe">Subscribe</a></li>
-                                            <li class="nv-link"><a href="#contact">Contact</a></li>
-                                          </ul>
-                        </div>
+                      <ul>
+                        <li class="nv-link"><a href="#explore">Explore AI</a></li>
+                        <li class="nv-link"><a href="#ai101">AI 101 </a></li>
+                        <li class="nv-link"><a href="#podcasts">Podcasts</a></li>
+                        <li class="nv-link"><a href="#subscribe">Subscribe</a></li>
+                        <li class="nv-link"><a href="#contact">Contact</a></li>
+                      </ul>
+                    </div>
                  </nav>
 
        </header>
 
       <section class="intro-screen" id="intro">
                <video src="assets/videos/sample-vid-bg.mp4" autoplay loop muted></video>
-                  <h2>A.I. technologies <em>can</em> think like a human.
-                    <br>
-                    <br>
-                     <a href="split.html" > <span>Explore More</span></a></h2>
+                  <h1>A.I. technologies <em>can</em> think like a human.</h1>
+                  <div class="arrow-a-container">
+                    <a data-scroll href="split.html">
+                      <div class="arrow-a"></div>
+                    </a>
 
       </section>
 
@@ -91,6 +92,23 @@ nvl[3].addEventListener("click", () => {
 
   </script>
 
+  <!--Grid slide script-->
+  <script>
+    jackHarnerSig(true);
+
+$(".service__slider").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+	dots: true,
+	arrows: false,
+	autoplay: true,
+	autoplaySpeed: 2000, 
+	rows: 0,
+	pauseOnHover: false
+});
+
+
+  </script>
 
   <!--Font awesome Script-->
 
