@@ -693,7 +693,7 @@ input[type=checkbox] {
 }
 
 
-/*========================================ABOUT SECTION================================================================*/
+/*========================================HEADER================================================================*/
  header {
   height: 100vh;
   display: flex;
@@ -701,9 +701,30 @@ input[type=checkbox] {
   align-items: center;
   background: rgba(102, 10, 10, 0.3);
   background-size: cover;
+  background-image: url("../images/business-ai-hands.jpg");
   color: whitesmoke;
-  
  }
+
+ .header-content h1{
+  position: absolute;
+  font-size: 280%;
+  text-align: center;
+  color:  rgb(18, 42, 49);
+  line-height: 70%;
+  background-color: whitesmoke;
+  margin-top: -25%;
+ }
+
+ .header-content h2{
+  position:absolute;
+  font-size: 140%;
+  color: whitesmoke;
+  margin-top: 35%;
+  margin-right: 0;
+
+  background-color: rgb(18, 42, 49);
+ }
+
 
 .about {
   height: 300vh;
