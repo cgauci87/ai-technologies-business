@@ -699,7 +699,7 @@ input[type=checkbox] {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(102, 10, 10, 0.3);
+  background:rgb(192, 210, 250);
   background-size: cover;
   background-image: url("../images/business-ai-hands.jpg");
   color: whitesmoke;
@@ -725,6 +725,29 @@ input[type=checkbox] {
   background-color: rgb(18, 42, 49);
  }
 
+ .arrow {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow-container {
+  display: flex;
+  align-items:flex-end;
+  justify-content:end;
+  height: 100vh;
+  margin-bottom: 6%;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
 
 .about {
   height: 300vh;
