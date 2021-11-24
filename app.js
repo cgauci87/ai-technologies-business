@@ -5,11 +5,10 @@ function splitScroll(){
         duration: '200%',
         triggerElement: '.about-title',
         triggerHook: 0
- 
-    })
-        .setPin('.about-title')
-        .addIndicators()
-        .addTo(controller);
+  })
+    .setPin('.about-title')
+    /*.addIndicators()*/
+    .addTo(controller);
 }
 
 splitScroll();
