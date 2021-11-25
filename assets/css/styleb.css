@@ -3,7 +3,6 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -485,7 +484,7 @@ nav {
   margin-bottom: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px 40px;
+  grid-gap: 20px 20px;
   align-items: center;
   padding-top: 35px;
   padding-right: 35px;
@@ -774,6 +773,7 @@ input[type=checkbox] {
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  margin: 0 !important;
 }
 
 .about-pages {
@@ -781,15 +781,27 @@ input[type=checkbox] {
 }
 
 
-
-.about-pages div:nth-child(1){
+.about-pages div{
   height: 100vh;
-  background-color:orange;
-  position: relative;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
+
+
+
+.about-pages div:nth-child(1){
+
+  height: 100vh;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(18, 42, 49);
+  }
+
+
 
 
 .about-pages div:nth-child(2) , .about-pages div:nth-child(3){
@@ -800,11 +812,18 @@ input[type=checkbox] {
   align-items: center;
 }
 
+
+
+
 .about-pages div> p{
   width: 80%;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 30px;
+  color: 	rgb(169,169,169);
+  font-family:'Roboto', sans-serif;
+ 
 }
+
 
 
 
@@ -813,7 +832,7 @@ input[type=checkbox] {
 }
 
 .about-pages div:nth-child(3){
-  background-color: rgb(31,88,107);
+  background-color: rgb(96, 145, 161);
 }
 
 
@@ -829,6 +848,7 @@ input[type=checkbox] {
 
 
 /*===========================WIP WIP=== (BELOW)=======WIP=====WIP========================================*/
+
 
 /* Slideshow container */
 
@@ -914,7 +934,7 @@ ol, li {
 .carousel {
   position: relative;
   display: block;
-  padding-top: -40%;
+  padding-right: 85%;
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
 }
@@ -1012,9 +1032,9 @@ ol, li {
 
 .carousel__navigation-button {
   display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
-  background-color: #333;
+  width: 1.0rem;
+  height: 1.0rem;
+  background-color:whitesmoke;
   background-clip: content-box;
   border: 0.25rem solid transparent;
   border-radius: 50%;
@@ -1029,8 +1049,8 @@ ol, li {
   position: absolute;
   top: 0;
   margin-top: 37.5%;
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
   transform: translateY(-50%);
   border-radius: 50%;
   font-size: 0;
@@ -1051,12 +1071,12 @@ ol, li {
 .carousel::after {
   content: '';
   z-index: 1;
-  background-color: #333;
-  background-size: 1.5rem 1.5rem;
+  background-color: rgb(31,88,107);
+  background-size: 2.6rem 2.6rem;
   background-repeat: no-repeat;
   background-position: center center;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   line-height: 4rem;
   text-align: center;
   pointer-events: none;
@@ -1069,3 +1089,4 @@ ol, li {
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
+
