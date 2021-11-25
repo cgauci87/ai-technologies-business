@@ -9,6 +9,8 @@
 
 
 
+
+
 /*===================================================*/
 /* Navigation Horizontal + Toogle */
 
@@ -781,9 +783,9 @@ input[type=checkbox] {
 
 
 .about-pages div:nth-child(1){
-  height: 125vh;
+  height: 100vh;
   background-color:orange;
-  display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -860,6 +862,7 @@ input[type=checkbox] {
   }
 }
 
+
 @keyframes snap {
   96% {
     scroll-snap-align: center;
@@ -881,18 +884,22 @@ input[type=checkbox] {
   scrollbar-width: 0px;
 }
 
+
 *::-webkit-scrollbar {
   width: 0;
 }
+
 
 *::-webkit-scrollbar-track {
   background: transparent;
 }
 
+
 *::-webkit-scrollbar-thumb {
   background: transparent;
   border: none;
 }
+
 
 * {
   -ms-overflow-style: none;
@@ -906,11 +913,12 @@ ol, li {
 
 .carousel {
   position: relative;
-  padding-top: 75%;
-  padding-right: 75%;
+  display: block;
+  padding-top: -40%;
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
 }
+
 
 .carousel__viewport {
   position: absolute;
@@ -925,10 +933,21 @@ ol, li {
   scroll-snap-type: x mandatory;
 }
 
+/*
+.slide-content p {
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    position: relative !important;
+
+}
+*/
+
 .carousel__slide {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
+
 }
 
 
