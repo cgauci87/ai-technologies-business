@@ -184,8 +184,8 @@
                           </ol>
                         </aside>
                       </div>
-
-
+                      <!--scroll down  icon-->
+                      <a href="#podcasts" class="scroll-down" address="true"></a>
                     </div>
                             <div id="podcasts">
 
@@ -223,6 +223,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js" ></script>
   <script src="app.js" ></script> 
 
+        <!--scroll-down-section script-->
+        <script>
+        $('.scroll-down').scroll(function() {
+    $('html, body').animate({
+        scrollTop: $("#podcasts").offset().top
+    }, 2000);
+});
+      </script>
 
     <!--pop-up script -->
     <script>
