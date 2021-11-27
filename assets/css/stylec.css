@@ -60,7 +60,8 @@ body {
   }
   
   .nav > .nav-links > a:hover {
-    background-color: rgb(33, 141, 165, 1);;
+    background-color: rgba(0, 0, 0, 0.3);;
+    cursor: pointer;
   }
   
   .nav > #nav-check {
@@ -82,6 +83,7 @@ body {
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
       background-color: rgba(0, 0, 0, 0.3);
+      cursor: pointer;
     }
     .nav > .nav-btn > label > span {
       display: block;
@@ -108,8 +110,9 @@ body {
       height: 0px;
     }
     .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
+      height: calc(60vh - 50px);
       overflow-y: auto;
+      text-align: center;
     }
   }
 
