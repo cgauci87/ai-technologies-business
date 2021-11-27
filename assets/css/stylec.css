@@ -9,7 +9,6 @@
 }
 
 body {
-  margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
@@ -21,11 +20,14 @@ body {
     font-size: 1.0em;
     margin-left: 1em;
     color: white;
-  }
-  
-  #ai-logo a {
+    display: inline-block;
+    padding: 0 5px 1px 0;
     text-decoration: none;
-    color: var(--clr-secondary);
+   }
+
+#ai-logo:hover {
+   background-color: rgba(0, 0, 0, 0.3);;
+   cursor: pointer;
   }
 
   .nav {
@@ -33,6 +35,7 @@ body {
     width: 100%;
     background-color: rgb(18, 42, 49);
     position: fixed;
+    z-index:1;
   }
   
   .nav > .nav-header {
@@ -124,6 +127,15 @@ body {
 
   /* ---------------------->INTRO<----------------------------*/
 
+  .intro {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(131, 190, 224);
+    background-size: cover;
+    background-image: url("../images/business-ai-hands.jpg");
+  }
 
   .intro-container{
     color: rgba(255,255,255,.75);
@@ -133,15 +145,31 @@ body {
     box-sizing: border-box;
     display: block;
     width: 100%;
-    height: 100vh;  
+    height: 10vh;
+    margin: 0;
   }
 
   .intro h1 {
-    color:white;
+    color:rgb(18, 42, 49);
     font-size: 42px;
     text-align:center;
-    padding-top: 10%;
+    padding-top: 5%;
   }
+
+  .intro h2 {
+    color:rgb(18, 42, 49);
+    font-size: 32px;
+    text-align:center;
+    line-height: 35px;
+  }
+
+
+  .intro h3 {
+    color:white;
+    font-size: 16px;
+    text-align:center;
+  }
+
 
   .line-1{
       position: relative;
