@@ -156,25 +156,54 @@ a { color: white; text-decoration: none; }
 
   .intro h1 {
     color:rgb(18, 42, 49);
+    background-color: slategrey ;
     font-size: 42px;
+    letter-spacing: 20px;
     text-align:center;
     padding-top: 5%;
   }
 
-  .intro h2 {
-    color:rgb(18, 42, 49);
-    font-size: 32px;
-    text-align:center;
-    line-height: 35px;
+  .arrow-container {
+    height: 76px;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-perspective: 550px;
   }
-
-
-  .intro h3 {
-    color:white;
-    font-size: 16px;
-    text-align:center;
+  
+  .arrow-btn{
+    -webkit-transform: rotateX( 45deg );
+    position: absolute;
+    height: 76px;
+    width: 200px;
+    background: rgb(18, 42, 49);
+    z-index: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-box-shadow: inset 8px 16px 8px rgba(67, 242, 224, 1);
+    box-shadow: inset 8px 12px 8px rgba(67, 242, 224, 1);
+   -webkit-transition: background 0.4s ease-in-out;
   }
-
+  
+  .arrow-container span {
+    position: relative;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 22px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding-top: 27px;
+    letter-spacing:1px
+  }
+  
+  .arrow-btn:hover {
+    cursor: pointer;
+  }
+  
+  .arrow-container span:hover {
+    cursor: pointer;
+  }
 
   .line-1{
       position: relative;
@@ -207,11 +236,13 @@ a { color: white; text-decoration: none; }
   /* down-arrow animation */
   .arrow {
     text-align: center;
+    padding-top: 24%;
+    padding-left: 4%;
   }
   .bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
+    -moz-animation: bounce 4s infinite;
+    -webkit-animation: bounce 4s infinite;
+    animation: bounce 4s infinite;
   }
   
   @keyframes bounce {
@@ -382,3 +413,16 @@ a { color: white; text-decoration: none; }
 
 
 /* ===========================================================*/
+
+/*=========================================================================================================*/
+
+/* Color Theme Swatches in RGBA */
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-1-rgba { color: rgba(1, 8, 12, 1); }
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-2-rgba { color: rgba(33, 141, 165, 1); }
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-3-rgba { color: rgba(80, 191, 191, 1); }
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-4-rgba { color: rgba(39, 89, 89, 1); }
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-5-rgba { color: rgba(67, 242, 224, 1); }
+
+
+
+/*===========================WIP WIP=== (BELOW)=======WIP=====WIP========================================*/
