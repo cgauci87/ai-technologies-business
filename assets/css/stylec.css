@@ -473,3 +473,68 @@ a { color: white; text-decoration: none; }
 
 
 /*===========================WIP WIP=== (BELOW)=======WIP=====WIP========================================*/
+
+
+/* media queries */
+/* portrait */
+/* screen width>340px - increase header text size */
+@media screen and (min-width: 340px) 
+and (orientation: portrait) {
+
+  .intro {
+  margin: 0;
+  }
+
+  .intro-container{
+    width: 100%;
+    height: 3vh;
+    margin: 0;
+  }
+
+  .intro h1 {
+    color:rgb(18, 42, 49);
+    background-color: slategrey ;
+    font-size: 32px;
+    letter-spacing: 10px;
+    vertical-align: middle;
+    text-align:center;
+    padding-top: 25%;
+
+  }
+.line-1{
+  position: relative;
+  top: 50%;  
+  width: 24em;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.line-2{
+  position: relative;
+  top: 20%;  
+  width: 24em;
+  margin: 0 auto;
+  font-size: 12px;
+}
+  .intro-span span {
+
+    font-size: 18px;
+    width: 200px;
+    letter-spacing:20px;
+    line-height: 20px;
+    margin-top: 60%;
+    margin-left: 20%;
+  }
+  
+  .anim-ai-spikes {
+    position: relative;
+    width: 100%;
+    background: none;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 111%;
+  }
+}
