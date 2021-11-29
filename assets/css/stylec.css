@@ -471,10 +471,6 @@ a { color: white; text-decoration: none; }
 .human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-5-rgba { color: rgba(67, 242, 224, 1); }
 
 
-
-/*===========================WIP WIP=== (BELOW)=======WIP=====WIP========================================*/
-
-
 /* media queries */
 /* portrait */
 /* screen width>340px - increase header text size */
@@ -548,3 +544,37 @@ animation: animateWaves 25s linear infinite;
   animation: animate 29s linear infinite;
   }
 }
+
+/* screen width>500px re-align hero image [small tablets] */
+@media screen and (min-width: 500px) 
+and (orientation: portrait) {
+  .intro h1 {
+    font-size: 32px;
+    letter-spacing: 10px;
+    padding-top: 9%;
+  }
+  .line-1{
+    margin-top: 15%;
+  }
+  .line-2{
+    margin-top: 30%;
+  }
+
+  .intro-span span {
+    font-size: 16px;
+    letter-spacing: 15px;
+    margin-top: 16.5%;
+    margin-left: 30%;
+  }
+
+  .anim-ai-spikes {
+    position: absolute;
+    margin-top: 61%;
+  }
+  .spike {
+    height: 10vh;
+  }
+    
+}
+
+/*===========================WIP WIP=== (BELOW)=======WIP=====WIP========================================*/
