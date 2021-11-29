@@ -498,22 +498,20 @@ and (orientation: portrait) {
     letter-spacing: 10px;
     vertical-align: middle;
     text-align:center;
-    padding-top: 25%;
+    padding-top: 20%;
 
   }
 .line-1{
   position: relative;
-  top: 50%;  
   width: 24em;
-  margin: 0 auto;
+  margin-top: 5%;
   font-size: 12px;
 }
 
 .line-2{
-  position: relative;
-  top: 20%;  
+  position:relative;
+  margin-top: 45%;
   width: 24em;
-  margin: 0 auto;
   font-size: 12px;
 }
   .intro-span span {
@@ -522,7 +520,7 @@ and (orientation: portrait) {
     width: 200px;
     letter-spacing:20px;
     line-height: 20px;
-    margin-top: 60%;
+    margin-top: 17%;
     margin-left: 20%;
   }
   
@@ -535,6 +533,6 @@ and (orientation: portrait) {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 111%;
+    margin-top: 66%;
   }
 }
