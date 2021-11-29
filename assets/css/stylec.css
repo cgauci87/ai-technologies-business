@@ -456,6 +456,53 @@ a { color: white; text-decoration: none; }
 /*===========================WIP WIP=== (BELOW)=======WIP=====WIP========================================*/
 
 /* MEDIA QUERIES */
+/* [desktop + large tablets] show additional images on index, display gallery selection side-by-side */
+@media screen and (orientation: landscape)
+and (min-width: 1200px) {
+ .nav {
+      height: 30px;
+      background-color: rgb(18, 42, 49);
+      position: fixed;
+      z-index:1;
+    }
+
+  .nav > .nav-links {
+      font-size: 13px;
+      margin-top: -10px;
+    }
+
+    .nav > .nav-header > .nav-title {
+      display: inline-block;
+      font-size: 14px;
+      color: #fff;
+      margin-top: -10px;
+    }
+
+  .intro {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(131, 190, 224);
+    background-size: cover;
+    background-image: url("../images/business_ai_hands_1200x548px.jpg") no-repeat;
+  }
+
+  #intro-h1 {
+   font-size: 28px;
+   letter-spacing: 16px;
+   vertical-align: middle;
+   padding-top: 3.5%;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
@@ -607,21 +654,6 @@ and (max-device-width: 1024px) {
     }
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px)
@@ -687,3 +719,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
     color: black;
   }
 }
+
+
+
