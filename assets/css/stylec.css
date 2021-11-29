@@ -136,7 +136,7 @@ a { color: white; text-decoration: none; }
   .intro {
     margin: 0;
     padding: 0;
-    background-color: rgb(67, 242, 224, 1);
+    background-color: slategrey;
     background-image: url("../images/business-ai-hands.jpg");
     width: 100%;
     height: 100vh;
@@ -361,6 +361,7 @@ a { color: white; text-decoration: none; }
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  z-index: 0;
 }
 
 .social-icon,
@@ -573,8 +574,89 @@ and (orientation: portrait) {
   }
   .spike {
     height: 10vh;
+  }   
+}
+
+/* screen width>700 move overlay-text downward below image [larger tablets] */
+@media screen and (min-width: 700px) 
+and (orientation: portrait) {
+.intro h1 {
+  font-size: 42px;
+  letter-spacing: 10px;
+  padding-top: 9%;
+}
+.line-1{
+  margin-top: 9%;
+}
+.line-2{
+  margin-top: 35%;
+}
+
+.intro-span span {
+  font-size: 16px;
+  letter-spacing: 15px;
+  margin-top: 3%;
+  margin-left: 37%;
+}
+
+.anim-ai-spikes {
+  position: absolute;
+  margin-top: 47%;
+}
+.spike {
+  height: 14vh;
   }
-    
 }
 
 /*===========================WIP WIP=== (BELOW)=======WIP=====WIP========================================*/
+
+
+/* [medium mobiles] landscape - header, footer and overlay-text size increase */
+@media screen and (orientation: landscape)
+and (min-height: 340px) {
+
+  .nav > #nav-check:checked ~ .nav-links {
+    height: 65vh;
+    overflow-y: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 10px;
+    z-index: 1;
+  }
+  .intro {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+  }
+
+  .intro h1 {
+    font-size: 28px;
+    letter-spacing: 10px;
+    padding-top: 7%;
+  }
+  .line-1{
+    margin-top: 0;
+    font-size: 8px;
+  }
+  .line-2{
+    font-size: 14px;
+    margin-top: 21.5%;
+
+  }
+  
+  .intro-span span {
+    font-size: 16px;
+    letter-spacing: 15px;
+    margin-top: 1%;
+    margin-left: 37%;
+    line-height: 20px;
+  }
+  
+  .anim-ai-spikes {
+    position: absolute;
+    margin-top: 29%;
+  }
+  .spike {
+    height: 0.5vh;
+    }
+  }  
