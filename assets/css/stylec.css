@@ -535,4 +535,40 @@ and (orientation: portrait) {
     flex-direction: column;
     margin-top: 66%;
   }
+  
+  .spike#spike1 {
+    animation: animateWaves 48s linear infinite;
+  }
+  
+  .spike#spike2 {
+    animation: animate 40s linear infinite !important;
+  }
+  
+  .spike#spike3 {
+    animation: animateWaves 42s linear infinite;
+  }
+  
+  .spike#spike4 {
+    animation: animate 30s linear infinite;
+  }
+
+  .footer p {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+.wave#wave1 {
+  animation: animateWaves 15s linear infinite;
+}
+
+.wave#wave2 {
+  animation: animate 22s linear infinite !important;
+}
+
+.wave#wave3 {
+  animation: animateWaves 25s linear infinite;
+}
+
+.wave#wave4 {
+  animation: animate 29s linear infinite;
+  }
 }
