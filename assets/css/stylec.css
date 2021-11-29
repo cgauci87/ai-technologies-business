@@ -481,91 +481,67 @@ a { color: white; text-decoration: none; }
 @media screen and (min-width: 340px) 
 and (orientation: portrait) {
 
-  .intro {
-  margin: 0;
-  }
-
-  .intro-container{
-    width: 100%;
-    height: 3vh;
-    margin: 0;
-  }
-
   .intro h1 {
-    color:rgb(18, 42, 49);
-    background-color: slategrey ;
-    font-size: 32px;
-    letter-spacing: 10px;
-    vertical-align: middle;
-    text-align:center;
-    padding-top: 20%;
-
-  }
-.line-1{
-  position: relative;
-  width: 24em;
-  margin-top: 5%;
+  font-size: 32px;
+  letter-spacing: 10px;
+  padding-top: 17%;
+}
+  .line-1{
+  margin-top: 15%;
   font-size: 12px;
 }
 
-.line-2{
-  position:relative;
-  margin-top: 45%;
-  width: 24em;
+  .line-2{
+  margin-top: 60%;
   font-size: 12px;
 }
   .intro-span span {
+  font-size: 18px;
+  letter-spacing: 20px;
+  line-height: 20px;
+  margin-top: 3%;
+  margin-left: 20%;
+}
+  
+.anim-ai-spikes {
+  position: absolute;
+  margin-top: 74.5%;
+}
+  
+.spike {
+  height: 20vh;
+}
 
-    font-size: 18px;
-    width: 200px;
-    letter-spacing:20px;
-    line-height: 20px;
-    margin-top: 17%;
-    margin-left: 20%;
-  }
+.spike#spike1 {
+  animation: animateWaves 48s linear infinite;
+}
   
-  .anim-ai-spikes {
-    position: relative;
-    width: 100%;
-    background: none;
-    height: 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 66%;
-  }
+.spike#spike2 {
+  animation: animate 40s linear infinite !important;
+}
   
-  .spike#spike1 {
-    animation: animateWaves 48s linear infinite;
-  }
+.spike#spike3 {
+  animation: animateWaves 42s linear infinite;
+}
   
-  .spike#spike2 {
-    animation: animate 40s linear infinite !important;
-  }
-  
-  .spike#spike3 {
-    animation: animateWaves 42s linear infinite;
-  }
-  
-  .spike#spike4 {
-    animation: animate 30s linear infinite;
-  }
+.spike#spike4 {
+  animation: animate 30s linear infinite;
+}
 
-  .footer p {
-    font-size: 0.7rem;
-    font-weight: 300;
-  }
+.footer p {
+font-size: 0.7rem;
+}
+
 .wave#wave1 {
-  animation: animateWaves 15s linear infinite;
+animation: animateWaves 15s linear infinite;
 }
 
 .wave#wave2 {
-  animation: animate 22s linear infinite !important;
+animation: animate 22s linear infinite !important;
 }
 
 .wave#wave3 {
-  animation: animateWaves 25s linear infinite;
+animation: animateWaves 25s linear infinite;
 }
 
 .wave#wave4 {
