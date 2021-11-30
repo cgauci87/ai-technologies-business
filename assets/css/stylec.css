@@ -244,6 +244,7 @@ a { color: white; text-decoration: none; }
     align-items: center;
     flex-direction: column;
     margin-top: 33.2%;
+    z-index: 0;
   }
 
   .spike {
@@ -254,6 +255,7 @@ a { color: white; text-decoration: none; }
     margin-bottom: 23%;
     background: url("../images/ai_intro_animation.png");
     background-size: 1000px 100px;
+    z-index:0;
   }
 
   .spike#spike1 {
@@ -708,4 +710,35 @@ and (min-height: 500px) {
 
     /*===========================WIP WIP=== (BELOW)=======WIP=====WIP========================================*/
 
-    
+/* [desktop + large tablets] show additional images on index, display gallery selection side-by-side */
+@media screen and (orientation: landscape)
+and (min-width: 1200px) {
+  .intro h1 {
+    font-size: 48px;
+    letter-spacing: 22px;
+    padding-top: 4%;
+  }
+  .line-1{
+    margin-top: 2%;
+    font-size: 16px;
+  }
+  .line-2{
+    margin-top: 26.5%;
+    font-size: 16px;
+  }
+
+  .intro-span span {
+    font-size: 36px;
+    letter-spacing: 6px;
+    margin-top: 1%;
+    margin-left: 43%;
+    line-height: 28px;
+  }
+
+  .anim-ai-spikes {
+    margin-top: 35%;
+  }
+  .spike {
+    height: 10vh;
+    }
+}
