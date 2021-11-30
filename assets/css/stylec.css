@@ -608,8 +608,6 @@ and (orientation: portrait) {
   }
 }
 
-/*===========================WIP WIP=== (BELOW)=======WIP=====WIP========================================*/
-
 
 /* [medium mobiles] landscape - header, footer and overlay-text size increase */
 @media screen and (orientation: landscape)
@@ -636,27 +634,78 @@ and (min-height: 340px) {
   }
   .line-1{
     margin-top: 0;
-    font-size: 8px;
+    font-size: 12px;
   }
   .line-2{
-    font-size: 14px;
-    margin-top: 21.5%;
-
+    margin-top: 20%;
+    font-size: 12px;
   }
   
   .intro-span span {
     font-size: 16px;
     letter-spacing: 15px;
-    margin-top: 1%;
+    margin-top: 0.5%;
     margin-left: 37%;
-    line-height: 20px;
+    line-height: 19px;
   }
   
   .anim-ai-spikes {
-    position: absolute;
-    margin-top: 29%;
+    margin-top: 28.5%;
+  }
+
+  .spike {
+    height: 2vh;
+  }
+  
+  .spike#spike1 {
+    opacity: 0.7;
+    animation: animateWaves 35s linear infinite;
+  }
+    
+  .spike#spike2 {
+    opacity: 0.8;
+    animation: animate 28s linear infinite !important;
+  }
+    
+  .spike#spike3 {
+    opacity: 1;
+    animation: animateWaves 32s linear infinite;
+  }
+    
+  .spike#spike4 {
+    opacity: 0.6;
+    animation: animate 24s linear infinite;
+  }  
+}
+ /* [small tablets] gallery images appear in two columns */
+@media screen and (orientation: landscape)
+and (min-height: 500px) {
+  .intro h1 {
+    font-size: 30px;
+    letter-spacing: 14px;
+    padding-top: 7%;
+  }
+  .line-1{
+    margin-top: 5%;
+    font-size: 12px;
+  }
+  .line-2{
+    margin-top: 25%;
+    font-size: 12px;
+  }
+
+  .intro-span span {
+    margin-top: 2.5%;
+  }
+  
+  .anim-ai-spikes {
+    margin-top: 39.4%;
   }
   .spike {
-    height: 0.5vh;
+    height: 10vh;
     }
   }  
+
+    /*===========================WIP WIP=== (BELOW)=======WIP=====WIP========================================*/
+
+    
