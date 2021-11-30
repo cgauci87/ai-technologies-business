@@ -40,7 +40,7 @@ a { color: white; text-decoration: none; }
     width: 100%;
     background-color: rgb(18, 42, 49);
     position: fixed;
-    z-index: 2;
+    z-index: 1 !important;
   }
   
   .nav > .nav-header {
@@ -350,7 +350,7 @@ a { color: white; text-decoration: none; }
   padding-top: 6%;
   height: 25vh;
   text-align: center;
-  z-index: 3;
+  z-index: 0 !important;
 }
 
 .industries {
@@ -513,15 +513,19 @@ a { color: white; text-decoration: none; }
 
 /* MEDIA QUERIES v2 */
 
-                      /*===========================WIP WIP=== (BELOW)=======WIP=====WIP========================================*/
 
+/*=================-------=======================*/
 /*=================LAPTOPS=======================*/
+/*=================-------=======================*/
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
   and (min-width: 1200px) 
   and (max-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
+    .nav {
+      z-index: 1 !important;
+    }
     .nav > .nav-header > .nav-title {
       font-size: 24px;
     }
@@ -549,8 +553,286 @@ a { color: white; text-decoration: none; }
     }
     .spikes {
       padding-top: -40%;
+      z-index: 0;
+    }
+
+    .ai-101 h1 {
+      z-index: 0 !important;
     }
   
   }
 
+  /* ----------- Retina Screens ----------- */
+
+  @media screen 
+  and (min-width: 1200px) 
+  and (max-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    
+    .nav {
+      z-index: 1 !important;
+    }
+    .nav > .nav-header > .nav-title {
+      font-size: 24px;
+    }
+    .nav > .nav-links {
+      font-size: 20px;
+    }
+
+    .intro h1 {
+      font-size: 60px;
+      letter-spacing: 25px;
+      padding-top: 3.5%;
+    }
+    .line-1{
+      margin-top: 30%;
+      font-size: 24px;
+    }
+    .line-2{
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    .explmre-btn {
+      margin-left: 40%;
+      margin-top: 0 ;
+    }
+    .spikes {
+      padding-top: -40%;
+      z-index: 0;
+    }
+    
+    .ai-101 h1 {
+      z-index: 0 !important;
+    }
   
+  }
+
+  /*==============================================*/
+  /*-------------iPhones--------------------------*/
+   /*==============================================*/
+
+
+  /* ----------- iPhone 4 and 4S -----WIP------ */
+/* Portrait and Landscape */
+@media only screen 
+and (min-width: 320px) 
+and (max-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  .nav > #nav-check:checked ~ .nav-links {
+    height: 35vh;
+    overflow-y: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 10px;
+  }
+
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  } 
+
+  .intro h1 {
+    font-size: 32px;
+    letter-spacing: 10px;
+    padding-top: 25%;
+    width: 100%;
+  }
+  .line-1{
+    margin-top: 60%;
+    font-size: 12px;
+  }
+  .line-2{
+    margin-top: 0;
+    font-size: 12px;
+  }
+
+  .explmre-btn {
+    align-self: center;
+    margin: 0 auto;
+  }
+  .anim-ai-spikes {
+    position: absolute;
+    margin-top: 0;
+  }
+  .spike {
+    height: 17vh;
+    }
+  
+  }
+  .spike#spike1 {
+    animation: animateWaves 48s linear infinite;
+  }
+    
+  .spike#spike2 {
+    animation: animate 40s linear infinite !important;
+  }
+    
+  .spike#spike3 {
+    animation: animateWaves 42s linear infinite;
+  }
+    
+  .spike#spike4 {
+    animation: animate 30s linear infinite;
+  }
+  
+  .footer p {
+  font-size: 0.7rem;
+  }
+  
+  .wave#wave1 {
+  animation: animateWaves 15s linear infinite;
+  }
+  
+  .wave#wave2 {
+  animation: animate 22s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+  animation: animateWaves 25s linear infinite;
+  }
+  
+  .wave#wave4 {
+    animation: animate 29s linear infinite;
+  
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+}
+
+
+}
+
+
+
+
+
+
+
+
