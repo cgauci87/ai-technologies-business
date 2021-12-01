@@ -793,7 +793,7 @@ and (orientation : landscape) {
     
   }
   
-/* ----------- iPhone 5, 5S, 5C and 5SE -----wip------ */
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 /* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
@@ -836,16 +836,18 @@ and (orientation : landscape) {
 .explmre-btn {
   align-self: center;
   margin: 0 auto;
-  margin-top: 7%;
+  margin-top: 3.5%;
+  font-size: 12px;
   color: whitesmoke;
+  border-width: 2px;
 }
 .anim-ai-spikes {
-  margin-top: 80%;
+  margin-top: 10%;
 }
 
 .spike {
   position: relative;
-  height: 30vh;
+  height: 10vh;
   }
 
 }
@@ -886,33 +888,100 @@ animation: animateWaves 25s linear infinite;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Landscape */
+/* Landscape */ 
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-
-}
+    html {-webkit-text-size-adjust: none; /* none for no scaling */
+    }
+  }  
+      .nav > #nav-check:checked ~ .nav-links {
+       height: 50vh;
+       overflow-y: auto;
+       text-align: center;
+       font-size: 14px;
+       line-height: 10px;
+        height: calc(60vh - 50px);
+      }
+  
+      .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+  } 
+      .intro {
+        background-size: cover;
+      }
+      .intro h1 {
+        font-size: 32px;
+        letter-spacing: 10px;
+        padding-top: 10%;
+        width: 100%;
+      }
+      .line-1{
+        margin-top: 17%;
+        font-size: 12px;
+      }
+      .line-2{
+        margin-top: 0;
+        font-size: 12px;
+      }
+  
+      .explmre-btn {
+        align-self: center;
+        margin: 0 auto;
+        margin-top: 0.5%;
+        font-size: 12px;
+        color: whitesmoke;
+        border-width: 2px;
+      }
+      .anim-ai-spikes {
+        margin-top: 5%;
+      }
+      
+      .spike {
+        position: relative;
+        height: 10vh;
+        }
+     
+      .spike#spike1 {
+        animation: animateWaves 48s linear infinite;
+      }
+        
+      .spike#spike2 {
+        animation: animate 40s linear infinite !important;
+      }
+        
+      .spike#spike3 {
+        animation: animateWaves 42s linear infinite;
+      }
+        
+      .spike#spike4 {
+        animation: animate 30s linear infinite;
+      }
+      
+      .footer p {
+      font-size: 0.7rem;
+      }
+      
+      .wave#wave1 {
+      animation: animateWaves 15s linear infinite;
+      }
+      
+      .wave#wave2 {
+      animation: animate 22s linear infinite !important;
+      }
+      
+      .wave#wave3 {
+      animation: animateWaves 25s linear infinite;
+      }
+      
+      .wave#wave4 {
+        animation: animate 29s linear infinite;
+      
+    }
+    
 
 
 
