@@ -1294,7 +1294,7 @@ and (orientation: portrait) {
        text-align: center;
        font-size: 18px;
        line-height: 15px;
-      height: 70  vh !important;
+       height: 70vh !important;
       }
   
       .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
@@ -1309,11 +1309,11 @@ and (orientation: portrait) {
       .intro h1 {
         font-size: 32px;
         letter-spacing: 10px;
-        padding-top: 15%;
+        padding-top: 10%;
         width: 100%;
       }
       .line-1{
-        margin-top: 15%;
+        margin-top: 18%;
         font-size: 14px;
       }
       .line-2{
@@ -1324,14 +1324,14 @@ and (orientation: portrait) {
       .explmre-btn {
         align-self: center;
         margin: 0 auto;
-        margin-top: 8%;
+        margin-top: 1.5%;
         font-size: 14px;
         color: whitesmoke;
         border-width: 4px;
       }
       
       .intro-span {
-      background: transparent;
+      background-color: transparent;
       }
 
       .anim-ai-spikes {
