@@ -199,7 +199,6 @@ a { color: white; text-decoration: none; }
   padding: 1.2em 2.8em;
   margin-left: 40%;
   margin-top: 30%;
-  
   }
 
 .explmre-btn:hover {
@@ -1353,3 +1352,56 @@ and (orientation: portrait) {
         z-index: 1;
 
       }
+
+
+      /* OnePlus 6T (2018) Portrait Media Queries */
+      /*Portrait*/
+  @media only screen 
+  and (min-width: 412px) 
+  and (orientation: portrait){
+    html {-webkit-text-size-adjust: none; /* none for no scaling */
+    }
+  } 
+    .nav > #nav-check:checked ~ .nav-links {
+      height: 55vh !important;
+      overflow-y: auto;
+      text-align: center;
+      font-size: 16px;
+      line-height: 30px;
+    }
+    
+    .intro h1 {   
+      font-size: 42px;
+      letter-spacing: 10px;
+      padding-top: 15%;
+      width: 100%;
+    }
+    .line-1{
+      margin-top: 26%;
+      font-size: 16px;
+    }
+    .line-2{
+      margin-top: 0;
+      font-size: 16px;
+    }
+    
+    .explmre-btn {
+      align-self: center;
+      margin: 0 auto;
+      margin-top: 50%;
+      font-size: 20px;
+      color: whitesmoke;
+      border-width: 4px;
+      padding: 2em 5em;
+    }
+
+
+    .anim-ai-spikes {
+      margin-top: -50%;
+    }
+    
+    .spike {
+      position: relative;
+      height: 10vh;  
+ 
+  }  
