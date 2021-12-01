@@ -612,93 +612,7 @@ a { color: white; text-decoration: none; }
   /*-------------iPhones--------------------------*/
    /*==============================================*/
 
-
   /* ========= iPhone 4 and 4S =================*/
-  /* Portrait and Landscape */
-@media only screen 
-and (min-width: 320px) 
-and (max-width: 480px)
-and (-webkit-min-pixel-ratio: 2) {
-
-  .nav > #nav-check:checked ~ .nav-links {
-    height: 35vh;
-    overflow-y: auto;
-    text-align: center;
-    font-size: 14px;
-    line-height: 10px;
-  }
-
-  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-    background-color: rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-  } 
-
-  .intro h1 {
-    font-size: 32px;
-    letter-spacing: 10px;
-    padding-top: 25%;
-    width: 100%;
-  }
-  .line-1{
-    margin-top: 60%;
-    font-size: 12px;
-  }
-  .line-2{
-    margin-top: 0;
-    font-size: 12px;
-  }
-
-  .explmre-btn {
-    align-self: center;
-    margin: 0 auto;
-  }
-  .anim-ai-spikes {
-    position: absolute;
-    margin-top: 0;
-  }
-  .spike {
-    height: 17vh;
-    }
-  
-  }
-  .spike#spike1 {
-    animation: animateWaves 48s linear infinite;
-  }
-    
-  .spike#spike2 {
-    animation: animate 40s linear infinite !important;
-  }
-    
-  .spike#spike3 {
-    animation: animateWaves 42s linear infinite;
-  }
-    
-  .spike#spike4 {
-    animation: animate 30s linear infinite;
-  }
-  
-  .footer p {
-  font-size: 0.7rem;
-  }
-  
-  .wave#wave1 {
-  animation: animateWaves 15s linear infinite;
-  }
-  
-  .wave#wave2 {
-  animation: animate 22s linear infinite !important;
-  }
-  
-  .wave#wave3 {
-  animation: animateWaves 25s linear infinite;
-  }
-  
-  .wave#wave4 {
-    animation: animate 29s linear infinite;
-  
-
-}
-
 
 /* Portrait */
 @media only screen 
@@ -823,7 +737,7 @@ and (orientation : landscape) {
       margin-top: 20%;
       font-size: 12px;
     }
-  /* WIP */
+
     .explmre-btn {
       align-self: center;
       margin-top: 1%;
@@ -879,75 +793,150 @@ and (orientation : landscape) {
     
   }
   
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
+/* ----------- iPhone 5, 5S, 5C and 5SE -----wip------ */
+/* Portrait */
 @media only screen 
-and (min-width: 320px) 
-and (max-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
 
-  .intro h1 {
-    font-size: 22px;
-    letter-spacing: 10px;
-    padding-top: 20%;
-    width: 100%;
-  }
-  .line-1 , .line-2{
-    margin-top: 0;
-    font-size: 12px;
-  }
-
-  .explmre-btn {
-    align-self: center;
-    margin: 0 auto;
-    margin-top: 60%;
-  }
-  .anim-ai-spikes {
-    position: absolute;
-    margin-top: 0;
-  }
-  .spike {
-    height: 17vh;
-    }
-  
-  }
-  .spike#spike1 {
-    animation: animateWaves 48s linear infinite;
-  }
-    
-  .spike#spike2 {
-    animation: animate 40s linear infinite !important;
-  }
-    
-  .spike#spike3 {
-    animation: animateWaves 42s linear infinite;
-  }
-    
-  .spike#spike4 {
-    animation: animate 30s linear infinite;
-  }
-  
-  .footer p {
-  font-size: 0.7rem;
-  }
-  
-  .wave#wave1 {
-  animation: animateWaves 15s linear infinite;
-  }
-  
-  .wave#wave2 {
-  animation: animate 22s linear infinite !important;
-  }
-  
-  .wave#wave3 {
-  animation: animateWaves 25s linear infinite;
-  }
-  
-  .wave#wave4 {
-    animation: animate 29s linear infinite;
-  
+.nav > #nav-check:checked ~ .nav-links {
+  height: 35vh;
+  overflow-y: auto;
+  text-align: center;
+  font-size: 14px;
+  line-height: 10px;
 }
+
+.nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+} 
+
+.intro {
+  background-size:cover;
+}
+
+.intro h1 {   
+  font-size: 18px;
+  letter-spacing: 5px;
+  padding-top: 30%;
+  width: 100%;
+}
+.line-1{
+  margin-top: 0;
+  font-size: 12px;
+}
+.line-2{
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.explmre-btn {
+  z-index: 2;
+  position: relative;
+  align-self: center;
+  margin-top: 50%;
+  margin-bottom: 100%;
+  background-color: black;
+  color: whitesmoke;
+  opacity: 0.5;
+}
+.anim-ai-spikes {
+  position: relative;
+  z-index: 0;
+}
+.spike {
+  position: relative;
+  z-index: 0;
+  height: 30vh;
+  }
+
+}
+.spike#spike1 {
+  animation: animateWaves 48s linear infinite;
+}
+  
+.spike#spike2 {
+  animation: animate 40s linear infinite !important;
+}
+  
+.spike#spike3 {
+  animation: animateWaves 42s linear infinite;
+}
+  
+.spike#spike4 {
+  animation: animate 30s linear infinite;
+}
+
+.footer p {
+font-size: 0.7rem;
+}
+
+.wave#wave1 {
+animation: animateWaves 15s linear infinite;
+}
+
+.wave#wave2 {
+animation: animate 22s linear infinite !important;
+}
+
+.wave#wave3 {
+animation: animateWaves 25s linear infinite;
+}
+
+.wave#wave4 {
+  animation: animate 29s linear infinite;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
