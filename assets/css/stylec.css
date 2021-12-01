@@ -1377,7 +1377,7 @@ and (orientation: portrait) {
       width: 100%;
     }
     .line-1{
-      margin-top: 26%;
+      margin-top: 40%;
       font-size: 16px;
     }
     .line-2{
@@ -1388,7 +1388,7 @@ and (orientation: portrait) {
     .explmre-btn {
       align-self: center;
       margin: 0 auto;
-      margin-top: 50%;
+      margin-top: 20%;
       font-size: 20px;
       color: whitesmoke;
       border-width: 4px;
@@ -1397,11 +1397,11 @@ and (orientation: portrait) {
 
 
     .anim-ai-spikes {
-      margin-top: -50%;
+      margin-top: 30%;
     }
     
     .spike {
       position: relative;
-      height: 10vh;  
+      height: 15vh;  
  
   }  
