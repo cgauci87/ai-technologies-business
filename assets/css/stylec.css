@@ -194,7 +194,7 @@ a { color: white; text-decoration: none; }
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'monsterat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   padding: 1.2em 2.8em;
   margin-left: 40%;
@@ -902,7 +902,6 @@ animation: animateWaves 25s linear infinite;
        text-align: center;
        font-size: 14px;
        line-height: 10px;
-        height: calc(60vh - 50px);
       }
   
       .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
@@ -1405,3 +1404,188 @@ and (orientation: portrait) {
       height: 15vh;  
  
   }  
+
+  /* landscape */
+
+  @media only screen 
+  and (min-width: 892px) 
+  and (orientation: landscape) {
+      html {-webkit-text-size-adjust: none; /* none for no scaling */
+    }
+  } 
+    .nav > #nav-check:checked ~ .nav-links {
+      height: 40vh !important;
+      overflow-y: auto;
+      text-align: center;
+      font-size: 14px;
+      line-height: 30px;
+    }
+    
+    .intro h1 {   
+      font-size: 42px;
+      letter-spacing: 10px;
+      padding-top: 10%;
+      width: 100%;
+    }
+    .line-1{
+      margin-top: 23%;
+      font-size: 14px;
+    }
+    .line-2{
+      margin-top: 0;
+      font-size: 14px;
+    }
+    
+    .explmre-btn {
+      align-self: center;
+      margin: 0 auto;
+      margin-top: 1%;
+      font-size: 14px;
+      color: whitesmoke;
+      border-width: 4px;
+    }
+    .anim-ai-spikes {
+      margin-top: 23%;
+    }
+    
+    .spike {
+      position: relative;
+      height: 15vh;  
+ 
+  }  
+
+
+/* media queries */
+/* portrait */
+/* screen width>340px - increase header text size */
+@media screen and (min-width: 340px) 
+and (orientation: portrait) {
+  .nav > #nav-check:checked ~ .nav-links {
+    height: 55vh !important;
+    overflow-y: auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  .intro h1 {   
+    font-size: 34px;
+    letter-spacing: 10px;
+    padding-top: 15%;
+    width: 100%;
+  }
+  .line-1{
+    margin-top: 40%;
+    font-size: 14px;
+  }
+  .line-2{
+    margin-top: 0;
+    font-size: 14px;
+  }
+  
+  .explmre-btn {
+    align-self: center;
+    margin: 0 auto;
+    margin-top: 20%;
+    font-size: 20px;
+    color: whitesmoke;
+    border-width: 4px;
+    padding: 2em 1em;
+    letter-spacing: 10px;
+  }
+
+
+  .anim-ai-spikes {
+    margin-top: 30%;
+  }
+  
+  .spike {
+    position: relative;
+    height: 10vh;
+  }
+}
+
+/* screen width>500px re-align hero image [small tablets] */
+@media screen and (min-width: 500px) 
+and (orientation: portrait) {
+  
+  .explmre-btn {
+    margin-top: 10%;
+  }
+
+  .anim-ai-spikes {
+    margin-top: 10%;
+  }
+}
+  
+/* screen width>700 move overlay-text downward below image [larger tablets] */
+@media screen and (min-width: 700px) 
+and (orientation: portrait) {
+  html {-webkit-text-size-adjust: none; /* none for no scaling */
+  }
+}
+.nav > #nav-check:checked ~ .nav-links {
+  height: 55vh !important;
+}
+
+.explmre-btn {
+  margin-top: 10%;
+}
+
+.anim-ai-spikes {
+  margin-top: 20%;
+}
+
+
+/* landscape */
+/* [small screens] landscape - overlay text moves to left, wip
+header and footer re-size,
+title text side by side */
+@media screen and (orientation: landscape) {
+}
+
+.nav > #nav-check:checked ~ .nav-links {
+  height: 70vh !important;
+  line-height: 10px;
+}
+
+.intro h1 {   
+  font-size: 38px;
+  letter-spacing: 10px;
+  padding-top: 7%;
+}
+.line-1{
+  margin-top: 10%;
+}
+.line-2{
+  margin-top: 0;
+}
+
+.explmre-btn {
+  margin-top: 5%;
+  letter-spacing: 10px;
+  font-size: 14px;
+  padding: 1em 2em;
+  padding-right: 1.2em;
+}
+
+.anim-ai-spikes {
+  margin-top: 9%;
+}
+
+/* [medium mobiles] landscape - header, footer and overlay-text size increase */
+@media screen and (orientation: landscape)
+and (min-height: 340px) {
+}
+/* [small tablets] gallery images appear in two columns */
+@media screen and (orientation: landscape)
+and (min-height: 500px) {
+}
+/* [medium tablets] header and footer size increase, some text size increase*/
+@media screen and (orientation: landscape)
+and (min-height: 700px) {
+}
+/* [desktop + large tablets] show additional images on index, display gallery selection side-by-side */
+@media screen and (orientation: landscape)
+and (min-width: 1200px) {
+} 
