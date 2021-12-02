@@ -338,9 +338,10 @@ a { color: white; text-decoration: none; }
   background-color: rgba(176, 221, 236, 0.966);
   background-image: url("../images/ai_101_bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
   background-blend-mode:lighten;
   color: black;
+  background-attachment:fixed;
+  background-position: 50% 50%;
 }
 
 
@@ -354,6 +355,36 @@ a { color: white; text-decoration: none; }
   text-align: center;
   z-index: 0 !important;
 }
+
+
+.ai-101-container article {
+  color: rgb(18, 42, 49);
+}
+
+.ai-101-container h2 {
+float: left;
+text-align: right;  
+font-size: 36px;
+overflow-wrap: break-word;
+line-height: 45px;
+vertical-align: middle;
+padding-bottom: 20%;
+}
+
+.ai-101-container  h3 {
+  font-size: 24px;
+  }
+
+  .highlight-h2 {
+    background-color: none !important;
+  }
+  
+  
+.highlight-h3 {
+  background-color: yellowgreen;
+}
+
+
 
 .industries {
   margin: 0;
