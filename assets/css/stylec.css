@@ -369,22 +369,16 @@ overflow-wrap: break-word;
 line-height: 45px;
 vertical-align: middle;
 padding-bottom: 20%;
+display: inline;
+color: rgba(33, 141, 165, 1);
 }
 
 .ai-101-container  h3 {
   font-size: 24px;
+  display: inline;
+  background-color: whitesmoke;
+  color: black;
   }
-
-  .highlight-h2 {
-    background-color: none !important;
-  }
-  
-  
-.highlight-h3 {
-  background-color: yellowgreen;
-}
-
-
 
 .industries {
   margin: 0;
@@ -1155,6 +1149,7 @@ and (orientation: portrait) {
       .intro-container{
         opacity: 0.5;
         color: white;
+        background-color:  rgb(25,25,25);
       }
   
       .explmre-btn {
