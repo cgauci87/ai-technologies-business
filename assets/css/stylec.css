@@ -372,7 +372,7 @@ overflow-wrap: break-word;
 line-height: 20px;
 vertical-align: middle;
 display: inline;
-color: rgb(82, 13, 78);
+color: rgb(255, 83, 73);
 padding-bottom: 20%;
 margin-top: 0.5%;
 }
@@ -394,15 +394,89 @@ margin-top: 0.5%;
    float: left;
  } 
 
+ #mimic-icon {
+  width: 150px;
+  float: left;
+  position: absolute;
+  display: flex;
+  margin-top: 11.5%;
+  margin-left: 2%;
+}
+
+#process-icon {
+  width: 150px;
+  float: left;
+  position: absolute;
+  display: flex;
+  margin-top: 12%;
+  margin-left: 12.5%;
+}
+
  #ux-icon {
-   width: 150px;
+   width: 130px;
    float: left;
    position: absolute;
    display: flex;
    margin-top: 1%;
-   margin-left: 1%;
+   margin-left: 9%;
  }
 
+ 
+ #ml-icon {
+  width: 150px;
+  float: left;
+  position: absolute;
+  display: flex;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+  #big-data-icon {
+    width: 60px;
+    float: left;
+    position: absolute;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%; 
+  }
+
+  #bus-mgt-icon {
+    width: 100px;
+    float: left;
+    position: absolute;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 2%;
+
+  }
+
+  #op-icon {
+    width: 100px;
+    float: left;
+    position: absolute;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 12%;
+  }
+ 
+  #elv-icon {
+   width: 100px;
+   float: left;
+   position: absolute;
+   display: flex;
+   margin-top: 1%;
+   margin-left: 22%;
+ }
+ 
+   #growth-icon {
+     width: 100px;
+     float: left;
+     position: absolute;
+     display: flex;
+     margin-top: 1%;
+     margin-left: 32%; 
+   }
+ 
 .industries {
   margin: 0;
   padding: 0;
