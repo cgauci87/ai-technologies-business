@@ -49,7 +49,7 @@ a { color: white; text-decoration: none; }
   
   .nav > .nav-header > .nav-title {
     display: inline-block;
-    font-size: 22px;
+    font-size: 18px;
     color: #fff;
     padding: 10px 10px 10px 10px;
   }
@@ -61,7 +61,7 @@ a { color: white; text-decoration: none; }
   .nav > .nav-links {
     display: inline;
     float: right;
-    font-size: 18px;
+    font-size: 14px;
   }
   
   .nav > .nav-links > a {
@@ -350,8 +350,8 @@ a { color: white; text-decoration: none; }
   position: relative;
   background-color: black;
   color: whitesmoke;
-  padding-top: 6%;
-  height: 25vh;
+  padding-top: 2.5%;
+  height: 15vh;
   text-align: center;
   z-index: 0 !important;
 }
@@ -359,6 +359,9 @@ a { color: white; text-decoration: none; }
 
 .ai-101-container article {
   color: rgb(18, 42, 49);
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: justify;
 }
 
 .ai-101-container h2 {
@@ -366,12 +369,14 @@ float: left;
 text-align: right;  
 font-size: 36px;
 overflow-wrap: break-word;
-line-height: 45px;
+line-height: 20px;
 vertical-align: middle;
-padding-bottom: 20%;
 display: inline;
-color: rgba(33, 141, 165, 1);
+color: rgb(82, 13, 78);
+padding-bottom: 20%;
+margin-top: 0.5%;
 }
+
 
 .ai-101-container  h3 {
   font-size: 24px;
@@ -379,6 +384,24 @@ color: rgba(33, 141, 165, 1);
   background-color: whitesmoke;
   color: black;
   }
+
+  .ai-101-a {
+    margin-top: 2%;
+  }
+  
+ .ai-101-d {
+   margin-top: -12%;
+   float: left;
+ } 
+
+ #ux-icon {
+   width: 150px;
+   float: left;
+   position: absolute;
+   display: flex;
+   margin-top: 1%;
+   margin-left: 1%;
+ }
 
 .industries {
   margin: 0;
