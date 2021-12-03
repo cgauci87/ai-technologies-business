@@ -399,21 +399,23 @@ margin-top: 0.5%;
   float: left;
   position: absolute;
   display: flex;
-  margin-top: 11.5%;
-  margin-left: 2%;
+  transform: rotate(45deg);
+  margin-top:  10%;
+  margin-left: 5%;
 }
 
 #process-icon {
-  width: 150px;
+  width: 110px;
   float: left;
   position: absolute;
   display: flex;
-  margin-top: 12%;
-  margin-left: 12.5%;
+  transform: rotate(45deg);
+  margin-top: 13%;
+  margin-left: 15.5%;
 }
 
  #ux-icon {
-   width: 130px;
+   width: 80px;
    float: left;
    position: absolute;
    display: flex;
