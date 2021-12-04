@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:300,700|Bungee+Shade|Josefin+Sans:400';
+
 
 *{
   margin: 0;
@@ -8,11 +10,13 @@
   box-sizing: border-box;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
+  margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
@@ -629,16 +633,87 @@ margin-top: 0.5%;
       margin-left: 22%;
     }
 
+/*=====================================================end============================================================= */
  
+/*============#industries===================================start=====================#industries============================= */
+
+.grid {
+	display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(1fr, 500px);
+}
+
+.grid-template-rows-1 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#bankfin {
+  grid-row: span 2;
+}
+
+#manufacturing {
+  grid-row: span 2;
+}
+
+/* Grid Item */
+.item {
+	margin: 5px;
+	background: blue;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.grid {
+	width: 1400px;
+  height: 70vh;
+	border: 1px solid #ccc;
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 4%;
+  margin-right: 2%;
+}
+
 .industries {
-  margin: 0;
-  padding: 0;
-  width: 100%;
   height: 100vh;
-  background-color: brown;
+  margin: 0 auto;
+}
+.industries h1 {
+  font-size:22px;
+  position:absolute;
+  display: flex;
+  margin-left: 45%;
+  margin-top: 4.5%;
+}
+
+.grid h1 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.grid h2 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.grid h3 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.grid p {
+  text-align: center;
+	font-size: 14px;
+	font-weight: normal;
 }
 
 
+
+/*================================================================================================================== */
+
+/*================================================================================================================== */
 .podcasts {
   margin: 0;
   padding: 0;
