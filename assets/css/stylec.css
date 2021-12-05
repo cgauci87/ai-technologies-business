@@ -199,41 +199,35 @@ a { color: white; text-decoration: none; }
   letter-spacing: 10px;
 }
 
-.line-container{
+.line-container .line-1 {                                  /*wip*/
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
   background-color: rgb(25,25,25);
   text-align: center;
   box-sizing: border-box;
   width: 100%;
-  height: 5vh;
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
   position: absolute;
   display: flex;
-  margin-top: 40%;
+  font-size: 24px;
+  word-spacing: 16px;
+  height: 4vh;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
-.line-1{ /*wip*/
-      width: 24em;
-      border-right: 2px solid rgba(255,255,255,.75);
-      font-size: 180%;
-      text-align: center;
-      white-space: nowrap;
-      overflow: hidden;
-      transform: translateY(-50%);
-      position: absolute;
-      display: flex;
-      margin-top: 40%;
-  }
-
-  
-  /* Animation */
+  /* Typewriter Animation */
   .anim-typewriter{
     animation: typewriter 4s steps(44) 1s 1 normal both,
                blinkTextCursor 500ms steps(44) infinite normal;
   }
   @keyframes typewriter{
     from{width: 0;}
-    to{width: 24em;}
+    to{width: 100%;}
   }
   @keyframes blinkTextCursor{
     from{border-right-color: rgba(255,255,255,.75);}
@@ -241,19 +235,21 @@ a { color: white; text-decoration: none; }
   }
 
 
-  /* spikes animation wip*/
+  /* spikes animation*/
   .spike {
     position: absolute;
+    margin-top: 35%;
     width: 100%;
     height: 10vh;
     background: url("../images/ai_intro_animation.png");
+    background-repeat:repeat;
     background-size: 1000px 100px;
   }
 
   .spike#spike1 {
     z-index: 1000;
     opacity: 0.6;
-    animation: animateWaves 18s linear infinite;
+    animation: animateWaves 100s linear infinite;
   }
   
 
