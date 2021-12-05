@@ -431,7 +431,7 @@ margin-top: 0.5%;
      margin-top: 1%;
      margin-left: 28%; 
    }
-   /*
+   
    .author{
    position: relative;
    display: flex;
@@ -535,9 +535,7 @@ margin-top: 0.5%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
-  }
-  */
-  
+  }  
 
   .section-footer {     /*footer*/
     position: absolute;
@@ -567,20 +565,21 @@ margin-top: 0.5%;
     height: 100vh;
   }
 
-/* wip */
+/* GRID wip */
 
 
   main {
   display: grid;
   min-height: 100%;
+  padding: 5px 5px;
   margin-bottom: -12.5%;
 }
 
  .grid {
 	width: auto;
   height: 75vh;
-	border: 1px solid red;
-  background-color: yellowgreen;
+	border: none;
+  background-color: slategray;
 }
 
 
@@ -589,23 +588,43 @@ margin-top: 0.5%;
   grid-template-columns: repeat(4, 1fr);
 }
 
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-2-rgba { color: rgba(33, 141, 165, 1); }
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-4-rgba { color: rgba(39, 89, 89, 1); }
+.human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-3-rgba { color: rgba(80, 191, 191, 1); }
 
 
 #bankfin {
   grid-row: span 2;
+  background-color:rgba(33, 141, 165, 1);
+}
+
+#retailecom {
+  background-color:rgb(109, 182, 199);
+}
+
+#logisticstrans {
+  background-color:rgb(80, 41, 76);
 }
 
 #manufacturing {
   grid-row: span 2;
+  background-color:rgb(78, 61, 77);
 }
+
+#healthph {
+  background-color:rgba(39, 89, 89, 1);
+}
+
+#marketing {
+  background-color:rgba(80, 191, 191, 1);
+}
+
 
 .item {
 	margin: 5px;
-	background: blue;
 	text-align: center;
 	font-size: 1.5em;
 }
-
 
 .grid h1 {
 	text-align: center;
@@ -2019,5 +2038,3 @@ and (min-width: 1400px) {
   .spike {
     height: 8vh;
   }
-
-}
