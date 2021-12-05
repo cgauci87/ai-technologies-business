@@ -201,7 +201,7 @@ a { color: white; text-decoration: none; }
 }
 
 
-.line-container .line-1 {                                  /*wip*/
+.line-container .line-1 {
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
   background-color: rgb(25,25,25);
@@ -539,13 +539,12 @@ margin-top: 0.5%;
   */
   
 
-  .section-footer {
+  .section-footer {     /*footer*/
     position: absolute;
     width: 100%;
     background: rgb(18, 42, 49,.3);
     height: 10vh;
-    display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     flex-direction: column;
     margin-top: 13%;
@@ -556,34 +555,41 @@ margin-top: 0.5%;
  
 /*============#industries===================================start=====================#industries============================= */
 
-/*
-
-  .industries-header h1{
-    margin-top: 2.5%;
-    }
-  
-*/
 
 .industries{
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
+    background: #424242;
+    color: #fff;
+    font-family: Comfortaa, sans-serif;
+    font-weight: 300;
+    letter-spacing: .03rem;
+    line-height: 1;
+    margin: 0 auto;	
     height: 100vh;
-    background-color: rgba(176, 221, 236, 0.966);
-    z-index: 0;
-    position: relative;
   }
 
+/* wip */
 
-.grid {
-	display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: minmax(1fr, 500px);
+
+  main {
+  display: grid;
+  min-height: 100%;
+  margin-bottom: -12.5%;
 }
 
-.grid-template-rows-1 {
+ .grid {
+	width: auto;
+  height: 75vh;
+	border: 1px solid red;
+  background-color: yellowgreen;
+}
+
+
+.grid-template-rows-1{
+  grid-template-rows: minmax(1fr, 500px);
   grid-template-columns: repeat(4, 1fr);
 }
+
+
 
 #bankfin {
   grid-row: span 2;
@@ -598,16 +604,6 @@ margin-top: 0.5%;
 	background: blue;
 	text-align: center;
 	font-size: 1.5em;
-}
-
-.grid {
-	width: 1400px;
-  height: 70vh;
-	border: 1px solid red;
-  margin-top: 4%;
-  margin-left: 4%;
-  margin-right: 2%;
-  background-color: yellowgreen;
 }
 
 
@@ -634,7 +630,6 @@ margin-top: 0.5%;
 	font-size: 14px;
 	font-weight: normal;
 }
-
 
 /*================================================================================================================== */
 
