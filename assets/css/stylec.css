@@ -558,7 +558,6 @@ margin-top: 0.5%;
     background-repeat: repeat;
     background-size: 1000px 100px;
     margin-top: 18%;
-  
   }  
 
 /*=====================================================end============================================================= */
@@ -591,7 +590,7 @@ margin-top: 0.5%;
 	width: auto;
   height: 75vh;
 	border: none;
-  background-color: slategray;
+  background-color: rgba(33, 141, 165, 1);
 }
 
 
@@ -607,28 +606,29 @@ margin-top: 0.5%;
 
 #bankfin {
   grid-row: span 2;
-  background-color:rgba(33, 141, 165, 1);
+  background-color: rgba(39, 89, 89, 1);
 }
 
 #retailecom {
-  background-color:rgb(109, 182, 199);
+ background-color: rgba(39, 89, 89, 0.9);
 }
 
 #logisticstrans {
-  background-color:rgb(80, 41, 76);
+  background-color:rgba(39, 89, 89, 0.7);
 }
 
 #manufacturing {
   grid-row: span 2;
-  background-color:rgb(78, 61, 77);
+  background-color:rgba(39, 89, 89, 0.6);
+  
 }
 
 #healthph {
-  background-color:rgba(39, 89, 89, 1);
+  background-color:rgba(39, 89, 89, 0.4);
 }
 
 #marketing {
-  background-color:rgba(80, 191, 191, 1);
+  background-color: rgba(39, 89, 89, 0.2);
 }
 
 
@@ -644,23 +644,24 @@ margin-top: 0.5%;
 	font-weight: normal;
 }
 
+/*wip*/
 .grid h2 {
 	text-align: center;
-	font-size: 18px;
-	font-weight: normal;
-}
-
-.grid h3 {
-	text-align: center;
-	font-size: 16px;
-	font-weight: normal;
+	font-size: 22px;
+  font-weight:500;
+  background-color: inherit;
+  filter: invert(10%);
+  color: white;
 }
 
 .grid p {
   text-align: center;
-	font-size: 14px;
-	font-weight: normal;
+	font-size: 18px;
+	font-weight:500;
+  color: rgba(1, 8, 12, 1);
+  mix-blend-mode:hard-light;
 }
+
 
 /*================================================================================================================== */
 
@@ -680,6 +681,7 @@ margin-top: 0.5%;
   height: 50vh;
   background-color: firebrick;
 }
+
 
 .contact {
   margin: 0;
