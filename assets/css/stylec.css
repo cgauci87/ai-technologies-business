@@ -658,7 +658,7 @@ margin-top: 0.5%;
   padding-top: 3.5%;
 }
 
-/*POP-UP ARTICLE */
+/*POP-UP ARTICLE wip */
 
 #cover{
   position:fixed;
@@ -670,8 +670,7 @@ margin-top: 0.5%;
   height:100%;
   display:none;
 }
-#popup-article-bankfin
-{
+#popup-article-bankfin {
   height:135%;
   width:270%;
   margin-left:70%;
@@ -683,6 +682,31 @@ margin-top: 0.5%;
   border:5px solid #cccccc;
   border-radius:10px;
 }
+
+.popup-container {
+  height:100%;
+  width:100%;
+  margin-top: -20%;
+}
+
+#popup-article-bankfin article {
+  margin-top: 5%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  line-height: 25px;
+}
+
+#popup-article-bankfin article p {
+  text-align: justify;
+}
+
+
+.popup-article-bankfin {
+  background: none;
+  color: black;
+}
+
 #popup-article-bankfin:target, #popup-article-bankfin:target + #cover{
   display:block;
   opacity:2;
