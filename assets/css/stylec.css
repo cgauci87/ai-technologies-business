@@ -592,7 +592,7 @@ margin-top: 0.5%;
 	width: auto;
   height: 75vh;
 	border: none;
-  background-color: rgba(33, 141, 165, 1);
+  background-color: rgba(12, 182, 233, 0.562);
 }
 
 
@@ -604,15 +604,15 @@ margin-top: 0.5%;
 
 #bankfin {
   grid-row: span 2;
-  background-color: rgba(39, 89, 89, 1);
+  background-color:rgba(39, 89, 89, 0.4);
 }
 
 #retailecom {
- background-color: rgba(39, 89, 89, 0.9);
+  background-color:rgba(39, 89, 89, 0.4);
 }
 
 #logisticstrans {
-  background-color:rgba(39, 89, 89, 0.7);
+  background-color:rgba(39, 89, 89, 0.6);
 }
 
 #manufacturing {
@@ -626,7 +626,7 @@ margin-top: 0.5%;
 }
 
 #gaming {
-  background-color: rgba(39, 89, 89, 0.2);
+  background-color:rgba(39, 89, 89, 0.4);
 }
 
 
