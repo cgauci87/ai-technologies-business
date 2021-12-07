@@ -720,7 +720,7 @@ margin-top: 0.5%;
   font-weight:bolder;
   float: right;
   display: inline;
-  padding-top:15%;
+  padding-top: 4%;
   padding-left: 40%;
   line-height: 50px;
 }
@@ -763,9 +763,28 @@ margin-top: 0.5%;
   display: flex;
   padding-top: 10%;
   padding-right: 2%;
-  margin-top: -13.5%;
+  margin-top: -9.5%;
   margin-left: -4.5%;
   z-index: 20;
+}
+
+ #q-icon {
+  float:right;
+  width: 50px;
+  margin-top: 4%;
+  margin-right: 50%;
+  margin-bottom: -70%;
+}
+
+#q-caption {
+  color:black;
+  display: flex;
+  flex-direction: column;
+  padding-left: 45%;
+  margin-left:-28%;
+  padding-top: 4%;
+  font-size: 18px;
+  font-weight: 600;
 }
 /*
 .btm-images img {
@@ -805,7 +824,8 @@ margin-top: 0.5%;
 
   .author-pu > p {
     line-height: 20px;
-    padding-right: 10%;
+    padding-right: 15%;
+    margin-left: -25%;
     padding-top: 22%;
     font-size: 16px;
     color: white;
@@ -831,6 +851,9 @@ margin-top: 0.5%;
  margin-top: -6%;
  opacity: 0.3;
  filter:invert(100%);
+ position: relative;
+ z-index: 100;
+
  }
 
  .audio-player-pu:hover {
