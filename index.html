@@ -4,116 +4,272 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/stylec.css">
 	<title>Artificial Intelligence in Business World</title>
 </head>
-<body>
-      <header>
-               <nav>
-                    <div id="logo"><a href="home.html">b2b.ai</a></div>
-                         <div class="hb">
-                             <span class="hb-line"></span>
-                             <span class="hb-line"></span>
-                             <span class="hb-line"></span>
-                     </div>
 
-                     <div class="navbar">
-                      <ul>
-                        <li class="nv-link"><a href="#explore">Explore AI</a></li>
-                        <li class="nv-link"><a href="#ai101">AI 101 </a></li>
-                        <li class="nv-link"><a href="#podcasts">Podcasts</a></li>
-                        <li class="nv-link"><a href="#subscribe">Subscribe</a></li>
-                        <li class="nv-link"><a href="#contact">Contact</a></li>
-                      </ul>
-                    </div>
-                 </nav>
+		<body>
+			<header>
+				<div class="nav">
+					<input type="checkbox" id="nav-check">
+					<div class="nav-header">
+					  <div class="nav-title">
+						<a href="#home">
+							<h1 id="ai-logo">b2b.ai</h1>
+						</a>
+					  </div>
+					</div>
+					<div class="nav-btn">
+					  <label for="nav-check">
+						<span></span>
+						<span></span>
+						<span></span>
+					  </label>
+					</div>
+					
+					<div class="nav-links">
+					  <a href="#home">Home</a>
+					  <a href="#ai-101">AI-101</a>
+					  <a href="#industries">Industries</a>
+					  <a href="#podcasts">Podcasts</a>
+					  <a href="#subscribe">Subscribe</a>
+					  <a href="#contact">Contact</a>
+					</div>
+				  </div>
+			</header>
 
-       </header>
+			<section class="intro" id="home">
+				<h1 id="intro-h1">Artificial Intelligence</h1>
+					<div class="line-container">
+						<p class="line-1 anim-typewriter">#AI #Bigdata #MachineLearning #Automation #Catalyst #DigitalTransformation #Accelerate #Innovation #Tech</p>
+					</div>
+					<div class=section-footer>
+						<form action="#ai-101" method="get" id="form1"></form>
+						<button type="submit" class="goto-btn" form="form1" value="Submit"><p>Explore More</p></button>
+					</div>
+						  <div class="spike" id="spike1"></div>	
+					</div>
+						
+			</section>
 
-      <section class="intro-screen" id="intro">
-               <video src="assets/videos/sample-vid-bg.mp4" autoplay loop muted></video>
-                  <h1>A.I. technologies <em>can</em> think like a human.</h1>
-                  <div class="arrow-a-container">
-                    <a data-scroll href="home.html">
-                      <div class="arrow-a"></div>
-                    </a>
+			<section class="ai-101" id="ai-101">
+				<div class="section-header"> <h1>AI-101</h1></div>
+				<span><i class="far fa-clock"> 1 min read</i></span>
+				<div class="audio-player">
+				  <audio controls>
+					<source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
+					Your browser does not support the audio tag.
+				  </audio>
+				  </div>
+				  <i class="fas fa-hand-pointer"></i><span id="listen">Listen to this article</span>
+					<div class="author">
+						<img alt="Chris Gauci" class="profile-photo"
+						src="assets/images/profile_photo.png"><p><b>Chris Gauci</b></p>
+					<aside><p>Admin</p>
+						   <p>Updated Dec 03, 2021</p>
+					</aside>
+				</div>
+					</div>
+				<div class="ai-101-container">
+					<article>
+						<div class="ai-101-a">
+						<h2> What is AI? <img src="assets/images/ml_icon.png" alt="machine learning" id="ml-icon">
+										 <img src="assets/images/mimic_icon.png" alt="mimic" id="mimic-icon">
+										 <img src="assets/images/process_icon.png" alt="processor" id="process-icon">				 
+						</h2>
+						<h3>AI technologies mimics human behavior in some way.</h3>
+						<h3>Think of it as a simulation of human intelligence processes by machines.</h3>
+						</div> 
+						<br>
+						<div class="ai-101-b">
+						<h2>AI capabilities? <img src="assets/images/ux_icon.png" alt="user experience" id="ux-icon"></h2>
+						<h3>AI can make the user experience similar to interacting with a human.</h3>
+						<h3>Interpret external data.</h3>
+						<h3>To learn from such data.</h3>
+						<h3>To use such learnings to achieve specific goals and tasks through flexible adaptation. </h3>
+						</div>
+						<br>
+						<div class="ai-101-c"> 
+						<h2>How? <img src="assets/images/big_data_icon.png" alt="big data" id="big-data-icon"></h2>
+						<h3> The input is huge amounts of data.</h3>
+						<h3> The human part is the output.</h3>
+						<h3> That’s what allows the AI to learn and adapt.</h3>
+						<h3> If it encounters a problem, it learns from the situation and recognizes a pattern.</h3>
+						</div>
+						<br>
+						<div class="ai-101-d">
+						<h2>AI in today's business landscape? <img src="assets/images/business_mgt_icon.png" alt="business management" id="bus-mgt-icon">
+															  <img src="assets/images/operations_icon.png" alt="business operations" id="op-icon">
+															  <img src="assets/images/elevate_icon.png" alt="business elevation" id="elv-icon">
+															  <img src="assets/images/growth_icon.png" alt="business growth" id="growth-icon">
+						</h2>
+						<h3>Artificial Intelligence (AI) and Machine Learning (ML) were buzzwords a few years back.</h3>
+						<h3>Until some industries started levering the full potential and embraced such technologies.</h3>
+						<h3>Nowadays most businesses rely heavily on AI & ML applications and take advantage of the benefits.</h3>
+						</div>
+					</article>
+				</div>
+				<div class=section-footer>
+					<form action="#industries" method="get" id="form2"></form>
+					<button type="submit" class="goto-btn" form="form2" value="Submit"><p>Learn More</p></button>
+				</div>
+					<div class="spike-sec" id="spike1"></div>	
+				  </div>
+			</section>				
+		<section class="industries" id="industries">
+			<article>
+					<header class="section-header"><h1>Industries</h1>
+					</header>
+						<main  class="grid-template-rows-1 grid">
+							<div class="item" id="bankfin">
+								<h2>Banking & Finance</h2>
+								<p>Artificial intelligence is fast evolving. Banking and finance industry are one of those finding ways to leverage this game changing technology.</p>
+								<p>Many financial institutions use AI and ML applications to streamline their operations such as automation process to identify fraud , detecting unusual transactions.</p>
+								<p>AI solutions can also assist in making the process of credit risk analysis more efficient, accurate, and effective.</p>
+								<p>Front and middle-office AI applications offer the greatest cost savings opportunity across digital banking.</p>
+								<p>AI in the realm of finance powers many solutions aimed at enhancing security precautions.</p>
+								<p>As AI continues to be a growing force within fintech, experts believe its usage will spread across more sectors.</p>
+								<a href="#popup-article-bankfin"><p><u>Read full article</u></p></a>
+								<div class=popup-container>
+									<div id="popup-article-bankfin">
+										<article>
+											<h2>Banking & Finance</h2>
+											<div class="clock-pu">
+											<i class="fas fa-clock"><span>1 min read</span></i>
+											</div>
+											<div class="audio-player-pu">
+												<audio controls>
+												  <source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
+												  Your browser does not support the audio tag.
+												</audio>
+												</div>
+												<div class="pointer-pu">
+												<i class="far fa-hand-pointer"><span> Listen to this article</span></i>
+												</div>
+												  <div class="author-pu">
+													  <img alt="Chris Gauci" class="profile-photo"
+													  src="assets/images/profile_photo.png"><p><b>Chris Gauci</b></p>
+												  <aside><span>Admin</span>
+														 <br>
+														 <span>Updated Dec 07, 2021</span>
+												  </aside>
+											  </div>
+										<article>
+											<p>Artificial intelligence is fast evolving. Banking and finance industry are one of those finding ways to leverage this game changing technology.
+											Many financial institutions use AI and ML applications to streamline their operations such as automation process to identify fraud , detecting unusual transactions.
+											AI solutions can also assist in making the process of credit risk analysis more efficient, accurate, and effective.
+											Front and middle-office AI applications offer the greatest cost savings opportunity across digital banking.
+											AI in the realm of finance powers many solutions aimed at enhancing security precautions.
+											As AI continues to be a growing force within fintech, experts believe its usage will spread across more sectors.</p>
+											<div class="vertical-image">
+												<img src="assets/images/bk_img.png" alt="banking" id="bk-img">
+											</div>
+											<figure>
+												<img src="assets/images/quote_icon.png" alt="quote" id="q-icon">
+												<figcaption id="q-caption">Deloitte Insights</figcaption>
+											</figure>
+											<aside id="quote-1"><i>"70% of all financial services firms are using machine learning to predict cash flow events, fine-tune credit scores and detect fraud."</i></aside>
+									</article>
+											<a href="#industries" class="cancel">×</a>
+										</article>
+									</div>
+									<div id="cover"></div>
+								</div>
+							</div>
+							<div class="item" id="healthph">
+								<h2>Health & Pharma</h2>
+								<p>AI & ML have been playing a critical role in medical industry.</p>
+								<p>From disease identification and diagnosis, helping identify patients for clinical trials to drug manufacturing and predictive forecasting, these technologies have proven critical.</p>
+								<p>State-of-the-art algorithms have achieved accuracies which are at par with human experts in the field of medical sciences.</p>
+								<p><u>Read full article</u></p>
+							</div>
+							<div class="item" id="manufacturing">
+								<h2>Manufacturing</h2>
+								<p>AI is extensively being used in the manufacturing sector, facilitating the industrial automation.</p>
+								<p>Artificial intelligence can ingest a combination of data from sensors, machines, and people and then apply it to algorithms designed to optimize operations or achieve lights out manufacturing. </p>
+								<p>Process plants rely on AI to integrate data, analyze it, and produce the deep insights and predictions that help drive better decision-making across the board.  </p>
+								<p>AI-driven machines yields a bunch of benefits – offering new opportunities, enhancing production efficiencies, and bringing machine interaction closer to human interaction.</p>
+								<p> Many firms have already embraced AI technology to reduce downtime, and deliver high-quality products that meet unique consumer demands.</p>
+								<p><u>Read full article</u></p>
+							</div>
+							<div class="item" id="retailecom">
+								<h2>Retail & eCommerce</h2>
+								<p>AI algorithms are being utilised to predict changes in consumer demand as to improve customer experience in Retail and eCommerce industry.</p>
+								<p>Market leaders upload data and build models using AI & ML tools to deliver customised experiences.</p>
+								<p>With the use of big data, AI is impacting customer choices thanks to its knowledge of previous purchases and searched products.</p>
+								<p><u>Read full article</u></p>
+							</div>
+							<div class="item" id="logisticstrans"><h2>Logistics & Transportation</h2>
+								<p>AI solutions in Logistics and Transportation are being used to decrease operating costs and optimize workflows with better, data-driven insights.</p>
+								<p>Indeed, AI is considered to be the best assistant for global supply chains in managing assets and facilities in the most cost-efficient way. </p>
+								<p><u>Read full article</u></p>
+							</div>
+							<div class="item" id="gaming"><h2>Gaming</h2>
+								<p>AI has a significant role in game development.</p>
+								<p>Video games whether they’re racing-car games, shooting games, or strategy games, are all powered by AI.</p>
+								<p>The main objective of utilizing AI in gaming is to deliver a realistic gaming experience for players on a virtual platform.</p>
+								<p><u>Read full article</u></p>
+							</div>	
+						</main>
+								<footer class=section-footer>
+								<form action="#podcasts" method="get" id="form3"></form>
+								<button type="submit" class="goto-btn" form="form3" value="Submit"><p>Listen to Podcasts</p></button>
+								</footer>
+				</article>
+		 </section>
 
-      </section>
+			<section class="podcasts" id="podcasts">
+				<h1>Podcasts</h1>
+					<div class="podcasts-container">
+						<div class="content">
+			
+							</div>
+					</div>
+			</section>
 
-         <footer>
-            <h2>Pretty cool right?</h2>
-          </footer>
-        
+			<section class="subscribe" id="subscribe">
+				<h1>Subscribe</h1>
+					<div class="subscribe-container">
+						<div class="content">
+			
+							</div>
+					</div>
+			</section>
 
-    <!--pop-up script -->
-    <script>
-       function pop(div) {
-        document.getElementById(div).style.display = 'block';
-    }
-    
-    function hide(div) {
-        document.getElementById(div).style.display = 'none';
-    }
-    
-    document.onkeydown = function (evt) {
-        evt = evt || window.event;
-        if (evt.keyCode == 27) {
-            hide('popup-industries');
-        }
-    };
+			<section class="contact" id="contact">
+				<h1>Contact</h1>
+					<div class="contact-container">
+						<div class="content">
+			
+							</div>
+					</div>
+			</section>
 
-  </script>
+				<footer class="footer">
+					<div class="waves">
+				  	<div class="wave" id="wave1"></div>
+				 	<div class="wave" id="wave2"></div>
+				  	<div class="wave" id="wave3"></div>
+				  	<div class="wave" id="wave4"></div>
+					</div>
+				<ul class="social-icon">
+				  	<li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/">
+					<i class="fab fa-facebook-square"></i></ion-icon></a>
+					</li>
+				  	<li class="social-icon__item"><a class="social-icon__link" href="https://www.twitter.com/">
+					<i class="fab fa-twitter-square"></i></ion-icon></a>
+					</li>
+				  	<li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/">
+					<i class="fab fa-linkedin"></i></ion-icon></a>
+					</li>
+				  	<li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/">
+					<i class="fab fa-instagram-square"></i></ion-icon></a>
+					</li>
+				</ul>
+				<p>&copy;2021 Chris Gauci | All Rights Reserved</p>
+			</footer>
 
-  <script>
+			  <script src="https://kit.fontawesome.com/45477b65ad.js" crossorigin="anonymous"></script>
+		 </body>
 
-const toggle = document.getElementsByClassName("hb")[0];
-const nvb = document.getElementsByClassName("navbar")[0];
-const nvl = document.getElementsByClassName("nv-link");
-
-toggle.addEventListener("click", () => {
-  nvb.classList.toggle("active");
-});
-
-nvl[0].addEventListener("click", () => {
-  nvb.classList.toggle("active");
-});
-
-nvl[1].addEventListener("click", () => {
-  nvb.classList.toggle("active");
-});
-
-nvl[2].addEventListener("click", () => {
-  nvb.classList.toggle("active");
-});
-
-nvl[3].addEventListener("click", () => {
-  nvb.classList.toggle("active");
-});
-
-  </script>
-
-  <!--Grid slide script-->
-  <script>
-    jackHarnerSig(true);
-
-$(".service__slider").slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-	dots: true,
-	arrows: false,
-	autoplay: true,
-	autoplaySpeed: 2000, 
-	rows: 0,
-	pauseOnHover: false
-});
-
-
-  </script>
-
-  <!--Font awesome Script-->
-
-  <script src="https://kit.fontawesome.com/45477b65ad.js" crossorigin="anonymous"></script>  
-
-
-</body>
 </html>
