@@ -535,9 +535,10 @@ margin-top: 0.5%;
     float: right;
     background-color: black;
     color: white;
+    height: 2.5vh;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    height: 3vh;
+    font-size: 14px;
+    padding-right: 0.5%;
   }  
 
   .section-footer {     /*footer*/
@@ -699,6 +700,7 @@ margin-top: 0.5%;
   overflow-y:scroll;
   overflow-x:hidden;
   border-radius: 50px;
+  margin-top: 12.8%; /*mq*/
 }
 
 #bankfin-p1 {  /* wip */
@@ -711,7 +713,7 @@ margin-top: 0.5%;
 }
 
 #bankfin-p2 {  /* wip */
-  margin-top: -100%;
+  margin-top: -64%;
   text-align: justify;
   padding-left: 47.5%;
   margin-right: 0;
@@ -721,7 +723,7 @@ margin-top: 0.5%;
 
 
 #figure-1-wrapper { /*wip*/
-  margin-top: -125%;
+  margin-top: -90%;
   padding-left: 50%;
   float:right;
 }
@@ -789,7 +791,7 @@ margin-top: 0.5%;
   font-weight: 600;
 }
 .article-header h2 {
-  margin-bottom: -5%;
+  margin-bottom: -10%;
   background-color:rgb(18, 42, 49);
   font-size: 30px;
   color: whitesmoke;
@@ -802,23 +804,23 @@ margin-top: 0.5%;
   }
 
 .author-pu{
-  position: relative;
+  position: absolute;
   display: flex;
   z-index: 1;
-  float: right;
   color: white;
   line-height: 20px;
-  height: 150px;
+  height: 150px;  
   max-width: 100px;
   width: 100%;
   white-space: nowrap;
-  margin-right: 15%;
-  margin-top: -7%;
+  margin-top: -7%;  /* mq */
+  margin-left: 66%; /* mq */
   }
 
   .author-pu > p {
     line-height: 20px;
     margin-right: 6%;
+    margin-left: 6%;
     padding-top: 22%;
     font-size: 12px;
     color: white;
@@ -837,15 +839,16 @@ margin-top: 0.5%;
  }
 
   .author-pu > .profile-photo {
-    margin-top: 15%;
+    margin-top: 12%;
   }
 
 .audio-player-pu {
  float:left;
- margin-top: -6%;
+ margin-top: -6%; /* mq */
  opacity: 0.3;
  filter:invert(100%);
- position: relative;
+ position: absolute;
+ display: flex;
  z-index: 100;
 
  }
@@ -859,24 +862,24 @@ margin-top: 0.5%;
    margin-top: 0;
    margin-left: 2%;
    background-color: black;
-   height: 2vh;
+   height: 2.5vh;
    color: white;
    padding-right: 0.5%;
    font-family: 'Times New Roman', Times, serif;
-   font-size: 16px;
+   font-size: 12px;
+   font-weight: 100;
  }
 
  
- .clock-pu .fas .fa-clock{
-   float: right;
-   margin-top: 0;
-   background-color: red;
+ .clock-pu{  
+   margin-top: 10%; /* mq */
    color: white;
  }  
 
 .clock-pu span {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 100;
 }
 /*=====================================================*/
 
