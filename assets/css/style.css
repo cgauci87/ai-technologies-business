@@ -20,6 +20,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100vh;
+  background-color:rgb(18, 42, 49);
 }
 
 a { color: white; text-decoration: none; }
@@ -141,7 +142,7 @@ a { color: white; text-decoration: none; }
   .intro {
     margin: 0;
     padding: 0;
-    background-color: slategrey;
+    background-color: rgb(18, 42, 49);
     background-image: url("../images/business-ai-hands.jpg");
     width: 100%;
     height: 100vh;
@@ -160,7 +161,7 @@ a { color: white; text-decoration: none; }
     letter-spacing: 20px;
     vertical-align: middle;
     text-align:center;
-    padding-top: 5%;
+    padding-top: 3%;
   }
 
 
@@ -220,7 +221,7 @@ a { color: white; text-decoration: none; }
   height: 4vh;
   padding-left: 1%;
   padding-right: 1%;
-  margin-top: 34%;
+  margin-top: 32%;
 }	
 
   /* Typewriter Animation */
@@ -243,19 +244,17 @@ a { color: white; text-decoration: none; }
     position: relative;
     margin-top: 0;
     width: 100%;
-    height: 10vh;
     background: url("../images/ai_intro_animation.png");
     background-repeat: repeat;
     background-size: 1000px 100px;
-    margin-top: 35%;
-  
   }  
 
   .spike#spike1 {
-    opacity: 0.6;
+    opacity: 0.3;
     animation: animateWaves 100s linear infinite;
+    height: 9.5vh;
+    margin-top: 33%;
   }
-  
 
   @keyframes animateWaves {
     0% {
@@ -319,10 +318,10 @@ a { color: white; text-decoration: none; }
   text-align: justify;
 }
 
-.ai-101-container h2 {
+.ai-101-container h3 {
 float: left;
 text-align: right;  
-font-size: 32px;
+font-size: 28px;
 overflow-wrap: break-word;
 line-height: 20px;
 vertical-align: middle;
@@ -333,10 +332,11 @@ margin-top: 0.5%;
 }
 
 
-.ai-101-container  h3 {
-  font-size: 22px;
+.ai-101-container  p {
+  font-size: 20px;
+  font-weight: 500;
   display: inline;
-  background-color: whitesmoke;
+  background-color: white;
   color: black;
   }
 
@@ -350,27 +350,27 @@ margin-top: 0.5%;
  } 
 
  #mimic-icon {
-  width: 150px;
+  width: 90px;
   float: left;
   position: absolute;
   display: flex;
-  transform: rotate(45deg);
+  transform: rotate(-35deg);
   margin-top:  10%;
   margin-left: 5%;
 }
 
 #process-icon {
-  width: 110px;
+  width: 60px;
   float: left;
   position: absolute;
   display: flex;
   transform: rotate(45deg);
-  margin-top: 13%;
-  margin-left: 15.5%;
+  margin-top: 9%;
+  margin-left: 13.5%;
 }
 
  #ux-icon {
-   width: 80px;
+   width: 40px;
    float: left;
    position: absolute;
    display: flex;
@@ -380,7 +380,7 @@ margin-top: 0.5%;
 
  
  #ml-icon {
-  width: 150px;
+  width: 120px;
   float: left;
   position: absolute;
   display: flex;
@@ -389,7 +389,7 @@ margin-top: 0.5%;
 }
 
   #big-data-icon {
-    width: 60px;
+    width: 40px;
     float: left;
     position: absolute;
     display: flex;
@@ -398,7 +398,7 @@ margin-top: 0.5%;
   }
 
   #bus-mgt-icon {
-    width: 100px;
+    width: 60px;
     float: left;
     position: absolute;
     display: flex;
@@ -408,7 +408,7 @@ margin-top: 0.5%;
   }
 
   #op-icon {
-    width: 100px;
+    width: 60px;
     float: left;
     position: absolute;
     display: flex;
@@ -417,7 +417,7 @@ margin-top: 0.5%;
   }
  
   #elv-icon {
-   width: 100px;
+   width: 60px;
    float: left;
    position: absolute;
    display: flex;
@@ -426,7 +426,7 @@ margin-top: 0.5%;
  }
  
    #growth-icon {
-     width: 100px;
+     width: 60px;
      float: left;
      position: absolute;
      display: flex;
@@ -551,6 +551,11 @@ margin-top: 0.5%;
     z-index:4;
   }
 
+  #sample1 {
+  position: relative;
+  width: 100%;
+  height: 7vh;
+  }
 
 /*=====================================================end============================================================= */
  
