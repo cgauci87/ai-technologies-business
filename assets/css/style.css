@@ -513,18 +513,17 @@ margin-top: 0.5%;
   
   #listen{
     float: left;
-    margin-left: 0;
+    padding-left: 1%;
     background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    height: 2vh;
+    height: 3vh;
     font-size: 16px;
 
   }
 
   .fas .fa-hand-pointer{
     float: left;
-    margin-left: 1.1%;
     background-color: black;
     height: 2vh;
     color: rgba(127, 221, 252, 0.932);
@@ -537,6 +536,7 @@ margin-top: 0.5%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
+    height: 3vh;
   }  
 
   .section-footer {     /*footer*/
@@ -554,7 +554,7 @@ margin-top: 0.5%;
   #sample1 {
   position: relative;
   width: 100%;
-  height: 7vh;
+  height: 9.5vh;
   filter:saturate(25%);
   opacity:0.8;
   }
@@ -697,9 +697,9 @@ margin-top: 0.5%;
 
 #popup-article-bankfin article p {  /* wip */
   text-align: justify;
-  padding-left: 36.5%;
-  margin-top: -7.5%;
-  margin-right: -5.5%;
+  padding-left: 47.5%;
+  margin-top: -5.5%;
+  margin-right: 0;
   float:right;
   display: inline;
 }
@@ -710,9 +710,11 @@ margin-top: 0.5%;
   font-weight:bolder;
   float: right;
   display: inline;
+  text-align: left;
   padding-top: 4%;
-  padding-left: 40%;
-  line-height: 50px;
+  padding-left: 48%;
+  padding-right: 10%;
+  line-height: 42px;
 }
 
 
@@ -753,8 +755,8 @@ margin-top: 0.5%;
   display: flex;
   padding-top: 10%;
   padding-right: 2%;
-  margin-top: -9.5%;
-  margin-left: -4.5%;
+  margin-top: -8.7%;
+  margin-left: 0;
   z-index: 20;
 }
 
@@ -762,7 +764,7 @@ margin-top: 0.5%;
   float:right;
   width: 50px;
   margin-top: 4%;
-  margin-right: 50%;
+  margin-right: 40%;
   margin-bottom: -70%;
 }
 
@@ -771,7 +773,7 @@ margin-top: 0.5%;
   display: flex;
   flex-direction: column;
   padding-left: 45%;
-  margin-left:-28%;
+  margin-right: 6%;
   padding-top: 4%;
   font-size: 18px;
   font-weight: 600;
@@ -783,7 +785,7 @@ margin-top: 0.5%;
   text-align: center;
   width: 100%;
   height: 10vh;
-  margin-top: 2%;
+  margin-top: 3.1%;
   padding-top: 2.5%;
   padding-right: 4%;
   }
@@ -805,10 +807,9 @@ margin-top: 0.5%;
 
   .author-pu > p {
     line-height: 20px;
-    padding-right: 15%;
-    margin-left: -25%;
+    margin-right: 6%;
     padding-top: 22%;
-    font-size: 16px;
+    font-size: 12px;
     color: white;
   }
 
@@ -819,8 +820,9 @@ margin-top: 0.5%;
    color:white;
    font-size:14px;
    text-align: left;
-   padding-top: 15%;
+   padding-top: 10%;
    padding-left: 5%;
+   margin-top: 5%;
  }
 
   .author-pu > .profile-photo {
