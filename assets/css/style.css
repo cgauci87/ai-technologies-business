@@ -21,6 +21,7 @@ body {
   width: 100%;
   height: 100vh;
   background-color:rgb(18, 42, 49);
+  overflow: hidden;
 }
 
 a { color: white; text-decoration: none; }
@@ -657,7 +658,7 @@ margin-top: 0.5%;
 }
 
 
-#popup-article-bankfin { /*wip*/
+#popup-article-bankfin { 
   height:135%;
   width:270%;
   margin-left:66%;
@@ -668,9 +669,10 @@ margin-top: 0.5%;
   background: #424242;
   border:5px solid #cccccc;
   border-radius:10px;
-  overflow: scroll;
-
+  overflow-y:hidden;
+  overflow-x:hidden;
 }
+
 
 #cover{
   position:fixed;
@@ -679,41 +681,58 @@ margin-top: 0.5%;
   background:rgba(0,0,0,0.6);
   z-index:5;
   width:100%;
-  height:100%;
+  height:200%;
   display:none;
 }
 
 #popup-article-bankfin article { 
-  margin-top: 3%;
   margin-right: 3%;
   margin-left: 3%;
   line-height: 25px;
   background-color: white;
+  width: 94%;
   height: 100%;
   padding-left: 2%;
   padding-right: 2%;
+  overflow-y:scroll;
+  overflow-x:hidden;
 }
 
 
 #popup-article-bankfin article p {  /* wip */
   text-align: justify;
   padding-left: 47.5%;
-  margin-top: -5.5%;
   margin-right: 0;
+  height: 200%;
   float:right;
   display: inline;
 }
 
+#part-two {
+  float:left;
+  margin-top: 5%;
+  margin-left: -90%;
+}
+
+.scroll-down {
+  color: red;
+  float:right;
+}
+
+
+
+#figure-1-wrapper { /*wip*/
+  margin-top: -125%;
+  padding-left: 50%;
+  float:right;
+}
+
 #quote-1{
-  font-size: 28px;
+  font-size: 20px;
   color: darkblue;
   font-weight:bolder;
-  float: right;
-  display: inline;
-  text-align: left;
-  padding-top: 4%;
-  padding-left: 48%;
-  padding-right: 10%;
+  display: flex;
+  text-align:center;
   line-height: 42px;
 }
 
@@ -761,20 +780,11 @@ margin-top: 0.5%;
 }
 
  #q-icon {
-  float:right;
   width: 50px;
-  margin-top: 4%;
-  margin-right: 40%;
-  margin-bottom: -70%;
 }
 
 #q-caption {
   color:black;
-  display: flex;
-  flex-direction: column;
-  padding-left: 45%;
-  margin-right: 6%;
-  padding-top: 4%;
   font-size: 18px;
   font-weight: 600;
 }
