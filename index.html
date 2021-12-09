@@ -44,15 +44,15 @@
 						<p class="line-1 anim-typewriter">#AI #Bigdata #MachineLearning #Automation #Catalyst 
 						#DigitalTransformation #Accelerate #Innovation #Tech</p>
 					</div>
-					<div class=section-footer>
+					<footer class=section-footer>
 						<form action="#ai-101" method="get" id="form1"></form>
-						<button type="submit" class="goto-btn" form="form1" value="Submit">Explore More</button>
-					</div>
+						<button type="submit" class="goto-btn goto-btn-txt" form="form1" value="Submit">Explore More</button>
+					</footer>
 					<div class="spike" id="spike1"></div>
 			</section>
 
 			<section class="ai-101" id="ai-101">
-				<div class="section-header"> <h2>AI-101</h2></div>
+				<header class="section-header"><h2>AI-101</h2></header>
 				<span><i class="far fa-clock"> 1 min read</i></span>
 				<div class="audio-player">
 				  <audio controls>
@@ -107,18 +107,18 @@
 						</div>
 					</article>
 				</div>
-				<div class=section-footer>
+				<footer class=section-footer>
 					<form action="#industries" method="get" id="form2"></form>
-					<button type="submit" class="goto-btn" form="form2" value="Submit">Learn More</button>
-				</div>
-					<div class="spike-sec" id="spike1"></div>	
-			</section>				
-				<header class="section-header"><h2>Industries</h2>
-					</header>
-						<main  class="grid-template-rows-1 grid">
+					<button type="submit" class="goto-btn goto-btn-txt" form="form2" value="Submit">Learn More</button>
+				</footer>
+			</section>
+			
+			<section class="industries" id="industries">
+				<article>
+					<header class="section-header"><h2>Industries</h2></header>
+						<div class="grid-template-rows-1 grid">
 							<div class="item" id="bankfin">
-								<article>
-								<h2>Banking & Finance</h2>
+								<h3>Banking & Finance</h3>
 								<p>Artificial intelligence is fast evolving. Banking and finance industry are one of those finding ways to leverage this game changing technology.</p>
 								<p>Many financial institutions use AI and ML applications to streamline their operations such as automation process to identify fraud , detecting unusual transactions.</p>
 								<p>AI solutions can also assist in making the process of credit risk analysis more efficient, accurate, and effective.</p>
@@ -126,62 +126,17 @@
 								<p>AI in the realm of finance powers many solutions aimed at enhancing security precautions.</p>
 								<p>As AI continues to be a growing force within fintech, experts believe its usage will spread across more sectors.</p>
 								<a href="#popup-article-bankfin"><p><u>Read full article</u></p></a>
-								</article>
-								<div class=popup-container>
-								</div>
-									<div id="popup-article-bankfin">
-										<article>
-											<h2>Banking & Finance</h2>
-											<div class="clock-pu">
-											<i class="fas fa-clock"><span>1 min read</span></i>
-											</div>
-											<div class="audio-player-pu">
-												<audio controls>
-												  <source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
-												  Your browser does not support the audio tag.
-												</audio>
-												</div>
-												<div class="pointer-pu">
-												<i class="far fa-hand-pointer"><span> Listen to this article</span></i>
-												</div>
-												  <div class="author-pu">
-													  <img alt="Chris Gauci" class="profile-photo"
-													  src="assets/images/profile_photo.png"><p><b>Chris Gauci</b></p>
-												  <aside><span>Admin</span>
-														 <br>
-														 <span>Updated Dec 07, 2021</span>
-												  </aside>
-											  </div>
-										<article>
-											<h3>Artificial intelligence is fast evolving.</h3> <p>Banking and finance industry are one of those finding ways to leverage this game changing technology.
-											Many financial institutions use AI and ML applications to streamline their operations such as automation process to identify fraud , detecting unusual transactions.
-											AI solutions can also assist in making the process of credit risk analysis more efficient, accurate, and effective.
-											Front and middle-office AI applications offer the greatest cost savings opportunity across digital banking.
-											AI in the realm of finance powers many solutions aimed at enhancing security precautions.
-											As AI continues to be a growing force within fintech, experts believe its usage will spread across more sectors.</p>
-											<div class="vertical-image">
-												<img src="assets/images/bk_img.png" alt="banking" id="bk-img">
-											</div>
-											<figure>
-												<img src="assets/images/quote_icon.png" alt="quote" id="q-icon">
-												<figcaption id="q-caption">Deloitte Insights</figcaption>
-											</figure>
-											<aside id="quote-1"><i>"70% of all financial services firms are using machine learning to predict cash flow events, fine-tune credit scores and detect fraud."</i></aside>
-									</article>
-											<a href="#industries" class="cancel">×</a>
-										</article>
-									</div>
-									<div id="cover"></div>
-								</div>
+							</div>
+								
 							<div class="item" id="healthph">
-								<h2>Health & Pharma</h2>
+								<h3>Health & Pharma</h3>
 								<p>AI & ML have been playing a critical role in medical industry.</p>
 								<p>From disease identification and diagnosis, helping identify patients for clinical trials to drug manufacturing and predictive forecasting, these technologies have proven critical.</p>
 								<p>State-of-the-art algorithms have achieved accuracies which are at par with human experts in the field of medical sciences.</p>
 								<p><u>Read full article</u></p>
 							</div>
 							<div class="item" id="manufacturing">
-								<h2>Manufacturing</h2>
+								<h3>Manufacturing</h3>
 								<p>AI is extensively being used in the manufacturing sector, facilitating the industrial automation.</p>
 								<p>Artificial intelligence can ingest a combination of data from sensors, machines, and people and then apply it to algorithms designed to optimize operations or achieve lights out manufacturing. </p>
 								<p>Process plants rely on AI to integrate data, analyze it, and produce the deep insights and predictions that help drive better decision-making across the board.  </p>
@@ -190,31 +145,32 @@
 								<p><u>Read full article</u></p>
 							</div>
 							<div class="item" id="retailecom">
-								<h2>Retail & eCommerce</h2>
+								<h3>Retail & eCommerce</h3>
 								<p>AI algorithms are being utilised to predict changes in consumer demand as to improve customer experience in Retail and eCommerce industry.</p>
-								<p>Market leaders upload data and build models using AI & ML tools to deliver customised experiences.</p>
+								<p>Market leaders build models using AI & ML to deliver customised experiences.</p>
 								<p>With the use of big data, AI is impacting customer choices thanks to its knowledge of previous purchases and searched products.</p>
 								<p><u>Read full article</u></p>
 							</div>
-							<div class="item" id="logisticstrans"><h2>Logistics & Transportation</h2>
+							<div class="item" id="logisticstrans"><h3>Logistics & Transportation</h3>
 								<p>AI solutions in Logistics and Transportation are being used to decrease operating costs and optimize workflows with better, data-driven insights.</p>
 								<p>Indeed, AI is considered to be the best assistant for global supply chains in managing assets and facilities in the most cost-efficient way. </p>
 								<p><u>Read full article</u></p>
 							</div>
-							<div class="item" id="gaming"><h2>Gaming</h2>
+							<div class="item" id="gaming"><h3>Gaming</h3>
 								<p>AI has a significant role in game development.</p>
 								<p>Video games whether they’re racing-car games, shooting games, or strategy games, are all powered by AI.</p>
-								<p>The main objective of utilizing AI in gaming is to deliver a realistic gaming experience for players on a virtual platform.</p>
+								<p>The main objective of utilizing AI in gaming is to deliver a realistic gaming experience on a virtual platform.</p>
 								<p><u>Read full article</u></p>
 							</div>	
-				</main>
+						</div>
 								<footer class=section-footer>
 								<form action="#podcasts" method="get" id="form3"></form>
-								<button type="submit" class="goto-btn" form="form3" value="Submit">Listen to Podcasts</button>
+								<button type="submit" class="goto-btn goto-btn-txt" form="form3" value="Submit">Listen to Podcasts</button>
 								</footer>
+				</article>
+				</section>
 
 			<section class="podcasts" id="podcasts">
-				<h2>Podcasts</h2>
 					<div class="podcasts-container">
 						<div class="content">
 			
