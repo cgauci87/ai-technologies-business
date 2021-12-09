@@ -180,16 +180,6 @@ a { color: white; text-decoration: none; }
   padding: 1.2em 2.8em;
   margin: 0 auto;
   position: relative;
-  z-index:2;
-  }
-
-.goto-btn:hover {
-  color: whitesmoke;
-  outline: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.goto-btn p {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -199,6 +189,13 @@ a { color: white; text-decoration: none; }
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 10px;
+  z-index:2;
+  }
+
+.goto-btn:hover {
+  color: whitesmoke;
+  outline: 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 
@@ -251,7 +248,7 @@ a { color: white; text-decoration: none; }
   
   }  
 
-  .spike.spike1 {
+  .spike#spike1 {
     opacity: 0.6;
     animation: animateWaves 100s linear infinite;
   }
@@ -302,7 +299,7 @@ a { color: white; text-decoration: none; }
   z-index: 3;
   }
 
-.section-header h1{
+.section-header h2{
   background-color:rgb(18, 42, 49);
   font-size: 60px;
   color: whitesmoke;
