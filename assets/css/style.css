@@ -744,6 +744,23 @@ margin-top: 0.5%;
 }
 
 
+#risk-comp-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-left: 9%;
+  padding-right: 7%;
+}
+
+
+.bottom-image-container {
+  margin-top: 5%;
+  margin-left: -20%;
+  margin-right: -10%;
+  background: rgb(18, 42, 49);
+  filter:saturate(60%);
+}
+
 .popup-article-bankfin {
   background: none;
   color: black;
