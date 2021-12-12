@@ -689,7 +689,6 @@ margin-top: 0.5%;
 #popup-article-bankfin article { 
   margin-right: 3%;
   margin-left: 3%;
-  line-height: 25px;
   background-color: white;
   width: 94%;
   max-height: 78%;
@@ -702,13 +701,29 @@ margin-top: 0.5%;
   margin-top: 12.8%; /*mq*/
 }
 
+
+#bk-img { /*wip*/
+  position: absolute;
+  display: flex;
+  height: 76vh;
+  width: 300px;
+  z-index: 20;
+  float:left;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-top: 0;
+  margin-left: -2.5%;
+}
+
+
 #bankfin-p1 p {  /* wip */
   text-align: justify;
-  padding-left: 47.5%;
   margin-right: 0;
   height: 200%;
-  float:right;
+  float: right;
   display: inline;
+  padding-left: 32.5%;
+  line-height: 25px;
 }
 
 #bankfin-p2 {  /* wip */
@@ -744,21 +759,16 @@ margin-top: 0.5%;
 }
 
 
-#risk-comp-img {
-  display: block;
+#risk-comp-img { /*wip*/
   width: 100%;
-  height: auto;
-  padding-left: 9%;
-  padding-right: 7%;
+  height: 10vh;
 }
 
 
 .bottom-image-container {
-  margin-top: 5%;
-  margin-left: -20%;
-  margin-right: -10%;
   background: rgb(18, 42, 49);
   filter:saturate(60%);
+  margin-top:0;
 }
 
 .popup-article-bankfin {
@@ -791,19 +801,6 @@ margin-top: 0.5%;
 
 /*-------------popup content and images---------------wip-  -------- */
 
-
-
-#bk-img {
-  position: absolute;
-  display: flex;
-  height: 78%;
-  z-index: 20;
-  float:left;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  margin-top: 0;
-  margin-left: -2.5%;
-}
 
  #q-icon {
   position: relative;
