@@ -419,18 +419,32 @@
 					</div>
 
 					<footer class="section-footer">
-						<form action="#contect" method="get" id="form5"></form>
+						<form action="#contact" method="get" id="form5"></form>
 						<button type="submit" class="goto-btn goto-btn-txt" form="form5" value="Submit" >Contact</button>
 					</footer>
 			</section>
 
 			<section class="contact" id="contact">
-				<h2>Contact</h2>
+				<header class="section-header"><h2>Contact</h2></header>
 					<div class="contact-container">
-						<div class="content">
-			
+								<form action="#" method="post">
+								  <div class="field">
+									<input type="text" id="name" name="name" placeholder="Full Name" autofocus/>
+									<label for="name">Name</label>
+								  </div>
+								  <div class="field">
+									<input type="text" id="email" name="email" placeholder="name@mail.com" />
+									<label for="email">Email</label>
+								  </div>
+								  <div class="field">
+									<textarea id="msg" rows="4" name="msg" placeholder="Write your message..."></textarea>
+									<label for="msg">Message</label>
+								  </div>
+								  <input id="send-btn" type="submit" value="Send" />
+								</form>
+							  
+							  </div>
 							</div>
-					</div>
 			</section>
 
 				<footer class="footer">
