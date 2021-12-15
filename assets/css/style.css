@@ -1273,6 +1273,9 @@ and (min-width: 1200px) {
   padding-left: 1%;
   padding-right: 1%;
   margin-top: 37%;
+  font-size: 19px;
+  word-spacing: 12px;
+  height: 3vh;
 }	
   .spike#spike1 {
     margin-top: 38%;
@@ -1336,16 +1339,12 @@ and (min-width: 1200px) {
 
 }
 
-/*wip*/
-
 .popup-article { 
   height:135%;
   width:330%;
   margin-left:40%;
   margin-top: -410%;
 }
-
-
 
 .article-p1 p { 
 font-size: 16px;
@@ -1371,81 +1370,21 @@ line-height: 25px;
   font-size: 16px;
 }
 
-
-.btm-image-wrapper{
-  background: rgb(18, 42, 49);
-  filter:saturate(60%);
-  margin-top:5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-left: -3.2%;
-  margin-right: -3.3%;
-}
-
 .cancel {
-  display:block;
-  position:absolute;
-  top: 0;
-  right:0;
-  background:rgb(245,245,245);
-  color:black;
-  height:30px;
-  width:35px;
-  font-size:30px;
-  text-decoration:none;
-  text-align:center;
-  font-weight:bold;
+  height:28px;
+  width:32px;
+  font-size:28px;
 }
 
 .cancel:hover {
   color:red;
 }
 
-/* bankfin===============POP-UP ARTICLE=============bankfin */
-
-
-#popup-article-bankfin:target, #popup-article-bankfin:target + .cover{
-  display:block;
-  opacity:2;
-}
-
-#bk-img {
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  width: 300px;
-}
-
-
-#risk-comp-img {
-  width: 100%;
-  height: 27vh;
-}
-
-
-/* healthph===============POP-UP ARTICLE=============healthph */
-
-
-#popup-article-healthph:target, #popup-article-healthph:target + .cover{
-  display:block;
-  opacity:2;
-}
 
 #popup-article-healthph {
-  height:242%;
-  margin-left:-35%;
-  margin-top: -220%;
-}
-
-#medical-img {
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  width: 300px;
-}
-
-
-#surgery-img {
-  width: 100%;
-  height: 27vh;
+height:260%;
+margin-left: -60%;
+margin-top: -240%;
 }
 
 
