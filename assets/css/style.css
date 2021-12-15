@@ -1238,8 +1238,19 @@ form .field textarea {
 /* [desktop + large tablets] show additional images on index, display gallery selection side-by-side */
 @media screen and (orientation: landscape)
 and (min-width: 1200px) {
+   .intro h1 {
+    font-size: 65px;
+    letter-spacing: 15px;
+    padding-top: 4%;
+   }
 
-
+   
+.line-container .line-1 {
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 37%;
+}	
+  .spike#spike1 {
+    margin-top: 38%;
+  }
 }
-
-
