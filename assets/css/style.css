@@ -1388,4 +1388,21 @@ margin-top: -240%;
 }
 
 
-/*==========================================================================================*/
+/*========================================wip==================================================*/
+
+
+.podcasts-container-1 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+ .podcasts-container-2 {
+  margin-bottom: -10%;
+}
+
+.wave {
+  margin-bottom: -3%;
+}
+
+.podcasts {
+  background-color: white;
+}
