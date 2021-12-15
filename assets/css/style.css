@@ -552,6 +552,9 @@ margin-top: 0.5%;
     flex-direction: column;
     margin-top: 13%;
     z-index:0;
+
+
+    
   }
 
   #graphical-img {
@@ -1233,11 +1236,16 @@ form .field textarea {
 .human-brain-on-technology-background-represent-artificial-intelligence-and-cyber-space-concept-5-rgba { color: rgba(67, 242, 224, 1); }
 
 
-/* MEDIA QUERIES wip*/
+/* MEDIA QUERIES*/
 
 /* [desktop + large tablets] show additional images on index, display gallery selection side-by-side */
 @media screen and (orientation: landscape)
 and (min-width: 1200px) {
+
+  .nav > .nav-links {
+    margin-right: 2%;
+  }
+
    .intro h1 {
     font-size: 65px;
     letter-spacing: 15px;
@@ -1252,5 +1260,45 @@ and (min-width: 1200px) {
 }	
   .spike#spike1 {
     margin-top: 38%;
-  }
 }
+
+.audio-player {
+  margin-top: -4.5%;
+  margin-left: 0;
+}
+
+.author{
+  margin-right: 13.5%;
+  margin-top: -4.5%;
+}
+
+.author p {
+  line-height: 22px;
+  margin-top: 2%;
+}
+
+.author aside {
+  margin-top: -2%;
+}
+
+.profile-photo {
+  height: 45px;
+  margin-top: 5%;
+}
+
+.ai-101-container h3 {
+  font-size: 26px;
+  }
+  
+  .ai-101-container  p {
+    font-size: 18px;
+    }
+
+    #graphical-img {
+      height: 12vh;
+      margin-top: -3.5%;
+      }
+
+}
+
+/*wip*/
