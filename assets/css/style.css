@@ -552,9 +552,6 @@ margin-top: 0.5%;
     flex-direction: column;
     margin-top: 13%;
     z-index:0;
-
-
-    
   }
 
   #graphical-img {
@@ -1246,6 +1243,25 @@ and (min-width: 1200px) {
     margin-right: 2%;
   }
 
+  .section-header h2{
+    font-size: 48px;
+    height: 17vh;
+    margin-top: 8%;
+    padding-top: 4.5%
+    }
+
+    
+  .section-footer { 
+    height: 6.5vh;
+    margin-top: 14.5%;
+  }
+
+  .goto-btn {
+    border-radius: 0.3em;
+    padding: 0.5em 0.5em;
+    margin: 0 auto;
+    }
+  
    .intro h1 {
     font-size: 65px;
     letter-spacing: 15px;
@@ -1290,14 +1306,33 @@ and (min-width: 1200px) {
   font-size: 26px;
   }
   
-  .ai-101-container  p {
+.ai-101-container  p {
     font-size: 18px;
-    }
+  }
 
-    #graphical-img {
-      height: 12vh;
-      margin-top: -3.5%;
-      }
+#graphical-img {
+  height: 12vh;
+  margin-top: -5%;
+  }
+
+.grid-template-rows-1 , .grid {
+    margin-bottom: -14.1%;
+}
+  
+.grid-template-rows-1{
+    grid-template-rows: minmax(200px, 500px);
+}
+
+
+.grid h3 {
+	font-size: 14px;
+  font-weight:400;
+}
+.grid p {
+	font-size: 12px;
+	font-weight:400;
+  line-height: 16px;
+}
 
 }
 
