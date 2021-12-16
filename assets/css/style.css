@@ -819,7 +819,7 @@ margin-top: 0.5%;
   height:135%;
   width:270%;
   margin-left:66%;
-  margin-top: -370%;
+  margin-top: 0%;
   position:relative;
   z-index:10;
   display:none;
@@ -862,7 +862,7 @@ margin-top: 0.5%;
   display: inline;
   line-height: 25px;
   padding-left: 33%;
-  margin-top: -2%;
+  margin-top: 2%;
 }
 
 .quote-wrapper {
@@ -969,12 +969,13 @@ margin-top: 0.5%;
 }
 
 
-#popup-article-healthph {
-  height:242%;
-  margin-left:-35%;
-  margin-top: -220%;
-}
 
+#popup-article-healthph {
+  height:100vh;
+  width: 175%;
+  margin-left: 37%;
+  margin-top: -150%;
+}
 
 #medical-img {
   border-top-left-radius: 50px;
