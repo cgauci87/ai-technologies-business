@@ -203,7 +203,29 @@ a { color: white; text-decoration: none; }
 }
 
 
-.line-container .line-1 {
+
+.line-wrapper-1 .line-1 {
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);
+  box-sizing: border-box;
+  width: 100%;
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-align: center;
+  overflow: hidden;
+  transform: translateY(-10%);
+  position: absolute;
+  display: flex;
+  font-size: 48px;
+  word-spacing: 16px;
+  height: 20vh;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 4%;
+  white-space:pre-line;
+}	
+
+.line-wrapper-2 .line-2 {
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
   background-color: rgb(25,25,25);
@@ -226,8 +248,8 @@ a { color: white; text-decoration: none; }
 
   /* Typewriter Animation */
   .anim-typewriter{
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-               blinkTextCursor 500ms steps(44) infinite normal;
+    animation: typewriter 1s steps(44) 1s 1 normal both,
+               blinkTextCursor 1000ms steps(44) infinite normal;
   }
   @keyframes typewriter{
     from{width: 0;}
@@ -253,7 +275,7 @@ a { color: white; text-decoration: none; }
     opacity: 0.3;
     animation: animateWaves 100s linear infinite;
     height: 9.5vh;
-    margin-top: 33%;
+    margin-top: 33.5%;
   }
 
   @keyframes animateWaves {
@@ -1236,6 +1258,7 @@ form .field textarea {
 /* MEDIA QUERIES*/
 
 /* [desktop + large tablets] show additional images on index, display gallery selection side-by-side */
+/*
 @media screen and (orientation: landscape)
 and (min-width: 1200px) {
 
@@ -1388,8 +1411,6 @@ margin-top: -240%;
 }
 
 
-/*========================================wip==================================================*/
-
 
 .podcasts-container-1 {
   margin-top: 2%;
@@ -1406,3 +1427,5 @@ margin-top: -240%;
 .podcasts {
   background-color: white;
 }
+
+*/
