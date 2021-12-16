@@ -309,7 +309,7 @@ a { color: white; text-decoration: none; }
   background-image: url("../images/ai_101_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode:lighten;
+  background-blend-mode:color-dodge;
   color: rgb(25,25,25);
   background-attachment:fixed;
   background-position: 50% 50%;
@@ -357,9 +357,8 @@ margin-top: 0.5%;
 
 .ai-101-container  p {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   display: inline;
-  background-color: white;
   color: black;
   }
 
@@ -571,10 +570,22 @@ margin-top: 0.5%;
     height: 8vh;
     justify-content: center; 
     align-items: center;
-    flex-direction: column;
     margin-top: 13%;
     z-index:0;
   }
+
+  .section-footer-2 { 
+    position: absolute;
+    width: 100%;
+    background: rgb(18, 42, 49,.3);
+    height: 8vh;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin-top: 37%;
+    z-index:0;
+  }
+
 
   #graphical-img {
   position: relative;
@@ -604,9 +615,9 @@ margin-top: 0.5%;
 
 .grid-template-rows-1 , .grid {
   display: grid;
-  min-height: 100%;
   padding: 2.5px 2.5px;
-  margin-bottom: -12.5%;
+  min-height: 100%;
+  grid-template-columns: auto auto auto auto;
 }
 
  .grid {
@@ -616,19 +627,36 @@ margin-top: 0.5%;
   background-color: rgb(25,25,25);
 }
 
-.grid-template-rows-1{
-  grid-template-rows: minmax(300px, 500px);
-  grid-template-columns: repeat(4, 1fr);
-}
+
 
 #bankfin {
-  grid-row: span 2;
+  background-image: url("../images/bank_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:overlay;
 }
+
+#healthph {
+  background-image: url("../images/healthcare-image.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-blend-mode:overlay;
+}
+
 
 #manufacturing {
-  grid-row: span 2;
+  background-image: url("../images/manufacturing-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:overlay;
 }
 
+#retailecom {
+  background-image: url("../images/ecom_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:overlay;
+}
 
 .item {
 	margin: 2.5px;
@@ -642,8 +670,8 @@ margin-top: 0.5%;
 
 .grid h3 {
 	text-align: center;
-	font-size: 22px;
-  font-weight:500;
+	font-size: 32px;
+  font-weight:600;
   background-color: inherit;
   filter: invert(10%);
   color: white;
@@ -657,13 +685,14 @@ margin-top: 0.5%;
   line-height: 34 px;
 }
 
-.grid span {
+.grid-span {
   position: absolute;
   top: 50%;
   left: 50%;  
   transform: translate(-50%, -50%);
-  font-weight: 700;
-  line-height: 30px;
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 28px;
   color: white;
   background: rgba(0,0,0,0.6);
 }
@@ -675,13 +704,10 @@ margin-top: 0.5%;
   background: rgba(0,0,0,0.6);
 }
 
-#bank-img {
-  width:100%;
-  height:100%;
-  opacity:0.6;
+#bank-img,  #hc-img, #log-trans-img {
+  grid-area: photo; 
 }
 
-}
 /*======================================================= */
 
 
@@ -727,16 +753,17 @@ margin-top: 0.5%;
   }
 
   .author-pu > aside {
-   line-height: 18px;
-   border-left: 2px solid rgba(127, 221, 252, 0.932);
-   height: 8vh;
-   color:white;
-   font-size:14px;
-   text-align: left;
-   padding-top: 10%;
-   padding-left: 5%;
-   margin-top: 5%;
- }
+    line-height: 18px;
+    border-left: 2px solid rgba(127, 221, 252, 0.932);
+    height: 8vh;
+    color:white;
+    font-size:14px;
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 5%;
+    margin-top: 5%;
+  }
+ 
 
   .author-pu > .profile-photo {
     margin-top: 12%;
@@ -775,7 +802,7 @@ margin-top: 0.5%;
    margin-top: 10%; /* mq */  
  }  
 
-.clock-pu span {
+.clock-pu  > span {
   font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
   font-weight: 100;
@@ -911,7 +938,7 @@ margin-top: 0.5%;
   top: 0;
   right:0;
   background:rgb(245,245,245);
-  color:black;
+  color:white;
   height:30px;
   width:35px;
   font-size:30px;
