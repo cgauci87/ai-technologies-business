@@ -1092,7 +1092,8 @@ iframe {
 
 .subscribe-form h1 {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 8.5%;
+  margin-bottom: 5%;
   font-size: 42px;
 }
 
@@ -1170,7 +1171,7 @@ iframe {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(90deg, #b13e8b, #372056);
+  background: linear-gradient(90deg, rgba(33, 141, 165, 1), rgba(39, 89, 89, 1));
   width: 100%;
   height: 64px;
   transition: width 333ms ease-in-out;
@@ -1206,7 +1207,7 @@ form .field textarea {
   width: 18%;
 }
 .contact-container form input[type="submit"] {
-  background: linear-gradient(90deg, #b13e8b, #812d65);
+  background: linear-gradient(90deg, rgba(255,255,255,.75), rgba(127, 221, 252, 0.932));
   -webkit-appearance: none;
   border: none;
   position: relative;
@@ -1215,7 +1216,8 @@ form .field textarea {
 }
 .contact-container form input[type="submit"]:hover,
 .contact-container form input[type="submit"]:focus {
-  background: #372056;  
+  background: rgb(18, 42, 49);  
+  color: whitesmoke;
 }
 
 #send-btn {
