@@ -574,19 +574,6 @@ margin-top: 0.5%;
     z-index:0;
   }
 
-  .section-footer-2 { 
-    position: absolute;
-    width: 100%;
-    background: rgb(18, 42, 49,.3);
-    height: 8vh;
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column;
-    margin-top: 37%;
-    z-index:0;
-  }
-
-
   #graphical-img {
   position: relative;
   width: 100%;
@@ -618,6 +605,7 @@ margin-top: 0.5%;
   padding: 2.5px 2.5px;
   min-height: 100%;
   grid-template-columns: auto auto auto auto;
+  margin-bottom: -12.5%;
 }
 
  .grid {
@@ -980,11 +968,13 @@ margin-top: 0.5%;
   opacity:2;
 }
 
+
 #popup-article-healthph {
   height:242%;
   margin-left:-35%;
   margin-top: -220%;
 }
+
 
 #medical-img {
   border-top-left-radius: 50px;
