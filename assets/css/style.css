@@ -1556,7 +1556,7 @@ and (min-width: 1366px) {
 }
   
 .grid-template-rows-1{
-    grid-template-rows: minmax(200px, 500px);
+    grid-template-rows: 500px auto;
 }
 
 
@@ -1818,7 +1818,7 @@ and (min-width: 1366px) {
 }
   
 .grid-template-rows-1{
-    grid-template-rows: minmax(300px, 900px);
+  grid-template-rows: 800px auto;
 }
 
 .grid h3 {                
