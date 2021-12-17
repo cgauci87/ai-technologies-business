@@ -1813,7 +1813,7 @@ and (min-width: 1366px) {
 /*====================================================*/
 
 
-.grid-template-rows-1 , .grid {      /*wip*/
+.grid-template-rows-1 , .grid {
     margin-bottom: -21.5%;
 }
   
@@ -1836,57 +1836,98 @@ and (min-width: 1366px) {
   font-size: 24px;
   font-weight: 200;
 }
+/*=======================================*/
 
-.popup-article { 
-  width:76%;
-  margin-left: 12%;
+.article-p1 p, .article-p2  { 
+  font-size: 26px;
+  font-weight: 450;
+  line-height: 30px;
 }
 
-.article-p1 p { 
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+#bk-img {
+  width: 435px;
+  margin-bottom: -14.5%;
 }
 
-.article-p2 {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+#medical-img {
+  width: 435px;
+  margin-bottom: -14.5%;
+}
+/*wip*/
+
+.q-icon {
+  width: 60px;
+}
+
+.q-caption {
+  font-size: 26px;  
+  font-weight: 600;
 }
 
 .quote{
-  margin-top: 2%;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36px;
 }
 
 .article-p2 h3 {
- font-size: 20px;
+ font-size: 26px;
+}
+ .cancel {
+  height:44px;
+  width:45px;
+  font-size:45px;
 }
 
-.cancel {
-  height:27.5px;
-  width:31px;
+ .popup-article article { 
+  max-height: 83%;
 }
 
 .article-header h2 {
-  height: 9vh;
-  padding-top: 1.4%;
+  height: 5vh;
+  padding-top: 0.8%;
   }  
 
 .author-pu{
-  margin-top: -6%;  /* mq */
-  margin-left: 70%; /* mq */
+  margin-top: -4%;  /* mq */
+  margin-left: 75%; /* mq */
   }
   
-
   .author-pu > p {
-    padding-top: 23%;
+    line-height: 20px;
+    margin-right: 6%;
+    margin-left: 6%;
+    padding-top: 22%;
+    font-size: 10px;
+    color: white;
+  }
+
+  .author-pu > aside {
+    line-height: 18px;
+    border-left: 2px solid rgba(127, 221, 252, 0.932);
+    height: 4.5vh;
+    color:white;
+    font-size:14px;
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 5%;
+    margin-top: 5%;
+  }
+ 
+  .profile-photo {
+    height: 40px;
+    max-width: 40px;
   }
 
 .audio-player-pu {
  float:left;
- margin-top: -5.5%; /* mq */
+ margin-top: -3.8%; /* mq */
+ }
+
+ .pointer-pu {
+  font-size: 16px;
+  font-weight: 300; 
+  margin-left: 1.5%;
  }
 /*  ===========================================   */
 
