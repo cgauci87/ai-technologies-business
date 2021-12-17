@@ -691,10 +691,6 @@ margin-top: 0.5%;
   background: rgba(0,0,0,0.6);
 }
 
-#bank-img,  #hc-img, #log-trans-img {
-  grid-area: photo; 
-}
-
 /*======================================================= */
 
 
@@ -1732,7 +1728,7 @@ and (min-width: 1366px) {
 .audio-player {
   margin-top: -3%;
 }
- 
+
 #listen{
   float: left;
   padding-left: 1%;
@@ -1741,8 +1737,6 @@ and (min-width: 1366px) {
   font-size: 22px;
   word-spacing: 4px;
 }
-
-/*wip*/
 
 .author{
   margin-right: 8%;
@@ -1818,29 +1812,29 @@ and (min-width: 1366px) {
 
 /*====================================================*/
 
-.grid-template-rows-1 , .grid {
-    margin-bottom: -14.1%;
+
+.grid-template-rows-1 , .grid {      /*wip*/
+    margin-bottom: -21.5%;
 }
   
 .grid-template-rows-1{
-    grid-template-rows: minmax(200px, 500px);
+    grid-template-rows: minmax(300px, 900px);
 }
 
-
 .grid h3 {                
-	font-size: 24px;
-  font-weight:400;
+	font-size: 34px;
+  font-weight: 300;
 }
 
 .grid-span {
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 24px; 
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 35px;
 }
 
 .grid a {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 200;
 }
 
 .popup-article { 
