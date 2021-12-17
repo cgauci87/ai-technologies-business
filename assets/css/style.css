@@ -1469,7 +1469,7 @@ margin-top: -240%;
 
 */
 
-@media screen and (orientation: landscape)  /*wip*/
+@media screen and (orientation: landscape)  
 and (min-width: 1366px) {
 
   #ai-logo {
@@ -1490,11 +1490,11 @@ and (min-width: 1366px) {
     font-size: 48px;
     height: 17vh;
     margin-top: 8%;
-    padding-top: 4.5%
+    padding-top: 4%
     }
 
     
-  .section-footer { 
+  .section-footer {   
     height: 6.5vh;
     margin-top: 14.5%;
   }
@@ -1506,7 +1506,7 @@ and (min-width: 1366px) {
     }
   
 
-   .line-wrapper-1 .line-1 {
+   .line-wrapper-1 .line-1 { 
     font-size: 44px;
     word-spacing: 12px;
   }	
@@ -1527,8 +1527,8 @@ and (min-width: 1366px) {
 }
 
 .author{
-  margin-right: 13.5%;
-  margin-top: -4.5%;
+  margin-right: 11.5%;
+  margin-top: -4%;
 }
 
 .author p {
@@ -1553,9 +1553,8 @@ and (min-width: 1366px) {
     font-size: 18px;
   }
 
-#graphical-img {
-  height: 12vh;
-  margin-top: -5%;
+#graphical-img {    
+  margin-top: -3.5%;
   }
 
 .grid-template-rows-1 , .grid {
@@ -1567,67 +1566,74 @@ and (min-width: 1366px) {
 }
 
 
-.grid h3 {
-	font-size: 14px;
+.grid h3 {                
+	font-size: 24px;
   font-weight:400;
 }
-.grid p {
-	font-size: 12px;
-	font-weight:400;
-  line-height: 16px;
+
+.grid-span {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px; 
 }
 
+.grid a {
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .popup-article { 
-  height:135%;
-  width:330%;
-  margin-left:40%;
-  margin-top: -410%;
+  width:76%;
+  margin-left: 12%;
 }
 
 .article-p1 p { 
-font-size: 16px;
-line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
-.quote-wrapper {
-  margin-top: 2%;
+.article-p2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .quote{
+  margin-top: 2%;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 24px;
 }
 
-
 .article-p2 h3 {
-  font-size: 22px;
- }
- 
-
-.article-p2 p {
-  font-size: 16px;
+ font-size: 20px;
 }
 
 .cancel {
-  height:28px;
-  width:32px;
-  font-size:28px;
+  height:27.5px;
+  width:31px;
 }
 
-.cancel:hover {
-  color:red;
-}
+.article-header h2 {
+  height: 9vh;
+  padding-top: 1.4%;
+  }  
+
+.author-pu{
+  margin-top: -6%;  /* mq */
+  margin-left: 70%; /* mq */
+  }
 
 
-#popup-article-healthph {
-height:260%;
-margin-left: -60%;
-margin-top: -240%;
-}
+  .author-pu > p {
+    padding-top: 23%;
+  }
 
-
+.audio-player-pu {
+ float:left;
+ margin-top: -5.5%; /* mq */
+ }
+/*  ===========================================   */
 
 .podcasts-container-1 {
   margin-top: 2%;
@@ -1645,3 +1651,4 @@ margin-top: -240%;
   background-color: white;
 }
 
+}
