@@ -1468,3 +1468,180 @@ margin-top: -240%;
 }
 
 */
+
+@media screen and (orientation: landscape)  /*wip*/
+and (min-width: 1366px) {
+
+  #ai-logo {
+    margin-left: 1%;
+  }
+
+  .nav > .nav-links {
+    margin-right: 0.3%;
+  }
+
+  .intro h1 {
+    font-size: 72px;
+    letter-spacing: 20px;
+    padding-top: 4%;
+   }
+  
+  .section-header h2{
+    font-size: 48px;
+    height: 17vh;
+    margin-top: 8%;
+    padding-top: 4.5%
+    }
+
+    
+  .section-footer { 
+    height: 6.5vh;
+    margin-top: 14.5%;
+  }
+
+  .goto-btn {
+    border-radius: 0.3em;
+    padding: 0.5em 0.5em;
+    margin: 0 auto;
+    }
+  
+
+   .line-wrapper-1 .line-1 {
+    font-size: 44px;
+    word-spacing: 12px;
+  }	
+  
+  .line-wrapper-2 .line-2 {
+    font-size: 22px;
+    word-spacing: 12px;
+    margin-top: 30.5%;
+  }	
+
+  .spike#spike1 {
+    margin-top: 31.5%;
+  }
+
+.audio-player {
+  margin-top: -4.5%;
+  margin-left: 0;
+}
+
+.author{
+  margin-right: 13.5%;
+  margin-top: -4.5%;
+}
+
+.author p {
+  line-height: 22px;
+  margin-top: 2%;
+}
+
+.author aside {
+  margin-top: -2%;
+}
+
+.profile-photo {
+  height: 45px;
+  margin-top: 5%;
+}
+
+.ai-101-container h3 {
+  font-size: 26px;
+  }
+  
+.ai-101-container  p {
+    font-size: 18px;
+  }
+
+#graphical-img {
+  height: 12vh;
+  margin-top: -5%;
+  }
+
+.grid-template-rows-1 , .grid {
+    margin-bottom: -14.1%;
+}
+  
+.grid-template-rows-1{
+    grid-template-rows: minmax(200px, 500px);
+}
+
+
+.grid h3 {
+	font-size: 14px;
+  font-weight:400;
+}
+.grid p {
+	font-size: 12px;
+	font-weight:400;
+  line-height: 16px;
+}
+
+}
+
+.popup-article { 
+  height:135%;
+  width:330%;
+  margin-left:40%;
+  margin-top: -410%;
+}
+
+.article-p1 p { 
+font-size: 16px;
+line-height: 25px;
+}
+
+.quote-wrapper {
+  margin-top: 2%;
+}
+
+.quote{
+  font-size: 18px;
+  line-height: 25px;
+}
+
+
+.article-p2 h3 {
+  font-size: 22px;
+ }
+ 
+
+.article-p2 p {
+  font-size: 16px;
+}
+
+.cancel {
+  height:28px;
+  width:32px;
+  font-size:28px;
+}
+
+.cancel:hover {
+  color:red;
+}
+
+
+#popup-article-healthph {
+height:260%;
+margin-left: -60%;
+margin-top: -240%;
+}
+
+
+
+.podcasts-container-1 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+ .podcasts-container-2 {
+  margin-bottom: -10%;
+}
+
+.wave {
+  margin-bottom: -3%;
+}
+
+.podcasts {
+  background-color: white;
+}
+
