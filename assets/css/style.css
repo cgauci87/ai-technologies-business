@@ -1078,7 +1078,6 @@ iframe {
   color: #ffffff;
 }
 
-
 *,
 *:before,
 *:after {
@@ -1624,7 +1623,6 @@ and (min-width: 1366px) {
   margin-left: 70%; /* mq */
   }
 
-
   .author-pu > p {
     padding-top: 23%;
   }
@@ -1633,22 +1631,55 @@ and (min-width: 1366px) {
  float:left;
  margin-top: -5.5%; /* mq */
  }
-/*  ===========================================   */
+/*  ==================wip=========================   */
 
-.podcasts-container-1 {
-  margin-top: 2%;
+  .column-3 {
+    padding-top: 1.5%;
+    margin-top: 1.5%;
+  }
+
+  .column-3 p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+ /*===================================== */
+
+ .subscribe-form h1 {
+  margin-top: 6.5%;
+  margin-bottom: 3%;
+  font-size: 36px;
+}
+
+.subscribe-form p {
+  margin: 28px 0;
+  font-size: 18px;
+}
+
+.subscribe-form form {
+  max-width: 280px;
+}
+.subscribe-form input {
+  height: 55px;
+}
+
+/*===============================================*/
+
+
+.contact-container form * {
+  font-size: 18px;
+  letter-spacing: 10px;
+  font-weight: 400;
+}
+
+.contact-container form .field {
   margin-bottom: 2%;
 }
- .podcasts-container-2 {
-  margin-bottom: -10%;
+
+
+#send-btn {
+  margin-left: 80.5%;
 }
 
-.wave {
-  margin-bottom: -3%;
-}
-
-.podcasts {
-  background-color: white;
-}
 
 }
+
