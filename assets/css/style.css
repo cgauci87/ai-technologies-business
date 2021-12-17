@@ -541,7 +541,6 @@ margin-top: 0.5%;
     font-family: 'Times New Roman', Times, serif;
     height: 3vh;
     font-size: 16px;
-
   }
 
   .fas .fa-hand-pointer{
@@ -1682,7 +1681,7 @@ and (min-width: 1366px) {
 
 }
 
-@media (min-width: 1920px) and (max-width: 2560px) {   /*wip*/
+@media (min-width: 1920px) and (max-width: 2560px) {
 
   #ai-logo {
     font-size: 28px;
@@ -1706,7 +1705,7 @@ and (min-width: 1366px) {
   
   .section-footer {   
     height: 4.5vh;
-    margin-top: 24%;
+    margin-top: 23%;
   }
 
   .line-wrapper-2 .line-2 {
@@ -1716,26 +1715,38 @@ and (min-width: 1366px) {
   }	
 
   .spike#spike1 {
-    margin-top: 38%;
+    background: url("../images/spikes_duo_anim_img.png");
     height: 15vh;
+    margin-top: 38%;
   }
 
+/* ============================================================*/
 
   .section-header h2{
-    font-size: 48px;
-    height: 17vh;
-    margin-top: 8%;
-    padding-top: 4%
+    font-size: 58px;
+    height: 15vh;
+    margin-top: 3%;
+    padding-top: 4.5%
     }
 
 .audio-player {
-  margin-top: -4.5%;
-  margin-left: 0;
+  margin-top: -3%;
+}
+ 
+#listen{
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 3vh;
+  font-size: 22px;
+  word-spacing: 4px;
 }
 
+/*wip*/
+
 .author{
-  margin-right: 11.5%;
-  margin-top: -4%;
+  margin-right: 8%;
+  margin-top: -3%;
 }
 
 .author p {
@@ -1745,24 +1756,67 @@ and (min-width: 1366px) {
 
 .author aside {
   margin-top: -2%;
+  height: 5vh;
 }
 
 .profile-photo {
-  height: 45px;
-  margin-top: 5%;
+  height: 50px;
+  margin-top: 1%;
 }
 
+.ai-101-container {
+  margin-top: 5%;
+  margin-bottom: -5%;
+}
 .ai-101-container h3 {
-  font-size: 26px;
+  font-size: 32px;
   }
   
 .ai-101-container  p {
-    font-size: 18px;
+    font-size: 28px;
+  }
+
+  #process-icon {
+    width: 80px;
+    margin-top: 9%;
+    margin-left: 12.5%;
+  }
+
+  
+ #ux-icon {
+  width: 60px;
+  margin-top: 1%;
+  margin-left: 9%;
+}
+
+  #big-data-icon {
+    width: 65px;
+  }
+
+  #bus-mgt-icon {
+    width: 80px;
+  }
+
+  #op-icon {
+    width: 80px;
+    margin-left: 8.5%;
+  }
+ 
+  #elv-icon {
+    width: 80px;
+    margin-left: 16%;
+  }
+   
+  #growth-icon {
+    width: 80px;
+    margin-left: 24%; 
   }
 
 #graphical-img {    
-  margin-top: -3.5%;
+  margin-top: -5.5%;
   }
+
+/*====================================================*/
 
 .grid-template-rows-1 , .grid {
     margin-bottom: -14.1%;
@@ -1830,6 +1884,7 @@ and (min-width: 1366px) {
   margin-top: -6%;  /* mq */
   margin-left: 70%; /* mq */
   }
+  
 
   .author-pu > p {
     padding-top: 23%;
