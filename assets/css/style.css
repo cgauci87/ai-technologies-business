@@ -1346,9 +1346,8 @@ and (orientation: portrait) {
 
   .section-header h2{
     font-size: 28px;
-    height: 5vh;
-    margin-top: 8%;
-    padding-top: 4%;
+    height: 7vh;
+    margin-top: 16%;
     }
 
 
@@ -1394,25 +1393,27 @@ and (orientation: portrait) {
     line-height: 12px;
   }
 .ai-101-container p {
+    margin-left: 0.5%;
     font-size: 12px;
     font-weight: 600;
   }
 
   #mimic-icon {
-    display: none;
+    width: 42px;
+    margin-top:  22%;
+    margin-left: 5%;
   }
   
   #process-icon {
-    display: none;
+    width: 42px;
+    margin-top: 22%;
+    margin-left: 22%;
   }
   
    #ux-icon {
-     width: 40px;
-     float: left;
-     position: absolute;
-     display: flex;
-     margin-top: 1%;
-     margin-left: 9%;
+     width: 34px;
+     margin-top: 4%;
+     margin-left: 16%;
    }
   
    
@@ -1424,56 +1425,63 @@ and (orientation: portrait) {
     margin-top: 1%;
     margin-left: 1%;
   }
+
+   
+   #ml-icon {
+    width: 50px;
+    float: left;
+    position: absolute;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
   
     #big-data-icon {
-      width: 30px;
+      width: 34px;
       float: left;
       position: absolute;
       display: flex;
       margin-top: 1%;
       margin-left: 1%; 
     }
-  
+                              /*wip*/
+
+     .ai-101-d {
+   margin-top: -5%;
+ } 
     #bus-mgt-icon {
-      width: 30px;
-      float: left;
-      position: absolute;
-      display: flex;
-      margin-top: 1%;
+      width: 42px;
+      margin-top: 3%;
       margin-left: 1%;
-  
     }
   
     #op-icon {
-      width: 30px;
-      float: left;
-      position: absolute;
-      display: flex;
-      margin-top: 1%;
-      margin-left: 9.5%;
+      width: 42px;
+      margin-top: 3%;
+      margin-left: 20%;
     }
    
     #elv-icon {
-     width: 30px;
-     float: left;
-     position: absolute;
-     display: flex;
-     margin-top: 1%;
-     margin-left: 18.5%;
+      width: 42px;
+      margin-top: 3%;
+      margin-left: 38%;
    }
    
      #growth-icon {
-       width: 30px;
-       float: left;
-       position: absolute;
-       display: flex;
-       margin-top: 1%;
-       margin-left: 28%; 
+      width: 42px;
+      margin-top: 3%;
+      margin-left: 56%;
      }
+  
 
-#graphical-img {    
-  margin-top: -3.5%;
+    #graphical-img{
+      margin-top: -80%;
+    }
+  #form2 {
+    margin-top: -20%;
   }
+
+  /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-*/
 
 .grid-template-rows-1 , .grid {
     margin-bottom: -14.1%;
