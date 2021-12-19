@@ -619,11 +619,9 @@ margin-top: 0.5%;
 }
 .grid p {
   text-align: center;
-	font-size: 20px;
-	font-weight:500;
   color: rgba(1, 8, 12, 1);
   mix-blend-mode:hard-light;
-  line-height: 34 px;
+  line-height: 30px;
 }
 
 .grid-span {
@@ -632,8 +630,8 @@ margin-top: 0.5%;
   left: 50%;  
   transform: translate(-50%, -50%);
   font-weight: 600;
-  line-height: 28px;
-  font-size: 28px;
+  line-height: 26px;
+  font-size: 24px;
   color: white;
   background: rgba(0,0,0,0.6);
 }
@@ -1328,6 +1326,10 @@ and (orientation: portrait) {
     padding: 0.1em 0.1em;
     margin: 0 auto;
     }
+
+    .goto-btn-txt {
+      letter-spacing: 6px;
+    }
   
     .line-wrapper-2 .line-2 {
       margin-top: 95%;
@@ -1342,7 +1344,7 @@ and (orientation: portrait) {
     height: 13vh;
   }
 
-  /* -=- #ai-101 section -=- wip */
+  /* -=- #ai-101 section -=- */
 
   .section-header h2{
     font-size: 28px;
@@ -1444,7 +1446,6 @@ and (orientation: portrait) {
       margin-top: 1%;
       margin-left: 1%; 
     }
-                              /*wip*/
 
      .ai-101-d {
    margin-top: -5%;
@@ -1481,30 +1482,34 @@ and (orientation: portrait) {
     margin-top: -20%;
   }
 
-  /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-*/
+  /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
 
 .grid-template-rows-1 , .grid {
-    margin-bottom: -14.1%;
+    margin-top: 1.5%;
+    margin-bottom: -63.5%;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
   
 .grid-template-rows-1{
-    grid-template-rows: 500px auto;
+    grid-template-rows: 240px 240px;
 }
 
-
 .grid h3 {                
-	font-size: 24px;
+	font-size: 16px;
   font-weight:400;
 }
 
-.grid-span {
-  font-size: 22px;
+.grid-span {  /*wip*/
+  font-size: 12px;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 15px;
+  margin-left: -13%;
+  margin-right: -13%;
 }
 
+
 .grid a {
-  font-size: 18px;
+  font-size: 10px;
   font-weight: 300;
 }
 
@@ -1514,7 +1519,7 @@ and (orientation: portrait) {
 }
 
 .article-p1 p { 
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 22px;
 }
