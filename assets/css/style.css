@@ -1236,12 +1236,22 @@ form .field textarea {
 
 /* media queries */
 /* portrait */
-/* screen width>340px  wip*/
+/* screen width>340px */
 @media screen and (min-width: 340px) 
 and (orientation: portrait) {
   #ai-logo {
     margin-left: -2%;
   }
+  
+  .nav {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(18, 42, 49);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -1284,7 +1294,7 @@ and (orientation: portrait) {
       height: 0px;
     }
     .nav > #nav-check:checked ~ .nav-links {
-      height: calc(52vh - 50px);
+      height: calc(52 vh - 50px);
       overflow-y: auto;
       text-align: center;
     }
@@ -1307,15 +1317,7 @@ and (orientation: portrait) {
     margin-top: 60%;
     height: 12vh;
   }	
-  
-  .section-header h2{
-    font-size: 48px;
-    height: 17vh;
-    margin-top: 8%;
-    padding-top: 4%
-    }
-
-    
+      
   .section-footer {   
     height: 4.9vh;
     margin-top: 80.5%;
@@ -1340,37 +1342,134 @@ and (orientation: portrait) {
     height: 13vh;
   }
 
+  /* -=- #ai-101 section -=- wip */
+
+  .section-header h2{
+    font-size: 28px;
+    height: 5vh;
+    margin-top: 8%;
+    padding-top: 4%;
+    }
+
+
 .audio-player {
   margin-top: -4.5%;
   margin-left: 0;
+  display: none;
+}
+
+#listen {
+  display: none;
 }
 
 .author{
   margin-right: 11.5%;
   margin-top: -4%;
+  display: none;
 }
 
 .author p {
   line-height: 22px;
   margin-top: 2%;
+  display: none;
 }
 
 .author aside {
   margin-top: -2%;
+  display: none;
 }
 
 .profile-photo {
   height: 45px;
   margin-top: 5%;
+  display: none;
 }
 
 .ai-101-container h3 {
-  font-size: 26px;
+  font-size: 14px;
+  font-weight: 600;
   }
   
-.ai-101-container  p {
-    font-size: 18px;
+  .ai-101-container {
+    line-height: 12px;
   }
+.ai-101-container p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #mimic-icon {
+    display: none;
+  }
+  
+  #process-icon {
+    display: none;
+  }
+  
+   #ux-icon {
+     width: 40px;
+     float: left;
+     position: absolute;
+     display: flex;
+     margin-top: 1%;
+     margin-left: 9%;
+   }
+  
+   
+   #ml-icon {
+    width: 50px;
+    float: left;
+    position: absolute;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+  
+    #big-data-icon {
+      width: 30px;
+      float: left;
+      position: absolute;
+      display: flex;
+      margin-top: 1%;
+      margin-left: 1%; 
+    }
+  
+    #bus-mgt-icon {
+      width: 30px;
+      float: left;
+      position: absolute;
+      display: flex;
+      margin-top: 1%;
+      margin-left: 1%;
+  
+    }
+  
+    #op-icon {
+      width: 30px;
+      float: left;
+      position: absolute;
+      display: flex;
+      margin-top: 1%;
+      margin-left: 9.5%;
+    }
+   
+    #elv-icon {
+     width: 30px;
+     float: left;
+     position: absolute;
+     display: flex;
+     margin-top: 1%;
+     margin-left: 18.5%;
+   }
+   
+     #growth-icon {
+       width: 30px;
+       float: left;
+       position: absolute;
+       display: flex;
+       margin-top: 1%;
+       margin-left: 28%; 
+     }
 
 #graphical-img {    
   margin-top: -3.5%;
