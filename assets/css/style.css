@@ -1170,6 +1170,8 @@ form .field textarea {
   margin-left: 84.4%;
 }
 
+
+
 /*=================================================================================================*/
 /*=================================================================================================*/
 
@@ -1564,7 +1566,7 @@ and (orientation: portrait) {
  float:left;
  margin-top: -5.5%; /* mq */
  }
-/*  ==============#podcasts==============wip===============   */
+/*  ==============#podcasts============================   */
 
 
 iframe {
@@ -1624,24 +1626,56 @@ height: 15vh;
   color: #0e101f;
 }
 
-/*===============================================*/
+/*=====================wip==========================*/
 
+.contact-container  {
+  margin-top: 25%;
+}
 
 .contact-container form * {
-  font-size: 18px;
-  letter-spacing: 10px;
+  font-size: 14px;
+}
+
+.contact-container form .field label {
+  height: 5vh;
+  padding-top: 2%;
+}
+
+.contact-container form .field input[type="text"],
+form .field textarea {
+  height: 5vh;
+  padding-left: 36%;
+}
+
+.contact-container form #msg {
+  height: 5vh;
+  padding-top: 18px;
+}
+.contact-container form textarea:focus#msg,
+.contact-container form textarea:not(:placeholder-shown)#msg {
+  height: 20vh;
+}
+.contact-container form input[type="text"]:focus + label,
+.contact-container form input[type="text"]:not(:placeholder-shown) + label,
+.contact-container form textarea:focus + label,
+.contact-container form textarea:not(:placeholder-shown) + label,
+.contact-container form .field:hover label {
+  width: 32%;
+}
+
+#send-btn { /*wip*/
+  margin-left: 38%;
+  height: 5vh;
+  width: 10px;
+  padding-left: 5%;
+  padding-top: 2%;
   font-weight: 400;
 }
 
-.contact-container form .field {
-  margin-bottom: 2%;
-}
-
-
-#send-btn {
-  margin-left: 80.5%;
-}
-
+.footer p {
+  font-size: 12px;
+/*==========================================================================================*/
+/*==========================================================================================*/
 
 @media (min-width: 1920px) and (max-width: 2560px) {
 
@@ -1941,5 +1975,5 @@ height: 15vh;
 #send-btn {
   margin-left: 80.5%;
 }
-
+}
 }
