@@ -86,6 +86,55 @@ a { color: white; text-decoration: none; }
   .nav > #nav-check {
     display: none;
   }
+
+  @media (max-width:768px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: rgb(18, 42, 49);
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    } 
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(60vh - 50px);
+      overflow-y: auto;
+      text-align: center;
+    }
+  }
+
   
  
 
@@ -723,7 +772,6 @@ margin-top: 0.5%;
    float: left;
    margin-top: 0;
    margin-left: 2%;
-   background-color: none;
    height: 2.5vh;
    color: white;
    padding-right: 0.5%;
@@ -1242,64 +1290,7 @@ and (orientation: portrait) {
   #ai-logo {
     margin-left: -2%;
   }
-  
-  .nav {
-    height: 50px;
-    width: 100%;
-    background-color: rgb(18, 42, 49);
-    position: fixed;
-    top: 0;
-    z-index: 1;
-  }
-  
-    .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      margin-top: 0.5%;
-      margin-left: 35.5%;
-    }
-    .nav > .nav-btn > label {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
-      cursor: pointer;
-    }
-    .nav > .nav-btn > label > span {
-      display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #eee;
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
-      width: 100%;
-      background-color: rgb(18, 42, 49);
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
-      line-height: 12px;
-    } 
-    .nav > .nav-links > a {
-      display: block;
-      width: 100%;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(52 vh - 50px);
-      overflow-y: auto;
-      text-align: center;
-    }
-  
-    .intro {
+      .intro {
       background-color: rgb(28, 63, 71); /* lighter*/
       background-blend-mode: multiply;
       background-position: 10%;
@@ -1347,12 +1338,14 @@ and (orientation: portrait) {
     height: 13vh;
   }
 
-  /* -=- #ai-101 section -=- */
+  /* -=- #ai-101 section -=- wip */
 
   .section-header h2{
     font-size: 28px;
     height: 7vh;
-    margin-top: 16%;
+    margin-top: 50%;
+    margin-left: 30%;
+    display:inline;
     }
 
 
@@ -1486,7 +1479,6 @@ and (orientation: portrait) {
   }
 
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
-
 .grid-template-rows-1 , .grid {
     margin-top: 1.5%;
     margin-bottom: -63.5%;
@@ -1626,7 +1618,7 @@ height: 15vh;
   color: #0e101f;
 }
 
-/*=====================wip==========================*/
+/*===============================================*/
 
 .contact-container  {
   margin-top: 25%;
@@ -1663,7 +1655,7 @@ form .field textarea {
   width: 32%;
 }
 
-#send-btn { /*wip*/
+#send-btn {
   margin-left: 38%;
   height: 5vh;
   width: 10px;
@@ -1974,6 +1966,7 @@ form .field textarea {
 
 #send-btn {
   margin-left: 80.5%;
+}
 }
 }
 }
