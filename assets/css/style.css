@@ -317,7 +317,6 @@ a { color: white; text-decoration: none; }
   background-attachment:fixed;
   background-position: 50% 50%;
   z-index: 0;
-  position: relative;
 }
 
 
@@ -1341,50 +1340,36 @@ and (orientation: portrait) {
   /* -=- #ai-101 section -=- wip */
 
   .ai-101-container {
-    margin-top: 10%;
+    margin-top: 30%; /*increased margin-top to make space for #ai101-heading-2*/
   }
 
+  .section-header{
+    height: 7vh;
+    position: absolute;
+    margin-left: 35%;
+    z-index: 2;
+    }
+
+    
   .section-header h2{
     font-size: 24px;
     height: 7vh;
-    display:inline-block;
-    margin-left: 34%;
-    margin-top: 0.7%;
+  }
+
+    #ai101-heading-1 {
+      margin-top: -10%;
     }
 
+    #ai101-heading-2 {
+    background-color: #0e101f;
+    position: absolute;
+    margin-top: 20%;  
+    }
 
-.audio-player {
-  margin-top: -4.5%;
-  margin-left: 0;
-  display: none;
-}
-
-#listen {
-  display: none;
-}
-
-.author{
-  margin-right: 11.5%;
-  margin-top: -4%;
-  display: none;
-}
-
-.author p {
-  line-height: 22px;
-  margin-top: 2%;
-  display: none;
-}
-
-.author aside {
-  margin-top: -2%;
-  display: none;
-}
-
-.profile-photo {
-  height: 45px;
-  margin-top: 5%;
-  display: none;
-}
+  .author {
+    float:left;
+    position: absolute;
+  }
 
 .ai-101-container h3 {
   font-size: 14px;
@@ -1718,7 +1703,8 @@ form .field textarea {
     font-size: 58px;
     height: 15vh;
     margin-top: 3%;
-    padding-top: 4.5%
+    padding-top: 4.5%;
+    position: relative;
     }
 
 .audio-player {
