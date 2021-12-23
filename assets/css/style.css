@@ -1365,11 +1365,95 @@ and (orientation: portrait) {
     position: absolute;
     margin-top: 20%;  
     }
+    /* */
 
-  .author {
-    float:left;
-    position: absolute;
-  }
+    .author{
+      position: relative;
+      display: flex;
+      z-index: 1;
+      float: left;
+      line-height: 20px;
+      height: 150px;
+      width: 100%;
+      white-space: nowrap;
+      }
+   
+   
+      .author p {
+        line-height: 18px;
+        padding-right: 5%;
+        padding-left: 5%;
+        
+      }
+   
+      .author aside {
+       line-height: 18px;
+       border-left: 2px solid rgba(127, 221, 252, 0.932);
+       height: 8vh;
+     }
+   
+      .profile-photo {
+       border-radius: 50%;
+       height: 50px;
+       max-width: 50px;
+       position: relative;  
+       z-index: 1;
+       float: left;
+      }
+   
+   .audio-player {
+     float:right;
+     width: 50px;
+     height: 5vh;
+     opacity: 0.3;
+     filter:invert(100%);
+     z-index: 1;
+     }
+   
+     .audio-player:hover {
+       opacity: 0.9;
+     }
+   
+     audio::-webkit-media-controls-play-button {
+       background-color: transparent;
+       border-radius: 50%;
+     }
+     
+     audio::-webkit-media-controls-play-button:hover {
+       background-color: rgba(127, 221, 252, 0.932);
+       filter:invert(100%);
+     }
+     
+     #listen{
+       float: left;
+       padding-left: 1%;
+       background-color: black;
+       color: white;
+       font-family: 'Times New Roman', Times, serif;
+       height: 3vh;
+       font-size: 16px;
+     }
+   
+     .fas .fa-hand-pointer{
+       float: left;
+       background-color: black;
+       height: 2vh;
+       color: rgba(127, 221, 252, 0.932);
+       padding-right: 0.5%;
+     }
+     
+     .fa-clock {
+       float: right;
+       background-color: black;
+       color: white;
+       height: 2.5vh;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 14px;
+       padding-right: 0.5%;
+       background: none;
+     }  
+
+     /*===============================================================*/
 
 .ai-101-container h3 {
   font-size: 14px;
