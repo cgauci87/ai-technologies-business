@@ -1340,7 +1340,7 @@ and (orientation: portrait) {
   /* -=- #ai-101 section -=- wip */
 
   .ai-101-container {
-    margin-top: 30%; /*increased margin-top to make space for #ai101-heading-2*/
+    margin-top: 0; /*increased margin-top to make space for #ai101-heading-2*/
   }
 
   .section-header{
@@ -1364,6 +1364,7 @@ and (orientation: portrait) {
     background-color: #0e101f;
     position: absolute;
     margin-top: 20%;  
+    height: 7vh;
     }
     /* */
 
@@ -1381,9 +1382,8 @@ and (orientation: portrait) {
    
       .author p {
         line-height: 18px;
-        padding-right: 5%;
-        padding-left: 5%;
-        
+        float:left;
+        font-size: 8px;
       }
    
       .author aside {
@@ -1394,16 +1394,21 @@ and (orientation: portrait) {
    
       .profile-photo {
        border-radius: 50%;
-       height: 50px;
-       max-width: 50px;
+       height: 40px;
+       width: 40px;
        position: relative;  
        z-index: 1;
        float: left;
       }
+
+    audio {
+      width: 50px;
+      position: absolute;
+      display: flex;
+    }
    
    .audio-player {
-     float:right;
-     width: 50px;
+    margin-right: 10%;
      height: 5vh;
      opacity: 0.3;
      filter:invert(100%);
@@ -1425,32 +1430,26 @@ and (orientation: portrait) {
      }
      
      #listen{
-       float: left;
-       padding-left: 1%;
-       background-color: black;
+       float: right;
        color: white;
        font-family: 'Times New Roman', Times, serif;
-       height: 3vh;
-       font-size: 16px;
+       font-size: 8px;
+       color: red /*temp*/
      }
    
      .fas .fa-hand-pointer{
        float: left;
-       background-color: black;
-       height: 2vh;
        color: rgba(127, 221, 252, 0.932);
        padding-right: 0.5%;
      }
      
      .fa-clock {
-       float: right;
-       background-color: black;
-       color: white;
+       position: absolute;
        height: 2.5vh;
-       font-family: 'Times New Roman', Times, serif;
-       font-size: 14px;
-       padding-right: 0.5%;
-       background: none;
+       font-size: 8px;
+       margin-top: 15%;
+       margin-right: 80%;
+         color: red; /*temp*/
      }  
 
      /*===============================================================*/
