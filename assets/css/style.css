@@ -316,7 +316,6 @@ a { color: white; text-decoration: none; }
   color: rgb(25,25,25);
   background-attachment:fixed;
   background-position: 50% 50%;
-  z-index: 0;
 }
 
 
@@ -1339,9 +1338,6 @@ and (orientation: portrait) {
 
   /* -=- #ai-101 section -=- wip */
 
-  .ai-101-container {
-    margin-top: 30%;
-  }
 
   .section-header{
     height: 7vh;
@@ -1358,10 +1354,10 @@ and (orientation: portrait) {
 
     #ai101-heading-2 {
     background-color: #0e101f;
+    margin-top: 12%;
     position: absolute;
-    z-index: 3;
-    margin-top: 20%;  
     height: 7vh;
+    margin-top: 20%;
     }
     /* */
 
