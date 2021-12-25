@@ -1340,7 +1340,7 @@ and (orientation: portrait) {
   /* -=- #ai-101 section -=- wip */
 
   .ai-101-container {
-    margin-top: 0; /*increased margin-top to make space for #ai101-heading-2*/
+    margin-top: 30%;
   }
 
   .section-header{
@@ -1356,13 +1356,10 @@ and (orientation: portrait) {
     height: 7vh;
   }
 
-    #ai101-heading-1 {
-      margin-top: -10%;
-    }
-
     #ai101-heading-2 {
     background-color: #0e101f;
     position: absolute;
+    z-index: 3;
     margin-top: 20%;  
     height: 7vh;
     }
@@ -1402,14 +1399,14 @@ and (orientation: portrait) {
       }
 
     audio {
-      width: 50px;
-      position: absolute;
-      display: flex;
+      width: 100px;
+      height: 7vh;
+      z-index:1;
+      margin-left: 79%;
+      margin-top: 5%;
     }
    
    .audio-player {
-    margin-right: 10%;
-     height: 5vh;
      opacity: 0.3;
      filter:invert(100%);
      z-index: 1;
@@ -1431,6 +1428,7 @@ and (orientation: portrait) {
      
      #listen{
        float: right;
+       margin-top: 6%;
        color: white;
        font-family: 'Times New Roman', Times, serif;
        font-size: 8px;
@@ -1470,13 +1468,13 @@ and (orientation: portrait) {
 
   #mimic-icon {
     width: 42px;
-    margin-top:  22%;
+    margin-top:  48%;
     margin-left: 5%;
   }
   
   #process-icon {
     width: 42px;
-    margin-top: 22%;
+    margin-top: 42%;
     margin-left: 22%;
   }
   
@@ -1492,19 +1490,10 @@ and (orientation: portrait) {
     float: left;
     position: absolute;
     display: flex;
-    margin-top: 1%;
+    margin-top: 35%;
     margin-left: 1%;
   }
 
-   
-   #ml-icon {
-    width: 50px;
-    float: left;
-    position: absolute;
-    display: flex;
-    margin-top: 1%;
-    margin-left: 1%;
-  }
   
     #big-data-icon {
       width: 34px;
