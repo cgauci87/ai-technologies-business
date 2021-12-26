@@ -364,7 +364,7 @@ margin-top: 0.5%;
   }
 
   .ai-101-a {
-    margin-top: 2%;
+    margin-top: 5%;
   }
   
  .ai-101-d {
@@ -1529,7 +1529,9 @@ and (orientation: portrait) {
      }
     
     .form2-wrapper {
-      margin-bottom: 50%;
+      position: absolute;
+      display: inline-block;
+      margin-top: 145%;
     }
 
 
