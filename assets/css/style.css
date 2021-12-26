@@ -1355,7 +1355,7 @@ and (orientation: portrait) {
     background-color: #0e101f;
     position: absolute;
     height: 7vh;
-    margin-top: 12%;
+    margin-top: 14%;
     z-index: 0;
     }
     /* */
@@ -1381,24 +1381,25 @@ and (orientation: portrait) {
       .author aside {
        line-height: 18px;
        border-left: 2px solid rgba(127, 221, 252, 0.932);
-       height: 8vh;
+       height: 6vh;
      }
    
       .profile-photo {
        border-radius: 50%;
-       height: 40px;
+       height: 6vh;
        width: 40px;
+       margin-top: 1%;
        position: relative;  
        z-index: 1;
        float: left;
       }
 
     audio {
-      width: 100px;
-      height: 7vh;
+      width: 160px;
+      height: 4vh;
       z-index:1;
-      margin-left: 79%;
-      margin-top: 5%;
+      margin-left: 58%;
+      margin-top: 8%;
     }
    
    .audio-player {
@@ -1423,11 +1424,14 @@ and (orientation: portrait) {
      
      #listen{
        float: right;
-       margin-top: 6%;
+       margin-top: 4.5%;
+       margin-right: 9%;
        color: white;
-       font-family: 'Times New Roman', Times, serif;
-       font-size: 8px;
-       color: red /*temp*/
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 6px;
+       letter-spacing: 2px;
+       height: 2vh;
+       background: transparent;
      }
    
      .fas .fa-hand-pointer{
@@ -1439,10 +1443,12 @@ and (orientation: portrait) {
      .fa-clock {
        position: absolute;
        height: 2.5vh;
+       font-family: Arial, Helvetica, sans-serif;
        font-size: 8px;
-       margin-top: 15%;
-       margin-right: 80%;
-         color: red; /*temp*/
+       letter-spacing: 0.5px;
+       margin-top: 7%;
+       margin-left: -79%;
+       color: white;
      }  
 
      /*===============================================================*/
@@ -1455,41 +1461,48 @@ and (orientation: portrait) {
   .ai-101-container {
     position: absolute;
     line-height: 12px;
-    margin-top: 20%;
+    margin-top: 19%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 .ai-101-container p {
-    margin-left: 0.5%;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
+  }
+
+  .ai-101-a { /*wip*/
+    margin-top: 9%;
+  }
+
+  #ml-icon {
+    width: 50px;
+    float: left;
+    position: absolute;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
   }
 
   #mimic-icon {
     width: 42px;
-    margin-top:  48%;
+    margin-top:  20%;
     margin-left: 5%;
   }
   
   #process-icon {
     width: 42px;
-    margin-top: 42%;
+    margin-top: 22%;
     margin-left: 22%;
   }
   
    #ux-icon {
      width: 34px;
-     margin-top: 4%;
+     margin-top: 2%;
      margin-left: 16%;
    }
   
    
-   #ml-icon {
-    width: 50px;
-    float: left;
-    position: absolute;
-    display: flex;
-    margin-top: 35%;
-    margin-left: 1%;
-  }
+
 
   
     #big-data-icon {
