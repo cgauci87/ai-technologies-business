@@ -1615,24 +1615,28 @@ and (orientation: portrait) {
   display: flex;
   z-index: 1;
   float: left;
-  line-height: 20px;
   height: 150px;
   width: 100%;
-  white-space: nowrap;
+  margin-top: -9.5%;
+  margin-left: 2%;
+  
   }
 
   .author-pu > p {
-    line-height: 18px;
-    float:left;
     font-size: 8px;
+    margin-top: -20%;
+    white-space: pre-line;
+    line-height: 12px;
   }
 
-  .author-pu > aside {
-    line-height: 18px;
+  .author-pu > aside  {
     border-left: 2px solid rgba(127, 221, 252, 0.932);
-    height: 6vh;
+    position: absolute;
+    margin-left: 75%;
+    font-size: 8px;
+    margin-top: -10%;
   }
-
+  
   .author-pu > .profile-photo {
     border-radius: 50%;
     height: 6vh;
@@ -1647,7 +1651,8 @@ and (orientation: portrait) {
     width: 160px;
     height: 7vh;
     z-index:1;
-    margin-left: 58%;
+    margin-left: 20%;
+    margin-top: -20%;
     margin-top: 4%;
   }
 
@@ -1675,15 +1680,15 @@ and (orientation: portrait) {
 }
 /*=====================================================*/
 
+.article-header h2 {
+  margin-top: 2%;
+  font-size: 20px;
+  height: 7vh;
+}
 
 
 .lhs-image-wrapper {
   height: 76.6vh;
-}
-
-.article-header h2 {
-  font-size: 20px;
-  height: 7vh;
 }
 
 .article-p1 p { 
