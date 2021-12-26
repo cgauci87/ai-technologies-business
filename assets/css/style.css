@@ -1338,7 +1338,6 @@ and (orientation: portrait) {
 
   /* -=- #ai-101 section -=- wip */
 
-
   .section-header{
     height: 7vh;
     position: absolute;
@@ -1354,10 +1353,10 @@ and (orientation: portrait) {
 
     #ai101-heading-2 {
     background-color: #0e101f;
-    margin-top: 12%;
     position: absolute;
     height: 7vh;
-    margin-top: 20%;
+    margin-top: 12%;
+    z-index: 0;
     }
     /* */
 
@@ -1454,7 +1453,9 @@ and (orientation: portrait) {
   }
   
   .ai-101-container {
+    position: absolute;
     line-height: 12px;
+    margin-top: 20%;
   }
 .ai-101-container p {
     margin-left: 0.5%;
@@ -1526,14 +1527,11 @@ and (orientation: portrait) {
       margin-top: 3%;
       margin-left: 56%;
      }
-  
-
-    #graphical-img{
-      margin-top: -80%;
+    
+    .form2-wrapper {
+      margin-bottom: 50%;
     }
-  #form2 {
-    margin-top: -20%;
-  }
+
 
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
 .grid-template-rows-1 , .grid {
