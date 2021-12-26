@@ -1500,11 +1500,7 @@ and (orientation: portrait) {
      margin-top: 2%;
      margin-left: 16%;
    }
-  
-   
 
-
-  
     #big-data-icon {
       width: 34px;
       float: left;
@@ -1611,37 +1607,38 @@ and (orientation: portrait) {
   }
 
 .author-pu{
-  position: relative;
+  position: absolute;
   display: flex;
   z-index: 1;
   float: left;
   height: 150px;
   width: 100%;
-  margin-top: -9.5%;
+  margin-top: 1%;
   margin-left: 2%;
   
   }
 
   .author-pu > p {
     font-size: 8px;
-    margin-top: -20%;
+    margin-top: -8%;
     white-space: pre-line;
-    line-height: 12px;
+    line-height: 10px;
   }
 
   .author-pu > aside  {
     border-left: 2px solid rgba(127, 221, 252, 0.932);
+    height: 12vh;
     position: absolute;
     margin-left: 75%;
-    font-size: 8px;
-    margin-top: -5%;
+    font-size: 8px; 
+    margin-top: -10%;
   }
   
   .author-pu > .profile-photo {
     border-radius: 50%;
     height: 6vh;
     width: 40px;
-    margin-top: 1%;
+    margin-top: 8%;
     position: relative;  
     z-index: 1;
     float: left;
@@ -1652,12 +1649,12 @@ and (orientation: portrait) {
     height: 3vh;
     z-index:1;
     margin-left: 6%;
-    margin-top: -13%;
+    margin-top: -2%;
   }
 
  .pointer-pu {
     float: right;
-    margin-top: 4%;
+    margin-top: 15%;
     margin-right: 0.5%;
   }
 
@@ -1672,12 +1669,16 @@ and (orientation: portrait) {
 
   /*wip*/
 
-.clock-pu  > span {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 8px;
-  letter-spacing: 0.5px;
-  color: white;
-}  
+  .clock-pu {
+    position: relative;
+    height: 2.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    letter-spacing: 0.5px;
+    margin-right:18%;
+    margin-top: 14%;
+    color: white;
+  }  
 /*=====================================================*/
 
 .article-header h2 {
