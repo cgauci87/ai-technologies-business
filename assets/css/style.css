@@ -1336,7 +1336,7 @@ and (orientation: portrait) {
     height: 13vh;
   }
 
-  /* -=- #ai-101 section -=- wip */
+  /* -=- #ai-101 section -=- */
 
   .section-header{
     height: 7vh;
@@ -1358,9 +1358,9 @@ and (orientation: portrait) {
     margin-top: 14%;
     z-index: 0;
     }
-    /* */
+    
 
-    .author{
+    .author{ /*clone*/
       position: relative;
       display: flex;
       z-index: 1;
@@ -1470,7 +1470,7 @@ and (orientation: portrait) {
     font-weight: 600;
   }
 
-  .ai-101-a { /*wip*/
+  .ai-101-a {
     margin-top: 9%;
   }
 
@@ -1584,7 +1584,7 @@ and (orientation: portrait) {
   background:rgba(0,0,0,0.8);
 }
 
-.popup-article {  /*wip */
+.popup-article {
   width:90%;
   margin-left: 5%;
   margin-right: 5%;
@@ -1593,7 +1593,89 @@ and (orientation: portrait) {
 
 .popup-article article { 
   max-height: 100%;
+  margin-top: 30%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
+
+
+ /*www*/
+
+ #popup-heading-2 {
+  background-color: #0e101f;
+  position: absolute;
+  height: 7vh;
+  width: 100%;
+  margin-top: 10%;
+  z-index: 0;
+  }
+
+.author-pu{
+  position: relative;
+  display: flex;
+  z-index: 1;
+  float: left;
+  line-height: 20px;
+  height: 150px;
+  width: 100%;
+  white-space: nowrap;
+  }
+
+  .author-pu > p {
+    line-height: 18px;
+    float:left;
+    font-size: 8px;
+  }
+
+  .author-pu > aside {
+    line-height: 18px;
+    border-left: 2px solid rgba(127, 221, 252, 0.932);
+    height: 6vh;
+  }
+
+  .author-pu > .profile-photo {
+    border-radius: 50%;
+    height: 6vh;
+    width: 40px;
+    margin-top: 1%;
+    position: relative;  
+    z-index: 1;
+    float: left;
+  }
+
+  .audio-player-pu {
+    width: 160px;
+    height: 7vh;
+    z-index:1;
+    margin-left: 58%;
+    margin-top: 4%;
+  }
+
+ .pointer-pu {
+    float: right;
+    margin-top: 4.5%;
+    margin-right: 9%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6px;
+    letter-spacing: 2px;
+    height: 2vh;
+    background: transparent;
+  }
+
+ 
+ .clock-pu{  
+   margin-top: 10%; /* mq */  
+ }  
+
+.clock-pu  > span {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+/*=====================================================*/
+
+
 
 .lhs-image-wrapper {
   height: 76.6vh;
