@@ -544,7 +544,7 @@ margin-top: 0.5%;
     font-size: 16px;
   }
 
-  .fas .fa-hand-pointer{
+  .fas > .fa-hand-pointer{
     float: left;
     background-color: black;
     height: 2vh;
@@ -1604,7 +1604,7 @@ and (orientation: portrait) {
  #popup-heading-2 {
   background-color: #0e101f;
   position: absolute;
-  height: 7vh;
+  height: 10vh;
   width: 100%;
   margin-top: 10%;
   z-index: 0;
@@ -1634,7 +1634,7 @@ and (orientation: portrait) {
     position: absolute;
     margin-left: 75%;
     font-size: 8px;
-    margin-top: -10%;
+    margin-top: -5%;
   }
   
   .author-pu > .profile-photo {
@@ -1648,22 +1648,24 @@ and (orientation: portrait) {
   }
 
   .audio-player-pu {
-    width: 160px;
-    height: 7vh;
+    width: 280px;
+    height: 3vh;
     z-index:1;
-    margin-left: 20%;
-    margin-top: -20%;
-    margin-top: 4%;
+    margin-left: 6%;
+    margin-top: -13%;
   }
 
  .pointer-pu {
     float: right;
-    margin-top: 4.5%;
-    margin-right: 9%;
+    margin-top: 4%;
+    margin-right: 0.5%;
+  }
+
+  .pointer-pu span {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 6px;
-    letter-spacing: 2px;
+    font-size: 9px;
+    letter-spacing: 0;
     height: 2vh;
     background: transparent;
   }
