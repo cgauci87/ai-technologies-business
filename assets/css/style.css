@@ -1348,7 +1348,7 @@ and (orientation: portrait) {
     
   .section-header h2{
     font-size: 24px;
-    height: 7vh;
+    height: auto;
   }
 
     #ai101-heading-2 {
@@ -1396,10 +1396,10 @@ and (orientation: portrait) {
 
     audio {
       width: 160px;
-      height: 4vh;
+      height: 7vh;
       z-index:1;
       margin-left: 58%;
-      margin-top: 8%;
+      margin-top: 4%;
     }
    
    .audio-player {
