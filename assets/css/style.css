@@ -1670,16 +1670,14 @@ and (orientation: portrait) {
     background: transparent;
   }
 
- 
- .clock-pu{  
-   margin-top: 10%; /* mq */  
- }  
+  /*wip*/
 
 .clock-pu  > span {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 14px;
-  font-weight: 100;
-}
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  letter-spacing: 0.5px;
+  color: white;
+}  
 /*=====================================================*/
 
 .article-header h2 {
