@@ -696,7 +696,16 @@ margin-top: 0.5%;
 /* GENERIC==========================POP-UP ARTICLE==========================GENERIC */
 
 
-/*-------------popup header----------------------- */
+/*-------------popup header-------------wip---------- */
+
+.popup-heading-2 {
+  background-color: #0e101f;
+  position: absolute;
+  height: 10vh;
+  width: 100%;
+  margin-top: 10%;
+  z-index: 0;
+}
 
 .article-header h2 {
   margin-bottom: -10%;
@@ -721,7 +730,7 @@ margin-top: 0.5%;
   max-width: 100px;
   width: 100%;
   white-space: nowrap;
-  margin-top: -7%;  /* mq */
+  margin-top: 3%;  /* mq */
   margin-left: 66%; /* mq */
   }
 
@@ -753,7 +762,7 @@ margin-top: 0.5%;
 
 .audio-player-pu {
  float:left;
- margin-top: -6%; /* mq */
+ margin-top: 3.8%; /* mq */
  opacity: 0.3;
  filter:invert(100%);
  position: absolute;
@@ -768,7 +777,7 @@ margin-top: 0.5%;
 
  .pointer-pu {
    float: left;
-   margin-top: 0;
+   margin-top: 10.5%; /* mq */
    margin-left: 2%;
    height: 2.5vh;
    color: white;
@@ -788,7 +797,7 @@ margin-top: 0.5%;
   font-size: 14px;
   font-weight: 100;
 }
-/*=====================================================*/
+/*===============================wipp======================*/
 
 
 .popup-container {
@@ -836,7 +845,7 @@ margin-top: 0.5%;
   overflow-y:scroll;
   overflow-x:hidden;
   border-radius: 50px;
-  margin-top: 12.8%; /*mq*/
+  margin-top: 12.8%;
 }
 
 .lhs-image-wrapper {
@@ -936,6 +945,11 @@ margin-top: 0.5%;
 
 .cancel:hover {
   color:red;
+}
+
+
+.popup-footer { /*wippp*/
+display: none;
 }
 
 /* bankfin===============POP-UP ARTICLE=============bankfin */
@@ -1574,7 +1588,7 @@ and (orientation: portrait) {
   font-weight: 300;
 }
 
-/*======================popup======================wip== */
+/*======================popup======================== */
 
 .cover {
   background:rgba(0,0,0,0.8);
@@ -1668,8 +1682,6 @@ and (orientation: portrait) {
     background: transparent;
   }
 
-  /*wip*/
-
   .clock-pu {
     position: relative;
     height: 2.5vh;
@@ -1716,8 +1728,7 @@ and (orientation: portrait) {
   z-index: 40;
 }
 
-
-.quote{ /*wip */
+.quote{ 
   font-size: 16px;
   color: darkblue;
   font-weight:500;
@@ -2245,10 +2256,10 @@ form .field textarea {
   margin-bottom: 2%;
 }
 
-
 #send-btn {
   margin-left: 80.5%;
 }
 }
 }
+
 }
