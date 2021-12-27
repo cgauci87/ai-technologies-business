@@ -731,7 +731,7 @@ margin-top: 0.5%;
   max-width: 100px;
   width: 100%;
   white-space: nowrap;
-  margin-top: 3%;  /* mq */
+  margin-top: 0;  /* mq */
   margin-left: 66%; /* mq */
   }
 
@@ -763,7 +763,7 @@ margin-top: 0.5%;
 
 .audio-player-pu {
  float:left;
- margin-top: 3.8%; /* mq */
+ margin-top: 0; /* mq */
  opacity: 0.3;
  filter:invert(100%);
  position: absolute;
@@ -778,7 +778,7 @@ margin-top: 0.5%;
 
  .pointer-pu {
    float: left;
-   margin-top: 10.5%; /* mq */
+   margin-top: 6%; /* mq */
    margin-left: 2%;
    height: 2.5vh;
    color: white;
@@ -790,7 +790,8 @@ margin-top: 0.5%;
 
  
  .clock-pu{  
-   margin-top: 10%; /* mq */  
+   margin-top: 5.5%; /* mq */
+   margin-right: 10.5%;
  }  
 
 .clock-pu  > span {
@@ -846,7 +847,7 @@ margin-top: 0.5%;
   overflow-y:scroll;
   overflow-x:hidden;
   border-radius: 50px;
-  margin-top: 18%;
+  margin-top: 18% ; /* mq */
 }
 
 .lhs-image-wrapper {
@@ -2175,7 +2176,7 @@ form .field textarea {
   }  
 
 .author-pu{
-  margin-top: -4%;  /* mq */
+  margin-top: 4%;  /* mq */
   margin-left: 75%; /* mq */
   }
   
