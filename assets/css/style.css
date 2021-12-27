@@ -1590,8 +1590,9 @@ and (orientation: portrait) {
 .popup-article article { 
   max-height: 100%;
   margin-top: 30%;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-radius: 0px;
+  background-color: rgba(255,255,255,.75);
+  background-blend-mode:soft-light;
 }
 
 
@@ -1692,65 +1693,59 @@ and (orientation: portrait) {
   height: 76.6vh;
 }
 
+
 .article-p1 p { 
-  text-align: justify;
-  height: 200%;
-  float: right;
-  display: inline;
-  padding-left: 33%;
-  margin-top: 2%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
   color: black;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  word-spacing: -2px;
 }
 
 .quote-wrapper {
   margin-top: 2%;
-  padding-left:35%;
-  float:right;
+  float: left;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
 }
 
 
-.quote{
-  font-size: 20px;
+.quote{ /*wip */
+  font-size: 16px;
   color: darkblue;
-  font-weight:bolder;
-  text-align:center;
-  line-height: 42px;
+  font-weight:600;
+  line-height: 22px;
 }
 
 .q-caption {
   color:black;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   text-align: center;
 }
 
 .q-icon {
-  width: 50px;
-  margin-left: 42%;
+  width: 36px;
+  align-self: center;
 }
 
 .article-p2 {
-  text-align: justify;
-  padding-left: 47.5%;
-  margin-right: 0;
-  float:right;
-  display: inline;
-  padding-left: 33%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
   color: black;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 26px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  word-spacing: -2px;
 }
 
 .article-p2 h3 {
- color: darkblue;
- background: none;
- font-size: 24px;
- margin-top: 3%;
- margin-bottom: 3%;
+ font-size: 18px;
+align-self: center;
+text-align: center;
+word-spacing: 2px;
 }
 
 .btm-image-wrapper{
@@ -1798,7 +1793,9 @@ border-top-right-radius: 60%;
 
 
 #medical-img {
-  width: 100px;
+  width: 150px;
+  opacity: 0.3;
+  border-radius: 0px;
 }
 
 
