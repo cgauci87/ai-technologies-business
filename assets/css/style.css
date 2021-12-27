@@ -46,7 +46,7 @@ a { color: white; text-decoration: none; }
     background-color: rgb(18, 42, 49);
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 10;
   }
   
   .nav > .nav-header {
@@ -221,11 +221,11 @@ a { color: white; text-decoration: none; }
   display: flex;
   font-size: 48px;
   word-spacing: 16px;
-  height: 20vh;
   padding-left: 1%;
   padding-right: 1%;
-  margin-top: 4%;
   white-space:pre-line;
+  height: 24vh; /* mq */
+  margin-top: 1.8%; /* mq */
 }	
 
 .line-wrapper-2 .line-2 {
@@ -332,7 +332,7 @@ a { color: white; text-decoration: none; }
   text-align: center;
   height: 15vh;
   margin-top: 5%;
-  padding-top: 2.5%
+  padding-top: 2%
   }
 
 .ai-101-container article {
@@ -368,7 +368,7 @@ margin-top: 0.5%;
   }
   
  .ai-101-d {
-   margin-top: -12%;
+   margin-top: -15%;
    float: left;
  } 
 
@@ -454,15 +454,14 @@ margin-top: 0.5%;
      position: absolute;
      display: flex;
      margin-top: 1%;
-     margin-left: 28%; 
+     margin-left: 27%; 
    }
    
    .author{
    position: relative;
    display: flex;
-   margin-right: 10%;
+   margin-right: 11%; /* mq */
    margin-top: -4%;
-   z-index: 1;
    float: right;
    color: white;
    line-height: 20px;
@@ -470,6 +469,8 @@ margin-top: 0.5%;
    max-width: 100px;
    width: 100%;
    white-space: nowrap;
+   position: relative;
+   z-index: 30;
    }
 
 
@@ -486,31 +487,21 @@ margin-top: 0.5%;
     height: 8vh;
   }
 
-   .profile-photo {
+   .profile-photo { /*zz*/
+    border: none;
     border-radius: 50%;
-    height: 50px;
-    max-width: 50px;
-    width: 100%;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    background: #B0B0B0;
-    -webkit-box-pack: space-around;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: space-around;
-    justify-content: space-around;
-    position: relative;
-    z-index: 1;
+    overflow: hidden;
+    width: auto;
+    min-width: 60px;
+    max-width: 100%;
+    max-height: 50px;
+    display: block;
     float: right;
     color: white;
    }
 
 .audio-player {
+  position: relative;
   float:left;
   margin-top: -4%;
   margin-left:-0.3%;
@@ -518,6 +509,7 @@ margin-top: 0.5%;
   height: 5vh;
   opacity: 0.3;
   filter:invert(100%);
+  z-index: 20;
   }
 
   .audio-player:hover {
@@ -574,12 +566,13 @@ margin-top: 0.5%;
     z-index:0;
   }
 
-  #graphical-img {
-  position: relative;
-  width: 100%;
-  height: 12vh;
+  #graphical-img { /*qq*/
   filter:saturate(25%);
   opacity:0.8;
+  position: relative;
+  min-width: 100%;
+  max-height: 12vh;
+  margin-top: -20%;
   }
 
 /*=====================================================end============================================================= */
@@ -598,6 +591,10 @@ margin-top: 0.5%;
     height: 100vh;
   }
 
+  #adjust-header {
+    margin-top: 6%;
+    padding-top: 3%
+  }
 /* GRID */
 
 .grid-template-rows-1 , .grid {
@@ -605,12 +602,13 @@ margin-top: 0.5%;
   padding: 2.5px 2.5px;
   min-height: 100%;
   grid-template-columns: auto auto auto auto;
-  margin-bottom: -12.5%;
+  margin-bottom: -12.5%; /* mq */
 }
 
  .grid {
 	width: auto;
-  height: 75vh;
+  min-height: 70vh; /* mq */
+  height: 75vh; /* mq */
 	border: none;
   background-color: rgb(25,25,25);
 }
@@ -1102,7 +1100,7 @@ iframe {
 .subscribe-form h1 {
   text-align: center;
   margin-top: 8.5%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   font-size: 42px;
 }
 
