@@ -1365,6 +1365,11 @@ and (orientation: portrait) {
     height: auto;
   }
 
+  #adjust-header { /*yyy*/
+    margin-top: 7%;
+    padding-top: 3%;
+}
+
     #ai101-heading-2 {
     background-color: #0e101f;
     position: absolute;
@@ -1553,19 +1558,22 @@ and (orientation: portrait) {
     .form2-wrapper {
       position: absolute;
       display: flexbox;
-      margin-top: 180%; /* zzz */
+      margin-top: 180%; 
     }
 
 
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
-.grid-template-rows-1 , .grid {
-    margin-top: 1.5%;
-    margin-bottom: -63.5%;
+.grid-template-rows-1 , .grid { /*zzz*/
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
   
 .grid-template-rows-1{
     grid-template-rows: 240px 240px;
+}
+
+.grid {
+  margin-top: 45%;
+  margin-bottom: -90%;
 }
 
 .grid h3 {                
