@@ -1564,6 +1564,7 @@ and (orientation: portrait) {
     position: relative;
     margin-top: 10%;
     padding: 0;
+    z-index: 0; /*qw*/
   }
 
   #adjust-footer {
@@ -1572,7 +1573,7 @@ and (orientation: portrait) {
   }
 
   
-.grid-template-rows-1 , .grid { /*zzz*/
+.grid-template-rows-1 , .grid { 
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     display:grid;
     position: absolute;
@@ -1616,6 +1617,8 @@ and (orientation: portrait) {
   margin-left: 5%;
   margin-right: 5%;
   border-top-right-radius: 20%;
+  z-index: 100;
+  position: relative;
 }
 
 .popup-article article { 
