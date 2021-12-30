@@ -333,8 +333,7 @@ a { color: white; text-decoration: none; }
   color: whitesmoke;
   text-align: center;
   height: 15vh;
-  margin: 0;
-  padding-top: 2.5%;
+  padding-top: 3%;
   }
 
 .ai-101-container article {
@@ -538,7 +537,7 @@ margin-top: 0.5%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
-    margin-left: 0.5%;
+    margin-left: 1%;
     margin-top: -1%;  /*mq*/
     font-size: 14px;  /*mq*/
     letter-spacing: 5px;  /*mq*/
@@ -587,11 +586,10 @@ margin-top: 0.5%;
     margin: 0 auto;	
     height: 100vh;
   }
-
   #adjust-header {
-    margin-top: 6%;
-    padding-top: 3%
+    padding-top: 3.5%;
   }
+
 /* GRID */
 
 .grid-template-rows-1 , .grid {
@@ -694,24 +692,25 @@ margin-top: 0.5%;
 .popup-heading-2 {
   background-color: #0e101f;
   position: absolute;
-  height: 10vh;
+  height: 4vh;
   width: 100%;
   margin-top: 10%;
-  z-index: 0;
+  z-index: 400;
+}
+.article-header {
+  position: relative;
+  z-index: 500;
 }
 
 .article-header h2 {
-  
-  background-color:rgb(18, 42, 49);
+  background-color:  #0e101f;
   font-size: 30px;
   color: whitesmoke;
   text-align: center;
   width: 100%;
-  height: 7vh;
-  margin-top: 0;
+  height: 5vh;
   margin-bottom: -10%;
-  padding-top: 1%;
-  padding-right: 4%;
+  padding-top: 0.5%;
   }
 
 .author-pu{
@@ -724,8 +723,8 @@ margin-top: 0.5%;
   max-width: 100px;
   width: 100%;
   white-space: nowrap;
-  margin-top: 0;  /* mq */
-  margin-left: 66%; /* mq */
+  margin-top: -4%;  /* mq */
+  margin-left: 72%; /* mq */
   }
 
   .author-pu > p {
@@ -740,7 +739,7 @@ margin-top: 0.5%;
   .author-pu > aside {
     line-height: 18px;
     border-left: 2px solid rgba(127, 221, 252, 0.932);
-    height: 8vh;
+    height: 6vh;
     color:white;
     font-size:14px;
     text-align: left;
@@ -751,18 +750,22 @@ margin-top: 0.5%;
  
 
   .author-pu > .profile-photo {
-    margin-top: 12%;
+    margin-top: 14%;
+    min-width: 50px;
+    max-width: 100%;
+    max-height: 40px;
   }
 
 .audio-player-pu {
  float:left;
- margin-top: 0; /* mq */
  opacity: 0.3;
  filter:invert(100%);
  position: absolute;
  display: flex;
  z-index: 100;
-
+ width: 300px;
+ height: 3vh;
+ margin-top: -4%; /* mq */
  }
 
  .audio-player-pu:hover {
@@ -771,14 +774,14 @@ margin-top: 0.5%;
 
  .pointer-pu {
    float: left;
-   margin-top: 6%; /* mq */
+   margin-top: 0.5%; /* mq */
    margin-left: 2%;
    height: 2.5vh;
    color: white;
    padding-right: 0.5%;
    font-family: 'Times New Roman', Times, serif;
-   font-size: 12px;
-   font-weight: 100;
+   font-size: 11px;  /*mq*/
+   letter-spacing: 6px;  /*mq*/
  }
 
  
@@ -798,13 +801,15 @@ margin-top: 0.5%;
 .popup-container {
   height:135%;
   width:100%;
+  position: relative;
+  z-index: 600;
 }
 
 .cover {
   position:fixed;
   top:0;
   left:0;
-  background:rgba(0,0,0,0.6);
+  background:rgba(0,0,0,0.9);
   z-index:5;
   width:100%;
   height:100%;
@@ -825,6 +830,7 @@ margin-top: 0.5%;
   border-radius:10px;
   overflow-y:hidden;
   overflow-x:hidden;
+  z-index: 700;
 }
 
 
@@ -981,8 +987,8 @@ display: none;
 #medical-img {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-  width: 300px;
-  height: 100%;
+  width: 380px;
+  height: 100.8%;
 }
 
 
