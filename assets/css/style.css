@@ -1621,7 +1621,7 @@ and (orientation: portrait) {
   margin-left: 5%;
   margin-right: 5%;
   border-top-right-radius: 0;
-  z-index: 100;
+  z-index: 1000;
   position: relative;
 }
 
@@ -1631,11 +1631,6 @@ and (orientation: portrait) {
   border-radius: 0px;
   background-color: rgba(255,255,255,.75);
   background-blend-mode:soft-light;
-  word-break: break-all;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
 }
 
 
@@ -1730,7 +1725,7 @@ and (orientation: portrait) {
   font-size: 20px;
   height: 7vh;
   text-align: left;
-  margin-top: 18%;
+  margin-top: 0;
   padding-top: 3.5%;
   padding-left: 2%;
   background-color: #0e101f;
@@ -1738,7 +1733,7 @@ and (orientation: portrait) {
 
 .cancel {
   position: absolute;
-  margin-top: 18%;
+  margin-top: 0;
   padding-top: 2.5%;
   background-color: transparent;
   border-top-right-radius: 0;
@@ -1759,6 +1754,11 @@ and (orientation: portrait) {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
+  word-break: break-all;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
   position: relative;
   z-index: 30;
 }
@@ -1805,6 +1805,11 @@ and (orientation: portrait) {
   font-weight: 500;
   line-height: 20px;
   word-spacing: -2px;
+  word-break: break-all;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
   position: relative;
   z-index: 80;
 }
