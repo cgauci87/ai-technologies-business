@@ -304,6 +304,7 @@ a { color: white; text-decoration: none; }
   
 /*==================================================================*/
 
+/*==========================ai-101 section=====================wip===================*/
 .ai-101 {
   margin: 0 auto;
   padding: 0;
@@ -327,13 +328,13 @@ a { color: white; text-decoration: none; }
   }
 
 .section-header h2{
-  background-color:rgb(18, 42, 49);
+  background-color: #0e101f;
   font-size: 60px;
   color: whitesmoke;
   text-align: center;
   height: 15vh;
-  margin-top: 5%;
-  padding-top: 2%
+  margin: 0;
+  padding-top: 2.5%;
   }
 
 .ai-101-container article {
@@ -461,8 +462,6 @@ margin-top: 0.5%;
    .author{
    position: relative;
    display: flex;
-   margin-right: 11%; /* mq */
-   margin-top: -4%;
    float: right;
    color: white;
    line-height: 20px;
@@ -472,23 +471,28 @@ margin-top: 0.5%;
    white-space: nowrap;
    position: relative;
    z-index: 30;
+   margin-right: 10.6%; /* mq */
+   margin-top: -4%;
    }
 
 
-   .author p {
+   .author > p {
      line-height: 18px;
      padding-right: 5%;
      padding-left: 5%;
-     
+     white-space: pre-line;
+     margin-top: 8%;
    }
 
-   .author aside {
+   .author > aside {
     line-height: 18px;
     border-left: 2px solid rgba(127, 221, 252, 0.932);
-    height: 8vh;
+    height: 7vh;
+    padding-left: 5%;
+    margin-top: 8%;
   }
 
-   .profile-photo { /*zz*/
+   .profile-photo { 
     border: none;
     border-radius: 50%;
     overflow: hidden;
@@ -499,6 +503,7 @@ margin-top: 0.5%;
     display: block;
     float: right;
     color: white;
+    margin-top: 4%; /*mq*/
    }
 
 .audio-player {
@@ -528,13 +533,14 @@ margin-top: 0.5%;
   }
   
   #listen{
-    float: left;
-    padding-left: 1%;
-    background-color: black;
+    background:transparent;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    height: 3vh;
-    font-size: 16px;
+    position: absolute;
+    margin-left: 0.5%;
+    margin-top: -1%;  /*mq*/
+    font-size: 14px;  /*mq*/
+    letter-spacing: 5px;  /*mq*/
   }
 
   .fas > .fa-hand-pointer{
@@ -546,14 +552,14 @@ margin-top: 0.5%;
   }
   
   .fa-clock {
-    float: right;
-    background-color: black;
+    position: absolute;
     color: white;
-    height: 2.5vh;
+    background: transparent;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    padding-right: 0.5%;
-    background: none;
+    font-size: 14px;  /*mq*/
+    letter-spacing: 5px;  /*mq*/
+    margin-top: -1%; /*mq*/
+    margin-left: 90.8%; /*mq*/
   }  
 
   #graphical-img { /*qq*/
