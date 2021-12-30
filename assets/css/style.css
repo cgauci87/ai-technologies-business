@@ -1330,7 +1330,7 @@ and (orientation: portrait) {
   .goto-btn {
     border-radius: 0.3em;
     padding: 0.1em 0.1em;
-    margin: 0 auto;
+    margin-top: 0 auto;
     }
 
     .goto-btn-txt {
@@ -1842,7 +1842,6 @@ z-index: 90;
   min-height: 7vh;
   z-index: 100;
   display: inline-block;
-  margin-bottom: 60%;
 }
 
 /* bankfin===============POP-UP ARTICLE=============bankfin */
@@ -1894,7 +1893,6 @@ z-index: 90;
  
 /*  ==============#podcasts============================   */
 
-
 iframe {
 background-color: rgba(127, 221, 252, 0.932);
 filter:saturate(25%);
@@ -1905,9 +1903,10 @@ height: 15vh;
 
 .column{
   position:relative;
-  display:ruby;
+  display:flexbox;
   width: auto;
   height: auto;
+  margin-left: 2%;
   margin-right: 2%;
 }
 
@@ -1917,16 +1916,24 @@ height: 15vh;
     height: 18vh;
   }
 
+  .podcasts-container {
+    position: absolute;
+    margin-top: 17%;
+  }
+
+  #column-1 p {
+    height: 16vh;
+  }
+
   #column-3 p {
-    margin-bottom: -15%;
+    margin-bottom: -5%;
+    height: 10vh;
   }
 
+  
   #footer-pd {
-    margin-top: 25%;
-    height: 5vh;
+    margin-top: 190%;
   }
-
-
 
  /*===================================== */
 
