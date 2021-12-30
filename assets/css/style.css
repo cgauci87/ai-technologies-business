@@ -1330,7 +1330,7 @@ and (orientation: portrait) {
   .goto-btn {
     border-radius: 0.3em;
     padding: 0.1em 0.1em;
-    margin-top: 0 auto;
+    margin: 0 auto;
     }
 
     .goto-btn-txt {
@@ -1937,9 +1937,17 @@ height: 15vh;
 
  /*===================================== */
 
+ #subscribe-header {
+   margin-top: -0.5%;
+ }
+
+ .subscribe-form {
+   position: absolute; /*rt*/
+   display: flexbox;
+   margin-top: 40%;
+ }
+
  .subscribe-form h1 {
-  margin-top: 20%;
-  margin-bottom: 3%;
   font-size: 26px;
 }
 
@@ -1951,12 +1959,15 @@ height: 15vh;
 
 .subscribe-form form {
   max-width: 220px;
-  margin-bottom: -20%;
 }
 .subscribe-form input {
   height: 7vh;
   font-size: 14px;
   color: #0e101f;
+}
+
+#subscribe-footer {
+  margin-top: 175%;
 }
 
 /*===============================================*/
