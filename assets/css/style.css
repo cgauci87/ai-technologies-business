@@ -347,7 +347,8 @@ a { color: white; text-decoration: none; }
 .ai-101-container h3 {
 float: left;
 text-align: right;  
-font-size: 28px;
+font-size: 32px;
+font-weight: 500;
 overflow-wrap: break-word;
 line-height: 20px;
 vertical-align: middle;
@@ -359,10 +360,11 @@ margin-top: 0.5%;
 
 
 .ai-101-container  p {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 500;
   display: inline;
   color: black;
+  margin-left: 0.5%;
   }
 
   .ai-101-a {
@@ -374,36 +376,6 @@ margin-top: 0.5%;
    float: left;
  } 
 
- #mimic-icon {
-  width: 90px;
-  float: left;
-  position: absolute;
-  display: flex;
-  transform: rotate(-35deg);
-  margin-top:  10%;
-  margin-left: 5%;
-}
-
-#process-icon {
-  width: 60px;
-  float: left;
-  position: absolute;
-  display: flex;
-  transform: rotate(45deg);
-  margin-top: 9%;
-  margin-left: 13.5%;
-}
-
- #ux-icon {
-   width: 40px;
-   float: left;
-   position: absolute;
-   display: flex;
-   margin-top: 1%;
-   margin-left: 9%;
- }
-
- 
  #ml-icon {
   width: 120px;
   float: left;
@@ -413,8 +385,37 @@ margin-top: 0.5%;
   margin-left: 1%;
 }
 
+ #mimic-icon {
+  width: 100px;
+  float: left;
+  position: absolute;
+  display: flex;
+  transform: rotate(-35deg);
+  margin-top: 9%;
+  margin-left: 5%;
+}
+
+#process-icon {
+  width: 70px;
+  float: left;
+  position: absolute;
+  display: flex;
+  transform: rotate(45deg);
+  margin-top: 9%;
+  margin-left: 12.5%;
+}
+
+ #ux-icon {
+   width: 50px;
+   float: left;
+   position: absolute;
+   display: flex;
+   margin-top: 1%;
+   margin-left: 9%;
+ }
+
   #big-data-icon {
-    width: 40px;
+    width: 50px;
     float: left;
     position: absolute;
     display: flex;
@@ -438,7 +439,7 @@ margin-top: 0.5%;
     position: absolute;
     display: flex;
     margin-top: 1%;
-    margin-left: 9.5%;
+    margin-left: 8.5%;
   }
  
   #elv-icon {
@@ -447,7 +448,7 @@ margin-top: 0.5%;
    position: absolute;
    display: flex;
    margin-top: 1%;
-   margin-left: 18.5%;
+   margin-left: 16.5%;
  }
  
    #growth-icon {
@@ -456,7 +457,7 @@ margin-top: 0.5%;
      position: absolute;
      display: flex;
      margin-top: 1%;
-     margin-left: 27%; 
+     margin-left: 24%; 
    }
    
    .author{
