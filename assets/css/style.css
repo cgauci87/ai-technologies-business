@@ -803,6 +803,7 @@ margin-top: 0.5%;
   width:100%;
   position: relative;
   z-index: 600;
+
 }
 
 .cover {
@@ -823,7 +824,6 @@ margin-top: 0.5%;
   margin-left: 16%;
   margin-top: -32%;
   position:absolute;
-  z-index:10;
   display:none;
   background: #424242;
   border:5px solid #cccccc;
@@ -835,18 +835,17 @@ margin-top: 0.5%;
 
 
 .popup-article article { 
-  margin-right: 3%;
-  margin-left: 3%;
+  margin-right: -7%;
+  margin-left: -0.5%;
   background-color: white;
-  width: 94%;
-  max-height: 78%;
+  max-width: 100%;
+  max-height: 90%; /*mq*/
   height: 100%;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding: 5px 5px;
   overflow-y:scroll;
   overflow-x:hidden;
   border-radius: 50px;
-  margin-top: 18% ; /* mq */
+  margin-top: 13.3%; /* mq */
 }
 
 .lhs-image-wrapper {
