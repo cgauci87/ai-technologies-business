@@ -958,19 +958,6 @@ margin-top: 0.5%;
 display: none;
 }
 
-/* bankfin===============POP-UP ARTICLE=============bankfin */
-
-
-#popup-article-bankfin:target, #popup-article-bankfin:target + .cover{
-  display:block;
-  opacity:2;
-}
-
-#risk-comp-img {
-  width: 100%;
-  height: 27vh;
-}
-
 
 /* healthph===============POP-UP ARTICLE=============healthph */
 
@@ -985,6 +972,28 @@ display: none;
   width: 100%;
   height: 27vh;
 }
+
+/* bankfin===============POP-UP ARTICLE=============bankfin */
+
+
+#popup-article-bankfin:target, #popup-article-bankfin:target + .cover{
+  display:block;
+  opacity:2;
+}
+
+#risk-comp-img {
+  width: 100%;
+  height: 27vh;
+}
+
+/* ecom===============POP-UP ARTICLE=============ecom */
+
+
+#popup-article-ecom:target, #popup-article-ecom:target + .cover{
+  display:block;
+  opacity:2;
+}
+
 
 
 /*==========================================================================================*/
