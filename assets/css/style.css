@@ -944,13 +944,13 @@ margin-top: 0.5%;
  
 }
 
-.btm-image-wrapper{
+.btm-image-wrapper img{
   background:#0e101f;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 3%;
+  padding-right: 3%;
   margin-top:  5%;
-  margin-left: -3.2%;
-  margin-right: -3.3%;
+  width: 100%;
+  height: 27vh;
 }
 
 
@@ -968,22 +968,12 @@ display: none;
 }
 
 
-#surgery-img {
-  width: 100%;
-  height: 27vh;
-}
-
 /* bankfin===============POP-UP ARTICLE=============bankfin */
 
 
 #popup-article-bankfin:target, #popup-article-bankfin:target + .cover{
   display:block;
   opacity:2;
-}
-
-#risk-comp-img {
-  width: 100%;
-  height: 27vh;
 }
 
 /* ecom===============POP-UP ARTICLE=============ecom */
@@ -993,7 +983,6 @@ display: none;
   display:block;
   opacity:2;
 }
-
 
 
 /*==========================================================================================*/
