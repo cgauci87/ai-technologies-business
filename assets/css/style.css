@@ -984,6 +984,13 @@ display: none;
   opacity:2;
 }
 
+/* manufacturing===============POP-UP ARTICLE=============manufacturing */
+
+
+#popup-article-mnf:target, #popup-article-mnf:target + .cover{
+  display:block;
+  opacity:2;
+}
 
 /*==========================================================================================*/
 /*==========================================================================================*/
