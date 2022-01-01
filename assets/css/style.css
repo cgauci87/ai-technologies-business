@@ -563,11 +563,14 @@ margin-top: 0.5%;
     margin-top: -1%; /*mq*/
     margin-left: 90.8%; /*mq*/
     z-index: 600;
-  }  
+  } 
+
+  .ai-101 img {
+    filter:saturate(25%);
+  }
 
   #graphical-img { /*qq*/
-  filter:saturate(25%);
-  opacity:0.8;
+  filter:saturate(20%);
   position: relative;
   min-width: 100%;
   max-height: 12vh;
@@ -1152,7 +1155,9 @@ iframe:hover {
   border-radius: 5px;
 }
 
-
+#subscribe-footer {
+  margin-top: 18.5%;
+}
 
 /*===============================================================================================*/
 /*===============================================================================================*/
@@ -1274,7 +1279,8 @@ form .field textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 0;
+  margin-top: -7%;
+  z-index: 900;
 }
 
 .social-icon, .social-icon__item{
