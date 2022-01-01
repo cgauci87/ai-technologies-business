@@ -614,6 +614,16 @@ margin-top: 0.5%;
   background-color: rgb(25,25,25);
 }
 
+#healthph {
+  background-image: url("../images/healthcare-image.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-blend-mode:overlay;
+}
+#healthph:hover {
+  background-blend-mode:normal;
+}
+
 #bankfin {
   background-image: url("../images/bank_img.png");
   background-repeat: no-repeat;
@@ -621,13 +631,19 @@ margin-top: 0.5%;
   background-blend-mode:overlay;
 }
 
-#healthph {
-  background-image: url("../images/healthcare-image.png");
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-blend-mode:overlay;
+#bankfin:hover {
+  background-blend-mode:normal;
 }
 
+#retailecom {
+  background-image: url("../images/ecom_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:overlay;
+}
+#retailecom:hover {
+  background-blend-mode:normal;
+}
 
 #manufacturing {
   background-image: url("../images/manufacturing-image.png");
@@ -636,11 +652,8 @@ margin-top: 0.5%;
   background-blend-mode:overlay;
 }
 
-#retailecom {
-  background-image: url("../images/ecom_img.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode:overlay;
+#manufacturing:hover {
+  background-blend-mode: normal;
 }
 
 .item {
