@@ -700,6 +700,9 @@ margin-top: 0.5%;
   background: rgba(0,0,0,0.6);
 }
 
+.grid a:hover {
+filter: invert(100);
+}
 /*======================================================= */
 
 
@@ -739,7 +742,7 @@ margin-top: 0.5%;
   line-height: 20px;
   height: 150px;  
   max-width: 100px;
-  width: 100%;
+  width: 100%;  
   white-space: nowrap;
   margin-top: -4%;  /* mq */
   margin-left: 75.5%; /* mq */
@@ -1109,7 +1112,6 @@ iframe:hover {
 }
 
 
-
 .subscribe {
   margin: 0;
   padding: 0;
@@ -1423,10 +1425,11 @@ filter:invert(100);
     margin-top: 9%;
     }
 
-  .author{
-    margin-right: 13.3%; /* mq */
-    margin-top: -4.2%;
-    }
+  .author {
+    position: absolute;
+    margin-left: 80.1%;
+    margin-top: -4.3%;
+  }
 
   .fa-clock {
     margin-left: 88.5%; /*mq*/
@@ -1441,7 +1444,7 @@ filter:invert(100);
   .ai-101-container  p {
     margin-top: 0.5%;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .ai-101-a {
@@ -1452,6 +1455,120 @@ filter:invert(100);
    margin-top: -13%;
  } 
 
-/*wip*/
+ .image-container {
+   margin-top:  -5%;
+ }
+
+ .section-footer {
+   height: 5vh;
+ }
+ 
+ /*#industries section*/
+
+ .grid h3 {
+	text-align: center;
+	font-size: 28px;
+  font-weight:500;
+  }
+
+.grid-span {
+  font-weight: 400;
+  font-size: 22px;
 }
 
+.grid a {
+  font-size: 18px;
+}
+
+/*popup*/
+
+.article-header h2 {
+  padding-top: 2.2%;
+  font-size: 26px;
+  }
+
+.author-pu{
+  margin-left: 69.8%; /* mq */
+}
+
+.author-pu > .profile-photo { 
+  margin-top: 9%;
+}
+
+.author-pu > aside {
+  height: 8vh;
+}
+
+.clock-pu{  
+  margin-top: 1.25%;
+  margin-left: 57.5%;
+}
+
+.lhs-image-wrapper > img {
+  width: 320px;
+}
+
+.article-p1 p { 
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.q-icon {
+  width: 40px;
+}
+
+.quote{
+  margin-top: 1%;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.article-p2 h3 {
+  font-size: 22px;
+ }
+
+.article-p2 {
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 24px;
+}
+
+/*#podcasts section*/
+
+.top-image-wrapper img {
+  height: 34vh;
+}
+
+.column p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+/*#subscribe section*/
+
+.subscribe {
+  background-position: 20% 20%; /*mq*/
+}
+
+.subscribe-form {
+  margin-top: -3%;
+}
+
+#subscribe-footer {
+  margin-top: 18%;
+}
+
+
+.contact {
+  background-position: 20% -10%;
+}
+
+.contact-container {
+  margin-left: 17%;
+  margin-top: 5%;
+}
+
+/*wip*/
+}
