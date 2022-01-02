@@ -1277,7 +1277,6 @@ form .field textarea {
 
 .contact-container form #msg {
   height: 64px;
-  max-lines: 10;
   resize: none;
   transition: all 333ms ease-in-out;
   padding-top: 18px;
