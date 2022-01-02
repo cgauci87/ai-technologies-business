@@ -543,17 +543,17 @@
 				<section class="contact" id="contact">
 					<header class="section-header" id="contact-header"><h2>Contact</h2></header>
 						<div class="contact-container">
-									<form action="#" method="post">
+									<form id="contact-form" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
 									<div class="field">
-										<input type="text" id="name" name="name" placeholder="Full Name"/>
+										<input type="text" id="name" name="name" placeholder="Full Name" required>
 										<label for="name">Name</label>
 									</div>
 									<div class="field">
-										<input type="text" id="email" name="email" placeholder="name@mail.com" />
+										<input type="email" id="email" name="email" placeholder="mail@mail.com" required>
 										<label for="email">Email</label>
 									</div>
 									<div class="field">
-										<textarea id="msg" rows="4" name="msg" placeholder="Write your message..."></textarea>
+										<textarea id="msg" rows="4" maxlength="320" name="msg" placeholder="Write your message..." required></textarea>
 										<label for="msg">Message</label>
 									</div>
 									<input id="send-btn" type="submit" value="Send" />
@@ -563,16 +563,16 @@
 
 					<footer class="footer">
 					<ul class="social-icon">
-						<li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/">
+						<li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/" target="_blank" rel="noopener">
 						<i class="fab fa-facebook-square"></i></a>
 						</li>
-						<li class="social-icon__item"><a class="social-icon__link" href="https://www.twitter.com/">
+						<li class="social-icon__item"><a class="social-icon__link" href="https://www.twitter.com/" target="_blank" rel="noopener">
 						<i class="fab fa-twitter-square"></i></a>
 						</li>
-						<li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/">
+						<li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/" target="_blank" rel="noopener">
 						<i class="fab fa-linkedin"></i></a>
 						</li>
-						<li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/">
+						<li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/" target="_blank" rel="noopener">
 						<i class="fab fa-instagram-square"></i></a>
 						</li>
 					</ul>

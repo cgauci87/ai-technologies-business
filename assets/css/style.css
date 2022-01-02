@@ -1226,7 +1226,7 @@ margin-top: 8%;
 
 .contact-container {
   margin-left: 22%;
-  margin-top: 9%;
+  margin-top: 5%;
   width: 70%;
   max-width: 1000px;
   display: flex;
@@ -1242,7 +1242,6 @@ margin-top: 8%;
   font-size: 20px;
   letter-spacing: 0.075em;
   font-weight: 300;
-  text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
 }
@@ -1265,7 +1264,7 @@ margin-top: 8%;
   padding: 18px 0;
 }
 
-.contact-container form .field input[type="text"],
+.contact-container form .field input[type="text"], .field input[type="email"],
 form .field textarea {
   border: none;
   width: 100%;
@@ -1277,6 +1276,7 @@ form .field textarea {
 
 .contact-container form #msg {
   height: 64px;
+  max-lines: 10;
   resize: none;
   transition: all 333ms ease-in-out;
   padding-top: 18px;
@@ -1287,6 +1287,8 @@ form .field textarea {
 }
 .contact-container form input[type="text"]:focus + label,
 .contact-container form input[type="text"]:not(:placeholder-shown) + label,
+.contact-container form input[type="email"]:focus + label,
+.contact-container form input[type="email"]:not(:placeholder-shown) + label,
 .contact-container form textarea:focus + label,
 .contact-container form textarea:not(:placeholder-shown) + label,
 .contact-container form .field:hover label {
@@ -1308,8 +1310,13 @@ form .field textarea {
 
 #send-btn {
   margin-left: 84.4%;
+  background: #0e101f;
+  color: white;
 }
 
+#send-btn:hover {
+filter:invert(100);
+}
 
 
 /*=================================================================================================*/
