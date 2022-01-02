@@ -211,12 +211,11 @@ a { color: white; text-decoration: none; }
     font-weight: 700;
     font-size: 18px; /*mq*/
     letter-spacing: 10px; /*mq*/
+
   }
 
 .goto-btn:hover {
-  color: whitesmoke;
-  outline: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  filter:saturate(10);
 }
 
 .section-footer { 
@@ -504,6 +503,7 @@ margin-top: 0.5%;
     float: right;
     color: white;
     margin-top: 4%; /*mq*/
+    filter:saturate(25%);
    }
 
 .audio-player {
@@ -772,6 +772,7 @@ margin-top: 0.5%;
     min-width: 60px;
     max-width: 100%;
     max-height: 50px;
+    filter:saturate(25%);
   }
 
 .audio-player-pu {
@@ -875,13 +876,13 @@ margin-top: 0.5%;
 
 .popup-article article { 
   background-color: white;
-  max-width: 100%;
-  max-height: 87.7%; /*mq*/
-  height: 100%;
-  padding: 5px 5px;
   overflow-y:scroll;
   overflow-x:hidden;
   border-radius: 50px;
+  height: 100%;
+  max-width: 100%;
+  max-height: 87.7%; /*mq*/
+  padding-right: 8px; /*mq*/
   margin-top: 13.3%; /* mq */
   margin-right: 0.5%; /*mq */
   margin-left: 0.5%; /*mq*/
@@ -893,8 +894,7 @@ margin-top: 0.5%;
   border-bottom-left-radius: 50px;
   width: 412px;
   height: 87.75%;
-  margin-left: -0.5%; /*mq*/
-  margin-top: -0.4%; /*mq*/
+  margin: 0 auto;
 }
 
 .article-p1 p { 
@@ -914,6 +914,7 @@ margin-top: 0.5%;
   margin-top: 2%;
   padding-left:35%;
   float:right;
+  filter:saturate(25%);
 }
 
 
@@ -1071,15 +1072,15 @@ iframe:hover {
   position: relative;
   margin-top: 1%;
   height: 10vh;
-  padding-top: 0.3%;
-  background-color:  rgba(127, 221, 252, 0.932);
 }
+
  
 .wave {  
   background: url("../images/ai_wave.png");
   background-size: 1000px 100px;
   width: 100%;
   height: 60px;
+  padding-top: 0.5%; /*mq*/
 }
 
 .wave#wave1 {
@@ -1200,7 +1201,7 @@ margin-top: 8%;
 
 
 #subscribe-footer {
-  margin-top: 17%;
+  margin-top: 16.9%;
 }
 
 /*===============================================================================================*/
