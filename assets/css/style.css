@@ -1168,8 +1168,39 @@ iframe:hover {
   border-radius: 5px;
 }
 
+#checkbox {
+  width: 20px;
+  float: left;
+}
+
+#subscribe-form > label {
+float: right;
+font-size: 12px;
+margin-top: 8%;
+}
+
+#submit-button {
+  float: right;
+  width: 50px;
+  margin-top: -22%;
+  margin-right: -10%;
+  background: #0e101f;
+  color: white;
+  border: 2px solid white;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#submit-button:hover {
+  filter: invert(100);
+  cursor:pointer;
+}
+
+
 #subscribe-footer {
-  margin-top: 18.5%;
+  margin-top: 17%;
 }
 
 /*===============================================================================================*/
@@ -1181,16 +1212,21 @@ iframe:hover {
   padding: 0;
   width: 100%;
   height: 100vh;
-  background: #0e101f;
   box-sizing: border-box;
   color: #fff;
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
     "sans-serif";
+  background-image: url("../images/contact-bg.png");
+  background-color: rgb(18, 42, 49);
+  background-blend-mode:multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -10% -10%; /*mq*/
 }
 
 .contact-container {
-  margin-left: 18%;
-  margin-top: 1.2%;
+  margin-left: 22%;
+  margin-top: 9%;
   width: 70%;
   max-width: 1000px;
   display: flex;

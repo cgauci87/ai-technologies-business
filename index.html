@@ -161,7 +161,7 @@
 			<div class="popup-container"></div>	
 				<div id="popup-article-healthph" class="popup-article">
 						<header class="article-header">
-							<h2>Health & Pharma</h2>
+							<h2><i class="fas fa-heartbeat"></i> Health & Pharma</h2>
 								<div class="popup-heading-2">
 										<div class="audio-player-pu">
 											<audio controls>
@@ -249,7 +249,7 @@
 							<div class="popup-container"></div>
 									<div id="popup-article-bankfin" class="popup-article">
 											<header class="article-header">
-												<h2>Banking & Finance</h2>
+												<h2><i class="fas fa-money-check-alt"></i> Banking & Finance</h2>
 												<div class="popup-heading-2">
 																		<div class="audio-player-pu">
 																			<audio controls>
@@ -318,7 +318,7 @@
 							<div class="popup-container"></div>
 							<div id="popup-article-ecom" class="popup-article">
 									<header class="article-header">
-										<h2>eCommerce</h2>
+										<h2><i class="fas fa-shopping-cart"></i> eCommerce</h2>
 										<div class="popup-heading-2">
 																<div class="audio-player-pu">
 																	<audio controls>
@@ -398,7 +398,7 @@
 						<div class="popup-container"></div>
 							<div id="popup-article-mnf" class="popup-article">
 									<header class="article-header">
-										<h2>Manufacturing</h2>
+										<h2><i class="fas fa-industry"></i> Manufacturing</h2>
 										<div class="popup-heading-2">
 																<div class="audio-player-pu">
 																	<audio controls>
@@ -523,9 +523,13 @@
 							<div class="subscribe-form">
 								<h1><i>Join our mailing list!</i></h1>
 								<p>sign up to receive email updates on new articles and podcasts.</p>
-								<form>
+								<form id="subscribe-form" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
 								<input type="email" name="email" placeholder="Your email" onfocus="this.placeholder=''" 
-								onblur="this.placeholder='Your email'" autocomplete="off">
+								onblur="this.placeholder='Your email'" autocomplete="off" required>
+								<input type="submit" value="OK" id="submit-button">
+								<input type="checkbox" name="checkbox" id="checkbox" required>
+								<label for="checkbox">I would like to receive the b2b.ai email newsletter.</label>
+							</p>
 								</form>
 								</div>
 						</div>
