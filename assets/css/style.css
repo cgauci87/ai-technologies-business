@@ -1034,7 +1034,7 @@ display: none;
     height: 100%;
     box-sizing: border-box;
     border: 4px solid;
-    background-color: rgba(127, 221, 252, 0.3); /*wip*/
+    background-color: rgba(127, 221, 252, 0.3);
     border-color: rgba(127, 221, 252, 0.932);
     padding-top: 1.5%;
     padding-right: 0.25%;
@@ -1055,7 +1055,6 @@ display: none;
   
   .column:hover {
     background-color: rgba(127, 221, 252, 1);
-    /*wip*/
   }
 
 iframe {
@@ -1380,3 +1379,79 @@ filter:invert(100);
 
 /* ========================================================*/
 /* ========================================================*/
+
+/*------------------------------------MEDIA QUERIES---------------------------------*/
+
+/* (1680x1050) WSXGA+ Display */
+@media  screen and (max-width: 1680px) {
+
+  /*header*/
+  .nav > .nav-header > .nav-title {
+    padding: 8px 4px 8px 4px;
+    font-size: 14px;
+  }
+
+  /*intro*/
+  .intro h1 {
+    font-size: 64px;
+    letter-spacing: 32px;
+  }
+
+  .line-wrapper-1 .line-1 {
+    font-size: 38px;
+    word-spacing: 5px;
+    height: 11vh;
+  }	
+  .line-wrapper-2 .line-2 {
+    margin-top: 34.1%;
+    font-size: 26px;
+    word-spacing: 3.5px;
+  }	
+
+  .spike#spike1 {
+    height: 9.5vh;
+    margin-top: 35%; /*mq*/
+  }
+
+  /*ai-101 section*/
+
+  .section-header h2{
+    padding-top: 2.4%;
+    }
+  
+  .profile-photo { 
+    margin-top: 9%;
+    }
+
+  .author{
+    margin-right: 13.3%; /* mq */
+    margin-top: -4.2%;
+    }
+
+  .fa-clock {
+    margin-left: 88.5%; /*mq*/
+    } 
+
+  .ai-101-container h3 {
+    font-size: 28px;
+    font-weight: 500;
+   }
+      
+      
+  .ai-101-container  p {
+    margin-top: 0.5%;
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .ai-101-a {
+    margin-top: 2%;
+  }
+  
+ .ai-101-d {
+   margin-top: -13%;
+ } 
+
+/*wip*/
+}
+
