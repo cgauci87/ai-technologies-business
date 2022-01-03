@@ -1385,16 +1385,15 @@ filter:invert(100);
 /*------------------------------------MEDIA QUERIES---for---Laptops & Large Displays-----------------------------*/
 
 /* (1440x900) WXGA+ Display */
-@media  screen and (max-width: 1440px) {
-
-  
+  @media  screen and (max-width: 1440px) {
+  /*intro section*/ 
   .intro {
     background-position: 0 95px;
   }
 
   .intro h1 {
-   font-size: 92px !important;
-   letter-spacing: 48px !important;
+   font-size: 92px;
+   letter-spacing: 48px;
    line-height: 100px;
    height: 30vh;
    padding-top: 3.8%;
@@ -1404,16 +1403,31 @@ filter:invert(100);
   
   .line-wrapper-1 .line-1 {
     margin-top: 1%;
-    height: 10vh !important;
+    height: 10vh;
   }	
 
   .spike#spike1 {
-    height: 14vh !important;
+    height: 14vh;
   }
+
+  /*#ai101 section*/
+
+  .ai-101-a {
+    margin-top: 10%;
+  }
+  
+ .ai-101-d {
+   margin-top: -13%;
+ } 
+
+ .image-container {
+   margin-top:  10%;
+ }
+
+}
 
 
   /* wip */
-}
 
 /* (1680x1050) WSXGA+ Display */
 @media  screen and (max-width: 1680px) {
@@ -1607,5 +1621,6 @@ filter:invert(100);
 .contact-container {
   margin-left: 17%;
   margin-top: 5%;
-}
+  }
+
 }
