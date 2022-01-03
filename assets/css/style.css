@@ -1421,6 +1421,8 @@ filter:invert(100);
     padding-top: 2.4%;
     }
   
+  
+     
   .profile-photo { 
     margin-top: 9%;
     }
@@ -1487,6 +1489,11 @@ filter:invert(100);
   font-size: 26px;
   }
 
+  .pointer-pu {
+    margin-top: 1.5%; /* mq */
+    margin-left: 2%;
+  }
+ 
 .author-pu{
   margin-left: 69.8%; /* mq */
 }
