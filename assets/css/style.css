@@ -1501,6 +1501,11 @@ height: 5vh !important;
   margin-left: -2.2%;
 }
 
+/*#subscribe section*/
+.column {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
 }
   /* wip */
