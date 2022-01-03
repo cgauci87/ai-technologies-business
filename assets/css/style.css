@@ -1453,7 +1453,43 @@ filter:invert(100);
   margin-left: 86.8% !important;
   } 
 
+  .profile-photo {
+    margin-top: 1% !important;
+  }
 
+
+/*popup article*/
+
+.audio-player-pu {
+  margin-top: -5.5% !important;
+}
+
+.author-pu {
+  margin-top: -5%;
+  margin-left: 72% !important;
+}
+
+.author-pu > p {
+white-space: pre-line;
+padding-top: 3%;
+}
+
+.author-pu > aside {
+padding-top: 0 ;
+height: 5vh !important;
+}
+  
+
+.author-pu > .profile-photo {
+  margin-top: 4% !important;
+  min-width: 50px;
+  max-height: 40px;
+}
+
+.clock-pu{  
+  margin-top: 2% !important;
+  margin-left: 54% !important;
+}
 
 }
   /* wip */
