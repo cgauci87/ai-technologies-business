@@ -1738,6 +1738,10 @@ height: 5vh ;
 /* (1280x1024) SXGA Display */
 @media screen and (max-width: 1280px) {
 
+  .nav > .nav-links {
+    margin-right: -1%;
+  }
+
   .intro {
     background-position: -100px 115px;
   }
@@ -1748,7 +1752,7 @@ height: 5vh ;
   }
   
   .line-wrapper-1 .line-1 {
-    height: 12vh ;
+    height: 12vh;
   }	
 
   .section-footer {
@@ -1757,14 +1761,68 @@ height: 5vh ;
 
   .line-wrapper-2 .line-2 {
     margin-top: 45%;
-    font-size: 24px ;
-    word-spacing: 6px ; 
+    font-size: 22px;
+    word-spacing: 0.5px; 
+    height: 2.5vh;
   }	
 
   .spike#spike1 {
     margin-top: 46% ;
     height: 15vh ;
   }
+  /*#ai-101 section*/
+
+  .audio-player {
+    margin-top: -8%;
+  }
+
+  #listen {
+  margin-top: -1.5%;
+  }
+
+  .author {
+    margin-left: 76%;
+    margin-top: -7%;
+  }
+
+  .author > aside {
+    height: 4vh;
+  }
+
+  .fa-clock {
+    margin-top: -1.5%;
+    margin-left: 88%;
+  }
+
+
+  .ai-101-a {
+    margin-top: 11%;
+  }
+  
+ .image-container {
+   margin-top: 5%;
+ }
+
+ .section-footer {
+   height: 4vh;
+ }
+
+
+ /*#industries section*/
+
+ #adjust-header {
+  padding-top: 5.5%;
+}
+
+.grid-template-rows-1 , .grid {
+margin-bottom: -20%;
+}
+
+#healthph, #bankfin, #retailecom, #manufacturing {
+  background-position: center;
+  background-size:cover;
+  
+}
 
   /* wip*/
 
