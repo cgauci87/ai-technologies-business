@@ -1387,46 +1387,59 @@ filter:invert(100);
 /* (1440x900) WXGA+ Display */
   @media  screen and (max-width: 1440px) {
   /*intro section*/ 
+ 
+  .nav > .nav-links {
+  padding-right: 1.5%;
+  }
+
   .intro {
-    background-position: 0 95px;
+    background-position: 0 120px !important;
   }
 
   .intro h1 {
-   font-size: 92px;
-   letter-spacing: 48px;
-   line-height: 100px;
-   height: 30vh;
-   padding-top: 3.8%;
-   padding-left: 3%;
+   font-size: 92px !important;
+   letter-spacing: 48px !important;
+   padding-left: 3% !important;
+   padding-top: 1.8%;
   }
 
   
   .line-wrapper-1 .line-1 {
-    margin-top: 1%;
-    height: 10vh;
+    margin-top: 0 !important;
+    height: 9.7vh !important;
+  }	
+
+  .line-wrapper-2 .line-2 {
+    margin-top: 33.3% !important;
+    font-size: 24px !important;
+    word-spacing: 6px !important; 
   }	
 
   .spike#spike1 {
-    height: 14vh;
+    margin-top: 34% !important;
+    height: 13vh !important;
   }
 
   /*#ai101 section*/
 
-  .ai-101-a {
-    margin-top: 10%;
+  .section-header h2 {
+    padding-top: 4% !important;
   }
-  
- .ai-101-d {
-   margin-top: -13%;
- } 
 
- .image-container {
-   margin-top:  10%;
+  .ai-101-a {
+    margin-top: 4.5% !important;
+  }
+
+ .form2-wrapper {
+   margin-top: 22%;
  }
 
+ .audio-player {
+  margin-top: -5%;
+ }
+
+
 }
-
-
   /* wip */
 
 /* (1680x1050) WSXGA+ Display */
