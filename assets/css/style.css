@@ -1501,11 +1501,38 @@ height: 5vh !important;
   margin-left: -2.2%;
 }
 
-/*#subscribe section*/
+/*#podcasts section*/
 .column {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
+
+/*#subscribe section*/
+
+.subscribe-form {
+  padding-top: 5%;
+}
+
+#subscribe-footer {
+  margin-top: 22%;
+}
+
+/* #contact section */
+
+.contact {
+  background-position: 0 90px !important;
+}
+
+.contact-container {
+  margin-left: 15% !important;
+  margin-top: 9% !important;
+}
+
+.footer p {
+  margin-top: 0.5%;
+}
+
 
 }
   /* wip */
