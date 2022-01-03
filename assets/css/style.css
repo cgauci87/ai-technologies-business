@@ -1735,6 +1735,74 @@ height: 5vh ;
   /* ================================================================================= */
 
 
+
+/*===================================================================================*/
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {
+  
+  .nav > .nav-links {
+    margin-right: -1.5%;
+  }
+
+  .line-wrapper-1 .line-1 {
+    font-size: 36px;
+  }
+
+
+  .section-footer {
+    margin-top: 15.5%;
+  }
+
+  .line-wrapper-2 .line-2 {
+    margin-top: 33%;
+    font-size: 22px;
+    letter-spacing: 0.4px;
+  }
+
+  .spike#spike1 {
+    margin-top: 34%;
+    height: 4.5vh;
+  }
+
+  /*#ai-101 section*/
+  .section-header h2 {
+    padding-top: 2.8%;
+  }
+
+  .profile-photo {
+    margin-top: 10%;
+  }
+
+  .fa-clock {
+    margin-top: -1.25%;
+    margin-left: 87.2%;
+  }
+
+  #listen {
+    margin-top: -1.25%;
+  }
+  
+  .author {
+    margin-top: -5%;
+  }
+
+
+  .ai-101-a {
+    margin-top: 3%;
+  }
+
+  .image-container {
+    margin-top: 0;
+  }
+    /* wip*/
+
+}
+
+
+/*======================================================================*/
+
+
 /* (1280x1024) SXGA Display */
 @media screen and (max-width: 1280px) {
 
@@ -1811,6 +1879,25 @@ height: 5vh ;
    #ux-icon {
      margin-top: 2%;
      margin-left: 9%;
+   }
+
+   #bus-mgt-icon {
+     margin-top: 2%;
+   }
+
+   #op-icon {
+    margin-top: 2%;
+    margin-left: 11%;
+  }
+ 
+  #elv-icon {
+   margin-top: 2%;
+   margin-left: 21%;
+ }
+ 
+   #growth-icon {
+     margin-top: 2%;
+     margin-left: 30%; 
    }
   
   
@@ -2028,10 +2115,4 @@ z-index: 80;
 .footer {
   margin-top: -8%;
 }
-
-  /* wip*/
-
 }
-
-/*===================================================================================*/
-
