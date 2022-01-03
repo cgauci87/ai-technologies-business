@@ -1894,12 +1894,12 @@ height: 5vh ;
 /*#contact section*/
 
 .contact {
-  background-position: 0 -60px;
+  background-position: 0 60px;
 }
 
 .contact-container {
   margin-left: 14.5%;
-  margin-top: 12%;
+  margin-top: 8%;
   }
 
 .footer {
