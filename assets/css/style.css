@@ -1382,7 +1382,38 @@ filter:invert(100);
 /* ========================================================*/
 /* ========================================================*/
 
-/*------------------------------------MEDIA QUERIES---------------------------------*/
+/*------------------------------------MEDIA QUERIES---for---Laptops & Large Displays-----------------------------*/
+
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+
+  
+  .intro {
+    background-position: 0 95px;
+  }
+
+  .intro h1 {
+   font-size: 92px !important;
+   letter-spacing: 48px !important;
+   line-height: 100px;
+   height: 30vh;
+   padding-top: 3.8%;
+   padding-left: 3%;
+  }
+
+  
+  .line-wrapper-1 .line-1 {
+    margin-top: 1%;
+    height: 10vh !important;
+  }	
+
+  .spike#spike1 {
+    height: 14vh !important;
+  }
+
+
+  /* wip */
+}
 
 /* (1680x1050) WSXGA+ Display */
 @media  screen and (max-width: 1680px) {
@@ -1490,12 +1521,12 @@ filter:invert(100);
   }
 
   .pointer-pu {
-    margin-top: 1.5%; /* mq */
+    margin-top: 1.5%;
     margin-left: 2%;
   }
  
 .author-pu{
-  margin-left: 69.8%; /* mq */
+  margin-left: 69.8%;
 }
 
 .author-pu > .profile-photo { 
@@ -1553,10 +1584,11 @@ filter:invert(100);
   padding-left: 7%;
   padding-right: 7%;
 }
+
 /*#subscribe section*/
 
 .subscribe {
-  background-position: 20% 20%; /*mq*/
+  background-position: 20% 20%;
 }
 
 .subscribe-form {
@@ -1576,6 +1608,4 @@ filter:invert(100);
   margin-left: 17%;
   margin-top: 5%;
 }
-
-/*wip*/
 }
