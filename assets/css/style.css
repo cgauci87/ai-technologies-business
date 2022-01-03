@@ -1491,6 +1491,17 @@ height: 5vh !important;
   margin-left: 54% !important;
 }
 
+.popup-article article {
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 14.2%;
+}
+
+.lhs-image-wrapper {
+  margin-left: -2.2%;
+}
+
+
 }
   /* wip */
 
