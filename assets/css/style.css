@@ -1393,14 +1393,16 @@ filter:invert(100);
   }
 
   .intro {
-    background-position: 0 120px !important;
+    background-position: 0 80px !important;
   }
 
   .intro h1 {
    font-size: 92px !important;
    letter-spacing: 48px !important;
    padding-left: 3% !important;
-   padding-top: 1.8%;
+   padding-top:3.5%;
+   padding-bottom: 1.5%;
+   line-height: 100px !important;
   }
 
   
@@ -1410,13 +1412,13 @@ filter:invert(100);
   }	
 
   .line-wrapper-2 .line-2 {
-    margin-top: 33.3% !important;
+    margin-top: 34% !important;
     font-size: 24px !important;
     word-spacing: 6px !important; 
   }	
 
   .spike#spike1 {
-    margin-top: 34% !important;
+    margin-top: 35% !important;
     height: 13vh !important;
   }
 
@@ -1437,6 +1439,20 @@ filter:invert(100);
  .audio-player {
   margin-top: -5%;
  }
+
+ .author {
+   margin-left: 78% !important;
+ }
+
+ .author > aside {
+  height: 6vh;
+}
+
+
+.fa-clock {
+  margin-left: 86.8% !important;
+  } 
+
 
 
 }
