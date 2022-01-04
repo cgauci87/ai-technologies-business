@@ -1648,17 +1648,29 @@ height: 10vh;
 /*#contact section*/
 
 .contact {
-  background-position: 20% -10%;
+  background-position: 0 400px;
 }
 
 .contact-container {
-  margin-left: 17%;
-  margin-top: 5%;
+  margin-left: 25%;
+  margin-top: 10%;
   }
+
+  .contact-container form * {
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-weight: 500;
+  }
+
+  
+#send-btn {
+  margin-left: 82%;
 
 }
 
-/*========================================================================*/
+  .footer p {
+    font-size: 24px;
+  }
 
 
     /* wip */
