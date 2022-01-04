@@ -1602,12 +1602,11 @@ filter:invert(100);
 
  
 /* (1920x1080) Full HD Display */
-/*wip*/
 
 @media  screen and (max-width: 1920px) {
   
   .nav > .nav-header > .nav-title {
-    font-size: 12px;
+    font-size: 14px;
   }
 
 
@@ -1625,6 +1624,7 @@ filter:invert(100);
     margin-top: 1%;
     font-size: 48px;
     word-spacing: 8px;
+    line-height: 50px;
     height: 20vh;
   }	
 
@@ -1634,8 +1634,8 @@ filter:invert(100);
 
   .line-wrapper-2 .line-2 {
     margin-top: 37.5%;
-    font-size: 27px;
-    word-spacing: 1px;
+    font-size: 26px;
+    word-spacing: 3px;
   }	
 
   .spike#spike1 {
@@ -1643,23 +1643,21 @@ filter:invert(100);
     margin-top: 38.5%;
   }
 
-  /*ai-101 section*/
+  /*ai-101 section*/ /* wip */
 
   .section-header h2{
-    padding-top: 3%;
+    padding-top: 2.5%;
     }
     
   .audio-player {
-    margin-top: -5%;
+    margin-top: -3.8%;
   }
   .profile-photo { 
-    margin-top: 4%;
+    margin-top: 5%;
     }
 
   .author {
-    position: absolute;
-    margin-left: 81%;
-    margin-top: -5%;
+    margin-top: -4%;
   }
 
   .author > aside {
