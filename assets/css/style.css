@@ -1448,10 +1448,220 @@ filter:invert(100);
     margin-top: 42%; /*mq*/
   }
 
-  /* wip */
+  /*#ai-101 section*/
 
+  .section-header h2 {
+    height: 30vh;
+    padding-top: 18%;
+  }
 
+  .image-container {
+    background-color: #0e101f;
+    height: 10vh;
+  }
+
+  .ai-101-a {
+    margin-top: 8%;
+  }
   
+  .form2-wrapper {
+    margin-top: 20%;
+  }
+
+  .author > aside {
+    height: 5vh;
+  }
+
+  #process-icon {
+    margin-top: 8%;
+
+  }
+  #growth-icon {
+    margin-left: 23%;
+  }
+
+
+  /*#industries section*/
+
+  #adjust-header {
+    padding-top: 19%;
+  }
+
+  .grid-template-rows-1 , .grid {
+    margin-bottom: -32%;
+    background-color: #0e101f;
+}
+  
+.grid-template-rows-1{
+  grid-template-rows: 800px auto;
+}
+
+.grid h3 {                
+	font-size: 34px;
+  font-weight: 300;
+}
+
+.grid-span {
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 35px;
+}
+
+.grid a {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+
+/*popup*/
+
+.article-header h2 {
+  padding-top: 3%;
+}
+.popup-heading-2 {
+  height: 2.5vh;
+}
+
+.audio-player-pu {
+  margin-top: -5%;
+  opacity: 1;
+
+}
+.pointer-pu {
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.clock-pu {
+  font-size: 16px;
+}
+
+.author-pu {
+  margin-top: -6%;
+  margin-left: 73%;
+}
+
+.author-pu > p{
+  font-size: 16px;
+}
+
+.author-pu > aside{
+  font-size: 16px;
+  height: 3vh;
+}
+
+.article-p1 p, .article-p2  { 
+  font-size: 26px;
+  font-weight: 450;
+  line-height: 30px;
+}
+
+.q-icon {
+  width: 60px;
+}
+
+.q-caption {
+  font-size: 26px;  
+  font-weight: 600;
+}
+
+.quote{
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.article-p2 h3 {
+ font-size: 26px;
+}
+ .cancel {
+  height:44px;
+  width:45px;
+  font-size:45px;
+  margin-right: 2%;
+}
+
+ .popup-article article { 
+  margin-top: 14.2%;
+  padding-right: 2%;
+}
+
+/*#podcasts section*/
+
+.top-image-wrapper img {
+  height: 35vh;
+}
+
+.column p {
+  font-size: 26px;
+  line-height: 28px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+#wave1 {
+height: 10vh;
+}
+
+#footer-pd {
+  padding-top: 0.7%;
+}
+
+
+/*#subscribe section*/
+
+.subscribe {
+  background-position: -40px 80px;
+}
+
+.subscribe-form {
+  margin-top: -3%;
+}
+
+.subscribe-form h1 {
+  font-size: 96px;
+}
+.subscribe-form p {
+  font-size: 28px;
+}
+
+.subscribe-form input {
+  font-size: 32px;
+  width: 400px;
+}
+
+#submit-button {
+  width: 70px;
+  margin-top:-22%;
+  margin-right: -48%;
+}
+
+#subscribe-form label {
+  margin-top: -16%;
+  margin-left: 10%;
+  font-size: 18px;
+}
+
+#subscribe-footer {
+  margin-top: 26%;
+}
+
+/*#contact section*/
+
+.contact {
+  background-position: 20% -10%;
+}
+
+.contact-container {
+  margin-left: 17%;
+  margin-top: 5%;
+  }
+
+}
+
+/*========================================================================*/
+
+
+    /* wip */
 }
 
 
