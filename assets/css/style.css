@@ -1907,15 +1907,13 @@ height: 5vh ;
 }
 
 
-    /* wip*/
-
 }
 
 
 /*======================================================================*/
 
 
-/* (1280x1024) SXGA Display */
+/* (1280x1024) SXGA Display BUG */
 @media screen and (max-width: 1280px) {
 
   .nav > .nav-links {
@@ -2237,7 +2235,178 @@ z-index: 80;
 /* (1280x720) Galaxy Note 2, WXGA */
 @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
 
-  
+  /*intro*/
+  .intro {
+    background-position: 0 20px;
+  }
+
+  .intro h1 {
+    font-size: 64px;
+    letter-spacing: 22px;
+    padding-top: 5%;
+    padding-right: 1.5%;
+  }
+
+  .line-wrapper-1 .line-1 {
+    font-size: 32px;
+    word-spacing: 2px;
+    height: 10vh;
+  }	
+
+  .section-footer {
+    margin-top: 17%;
+  }
+
+  .line-wrapper-2 .line-2 {
+    margin-top: 34.1%;
+    font-size: 21px;
+    word-spacing: 2px;
+    height: 5vh;
+  }	
+
+  .spike#spike1 {
+    height: 11vh;
+    margin-top: 35%;
+  }
+
+  /*#ai-101 section*/
+
+  .audio-player {
+    margin-top: -5%;
+  }
+
+  #listen {
+  margin-top: -1.2%;
+  margin-left: 1.5%;
+  font-size: 12px;
+  }
+
+  .author {
+    margin-left: 76%;
+    margin-top: -5%;
+  }
+
+  .author > aside {
+    height: 5vh;
+  }
+
+  .fa-clock {
+    font-size: 12px;
+    margin-top: -1.2%;
+    margin-left: 85.8%;
+  }
+
+  .ai-101-a {
+    margin-top: 1%;
+  }
+
+  .ai-101-d {
+    margin-bottom: 2%;
+  }
+
+ .image-container {
+   margin-top: -5%;
+ }
+
+ 
+ /*#industries section*/
+
+ #adjust-header {
+  padding-top: 4%;
+ }
+
+ .grid h3 {
+   font-size: 22px;
+ }
+
+ .grid-span {
+   font-size: 18px;
+   font-weight: 500;
+ }
+
+ .grid a {
+   font-size: 16px;
+ }
+
+  #adjust-footer {
+  margin-top: 21.5%;
+}
+
+
+/*popup*/
+
+.pointer-pu {
+  margin-top: 1.5%;
+}
+
+.author-pu > aside {
+  height: 5vh;
+}
+
+.article-header h2 {
+  font-size: 24px;
+  padding-top: 2.6%;
+}
+
+.clock-pu {
+  margin-top: 1.5%;
+  margin-left: 48%;
+  font-size: 11px;
+  letter-spacing: 8px;
+}
+
+.article-p1 p , .article-p2 {
+  font-size: 20px;
+}
+
+.q-caption {
+  font-size: 22px;
+}
+
+.quote {
+  font-size: 20px;
+}
+
+
+/*#podcasts section*/
+
+.top-image-wrapper img {
+  height: 28vh;
+}
+
+.column p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/*#subscribe section*/
+
+.subscribe {
+  background-position: 0 60px;
+}
+
+.subscribe-form {
+  margin-top: -5%;
+}
+
+#subscribe-footer {
+  margin-top: 16%;
+}
+
+
+.contact {
+  background-position: 20% -10%;
+}
+
+.contact-container {
+  margin-left: 17%;
+  margin-top: 5%;
+  }
+
+
+
 
   /* wip */
 }
