@@ -1382,7 +1382,47 @@ filter:invert(100);
 /* ========================================================*/
 /* ========================================================*/
 
-/*------------------------------------MEDIA QUERIES---for---Laptops & Large Displays-----------------------------*/
+/*------------------------------------ MEDIA QUERIES---for---Laptops & Large Displays-----------------------------*/
+
+/* (2048x1536) iPad 3 */
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+  .nav {
+    height: 4.5vh;
+  }
+
+  .nav > .nav-header > .nav-title {
+    font-size: 24px;
+  }
+
+  .nav > .nav-links {
+    font-size: 28px;
+    margin-right: 0.5%;
+  }
+
+  .intro {
+    background-position: 0 200px;
+  }
+
+  .intro h1 {
+    font-size: 120px;
+    letter-spacing: 60px;
+    line-height: 140px;
+    padding-left: 2%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    
+  }
+
+  .line-wrapper-1 .line-1 {
+    font-size: 54px;
+    word-spacing: 10px;
+    height: 8vh;
+    margin-top: 1%;
+  }	
+
+  /* wip */
+}
+
 
 /* (1680x1050) WSXGA+ Display */
 @media  screen and (max-width: 1680px) {
@@ -2255,6 +2295,7 @@ z-index: 80;
 
   .section-footer {
     margin-top: 17%;
+    height: 5vh;
   }
 
   .line-wrapper-2 .line-2 {
@@ -2384,7 +2425,7 @@ z-index: 80;
 /*#subscribe section*/
 
 .subscribe {
-  background-position: 0 60px;
+  background-position: 0 40px;
 }
 
 .subscribe-form {
@@ -2392,24 +2433,31 @@ z-index: 80;
 }
 
 #subscribe-footer {
-  margin-top: 16%;
+  margin-top: 18%;
+
 }
 
 
 .contact {
-  background-position: 20% -10%;
+  background-position: 0 40px;
 }
 
 .contact-container {
-  margin-left: 17%;
-  margin-top: 5%;
+  margin-left: 15%;
+  margin-top: 6%;
   }
 
 
-
-
-  /* wip */
+  #send-btn {
+  margin-left: 82.5%;
+  }
+  
 }
 
+/*======================================================================*/
+
+
+
+/* end end end end end end  end end end end end end  end end end end end end  end end end end end end  end end end end end end  end end end end end end  */
 
 
