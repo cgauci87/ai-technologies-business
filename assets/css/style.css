@@ -1383,7 +1383,6 @@ filter:invert(100);
 
 /* (1600x900) HD+ Display */
 @media  screen and (max-width: 1600px) {
-  /*wip*/
 
   .nav > .nav-header > .nav-title {
     padding: 10px 5px 10px 5px;
@@ -1599,4 +1598,223 @@ filter:invert(100);
 
 }
 
-/*=====================================WIP ABOVE===================================*/
+/*========================================================================*/
+
+ 
+/* (1920x1080) Full HD Display */
+/*wip*/
+
+@media  screen and (max-width: 1920px) {
+  
+  .nav > .nav-header > .nav-title {
+    font-size: 12px;
+  }
+
+
+  /*intro*/
+
+  .intro {
+    background-position: 0 5px;
+  }
+  .intro h1 {
+    font-size: 64px;
+    letter-spacing: 32px;
+    padding-bottom: 0;
+  }
+  .line-wrapper-1 .line-1 {
+    margin-top: 1%;
+    font-size: 48px;
+    word-spacing: 8px;
+    height: 20vh;
+  }	
+
+  .section-footer {
+    margin-top: 19%;
+  }
+
+  .line-wrapper-2 .line-2 {
+    margin-top: 37.5%;
+    font-size: 27px;
+    word-spacing: 1px;
+  }	
+
+  .spike#spike1 {
+    height: 5vh;
+    margin-top: 38.5%;
+  }
+
+  /*ai-101 section*/
+
+  .section-header h2{
+    padding-top: 3%;
+    }
+    
+  .audio-player {
+    margin-top: -5%;
+  }
+  .profile-photo { 
+    margin-top: 4%;
+    }
+
+  .author {
+    position: absolute;
+    margin-left: 81%;
+    margin-top: -5%;
+  }
+
+  .author > aside {
+  height: 4vh;
+  }
+
+  .fa-clock {
+    margin-left: 89%;
+    } 
+
+  .ai-101-container h3 {
+    font-size: 28px;
+    font-weight: 500;
+   }
+      
+      
+  .ai-101-container  p {
+    margin-top: 0.5%;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .ai-101-a {
+    margin-top: 6%;
+  }
+
+ .image-container {
+   margin-top:  1%;
+   height: 15vh;
+   background-color: #0e101f;
+ }
+
+ .section-footer {
+   height: 5vh;
+ }
+ 
+ /*#industries section*/
+
+ .grid h3 {
+	text-align: center;
+	font-size: 28px;
+  font-weight:500;
+  }
+
+.grid-span {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.grid a {
+  font-size: 18px;
+}
+
+/*popup*/
+
+.article-header h2 {
+  padding-top: 2.2%;
+  font-size: 26px;
+  }
+
+  .pointer-pu {
+    margin-top: 1.5%;
+    margin-left: 2%;
+  }
+ 
+.author-pu{
+  margin-left: 69.8%;
+}
+
+.author-pu > .profile-photo { 
+  margin-top: 9%;
+}
+
+.author-pu > aside {
+  height: 8vh;
+}
+
+.clock-pu{  
+  margin-top: 1.25%;
+  margin-left: 57.5%;
+}
+
+.lhs-image-wrapper > img {
+  width: 340px;
+}
+
+.popup-article article {
+  padding-right: 2%;
+  margin-top: 13.8%;
+}
+
+.article-p1 p { 
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.q-icon {
+  width: 40px;
+}
+
+.quote{
+  margin-top: 1%;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.article-p2 h3 {
+  font-size: 22px;
+ }
+
+.article-p2 {
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 24px;
+}
+
+/*#podcasts section*/
+
+.top-image-wrapper img {
+  height: 38vh;
+}
+
+.column p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/*#subscribe section*/
+
+.subscribe {
+  background-position: 20px 0;
+}
+
+.subscribe-form {
+  margin-top: -1%;
+}
+
+#subscribe-footer {
+  margin-top: 22%;
+}
+
+/*#contact section*/
+
+.contact {
+  background-position: 0 40px;
+}
+
+.contact-container {
+  margin-left: 18%;
+  margin-top: 8%;
+  }
+
+}
+
+/*================================================================*/
