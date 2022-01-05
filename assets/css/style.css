@@ -1381,7 +1381,201 @@ filter:invert(100);
 
 /*------------------------------------ MEDIA QUERIES---for---Laptops & Large Displays-----------------------------*/
 
-/* (1680x1050) WSXGA+ Display wip */
+/* (1600x900) HD+ Display -> PASS <- */
+@media screen and (min-width: 1537px) and (max-width: 1600px) {
+  
+  .nav > .nav-header > .nav-title {
+    font-size: 14px;
+    padding-top: 0.5%;
+  }
+
+  /*intro*/
+
+  .intro {
+    background-position: 0 -70px;
+  }
+  .intro h1 {
+    font-size: 64px;
+    letter-spacing: 38px;
+    padding-left: 1%;
+    padding-bottom: 1%;
+  }
+  .line-wrapper-1 .line-1 {
+    margin-top: 0;
+    font-size: 42px;
+    word-spacing: 8px;
+    height: 11vh;
+  }	
+
+  .section-footer {
+    margin-top: 16%;
+  }
+
+  .line-wrapper-2 .line-2 {
+    margin-top: 34%;
+    font-size: 33px;
+    word-spacing: 1px;
+  }	
+
+  .spike#spike1 {
+    height: 13vh;
+    margin-top: 35%;
+  }
+
+  /*ai-101 section*/ 
+
+  .section-header h2{
+    padding-top: 3%;
+    }
+    
+  .audio-player {
+    margin-top: -4%;
+  }
+  .profile-photo { 
+    margin-top: 5%;
+    }
+
+  .author {
+    margin-top: -4%;
+    margin-left: 0;
+  }
+
+  .author > aside {
+  height: 4vh;
+  }
+
+  .fa-clock {
+    margin-left: 91%;
+    } 
+
+
+  .ai-101-a {
+    margin-top: 4%;
+  }
+
+ .image-container {
+   margin-top:  0;
+   height: 10vh;
+   background-color: #0e101f;
+ }
+ 
+ /*#industries section*/
+
+ #adjust-footer {
+   margin-top: 17%;
+ }
+
+/*popup*/
+
+.article-header h2 {
+  padding-top: 2.5%;
+  font-size: 26px;
+  }
+
+  .pointer-pu {
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+  }
+ 
+.author-pu{
+  margin-left: 75%;
+}
+
+.author-pu > .profile-photo { 
+  margin-top: 9%;
+}
+
+.author-pu > aside {
+  height: 5vh;
+}
+
+.clock-pu{  
+  margin-top: 1.50%;
+  margin-left: 66%;
+}
+
+.lhs-image-wrapper > img {
+  width: 380px;
+}
+
+.popup-article article {
+  padding-right: 2%;
+  margin-top: 13.35%;
+}
+
+.article-p1 p { 
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.q-icon {
+  width: 40px;
+}
+
+.quote{
+  margin-top: 1%;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.article-p2 h3 {
+  font-size: 22px;
+ }
+
+.article-p2 {
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 24px;
+}
+
+/*#podcasts section*/
+
+.top-image-wrapper img {
+  height: 38vh;
+}
+
+.column p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/*#subscribe section*/
+
+.subscribe {
+  background-position: 0 -60px;
+}
+
+.subscribe-form {
+  margin-top: -1%;
+}
+
+#submit-button {
+  margin-top: -21.8%;
+}
+
+#subscribe-footer {
+  margin-top: 19%;
+}
+
+/*#contact section*/
+
+.contact {
+  background-position: 0 40px;
+}
+
+.contact-container {
+  margin-left: 24%;
+  margin-top: 8%;
+  }
+
+}
+/*=====================================================================================*/
+
+
+/* (1680x1050) WSXGA+ Display  -> PASS <- */
 @media  screen and (min-width: 1601px) and (max-width: 1680px) {
   /*header*/
 
@@ -1616,8 +1810,250 @@ filter:invert(100);
 /*========================================================================*/
 
 
-/* (1440x900) WXGA+ Display -> FUNCTIONING 100% <- */
-@media  screen and (min-width: 1400px) and (max-width: 1599px)  {
+/* (1600x900) HD+ Display -> PASS <- */
+@media  screen and (min-width: 1599px) and (max-width: 1600px) {
+  .nav > .nav-header > .nav-title {
+    padding: 10px 5px 10px 5px;
+    font-size: 14px;
+  }
+
+  /*intro*/
+
+  .intro {
+    background-position: 0 50px;
+  }
+  .intro h1 {
+    font-size: 96px;
+    letter-spacing: 52px;
+    line-height: 100px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+  }
+
+  .line-wrapper-1 .line-1 {
+    margin-top: 0.5%;
+    font-size: 42px;
+    word-spacing: 6px;
+    height: 10vh;
+  }	
+
+  .section-footer {
+    margin-top: 17%;
+  }
+
+  .line-wrapper-2 .line-2 {
+    margin-top: 34%;
+    font-size: 27px;
+    word-spacing: 4px;
+  }	
+
+  .spike#spike1 {
+    height: 9.5vh;
+    margin-top: 35%;
+  }
+
+  /*ai-101 section*/
+
+  .section-header h2{
+    padding-top: 3%;
+    }
+    
+  .audio-player {
+    margin-top: -5%;
+  }
+  .profile-photo { 
+    margin-top: 4%;
+    }
+
+  .author {
+    position: absolute;
+    margin-left: 81%;
+    margin-top: -5%;
+  }
+
+  .author > aside {
+  height: 4vh;
+  }
+
+  .fa-clock {
+    margin-left: 89%;
+    } 
+
+  .ai-101-container h3 {
+    font-size: 28px;
+    font-weight: 500;
+   }
+      
+      
+  .ai-101-container  p {
+    margin-top: 0.5%;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .ai-101-a {
+    margin-top: 6%;
+  }
+
+ .image-container {
+   margin-top:  1%;
+   height: 15vh;
+   background-color: #0e101f;
+ }
+
+ .section-footer {
+   height: 5vh;
+ }
+ 
+ /*#industries section*/
+
+ .grid h3 {
+	text-align: center;
+	font-size: 28px;
+  font-weight:500;
+  }
+
+.grid-span {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.grid a {
+  font-size: 18px;
+}
+
+/*popup*/
+
+.article-header h2 {
+  padding-top: 2.2%;
+  font-size: 26px;
+  }
+
+  .pointer-pu {
+    margin-top: 1.5%;
+    margin-left: 2%;
+  }
+ 
+.author-pu{
+  margin-left: 69.8%;
+}
+
+.author-pu > .profile-photo { 
+  margin-top: 9%;
+}
+
+.author-pu > aside {
+  height: 8vh;
+}
+
+.clock-pu{  
+  margin-top: 1.25%;
+  margin-left: 57.5%;
+}
+
+.lhs-image-wrapper > img {
+  width: 340px;
+}
+
+.popup-article article {
+  padding-right: 2%;
+  margin-top: 13.8%;
+}
+
+.article-p1 p { 
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.q-icon {
+  width: 40px;
+}
+
+.quote{
+  margin-top: 1%;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.article-p2 h3 {
+  font-size: 22px;
+ }
+
+.article-p2 {
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 24px;
+}
+
+/*#podcasts section*/
+
+.top-image-wrapper img {
+  height: 38vh;
+}
+
+.column p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/*#subscribe section*/
+
+.subscribe {
+  background-position: 20px 0;
+}
+
+.subscribe-form {
+  margin-top: -1%;
+}
+
+#subscribe-footer {
+  margin-top: 22%;
+}
+
+/*#contact section*/
+
+.contact {
+  background-position: 0 40px;
+}
+
+.contact-container {
+  margin-left: 18%;
+  margin-top: 8%;
+  }
+
+}
+
+/*====================================wip====================================*/
+
+/* (1536x864) Display -> WIP <- */
+@media screen and (min-width: 1441px) and (max-width: 1536px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================================================================*/
+
+
+/* (1440x900) WXGA+ Display -> ... <- */
+@media  screen and (min-width: 1367px) and (max-width: 1440px)  {
   /*intro section*/ 
  
   .nav > .nav-links {
@@ -1768,12 +2204,8 @@ height: 5vh ;
 }
   /* ================================================================================= */
 
-
-
-/*===================================================================================*/
-
-/* (1366x768) WXGA Display -> Functioning 100% <- */
-@media  screen and (max-width: 1366px) {
+/* (1366x768) WXGA Display ->  <- */
+@media  screen and (min-width: 1281px) and (max-width: 1366px) {
   
   .nav > .nav-links {
     margin-right: -1.5%;
@@ -1781,7 +2213,7 @@ height: 5vh ;
 
   .line-wrapper-1 .line-1 {
     font-size: 32px;
-    line-height: 34px;
+    line-height: 20px;
   }
 
 
@@ -1906,7 +2338,7 @@ height: 5vh ;
 
 .column p {
   font-size: 18px;
-  line-height: 20x;
+  line-height: 20px;
   padding-left: 8.1%;
   padding-right: 8.1%;
 }
@@ -1941,214 +2373,15 @@ height: 5vh ;
   margin-top: -8%;
 }
 
-
 }
 
-/*=========================================================================*/ 
-/* (1920x1080) Full HD Display -> PASSED <- */
+/*=======================================================================*/
 
-@media  screen and (min-width: 1681px) and (max-width: 1920px) {
-  
-  .nav > .nav-header > .nav-title {
-    font-size: 14px;
-    padding-top: 0.5%;
-  }
-
-  /*intro*/
-
-  .intro {
-    background-position: 0 -70px;
-  }
-  .intro h1 {
-    font-size: 64px;
-    letter-spacing: 38px;
-    padding-left: 1%;
-    padding-bottom: 1%;
-  }
-  .line-wrapper-1 .line-1 {
-    margin-top: 0;
-    font-size: 42px;
-    word-spacing: 8px;
-    height: 11vh;
-  }	
-
-  .section-footer {
-    margin-top: 16%;
-  }
-
-  .line-wrapper-2 .line-2 {
-    margin-top: 34%;
-    font-size: 33px;
-    word-spacing: 1px;
-  }	
-
-  .spike#spike1 {
-    height: 13vh;
-    margin-top: 35%;
-  }
-
-  /*ai-101 section*/ 
-
-  .section-header h2{
-    padding-top: 3%;
-    }
-    
-  .audio-player {
-    margin-top: -4%;
-  }
-  .profile-photo { 
-    margin-top: 5%;
-    }
-
-  .author {
-    margin-top: -4%;
-    margin-left: 0;
-  }
-
-  .author > aside {
-  height: 4vh;
-  }
-
-  .fa-clock {
-    margin-left: 91%;
-    } 
-
-
-  .ai-101-a {
-    margin-top: 4%;
-  }
-
- .image-container {
-   margin-top:  0;
-   height: 10vh;
-   background-color: #0e101f;
- }
- 
- /*#industries section*/
-
- #adjust-footer {
-   margin-top: 17%;
- }
-
-/*popup*/
-
-.article-header h2 {
-  padding-top: 2.5%;
-  font-size: 26px;
-  }
-
-  .pointer-pu {
-    margin-top: 1.5%;
-    margin-left: 1.5%;
-  }
- 
-.author-pu{
-  margin-left: 75%;
-}
-
-.author-pu > .profile-photo { 
-  margin-top: 9%;
-}
-
-.author-pu > aside {
-  height: 5vh;
-}
-
-.clock-pu{  
-  margin-top: 1.50%;
-  margin-left: 66%;
-}
-
-.lhs-image-wrapper > img {
-  width: 380px;
-}
-
-.popup-article article {
-  padding-right: 2%;
-  margin-top: 13.35%;
-}
-
-.article-p1 p { 
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.q-icon {
-  width: 40px;
-}
-
-.quote{
-  margin-top: 1%;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.article-p2 h3 {
-  font-size: 22px;
- }
-
-.article-p2 {
- font-size: 18px;
- font-weight: 400;
- line-height: 24px;
-}
-
-/*#podcasts section*/
-
-.top-image-wrapper img {
-  height: 38vh;
-}
-
-.column p {
-  font-size: 18px;
-  line-height: 22px;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-/*#subscribe section*/
-
-.subscribe {
-  background-position: 0 -60px;
-}
-
-.subscribe-form {
-  margin-top: -1%;
-}
-
-#submit-button {
-  margin-top: -21.8%;
-}
-
-#subscribe-footer {
-  margin-top: 19%;
-}
-
-/*#contact section*/
-
-.contact {
-  background-position: 0 40px;
-}
-
-.contact-container {
-  margin-left: 24%;
-  margin-top: 8%;
-  }
-
-}
 
 /*================================================================*/
 
-
-
-
-/*======================================================================*/
-
-
 /* (1280x1024) SXGA Display */
-@media only screen 
-  and (max-device-width: 1280px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
 
   .nav > .nav-links {
     margin-right: -1%;
@@ -2466,8 +2699,14 @@ z-index: 80;
 }
 }
 
+
+
+
+/*======================================================================*/
+
+
 /* (1280x720) Galaxy Note 2, WXGA */
-@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+@media screen and (min-width: 720px) and (max-width: 1280px) {
 
   /*intro*/
   .intro {
@@ -2649,515 +2888,3 @@ z-index: 80;
 }
 
 /*======================================================================*/
-
-/* (2048x1536) iPad 3 */
-@media only screen and (min-width: 1921px) and (max-width: 2048px) {
-  .nav {
-    height: 4.5vh;
-  }
-
-  .nav > .nav-header > .nav-title {
-    font-size: 24px;
-  }
-
-  .nav > .nav-links {
-    font-size: 28px;
-    margin-right: 0.5%;
-  }
-
-  .intro {
-    background-position: 0 200px;
-  }
-
-  .intro h1 {
-    font-size: 120px;
-    letter-spacing: 60px;
-    line-height: 140px;
-    padding-left: 2%;
-    padding-top: 6%;
-    padding-bottom: 3%;
-    
-  }
-
-  .line-wrapper-1 .line-1 {
-    font-size: 54px;
-    word-spacing: 10px;
-    height: 8vh;
-    margin-top: 1%;
-  }	
-
-  .section-footer {
-    margin-top: 20%;
-  }
-
-  .goto-btn {
-    padding-top: 1%;
-    padding-right: 0.5%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    }
-  
-    .goto-btn-txt {
-      font-size: 24px;
-      font-weight: 800;
-      letter-spacing: 14px;
-    }
-
-  .line-wrapper-2 .line-2 {
-    margin-top: 41%;
-    font-size: 35px;
-    word-spacing: 2px;
-    height: 3vh;
-  }	
-
-  .spike#spike1 {
-    height: 15vh;
-    margin-top: 42%; /*mq*/
-  }
-
-  /*#ai-101 section*/
-
-  .section-header h2 {
-    height: 30vh;
-    padding-top: 18%;
-  }
-
-  .image-container {
-    background-color: #0e101f;
-    height: 10vh;
-  }
-
-  .ai-101-a {
-    margin-top: 8%;
-  }
-  
-  .form2-wrapper {
-    margin-top: 20%;
-  }
-
-  .author > aside {
-    height: 5vh;
-  }
-
-  #process-icon {
-    margin-top: 8%;
-
-  }
-  #growth-icon {
-    margin-left: 23%;
-  }
-
-
-  /*#industries section*/
-
-  #adjust-header {
-    padding-top: 19%;
-  }
-
-  .grid-template-rows-1 , .grid {
-    margin-bottom: -32%;
-    background-color: #0e101f;
-}
-  
-.grid-template-rows-1{
-  grid-template-rows: 800px auto;
-}
-
-.grid h3 {                
-	font-size: 34px;
-  font-weight: 300;
-}
-
-.grid-span {
-  font-size: 30px;
-  font-weight: 200;
-  line-height: 35px;
-}
-
-.grid a {
-  font-size: 24px;
-  font-weight: 200;
-}
-
-
-/*popup*/
-
-.article-header h2 {
-  padding-top: 3%;
-}
-.popup-heading-2 {
-  height: 2.5vh;
-}
-
-.audio-player-pu {
-  margin-top: -5%;
-  opacity: 1;
-
-}
-.pointer-pu {
-  font-size: 16px;
-  letter-spacing: 3px;
-}
-
-.clock-pu {
-  font-size: 16px;
-}
-
-.author-pu {
-  margin-top: -6%;
-  margin-left: 73%;
-}
-
-.author-pu > p{
-  font-size: 16px;
-}
-
-.author-pu > aside{
-  font-size: 16px;
-  height: 3vh;
-}
-
-.article-p1 p, .article-p2  { 
-  font-size: 26px;
-  font-weight: 450;
-  line-height: 30px;
-}
-
-.q-icon {
-  width: 60px;
-}
-
-.q-caption {
-  font-size: 26px;  
-  font-weight: 600;
-}
-
-.quote{
-  font-size: 26px;
-  font-weight: 600;
-  line-height: 36px;
-}
-
-.article-p2 h3 {
- font-size: 26px;
-}
- .cancel {
-  height:44px;
-  width:45px;
-  font-size:45px;
-  margin-right: 2%;
-}
-
- .popup-article article { 
-  margin-top: 14.2%;
-  padding-right: 2%;
-}
-
-/*#podcasts section*/
-
-.top-image-wrapper img {
-  height: 35vh;
-}
-
-.column p {
-  font-size: 26px;
-  line-height: 28px;
-  padding-left: 6%;
-  padding-right: 6%;
-}
-#wave1 {
-height: 10vh;
-}
-
-#footer-pd {
-  padding-top: 0.7%;
-}
-
-
-/*#subscribe section*/
-
-.subscribe {
-  background-position: -40px 80px;
-}
-
-.subscribe-form {
-  margin-top: -3%;
-}
-
-.subscribe-form h1 {
-  font-size: 96px;
-}
-.subscribe-form p {
-  font-size: 28px;
-}
-
-.subscribe-form input {
-  font-size: 32px;
-  width: 400px;
-}
-
-#submit-button {
-  width: 70px;
-  margin-top:-22%;
-  margin-right: -48%;
-}
-
-#subscribe-form label {
-  margin-top: -16%;
-  margin-left: 10%;
-  font-size: 18px;
-}
-
-#subscribe-footer {
-  margin-top: 26%;
-}
-
-/*#contact section*/
-
-.contact {
-  background-position: 0 400px;
-}
-
-.contact-container {
-  margin-left: 25%;
-  margin-top: 10%;
-  }
-
-  .contact-container form * {
-    font-size: 24px;
-    letter-spacing: 5px;
-    font-weight: 500;
-  }
-
-  
-#send-btn {
-  margin-left: 82%;
-
-}
-
-  .footer p {
-    font-size: 24px;
-  }
-
-}
-
-/*==============================================================================*/
-
-
-/* (1600x900) HD+ Display */ /*PASS*/
-@media  screen and (min-width: 1599px) and (max-width: 1600px) {
-  .nav > .nav-header > .nav-title {
-    padding: 10px 5px 10px 5px;
-    font-size: 14px;
-  }
-
-  /*intro*/
-
-  .intro {
-    background-position: 0 50px;
-  }
-  .intro h1 {
-    font-size: 96px;
-    letter-spacing: 52px;
-    line-height: 100px;
-    padding-top: 3%;
-    padding-bottom: 1%;
-  }
-
-  .line-wrapper-1 .line-1 {
-    margin-top: 0.5%;
-    font-size: 42px;
-    word-spacing: 6px;
-    height: 10vh;
-  }	
-
-  .section-footer {
-    margin-top: 17%;
-  }
-
-  .line-wrapper-2 .line-2 {
-    margin-top: 34%;
-    font-size: 27px;
-    word-spacing: 4px;
-  }	
-
-  .spike#spike1 {
-    height: 9.5vh;
-    margin-top: 35%;
-  }
-
-  /*ai-101 section*/
-
-  .section-header h2{
-    padding-top: 3%;
-    }
-    
-  .audio-player {
-    margin-top: -5%;
-  }
-  .profile-photo { 
-    margin-top: 4%;
-    }
-
-  .author {
-    position: absolute;
-    margin-left: 81%;
-    margin-top: -5%;
-  }
-
-  .author > aside {
-  height: 4vh;
-  }
-
-  .fa-clock {
-    margin-left: 89%;
-    } 
-
-  .ai-101-container h3 {
-    font-size: 28px;
-    font-weight: 500;
-   }
-      
-      
-  .ai-101-container  p {
-    margin-top: 0.5%;
-    font-size: 22px;
-    font-weight: 400;
-  }
-
-  .ai-101-a {
-    margin-top: 6%;
-  }
-
- .image-container {
-   margin-top:  1%;
-   height: 15vh;
-   background-color: #0e101f;
- }
-
- .section-footer {
-   height: 5vh;
- }
- 
- /*#industries section*/
-
- .grid h3 {
-	text-align: center;
-	font-size: 28px;
-  font-weight:500;
-  }
-
-.grid-span {
-  font-weight: 400;
-  font-size: 22px;
-}
-
-.grid a {
-  font-size: 18px;
-}
-
-/*popup*/
-
-.article-header h2 {
-  padding-top: 2.2%;
-  font-size: 26px;
-  }
-
-  .pointer-pu {
-    margin-top: 1.5%;
-    margin-left: 2%;
-  }
- 
-.author-pu{
-  margin-left: 69.8%;
-}
-
-.author-pu > .profile-photo { 
-  margin-top: 9%;
-}
-
-.author-pu > aside {
-  height: 8vh;
-}
-
-.clock-pu{  
-  margin-top: 1.25%;
-  margin-left: 57.5%;
-}
-
-.lhs-image-wrapper > img {
-  width: 340px;
-}
-
-.popup-article article {
-  padding-right: 2%;
-  margin-top: 13.8%;
-}
-
-.article-p1 p { 
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.q-icon {
-  width: 40px;
-}
-
-.quote{
-  margin-top: 1%;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.article-p2 h3 {
-  font-size: 22px;
- }
-
-.article-p2 {
- font-size: 18px;
- font-weight: 400;
- line-height: 24px;
-}
-
-/*#podcasts section*/
-
-.top-image-wrapper img {
-  height: 38vh;
-}
-
-.column p {
-  font-size: 18px;
-  line-height: 22px;
-  padding-left: 7%;
-  padding-right: 7%;
-}
-
-/*#subscribe section*/
-
-.subscribe {
-  background-position: 20px 0;
-}
-
-.subscribe-form {
-  margin-top: -1%;
-}
-
-#subscribe-footer {
-  margin-top: 22%;
-}
-
-/*#contact section*/
-
-.contact {
-  background-position: 0 40px;
-}
-
-.contact-container {
-  margin-left: 18%;
-  margin-top: 8%;
-  }
-
-}
-
-/*========================================================================*/
