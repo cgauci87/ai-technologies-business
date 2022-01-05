@@ -1381,417 +1381,10 @@ filter:invert(100);
 
 /*------------------------------------ MEDIA QUERIES---for---Laptops & Large Displays-----------------------------*/
 
-/* (1600x900) HD+ Display */
-@media  screen and (max-width: 1600px) {
-  .nav > .nav-header > .nav-title {
-    padding: 10px 5px 10px 5px;
-    font-size: 14px;
-  }
-
-  /*intro*/
-
-  .intro {
-    background-position: 0 50px;
-  }
-  .intro h1 {
-    font-size: 96px;
-    letter-spacing: 52px;
-    line-height: 100px;
-    padding-top: 3%;
-    padding-bottom: 1%;
-  }
-
-  .line-wrapper-1 .line-1 {
-    margin-top: 0.5%;
-    font-size: 42px;
-    word-spacing: 6px;
-    height: 10vh;
-  }	
-
-  .section-footer {
-    margin-top: 17%;
-  }
-
-  .line-wrapper-2 .line-2 {
-    margin-top: 34%;
-    font-size: 27px;
-    word-spacing: 4px;
-  }	
-
-  .spike#spike1 {
-    height: 9.5vh;
-    margin-top: 35%;
-  }
-
-  /*ai-101 section*/
-
-  .section-header h2{
-    padding-top: 3%;
-    }
-    
-  .audio-player {
-    margin-top: -5%;
-  }
-  .profile-photo { 
-    margin-top: 4%;
-    }
-
-  .author {
-    position: absolute;
-    margin-left: 81%;
-    margin-top: -5%;
-  }
-
-  .author > aside {
-  height: 4vh;
-  }
-
-  .fa-clock {
-    margin-left: 89%;
-    } 
-
-  .ai-101-container h3 {
-    font-size: 28px;
-    font-weight: 500;
-   }
-      
-      
-  .ai-101-container  p {
-    margin-top: 0.5%;
-    font-size: 22px;
-    font-weight: 400;
-  }
-
-  .ai-101-a {
-    margin-top: 6%;
-  }
-
- .image-container {
-   margin-top:  1%;
-   height: 15vh;
-   background-color: #0e101f;
- }
-
- .section-footer {
-   height: 5vh;
- }
- 
- /*#industries section*/
-
- .grid h3 {
-	text-align: center;
-	font-size: 28px;
-  font-weight:500;
-  }
-
-.grid-span {
-  font-weight: 400;
-  font-size: 22px;
-}
-
-.grid a {
-  font-size: 18px;
-}
-
-/*popup*/
-
-.article-header h2 {
-  padding-top: 2.2%;
-  font-size: 26px;
-  }
-
-  .pointer-pu {
-    margin-top: 1.5%;
-    margin-left: 2%;
-  }
- 
-.author-pu{
-  margin-left: 69.8%;
-}
-
-.author-pu > .profile-photo { 
-  margin-top: 9%;
-}
-
-.author-pu > aside {
-  height: 8vh;
-}
-
-.clock-pu{  
-  margin-top: 1.25%;
-  margin-left: 57.5%;
-}
-
-.lhs-image-wrapper > img {
-  width: 340px;
-}
-
-.popup-article article {
-  padding-right: 2%;
-  margin-top: 13.8%;
-}
-
-.article-p1 p { 
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.q-icon {
-  width: 40px;
-}
-
-.quote{
-  margin-top: 1%;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.article-p2 h3 {
-  font-size: 22px;
- }
-
-.article-p2 {
- font-size: 18px;
- font-weight: 400;
- line-height: 24px;
-}
-
-/*#podcasts section*/
-
-.top-image-wrapper img {
-  height: 38vh;
-}
-
-.column p {
-  font-size: 18px;
-  line-height: 22px;
-  padding-left: 7%;
-  padding-right: 7%;
-}
-
-/*#subscribe section*/
-
-.subscribe {
-  background-position: 20px 0;
-}
-
-.subscribe-form {
-  margin-top: -1%;
-}
-
-#subscribe-footer {
-  margin-top: 22%;
-}
-
-/*#contact section*/
-
-.contact {
-  background-position: 0 40px;
-}
-
-.contact-container {
-  margin-left: 18%;
-  margin-top: 8%;
-  }
-
-}
-
-/*========================================================================*/
-
- 
-/* (1920x1080) Full HD Display */
-
-@media  screen and (max-width: 1920px) {
-  
-  .nav > .nav-header > .nav-title {
-    font-size: 14px;
-  }
-
-
-  /*intro*/
-
-  .intro {
-    background-position: 0 5px;
-  }
-  .intro h1 {
-    font-size: 64px;
-    letter-spacing: 32px;
-    padding-bottom: 0;
-  }
-  .line-wrapper-1 .line-1 {
-    margin-top: 1%;
-    font-size: 48px;
-    word-spacing: 8px;
-    line-height: 50px;
-    height: 20vh;
-  }	
-
-  .section-footer {
-    margin-top: 19%;
-  }
-
-  .line-wrapper-2 .line-2 {
-    margin-top: 37.5%;
-    font-size: 26px;
-    word-spacing: 3px;
-  }	
-
-  .spike#spike1 {
-    height: 5vh;
-    margin-top: 38.5%;
-  }
-
-  /*ai-101 section*/ /* wip */
-
-  .section-header h2{
-    padding-top: 2.5%;
-    }
-    
-  .audio-player {
-    margin-top: -3.8%;
-  }
-  .profile-photo { 
-    margin-top: 5%;
-    }
-
-  .author {
-    margin-top: -4%;
-  }
-
-  .author > aside {
-  height: 4vh;
-  }
-
-  .fa-clock {
-    margin-left: 89%;
-    } 
-
-
-  .ai-101-a {
-    margin-top: 6%;
-  }
-
- .image-container {
-   margin-top:  -3.5%;
- }
- 
- /*#industries section*/
-
- #adjust-footer {
-   margin-top: 16%;
- }
-
-/*popup*/
-
-.article-header h2 {
-  padding-top: 2.2%;
-  font-size: 26px;
-  }
-
-  .pointer-pu {
-    margin-top: 1.5%;
-    margin-left: 2%;
-  }
- 
-.author-pu{
-  margin-left: 69.8%;
-}
-
-.author-pu > .profile-photo { 
-  margin-top: 9%;
-}
-
-.author-pu > aside {
-  height: 8vh;
-}
-
-.clock-pu{  
-  margin-top: 1.25%;
-  margin-left: 57.5%;
-}
-
-.lhs-image-wrapper > img {
-  width: 340px;
-}
-
-.popup-article article {
-  padding-right: 2%;
-  margin-top: 13.8%;
-}
-
-.article-p1 p { 
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.q-icon {
-  width: 40px;
-}
-
-.quote{
-  margin-top: 1%;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.article-p2 h3 {
-  font-size: 22px;
- }
-
-.article-p2 {
- font-size: 18px;
- font-weight: 400;
- line-height: 24px;
-}
-
-/*#podcasts section*/
-
-.top-image-wrapper img {
-  height: 38vh;
-}
-
-.column p {
-  font-size: 18px;
-  line-height: 22px;
-  padding-left: 7%;
-  padding-right: 7%;
-}
-
-/*#subscribe section*/
-
-.subscribe {
-  background-position: 20px 0;
-}
-
-.subscribe-form {
-  margin-top: -1%;
-}
-
-#subscribe-footer {
-  margin-top: 22%;
-}
-
-/*#contact section*/
-
-.contact {
-  background-position: 0 40px;
-}
-
-.contact-container {
-  margin-left: 18%;
-  margin-top: 8%;
-  }
-
-}
-
-/*================================================================*/
-
 
 
 /* (1680x1050) WSXGA+ Display BUG*/
-@media  screen and (max-width: 1680px) {
+@media  screen and (min-width: 1601px) and (max-width: 1680px) {
   /*header*/
   .nav > .nav-header > .nav-title {
     padding: 8px 4px 8px 4px;
@@ -1989,7 +1582,7 @@ filter:invert(100);
 
 
 /* (1440x900) WXGA+ Display -> FUNCTIONING 100% <- */
-@media  screen and (max-width: 1440px) {
+@media  screen and (min-width: 1400px) and (max-width: 1599px)  {
   /*intro section*/ 
  
   .nav > .nav-links {
@@ -2316,17 +1909,205 @@ height: 5vh ;
 
 }
 
+/*=========================================================================*/ 
+/* (1920x1080) Full HD Display */
+
+@media  screen and (min-width: 1681px) and (max-width: 1920px) {
+  
+  .nav > .nav-header > .nav-title {
+    font-size: 14px;
+  }
+
+
+  /*intro*/
+
+  .intro {
+    background-position: 0 5px;
+  }
+  .intro h1 {
+    font-size: 64px;
+    letter-spacing: 32px;
+    padding-bottom: 0;
+  }
+  .line-wrapper-1 .line-1 {
+    margin-top: 1%;
+    font-size: 48px;
+    word-spacing: 8px;
+    line-height: 50px;
+    height: 20vh;
+  }	
+
+  .section-footer {
+    margin-top: 19%;
+  }
+
+  .line-wrapper-2 .line-2 {
+    margin-top: 37.5%;
+    font-size: 26px;
+    word-spacing: 3px;
+  }	
+
+  .spike#spike1 {
+    height: 5vh;
+    margin-top: 38.5%;
+  }
+
+  /*ai-101 section*/ /* wip */
+
+  .section-header h2{
+    padding-top: 2.5%;
+    }
+    
+  .audio-player {
+    margin-top: -3.8%;
+  }
+  .profile-photo { 
+    margin-top: 5%;
+    }
+
+  .author {
+    margin-top: -4%;
+  }
+
+  .author > aside {
+  height: 4vh;
+  }
+
+  .fa-clock {
+    margin-left: 89%;
+    } 
+
+
+  .ai-101-a {
+    margin-top: 6%;
+  }
+
+ .image-container {
+   margin-top:  -3.5%;
+ }
+ 
+ /*#industries section*/
+
+ #adjust-footer {
+   margin-top: 16%;
+ }
+
+/*popup*/
+
+.article-header h2 {
+  padding-top: 2.2%;
+  font-size: 26px;
+  }
+
+  .pointer-pu {
+    margin-top: 1.5%;
+    margin-left: 2%;
+  }
+ 
+.author-pu{
+  margin-left: 69.8%;
+}
+
+.author-pu > .profile-photo { 
+  margin-top: 9%;
+}
+
+.author-pu > aside {
+  height: 8vh;
+}
+
+.clock-pu{  
+  margin-top: 1.25%;
+  margin-left: 57.5%;
+}
+
+.lhs-image-wrapper > img {
+  width: 340px;
+}
+
+.popup-article article {
+  padding-right: 2%;
+  margin-top: 13.8%;
+}
+
+.article-p1 p { 
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.q-icon {
+  width: 40px;
+}
+
+.quote{
+  margin-top: 1%;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.article-p2 h3 {
+  font-size: 22px;
+ }
+
+.article-p2 {
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 24px;
+}
+
+/*#podcasts section*/
+
+.top-image-wrapper img {
+  height: 38vh;
+}
+
+.column p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/*#subscribe section*/
+
+.subscribe {
+  background-position: 20px 0;
+}
+
+.subscribe-form {
+  margin-top: -1%;
+}
+
+#subscribe-footer {
+  margin-top: 22%;
+}
+
+/*#contact section*/
+
+.contact {
+  background-position: 0 40px;
+}
+
+.contact-container {
+  margin-left: 18%;
+  margin-top: 8%;
+  }
+
+}
+
+/*================================================================*/
+
+
+
 
 /*======================================================================*/
 
 
 /* (1280x1024) SXGA Display */
 @media only screen 
-  and (max-device-width: 1280px)
-{
-  html {-webkit-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -ms-text-size-adjust: 100%; /* none for no scaling */
-  }
-}
+  and (max-device-width: 1280px) {
+
   .nav > .nav-links {
     margin-right: -1%;
   }
@@ -2828,7 +2609,7 @@ z-index: 80;
 /*======================================================================*/
 
 /* (2048x1536) iPad 3 */
-@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+@media only screen and (min-width: 1921px) and (max-width: 2048px) {
   .nav {
     height: 4.5vh;
   }
@@ -3119,3 +2900,222 @@ height: 10vh;
 }
 
 /*==============================================================================*/
+
+
+/* (1600x900) HD+ Display */
+@media  screen and (min-width: 1921px) and (max-width: 1600px) {
+  .nav > .nav-header > .nav-title {
+    padding: 10px 5px 10px 5px;
+    font-size: 14px;
+  }
+
+  /*intro*/
+
+  .intro {
+    background-position: 0 50px;
+  }
+  .intro h1 {
+    font-size: 96px;
+    letter-spacing: 52px;
+    line-height: 100px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+  }
+
+  .line-wrapper-1 .line-1 {
+    margin-top: 0.5%;
+    font-size: 42px;
+    word-spacing: 6px;
+    height: 10vh;
+  }	
+
+  .section-footer {
+    margin-top: 17%;
+  }
+
+  .line-wrapper-2 .line-2 {
+    margin-top: 34%;
+    font-size: 27px;
+    word-spacing: 4px;
+  }	
+
+  .spike#spike1 {
+    height: 9.5vh;
+    margin-top: 35%;
+  }
+
+  /*ai-101 section*/
+
+  .section-header h2{
+    padding-top: 3%;
+    }
+    
+  .audio-player {
+    margin-top: -5%;
+  }
+  .profile-photo { 
+    margin-top: 4%;
+    }
+
+  .author {
+    position: absolute;
+    margin-left: 81%;
+    margin-top: -5%;
+  }
+
+  .author > aside {
+  height: 4vh;
+  }
+
+  .fa-clock {
+    margin-left: 89%;
+    } 
+
+  .ai-101-container h3 {
+    font-size: 28px;
+    font-weight: 500;
+   }
+      
+      
+  .ai-101-container  p {
+    margin-top: 0.5%;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .ai-101-a {
+    margin-top: 6%;
+  }
+
+ .image-container {
+   margin-top:  1%;
+   height: 15vh;
+   background-color: #0e101f;
+ }
+
+ .section-footer {
+   height: 5vh;
+ }
+ 
+ /*#industries section*/
+
+ .grid h3 {
+	text-align: center;
+	font-size: 28px;
+  font-weight:500;
+  }
+
+.grid-span {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.grid a {
+  font-size: 18px;
+}
+
+/*popup*/
+
+.article-header h2 {
+  padding-top: 2.2%;
+  font-size: 26px;
+  }
+
+  .pointer-pu {
+    margin-top: 1.5%;
+    margin-left: 2%;
+  }
+ 
+.author-pu{
+  margin-left: 69.8%;
+}
+
+.author-pu > .profile-photo { 
+  margin-top: 9%;
+}
+
+.author-pu > aside {
+  height: 8vh;
+}
+
+.clock-pu{  
+  margin-top: 1.25%;
+  margin-left: 57.5%;
+}
+
+.lhs-image-wrapper > img {
+  width: 340px;
+}
+
+.popup-article article {
+  padding-right: 2%;
+  margin-top: 13.8%;
+}
+
+.article-p1 p { 
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.q-icon {
+  width: 40px;
+}
+
+.quote{
+  margin-top: 1%;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.article-p2 h3 {
+  font-size: 22px;
+ }
+
+.article-p2 {
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 24px;
+}
+
+/*#podcasts section*/
+
+.top-image-wrapper img {
+  height: 38vh;
+}
+
+.column p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/*#subscribe section*/
+
+.subscribe {
+  background-position: 20px 0;
+}
+
+.subscribe-form {
+  margin-top: -1%;
+}
+
+#subscribe-footer {
+  margin-top: 22%;
+}
+
+/*#contact section*/
+
+.contact {
+  background-position: 0 40px;
+}
+
+.contact-container {
+  margin-left: 18%;
+  margin-top: 8%;
+  }
+
+}
+
+/*========================================================================*/
