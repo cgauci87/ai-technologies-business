@@ -1934,11 +1934,11 @@ height: 5vh ;
     margin-top: 0;
     font-size: 42px;
     word-spacing: 8px;
-    height: 10vh;
+    height: 11vh;
   }	
 
   .section-footer {
-    margin-top: 17%;
+    margin-top: 16%;
   }
 
   .line-wrapper-2 .line-2 {
@@ -1955,11 +1955,11 @@ height: 5vh ;
   /*ai-101 section*/ /* wip */
 
   .section-header h2{
-    padding-top: 2.5%;
+    padding-top: 3%;
     }
     
   .audio-player {
-    margin-top: -3.8%;
+    margin-top: -4%;
   }
   .profile-photo { 
     margin-top: 5%;
@@ -1967,6 +1967,7 @@ height: 5vh ;
 
   .author {
     margin-top: -4%;
+    margin-left: 0;
   }
 
   .author > aside {
@@ -1974,16 +1975,18 @@ height: 5vh ;
   }
 
   .fa-clock {
-    margin-left: 89%;
+    margin-left: 91%;
     } 
 
 
   .ai-101-a {
-    margin-top: 6%;
+    margin-top: 4%;
   }
 
  .image-container {
-   margin-top:  -3.5%;
+   margin-top:  0;
+   height: 10vh;
+   background-color: #0e101f;
  }
  
  /*#industries section*/
