@@ -1915,40 +1915,41 @@ height: 5vh ;
 @media  screen and (min-width: 1681px) and (max-width: 1920px) {
   
   .nav > .nav-header > .nav-title {
-    font-size: 16px;
+    font-size: 14px;
+    padding-top: 0.5%;
   }
 
   /*intro*/
 
   .intro {
-    background-position: 0 42px;
+    background-position: 0 -70px;
   }
   .intro h1 {
-    font-size: 96px;
-    letter-spacing: 32px;
+    font-size: 64px;
+    letter-spacing: 38px;
+    padding-left: 1%;
     padding-bottom: 1%;
   }
   .line-wrapper-1 .line-1 {
-    margin-top: 1%;
-    font-size: 60px;
-    word-spacing: 12px;
-    line-height: 56px;
-    height: 17vh;
+    margin-top: 0;
+    font-size: 42px;
+    word-spacing: 8px;
+    height: 10vh;
   }	
 
   .section-footer {
-    margin-top: 19%;
+    margin-top: 17%;
   }
 
   .line-wrapper-2 .line-2 {
-    margin-top: 37.5%;
-    font-size: 33px;
-    word-spacing: 1.5px;
+    margin-top: 34%;
+    font-size: 30px;
+    word-spacing: 1px;
   }	
 
   .spike#spike1 {
-    height: 10vh;
-    margin-top: 38.5%;
+    height: 13vh;
+    margin-top: 35%;
   }
 
   /*ai-101 section*/ /* wip */
