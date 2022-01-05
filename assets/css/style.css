@@ -1381,36 +1381,47 @@ filter:invert(100);
 
 /*------------------------------------ MEDIA QUERIES---for---Laptops & Large Displays-----------------------------*/
 
-
-
-/* (1680x1050) WSXGA+ Display BUG*/
+/* (1680x1050) WSXGA+ Display wip */
 @media  screen and (min-width: 1601px) and (max-width: 1680px) {
   /*header*/
+
   .nav > .nav-header > .nav-title {
     padding: 8px 4px 8px 4px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /*intro*/
+  .intro {
+    background-position: 0 195px;
+  }
+
   .intro h1 {
-    font-size: 64px;
-    letter-spacing: 32px;
+    font-size: 96px;
+    letter-spacing: 60px;
+    padding-bottom: 0.5%;
   }
 
   .line-wrapper-1 .line-1 {
-    font-size: 38px;
-    word-spacing: 5px;
-    height: 11vh;
+    font-size: 48x;
+    word-spacing: 8px;
+    height: 15vh;
+    margin-top: 1%;
   }	
+
+  .section-footer {
+    margin-top: 20%;
+  }
+
   .line-wrapper-2 .line-2 {
-    margin-top: 34.1%;
-    font-size: 26px;
-    word-spacing: 3.5px;
+    margin-top: 38%;
+    font-size: 28px;
+    word-spacing: 6px;
+    height: 3vh;
   }	
 
   .spike#spike1 {
-    height: 9.5vh;
-    margin-top: 35%; /*mq*/
+    height: 5vh;
+    margin-top: 39%; /*mq*/
   }
 
   /*ai-101 section*/
@@ -1910,7 +1921,7 @@ height: 5vh ;
 }
 
 /*=========================================================================*/ 
-/* (1920x1080) Full HD Display */
+/* (1920x1080) Full HD Display -> PASSED <- */
 
 @media  screen and (min-width: 1681px) and (max-width: 1920px) {
   
@@ -1952,7 +1963,7 @@ height: 5vh ;
     margin-top: 35%;
   }
 
-  /*ai-101 section*/ /* wip */
+  /*ai-101 section*/ 
 
   .section-header h2{
     padding-top: 3%;
