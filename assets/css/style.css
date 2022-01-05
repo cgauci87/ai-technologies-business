@@ -2030,7 +2030,58 @@ filter:invert(100);
 
 /* (1536x864) Display -> WIP <- */
 @media screen and (min-width: 1441px) and (max-width: 1536px) {
-	
+
+  .nav > .nav-header > .nav-title {
+    font-size: 14px;
+    padding-top: 0.7%;
+  }
+
+  /*intro*/
+
+  .intro {
+    background-position: 0 -80px;
+  }
+
+  .intro h1 {
+    font-size: 54px;
+    letter-spacing: 34px;
+    padding-left: 2%;
+  } 
+
+  .line-wrapper-1 > .line-1 {
+    font-size: 34px;
+    word-spacing: 1px;
+    height: 10vh;
+    margin-top: 0.5%;
+  }
+
+  
+  .line-wrapper-2 > .line-2 {
+    font-size: 26px;
+    word-spacing: 3.5px;
+    margin-top: 34%;
+  }
+
+  .spike#spike1 { 
+    margin-top: 35%;
+    height: 12vh;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
