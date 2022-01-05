@@ -2067,7 +2067,15 @@ filter:invert(100);
     height: 12vh;
   }
 
+  /*#ai-101 section*/
 
+  .section-header h2 {
+   padding-bottom: 5%;
+  }
+
+  .author {
+    margin-left: 76%;
+  }
 
 
 
