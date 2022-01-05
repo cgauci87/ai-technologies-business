@@ -1915,26 +1915,25 @@ height: 5vh ;
 @media  screen and (min-width: 1681px) and (max-width: 1920px) {
   
   .nav > .nav-header > .nav-title {
-    font-size: 14px;
+    font-size: 16px;
   }
-
 
   /*intro*/
 
   .intro {
-    background-position: 0 5px;
+    background-position: 0 42px;
   }
   .intro h1 {
-    font-size: 64px;
+    font-size: 96px;
     letter-spacing: 32px;
-    padding-bottom: 0;
+    padding-bottom: 1%;
   }
   .line-wrapper-1 .line-1 {
     margin-top: 1%;
-    font-size: 48px;
-    word-spacing: 8px;
-    line-height: 50px;
-    height: 20vh;
+    font-size: 60px;
+    word-spacing: 12px;
+    line-height: 56px;
+    height: 17vh;
   }	
 
   .section-footer {
@@ -1943,12 +1942,12 @@ height: 5vh ;
 
   .line-wrapper-2 .line-2 {
     margin-top: 37.5%;
-    font-size: 26px;
-    word-spacing: 3px;
+    font-size: 33px;
+    word-spacing: 1.5px;
   }	
 
   .spike#spike1 {
-    height: 5vh;
+    height: 10vh;
     margin-top: 38.5%;
   }
 
@@ -2902,8 +2901,8 @@ height: 10vh;
 /*==============================================================================*/
 
 
-/* (1600x900) HD+ Display */
-@media  screen and (min-width: 1921px) and (max-width: 1600px) {
+/* (1600x900) HD+ Display */ /*PASS*/
+@media  screen and (min-width: 1599px) and (max-width: 1600px) {
   .nav > .nav-header > .nav-title {
     padding: 10px 5px 10px 5px;
     font-size: 14px;
