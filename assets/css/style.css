@@ -1505,8 +1505,9 @@ filter:invert(100);
   }
 
   .pointer-pu {
-    margin-top: 1.5%;
+    margin-top: 2%;
     margin-left: 2%;
+    font-size: 14px;
   }
  
 .author-pu{
@@ -1518,21 +1519,30 @@ filter:invert(100);
 }
 
 .author-pu > aside {
-  height: 8vh;
+  height: 5vh;
 }
 
 .clock-pu{  
-  margin-top: 1.25%;
-  margin-left: 57.5%;
+  margin-top: 2%;
+  margin-left: 58%;
+  font-size: 12px;
+  letter-spacing: 5px;
 }
 
 .lhs-image-wrapper > img {
-  width: 320px;
+  width: 360px;
+  border-radius: 0;
+}
+
+.popup-article article {
+  margin-top: 14.2%;
+  border-radius: 0;
+  padding-right: 1.5%;
 }
 
 .article-p1 p { 
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 24px;
 }
 
@@ -1542,7 +1552,7 @@ filter:invert(100);
 
 .quote{
   margin-top: 1%;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
 }
 
@@ -1551,15 +1561,15 @@ filter:invert(100);
  }
 
 .article-p2 {
- font-size: 18px;
- font-weight: 400;
+ font-size: 20px;
+ font-weight: 500;
  line-height: 24px;
 }
 
 /*#podcasts section*/
 
 .top-image-wrapper img {
-  height: 34vh;
+  height: 43vh;
 }
 
 .column p {
@@ -1572,25 +1582,33 @@ filter:invert(100);
 /*#subscribe section*/
 
 .subscribe {
-  background-position: 20% 20%;
+  background-position: 0 40px;
 }
 
 .subscribe-form {
-  margin-top: -3%;
+  margin-top: 10%;
+}
+
+#subscribe-form > label {
+  font-size: 16px;
+  margin-top: -14.5%;
+  margin-left: 10%;
 }
 
 #subscribe-footer {
-  margin-top: 18%;
+  margin-top: 25%;
 }
 
 
+/*#contact section*/
+
 .contact {
-  background-position: 20% -10%;
+  background-position: 0 100px;
 }
 
 .contact-container {
-  margin-left: 17%;
-  margin-top: 5%;
+  margin-left: 20%;
+  margin-top: 10%;
   }
 
 }
