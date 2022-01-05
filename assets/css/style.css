@@ -2082,8 +2082,12 @@ height: 5vh ;
   margin-top: -1%;
 }
 
+#submit-button {
+  margin-top: -21.8%;
+}
+
 #subscribe-footer {
-  margin-top: 20%;
+  margin-top: 19%;
 }
 
 /*#contact section*/
