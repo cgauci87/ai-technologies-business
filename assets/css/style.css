@@ -1402,7 +1402,7 @@ filter:invert(100);
   }
 
   .line-wrapper-1 .line-1 {
-    font-size: 48x;
+    font-size: 48px;
     word-spacing: 8px;
     height: 15vh;
     margin-top: 1%;
@@ -1427,23 +1427,25 @@ filter:invert(100);
   /*ai-101 section*/
 
   .section-header h2{
-    padding-top: 2.4%;
+    padding-top: 4.5%;
     }
   
-  
-     
   .profile-photo { 
     margin-top: 9%;
     }
 
   .author {
     position: absolute;
-    margin-left: 80.1%;
+    margin-left: 82%;
     margin-top: -4.3%;
   }
 
+  .author > aside {
+    height: 4vh;
+  }
+
   .fa-clock {
-    margin-left: 88.5%; /*mq*/
+    margin-left: 90%; /*mq*/
     } 
 
   .ai-101-container h3 {
@@ -1459,7 +1461,7 @@ filter:invert(100);
   }
 
   .ai-101-a {
-    margin-top: 2%;
+    margin-top: 10%;
   }
   
  .ai-101-d {
@@ -1467,7 +1469,7 @@ filter:invert(100);
  } 
 
  .image-container {
-   margin-top:  -5%;
+   margin-top:  4%;
  }
 
  .section-footer {
@@ -1489,6 +1491,10 @@ filter:invert(100);
 
 .grid a {
   font-size: 18px;
+}
+
+#adjust-footer {
+ margin-top: 17%;
 }
 
 /*popup*/
