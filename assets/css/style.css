@@ -1943,7 +1943,7 @@ height: 5vh ;
 
   .line-wrapper-2 .line-2 {
     margin-top: 34%;
-    font-size: 30px;
+    font-size: 33px;
     word-spacing: 1px;
   }	
 
@@ -1992,23 +1992,23 @@ height: 5vh ;
  /*#industries section*/
 
  #adjust-footer {
-   margin-top: 16%;
+   margin-top: 17%;
  }
 
 /*popup*/
 
 .article-header h2 {
-  padding-top: 2.2%;
+  padding-top: 2.5%;
   font-size: 26px;
   }
 
   .pointer-pu {
     margin-top: 1.5%;
-    margin-left: 2%;
+    margin-left: 1.5%;
   }
  
 .author-pu{
-  margin-left: 69.8%;
+  margin-left: 75%;
 }
 
 .author-pu > .profile-photo { 
@@ -2016,21 +2016,21 @@ height: 5vh ;
 }
 
 .author-pu > aside {
-  height: 8vh;
+  height: 5vh;
 }
 
 .clock-pu{  
-  margin-top: 1.25%;
-  margin-left: 57.5%;
+  margin-top: 1.50%;
+  margin-left: 66%;
 }
 
 .lhs-image-wrapper > img {
-  width: 340px;
+  width: 380px;
 }
 
 .popup-article article {
   padding-right: 2%;
-  margin-top: 13.8%;
+  margin-top: 13.35%;
 }
 
 .article-p1 p { 
@@ -2068,14 +2068,14 @@ height: 5vh ;
 .column p {
   font-size: 18px;
   line-height: 22px;
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /*#subscribe section*/
 
 .subscribe {
-  background-position: 20px 0;
+  background-position: 0 -60px;
 }
 
 .subscribe-form {
@@ -2083,7 +2083,7 @@ height: 5vh ;
 }
 
 #subscribe-footer {
-  margin-top: 22%;
+  margin-top: 20%;
 }
 
 /*#contact section*/
@@ -2093,7 +2093,7 @@ height: 5vh ;
 }
 
 .contact-container {
-  margin-left: 18%;
+  margin-left: 24%;
   margin-top: 8%;
   }
 
