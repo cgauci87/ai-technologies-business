@@ -2434,16 +2434,33 @@ height: 5vh ;
 }
   /* ================================================================================= */
 
-/* (1366x768) WXGA Display ->  <- */
+/* (1366x768) WXGA Display -> WIP <- */
 @media  screen and (min-width: 1281px) and (max-width: 1366px) {
-  
+  .nav > .nav-header > .nav-title {
+    font-size: 14px;
+    padding-top: 0.7%;
+  }
+
   .nav > .nav-links {
-    margin-right: -1.5%;
+    margin-right: 0.3%;
+  }
+
+  .intro {
+    background-position: 0 50px;
+  }
+
+  .intro h1 {
+    font-size: 72px;
+    line-height: 80px;
+    padding-top: 4%;
+    padding-bottom: 1%;
   }
 
   .line-wrapper-1 .line-1 {
     font-size: 32px;
-    line-height: 20px;
+    word-spacing: 2px;
+    height: 9vh;
+    margin-top: 0.5%;
   }
 
 
@@ -2452,14 +2469,14 @@ height: 5vh ;
   }
 
   .line-wrapper-2 .line-2 {
-    margin-top: 33%;
-    font-size: 22px;
-    letter-spacing: 0.4px;
+    margin-top: 34%;
+    font-size: 23px;
+    word-spacing: 4px;
   }
 
   .spike#spike1 {
-    margin-top: 34%;
-    height: 4.5vh;
+    margin-top: 35%;
+    height: 9vh;
   }
 
   /*#ai-101 section*/
