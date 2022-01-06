@@ -2026,9 +2026,9 @@ filter:invert(100);
 
 }
 
-/*====================================wip====================================*/
+/*========================================================================*/
 
-/* (1536x864) Display -> WIP <- */
+/* (1536x864) Display -> PASS <- */
 @media screen and (min-width: 1441px) and (max-width: 1536px) {
 
   .nav > .nav-header > .nav-title {
@@ -2217,41 +2217,22 @@ filter:invert(100);
       margin-left: -15%;
     }
 
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*===================================================================================*/
 
-
-/* (1440x900) WXGA+ Display -> ... <- */
-@media  screen and (min-width: 1367px) and (max-width: 1440px)  {
+/* (1440x900) WXGA+ Display -> WIP <- */	
+@media screen and (min-width: 1367px) and (max-width: 1440px)  {
+	
   /*intro section*/ 
  
-  .nav > .nav-links {
-  padding-right: 1.5%;
+  .nav > .nav-header > .nav-title {
+   font-size: 16px;
+   padding-top: 0.5%;
   }
 
   .intro {
-    background-position: 0 80px ;
+    background-position: 0 135px ;
   }
 
   .intro h1 {
@@ -2260,24 +2241,26 @@ filter:invert(100);
    padding-left: 3% ;
    padding-top:3.5%;
    padding-bottom: 1.5%;
-   line-height: 100px ;
+   line-height: 100px;
   }
 
   
   .line-wrapper-1 .line-1 {
-    margin-top: 0 ;
-    height: 9.7vh ;
+    font-size: 42px;
+    line-height: 38px;
+    height: 14vh;
+    margin-top: 1%;
   }	
 
   .line-wrapper-2 .line-2 {
-    margin-top: 34% ;
+    margin-top: 38% ;
     font-size: 24px ;
     word-spacing: 6px ; 
   }	
 
   .spike#spike1 {
-    margin-top: 35% ;
-    height: 13vh ;
+    margin-top: 39%;
+    height: 8vh;
   }
 
   /*#ai101 section*/
