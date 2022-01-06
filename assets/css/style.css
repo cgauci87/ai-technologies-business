@@ -2221,7 +2221,7 @@ filter:invert(100);
 
 /*===================================================================================*/
 
-/* (1440x900) WXGA+ Display -> WIP <- */	
+/* (1440x900) WXGA+ Display -> PASS <- */	
 @media screen and (min-width: 1367px) and (max-width: 1440px)  {
 	
   /*intro section*/ 
@@ -2274,6 +2274,10 @@ filter:invert(100);
     margin-top: -5%;
   }
 
+  #listen {
+    margin-left: 1.2%;
+  }
+
  .author {
    position: absolute;
    margin-left: 78.7%;
@@ -2321,6 +2325,24 @@ filter:invert(100);
  }
 
 
+ /*#industries section*/
+
+ #adjust-header {
+   padding-top: 4.5%;
+ }
+
+ .grid h3 {
+  font-size: 24px;
+}
+
+.grid-span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.grid a {
+  font-size: 18px;
+}
 
 /*popup article*/
 
@@ -2356,30 +2378,38 @@ height: 5vh ;
 }
 
 .popup-article article {
-  padding-left: 2%;
-  padding-right: 2%;
   margin-top: 14.2%;
+  padding-right: 2%;
 }
 
-.lhs-image-wrapper {
-  margin-left: -2.2%;
+.lhs-image-wrapper img {
+  width: 300px;
 }
+
 
 /*#podcasts section*/
-.column {
-  margin-top: 2%;
-  margin-bottom: 2%;
+.top-image-wrapper img {
+  height: 39vh;
+}
+
+.column p {
+  padding-left: 7.2%;
+  padding-right: 7.2%;
 }
 
 
 /*#subscribe section*/
 
+.subscribe {
+  background-position: 0 20px;
+}
+
 .subscribe-form {
-  padding-top: 5%;
+  margin-top: 1%;
 }
 
 #subscribe-footer {
-  margin-top: 23% ;
+  margin-top: 25% ;
 }
 
 /* #contact section */
