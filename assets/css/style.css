@@ -2883,8 +2883,10 @@ height: 5vh ;
   height: 100%;
 }
 
-
-
+.popup-article > article {
+  padding-right: 0.25%;
+  margin-top: 15.25%;
+}
 .lhs-image-wrapper > img {
   opacity: 0.3;
   width: 50%;
@@ -2981,31 +2983,35 @@ z-index: 80;
 /*-------------popup header----------------------- */
 
 .article-header h2 {
-  padding-top: 4.7%;
+  padding-top: 4.2%;
+  margin-left: -4%;
   }
 
 .author-pu{
-  margin-top: -4%;
-  margin-left: 68%;
+  position: absolute;
+  margin-top: -6%;
+  margin-left: 69%;
   }
 
   .author-pu > .profile-photo {
-    margin-top: 4%;
+    margin-top: 10%;
     min-width: 50px;
     max-height: 40px;
   }
 
   .author-pu > p {
     line-height: 16px;
-    padding-top: 6%;
+    white-space: pre-line;
+    padding-top: 14%;
   }
 
   .author-pu > aside {
-    height: 4vh;
+    height: 6vh;
   }
  
 
 .audio-player-pu {
+ width: 220px;
  margin-top: -5%;
  }
 
@@ -3021,13 +3027,19 @@ z-index: 80;
 
 .cancel {
   margin-left: 96%;
+  height: 2vh;
+  padding: 0;
 }
 
 
 /*#podcasts section*/
 
 .top-image-wrapper img {
-  height: 38vh;
+  height: 44vh;
+}
+
+iframe {
+max-zoom: 100%;
 }
 
 .column p {
