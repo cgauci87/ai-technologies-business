@@ -3126,9 +3126,9 @@ width: 100% /*BUG*/;
   }	
       
   .section-footer {   
-    height: 3vh;
+    height: 4vh;
     position: absolute;
-    margin-top: 18.5%;
+    margin-top: 18%;
   }
 
   .goto-btn {
@@ -3284,7 +3284,7 @@ width: 100% /*BUG*/;
   }
 
   .ai-101-a {
-    margin-top: 18.5%;
+    margin-top: 16%;
   }
   
   .ai-101-d {
@@ -3349,14 +3349,12 @@ width: 100% /*BUG*/;
      }
 
     
-    .form2-wrapper {
-      position: absolute;
-      margin-top: 180%; 
+     .form2-wrapper {
+      margin-top: 52%;
     }
 
     .image-container {
-      position: absolute;
-      margin-top:  -125%;
+      margin-top:  0;
       width: 100%;
     }
     /*wip*/
@@ -3372,7 +3370,7 @@ width: 100% /*BUG*/;
 
   #adjust-footer {
     position: absolute;
-    margin-top: -5%;
+    margin-top: 40%;
   }
 
   
