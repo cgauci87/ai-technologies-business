@@ -3039,7 +3039,7 @@ z-index: 80;
 }
 
 iframe {
-max-zoom: 100%;
+max-zoom: 100% /*BUG*/;
 }
 
 .column p {
@@ -3056,11 +3056,11 @@ max-zoom: 100%;
 }
 
 .subscribe-form {
-  margin-top: 3%;
+  margin-top: 14%;
 }
 
 #subscribe-footer {
-  margin-top: 30%;
+  margin-top: 32%;
 }
 
 /*#contact section*/
@@ -3074,8 +3074,13 @@ max-zoom: 100%;
   margin-top: 12%;
   }
 
-.footer {
-  margin-top: -8%;
+.footer p {
+  margin-top: -5%;
+  }
+
+.footer p {
+  margin-top: -0.2%;
+  margin-bottom: 1%;
 }
 }
 
