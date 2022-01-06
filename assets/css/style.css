@@ -2434,7 +2434,7 @@ height: 5vh ;
 }
   /* ================================================================================= */
 
-/* (1366x768) WXGA Display -> WIP <- */
+/* (1366x768) WXGA Display -> PASS <- */
 @media  screen and (min-width: 1281px) and (max-width: 1366px) {
   .nav > .nav-header > .nav-title {
     font-size: 14px;
@@ -2480,8 +2480,23 @@ height: 5vh ;
   }
 
   /*#ai-101 section*/
+
   .section-header h2 {
     padding-top: 2.8%;
+  }
+
+  .audio-player {
+    margin-top: -5%;
+  }
+
+  .author {
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 78%;
+  }
+
+  .author > aside {
+    height: 5vh;
   }
 
   .profile-photo {
@@ -2490,17 +2505,20 @@ height: 5vh ;
 
   .fa-clock {
     margin-top: -1.25%;
-    margin-left: 87.2%;
+    margin-left: 87.3%;
   }
 
   #listen {
     margin-top: -1.25%;
   }
-  
-  .author {
-    margin-top: -5%;
-  }
 
+  .ai-101-container h3 {
+    font-size: 26px;
+  }
+  
+  .ai-101-container p {
+    font-size: 22px;
+  }
 
   .ai-101-a {
     margin-top: 3%;
@@ -2526,41 +2544,85 @@ height: 5vh ;
 
    #op-icon {
     margin-top: 2%;
-    margin-left: 11%;
+    margin-left: 9%;
   }
  
   #elv-icon {
    margin-top: 2%;
-   margin-left: 21%;
+   margin-left: 17%;
  }
  
    #growth-icon {
      margin-top: 2%;
-     margin-left: 30%; 
+     margin-left: 25%; 
    }
   
   .image-container {
-    margin-top: 0;
+    margin-top: -2%;
+    background-color: #0e101f;
+    height: 9vh;
   }
 
   /*#industries section*/
+
   #adjust-header {
     padding-top: 4.2%;
   }
+
+  .grid h3 {
+    font-size: 24px;
+  }
+ 
+  .grid-span {
+    font-size: 20px;
+    font-weight: 500;
+  }
+ 
+  .grid a {
+    font-size: 18px;
+  }
+
   #adjust-footer {
     margin-top: 17%;
   }
 
 
   /*popup*/
+  .article-header h2 {
+    font-size: 26px;
+    padding-top: 2.4%;
+  }
 
   .author-pu {
     margin-left: 68%;
-    margin-top: -4.4%;
+    margin-top: -6%;
   }
 
-  .cancel {
-    margin-left: 96%;
+  .author-pu > p {
+    line-height: 18px;
+    white-space: pre-line;
+    margin-top: -8%;
+  }
+
+  .author-pu > aside {
+   height: 5.5vh;
+  }
+
+
+  .audio-player-pu {
+    width: 280px;
+    margin-top: -5%;
+  }
+
+  .author-pu > .profile-photo {
+    margin-top: 12%;
+    min-width: 50px;
+    max-height: 40px;
+  }
+
+
+  .pointer-pu {
+    margin-top: 1.25%;
   }
 
   .clock-pu {
@@ -2568,19 +2630,41 @@ height: 5vh ;
     margin-top: 1.7%;
   }
 
+  .cancel {
+    margin-left: 96%;
+  }
+
   .lhs-image-wrapper > img {
-    width: 300px;
+    width: 280px;
   }
   
-.popup-article article { 
-  margin-top: 13.7%; /* mq */
-}
+  .popup-article article { 
+  margin-top: 13.7%;
+  border-radius: 0;
+  padding-right: 3%;
+  }
+  
+  
+  .article-p1 p , .article-p2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .quote {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .article-p2 h3 {
+    font-size: 22px;
+  }
 
 
 /*#podcasts section*/
 
 .top-image-wrapper img {
-  height: 30vh;
+  height: 34vh;
 }
 
 .column p {
@@ -2594,15 +2678,15 @@ height: 5vh ;
 /*#subscribe section*/
 
 .subscribe {
-  background-position: 0 -60px;
+  background-position: 0 -10px;
 }
 
 .subscribe-form {
-  margin-top: -6%;
+  margin-top: -3%;
 }
 
 #subscribe-footer {
-  margin-top: 20%;
+  margin-top: 22%;
 }
 
 /*#contact section*/
