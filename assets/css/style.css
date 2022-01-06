@@ -2266,37 +2266,60 @@ filter:invert(100);
   /*#ai101 section*/
 
   .section-header h2 {
-    padding-top: 4% ;
+    padding-top: 3.5% ;
   }
 
-  .ai-101-a {
-    margin-top: 4.5% ;
+
+  .audio-player {
+    margin-top: -5%;
   }
-
- .form2-wrapper {
-   margin-top: 22%;
- }
-
- .audio-player {
-  margin-top: -5%;
- }
 
  .author {
-   margin-left: 78% ;
+   position: absolute;
+   margin-left: 78.7%;
+   margin-top: -5%;
  }
 
  .author > aside {
-  height: 6vh;
+  height: 4vh;
 }
 
 
 .fa-clock {
-  margin-left: 86.8% ;
+  margin-left: 87% ;
   } 
 
   .profile-photo {
     margin-top: 1% ;
   }
+
+  .ai-101-container h3 {
+    font-size: 26px;
+  }
+
+  
+  .ai-101-container p {
+    font-size: 22px;
+  }
+
+  .ai-101-a {
+    margin-top: 6% ;
+  }
+
+  #mimic-icon {
+    margin-top: 10%;
+  }
+
+  #process-icon {
+    margin-top: 11.5%;
+    margin-left: 13.5%;
+  }
+
+
+ .form2-wrapper {
+   margin-top: 18%;
+ }
+
 
 
 /*popup article*/
