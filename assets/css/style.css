@@ -2706,45 +2706,51 @@ height: 5vh ;
 
 }
 
-/*=======================================================================*/
+/*======================================================================*/
 
+/* (1280x1024) SXGA Display  -> WIP <- */
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
 
-/*================================================================*/
-
-/* (1280x1024) SXGA Display */
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .nav > .nav-header > .nav-title {
+    font-size: 14px;
+    padding-top: 0.75%;
+  }
 
   .nav > .nav-links {
-    margin-right: -1%;
+    margin-right: 0;
   }
 
   .intro {
-    background-position: -100px 115px;
+    background-position:  -100px 50px;
   }
 
   .intro h1 {
-   padding-top: 4%;
-   padding-bottom: 2%;
+   font-size: 72px;
+   letter-spacing: 54px;
+   padding-left: 3%;
   }
   
   .line-wrapper-1 .line-1 {
-    height: 8vh;
+    margin-top: 0.5%;
+    font-size: 34px;
+    word-spacing: 5px;
+    height: 8.5vh;
   }	
 
   .section-footer {
-    margin-top: 22.5%;
+    margin-top: 20%;
   }
 
   .line-wrapper-2 .line-2 {
-    margin-top: 49%;
-    font-size: 21px;
-    word-spacing: 2px; 
-    height: 2.5vh;
+    margin-top: 40%;
+    font-size: 22px;
+    word-spacing: 0.8px; 
+    height: 2.6vh;
   }	
 
   .spike#spike1 {
-    margin-top: 50% ;
-    height: 15vh ;
+    margin-top: 41%;
+    height: 8vh;
   }
   /*#ai-101 section*/
 
@@ -3030,192 +3036,4 @@ z-index: 80;
 }
 }
 
-
-
-
-/*======================================================================*/
-
-
-/* (1280x720) Galaxy Note 2, WXGA */
-@media screen and (min-width: 720px) and (max-width: 1280px) {
-
-  /*intro*/
-  .intro {
-    background-position: 0 20px;
-  }
-
-  .intro h1 {
-    font-size: 64px;
-    letter-spacing: 22px;
-    padding-top: 5%;
-    padding-right: 1.5%;
-  }
-
-  .line-wrapper-1 .line-1 {
-    font-size: 32px;
-    word-spacing: 2px;
-    height: 10vh;
-  }	
-
-  .section-footer {
-    margin-top: 17%;
-    height: 5vh;
-  }
-
-  .line-wrapper-2 .line-2 {
-    margin-top: 34.1%;
-    font-size: 21px;
-    word-spacing: 2px;
-    height: 5vh;
-  }	
-
-  .spike#spike1 {
-    height: 11vh;
-    margin-top: 35%;
-  }
-
-  /*#ai-101 section*/
-
-  .audio-player {
-    margin-top: -5%;
-  }
-
-  #listen {
-  margin-top: -1.2%;
-  margin-left: 1.5%;
-  font-size: 12px;
-  }
-
-  .author {
-    margin-left: 76%;
-    margin-top: -5%;
-  }
-
-  .author > aside {
-    height: 5vh;
-  }
-
-  .fa-clock {
-    font-size: 12px;
-    margin-top: -1.2%;
-    margin-left: 85.8%;
-  }
-
-  .ai-101-a {
-    margin-top: 1%;
-  }
-
-  .ai-101-d {
-    margin-bottom: 2%;
-  }
-
- .image-container {
-   margin-top: -5%;
- }
-
- 
- /*#industries section*/
-
- #adjust-header {
-  padding-top: 4%;
- }
-
- .grid h3 {
-   font-size: 22px;
- }
-
- .grid-span {
-   font-size: 18px;
-   font-weight: 500;
- }
-
- .grid a {
-   font-size: 16px;
- }
-
-  #adjust-footer {
-  margin-top: 21.5%;
-}
-
-
-/*popup*/
-
-.pointer-pu {
-  margin-top: 1.5%;
-}
-
-.author-pu > aside {
-  height: 5vh;
-}
-
-.article-header h2 {
-  font-size: 24px;
-  padding-top: 2.6%;
-}
-
-.clock-pu {
-  margin-top: 1.5%;
-  margin-left: 48%;
-  font-size: 11px;
-  letter-spacing: 8px;
-}
-
-.article-p1 p , .article-p2 {
-  font-size: 20px;
-}
-
-.q-caption {
-  font-size: 22px;
-}
-
-.quote {
-  font-size: 20px;
-}
-
-
-/*#podcasts section*/
-
-.top-image-wrapper img {
-  height: 28vh;
-}
-
-.column p {
-  font-size: 18px;
-  line-height: 22px;
-  padding-left: 8%;
-  padding-right: 8%;
-}
-
-/*#subscribe section*/
-
-.subscribe {
-  background-position: 0 40px;
-}
-
-.subscribe-form {
-  margin-top: -5%;
-}
-
-#subscribe-footer {
-  margin-top: 18%;
-
-}
-
-
-.contact {
-  background-position: 0 40px;
-}
-
-.contact-container {
-  margin-left: 15%;
-  margin-top: 6%;
-  }
-
-
-  #send-btn {
-  margin-left: 82.5%;
-  }
-  
-}
-
-/*======================================================================*/
+/*=============================================================*/
