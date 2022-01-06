@@ -3159,30 +3159,27 @@ width: 100% /*BUG*/;
   /* -=- #ai-101 section -=- */
 
   .section-header{
-    background-color: rgb(18, 42, 49);
     height: 7vh;
     position: absolute;
-    margin-top: -0.1%;
-    margin-left: 34%;
-    z-index: 400; /*ppp*/
+    margin-left: 45%;
+    margin-top: 0.8%;
+    z-index: 11;
     }
 
-    
   .section-header h2{
     font-size: 24px;
-    height: auto;
-    
+    background-color: transparent;
   }
 
     #ai101-heading-2 {
     background-color: #0e101f;
     position: absolute;
-    height: 10vh;
-    margin-top: 14%;
-    z-index: 100;
+    width: 100%;
+    height: 8vh;
+    margin-top:6.3%;
+    z-index: 1;
     }
     
-
     .author{
       position: relative;
       display: flex;
@@ -3195,66 +3192,58 @@ width: 100% /*BUG*/;
       margin-top: -1%;
       margin-left: 0.5%;
       }
-   
-   
+      
+      .profile-photo {
+        height: 30px;
+        min-width: 30px;
+        margin-top: 10%;
+      }
+      
       .author p {
-        line-height: 18px;
         float:left;
-        font-size: 8px;
+        font-size: 10px;
+        line-height: 12px;
       }
    
       .author aside {
        line-height: 18px;
        border-left: 2px solid rgba(127, 221, 252, 0.932);
-       height: 6vh;
+       height: 5vh;
      }
-   
-      .profile-photo {
-        height: 30px;
-        min-width: 30px;
-        margin-top: 2.2%;
-      }
-
-    audio {
-      width: 132px;
-      height: 4vh;
-      float: right;
-      margin-right: -2%;
-      margin-top: 12%;
-    }
+  
    
    .audio-player {
-     opacity: 0.3;
+     float: right;
+     margin-top: 0;
+     margin-right: -17.5%;
+     opacity: 1;
      filter:invert(100%);
-     z-index: 1;
-     }
-   
-     .audio-player:hover {
-       opacity: 0.9;
-     }
-   
-     audio::-webkit-media-controls-play-button {
-       background-color: transparent;
-       border-radius: 50%;
-     }
+   }
+
+   .audio-player > span {
+    color:black;
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-left: -45%;
+    margin-top: 8%;
+   }
      
-     audio::-webkit-media-controls-play-button:hover {
-       background-color: rgba(127, 221, 252, 0.932);
-       filter:invert(100%);
+    audio {
+      width: 160px;
+      height: 5vh;
      }
+
      
      #listen {
        float: right;
-       margin-top: 9%;
-       margin-right: 1%;
-       color: white;
-       font-family: Arial, Helvetica, sans-serif;
-       font-size: 8px;
-       letter-spacing: 2px;
-       line-height: 10px;
-       height: 2vh;
-       background: transparent;
-     }
+       font-size: 10px;
+       letter-spacing: 1.5px;
+       margin-top: 0;
+       margin-left: 58%;
+       display: none;
+    }
    
      .fas .fa-hand-pointer{
        float: right;
@@ -3263,65 +3252,67 @@ width: 100% /*BUG*/;
      }
      
      .fa-clock {
-       position: absolute;
-       height: 2.5vh;
-       font-family: Arial, Helvetica, sans-serif;
-       font-size: 8px;
-       letter-spacing: 0.5px;
-       margin-top: 11%;
-       margin-left: -86%;
-       color: white;
-     }  
+      display: none;
+     }
+
+     .author > aside > #read{
+       float: left;
+       font-size: 10px;
+       letter-spacing: 1px;
+       margin-left: -32%;
+       margin-top: 25%;
+     }
 
      /*===============================================================*/
 
 .ai-101-container h3 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   }
   
   .ai-101-container {
     position: absolute;
-    line-height: 12px;
-    margin-top: 19%;
+    line-height: 16px;
+    margin-top: -3%;
     margin-left: 2%;
     margin-right: 2%;
   }
 .ai-101-container p {
-    font-size: 10px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight:400;
     margin-left: 1%;
   }
 
   .ai-101-a {
-    margin-top: 16.5%;
+    margin-top: 18.5%;
   }
+  
+  .ai-101-d {
+    margin-top: -14%;
+  } 
 
   #ml-icon {
     width: 50px;
-    float: left;
-    position: absolute;
-    display: flex;
     margin-top: 1%;
     margin-left: 1%;
   }
 
   #mimic-icon {
     width: 42px;
-    margin-top:  20%;
+    margin-top: 10%;
     margin-left: 5%;
   }
   
   #process-icon {
     width: 42px;
-    margin-top: 28%;
-    margin-left: 22%;
+    margin-top: 13%;
+    margin-left: 15%;
   }
   
    #ux-icon {
      width: 34px;
      margin-top: 2%;
-     margin-left: 16%;
+     margin-left: 10%;
    }
 
     #big-data-icon {
@@ -3333,39 +3324,42 @@ width: 100% /*BUG*/;
       margin-left: 1%; 
     }
 
-     .ai-101-d {
-   margin-top: -5%;
- } 
     #bus-mgt-icon {
       width: 42px;
-      margin-top: 3%;
+      margin-top: 2%;
       margin-left: 1%;
     }
   
     #op-icon {
       width: 42px;
-      margin-top: 3%;
-      margin-left: 20%;
+      margin-top: 2%;
+      margin-left: 12%;
     }
    
     #elv-icon {
       width: 42px;
-      margin-top: 3%;
-      margin-left: 38%;
+      margin-top: 2%;
+      margin-left: 22%;
    }
    
      #growth-icon {
       width: 42px;
-      margin-top: 3%;
-      margin-left: 56%;
+      margin-top: 2%;
+      margin-left: 33%;
      }
+
     
     .form2-wrapper {
       position: absolute;
       margin-top: 180%; 
     }
 
-
+    .image-container {
+      position: absolute;
+      margin-top:  -125%;
+      width: 100%;
+    }
+    /*wip*/
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
 
 
@@ -3378,7 +3372,7 @@ width: 100% /*BUG*/;
 
   #adjust-footer {
     position: absolute;
-    margin-top: 180%;
+    margin-top: -5%;
   }
 
   
