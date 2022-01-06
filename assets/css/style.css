@@ -78,7 +78,7 @@ a { color: white; text-decoration: none; }
     display: none;
   }
 
-  @media (max-width:768px) {
+  @media (min-width:320px) and (max-width:960px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -2708,7 +2708,7 @@ height: 5vh ;
 
 /*======================================================================*/
 
-/* (1280x1024) SXGA Display  -> WIP <- */
+/* (1280x1024) SXGA Display  -> PASS <- */
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
 
   .nav > .nav-header > .nav-title {
@@ -3085,3 +3085,10 @@ max-zoom: 100% /*BUG*/;
 }
 
 /*=============================================================*/
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones -> WIP <- */	
+@media screen and (min-width: 641px) and (max-width: 960px) {
+
+
+  
+}
