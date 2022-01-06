@@ -3145,16 +3145,15 @@ width: 100% /*BUG*/;
     }
   
     .line-wrapper-2 .line-2 {
-      margin-top: 120%;
-      padding-left: 7%;
-      white-space:pre-line;
-      font-size: 10px;
-      word-spacing: 0.5px;
+      margin-top: 36%;
+      font-size: 13px;
+      word-spacing: 6px;
+      height: 3.8vh;
     }	
   
   .spike#spike1 {
-    margin-top: 125%;
-    height: 13vh;
+    margin-top: 37%;
+    height: 10vh;
   }
 
   /* -=- #ai-101 section -=- */
