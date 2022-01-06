@@ -3427,6 +3427,17 @@ width: 100% /*BUG*/;
   background-color: rgba(255,255,255,.75);
   background-blend-mode:soft-light;
 }
+.article-header h2 {
+  position: relative;
+  background-color: #0e101f;
+  z-index: 13;
+  font-size: 20px;
+  height: 7vh;
+  text-align: left;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 1%;
+}
 
  .popup-heading-2 { /*wip*/
   background-color: #0e101f;
@@ -3436,6 +3447,7 @@ width: 100% /*BUG*/;
   margin-top: 10%;
   z-index: 12;
   }
+
 
 .author-pu{
   position: absolute;
@@ -3449,29 +3461,31 @@ width: 100% /*BUG*/;
   }
 
   .author-pu > .profile-photo {
-    border-radius: 50%;
-    height: 6vh;
-    width: 40px;
-    margin-top: 8%;
     position: relative;  
-    z-index: 1;
     float: left;
+    z-index: 1;
+    border-radius: 50%;
+    height: 8vh;
+    margin-top: -5%;
   }
-  
+
   .author-pu > p {
-    font-size: 8px;
-    margin-top: -8%;
+    font-size: 9px;
+    font-weight: 600;
+    margin-top: -16%;
     white-space: pre-line;
     line-height: 10px;
   }
 
   .author-pu > aside  {
     border-left: 2px solid rgba(127, 221, 252, 0.932);
-    height: 12vh;
+    height: 9vh;
     position: absolute;
-    margin-left: 75%;
-    font-size: 8px; 
-    margin-top: -10%;
+    margin-left: 100%;
+    font-size: 9px; 
+    font-weight: 500;
+    margin-top: -5%;
+    line-height: 12px;
   }
 
   .clock-pu {
@@ -3491,48 +3505,36 @@ width: 100% /*BUG*/;
     height: 3vh;
     z-index:1;
     margin-left: 74%;
-    margin-top: 3%;
+    margin-top: 0;
   }
 
  .pointer-pu {
     float: right;
-    margin-top: 18%;
-    margin-right: 0.5%;
+    margin-top: 5%;
+    margin-right: 3.5%;
   }
 
   .pointer-pu span {
+    background: transparent;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 9px;
-    letter-spacing: 0;
-    height: 2vh;
-    background: transparent;
+    font-weight: 500;
+    letter-spacing: 1.5px;
   }
 
   .cancel {
     position: absolute;
-    margin-top: 0;
-    padding-top: 2.5%;
     background-color: transparent;
     border-top-right-radius: 0;
     height: 7vh;
-    z-index: 600;
+    z-index: 14;
+    margin-top: -1%;
+    margin-left: 96%;
     }
   
 
 /*=====================================================*/
-
-.article-header h2 {
-  position: relative;
-  z-index: 500;
-  font-size: 20px;
-  height: 7vh;
-  text-align: left;
-  margin-top: 0;
-  padding-top: 3.5%;
-  padding-left: 2%;
-  background-color: #0e101f;
-}
 
 .lhs-image-wrapper {
   height: 76.6vh;
