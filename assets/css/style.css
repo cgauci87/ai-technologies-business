@@ -2840,6 +2840,8 @@ height: 5vh ;
   
  .image-container {
    margin-top: 0;
+   background-color: #0e101f;
+   height:19vh;
  }
 
  .section-footer {
@@ -2850,11 +2852,23 @@ height: 5vh ;
  /*#industries section*/
 
  #adjust-header {
-  padding-top: 5.5%;
+  padding-top: 5%;
 }
 
-.grid-template-rows-1 , .grid {
-margin-bottom: -20%;
+.grid h3 {
+  font-size: 24px;
+}
+
+.grid span {
+  font-size: 20px;
+}
+
+.grid a {
+  font-size: 18px;
+}
+
+#adjust-footer {
+  margin-top: 18%;
 }
 
 #healthph, #bankfin, #retailecom, #manufacturing {
@@ -2862,12 +2876,6 @@ margin-bottom: -20%;
   background-size:cover;
   
 }
-
-#adjust-footer {
-  margin-top: 22%;
-}
-
-
 /*popup*/
 
 .popup-article { 
