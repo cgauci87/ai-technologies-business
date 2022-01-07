@@ -3485,16 +3485,19 @@ width: 100% /*BUG*/;
     line-height: 12px;
   }
 
-  .clock-pu {
-    position: relative;
-    height: 2.5vh;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8px;
-    letter-spacing: 0.5px;
-    margin-right: 15%;
-    margin-top: 16%;
+  .read-pu { /*new read*/
+    float: left;
     color: white;
-  }  
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 35%;
+    margin-left: 110%;
+  }
+
+  .popup-heading-2 span  > .clock-pu{
+    display: none; /*old clock*/
+  }
 
   .audio-player-pu {
     float: right;
@@ -3506,7 +3509,7 @@ width: 100% /*BUG*/;
     opacity: 1;
   }
 
-  .listen-pu { 
+  .listen-pu {  /*new*/
     color: black;
     font-size: 10px;
     font-weight: 500;
@@ -3517,20 +3520,7 @@ width: 100% /*BUG*/;
   }
 
  .pointer-pu {
-    float: right;
-    margin-top: 5%;
-    margin-right: 3.5%;
-
-    display: none;
-  }
-
-  .pointer-pu span {
-    background: transparent;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 9px;
-    font-weight: 500;
-    letter-spacing: 1.5px;
+    display: none; /*old*/
   }
 
   .cancel {
@@ -3635,25 +3625,27 @@ position: relative;
 z-index: 90;
 }
 
-.btm-image-wrapper{
+.btm-image-wrapper img{
   background: transparent;
   position: relative;
-  z-index: 90;
+  z-index: 10;
   margin-top: 5%; 
   margin-left: -20%;
   margin-right: -20%;
   height: 56vh;
-  margin-bottom: -64%;
+  width: 130%;
+  margin-bottom: 20%;
 }
 
 
 .popup-footer {
   background-color: #0e101f;
-  position: relative; 
+  position: absolute;
+  display: inline-block;
   width: 100%;  
   min-height: 7vh;
   z-index: 100;
-  display: inline-block;
+  margin-top: 50%;
 }
 
 
