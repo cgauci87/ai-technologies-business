@@ -3439,34 +3439,31 @@ width: 100% /*BUG*/;
   padding-left: 1%;
 }
 
- .popup-heading-2 { /*wip*/
+ .popup-heading-2 {  /*wip*/
   background-color: #0e101f;
   position: absolute;
   height: 10vh;
   width: 100%;
-  margin-top: 10%;
   z-index: 12;
   }
 
 
 .author-pu{
-  position: absolute;
-  display: flex;
-  z-index: 1;
-  float: left;
+  position: relative;
+  z-index: 13;
   height: 150px;
   width: 100%;
-  margin-top: 1%;
-  margin-left: 0.5%;
+  margin-top: 0;
+  margin-left: 1%;
+
   }
 
   .author-pu > .profile-photo {
     position: relative;  
     float: left;
-    z-index: 1;
     border-radius: 50%;
     height: 8vh;
-    margin-top: -5%;
+    margin: 0;
   }
 
   .author-pu > p {
@@ -3501,17 +3498,30 @@ width: 100% /*BUG*/;
 
   .audio-player-pu {
     float: right;
-    width: 100px;
+    width: 300px;
     height: 3vh;
     z-index:1;
     margin-left: 74%;
     margin-top: 0;
+    opacity: 1;
+  }
+
+  .listen-pu { 
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-top: 12%;
+    padding-left: 3%;
   }
 
  .pointer-pu {
     float: right;
     margin-top: 5%;
     margin-right: 3.5%;
+
+    display: none;
   }
 
   .pointer-pu span {
@@ -3549,7 +3559,7 @@ margin-top: 17.2%;
 }
 
 .article-p1 p { 
-  margin-top: 5%;
+  margin-top: 2%;
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
