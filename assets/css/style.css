@@ -3858,7 +3858,7 @@ form .field textarea {
   
   .nav > .nav-header > .nav-title {
     font-size: 14px;
-    padding-top: 2.2%;
+    padding-top: 1.6%;
   }
 
   .nav > #nav-check:checked ~ .nav-links {
@@ -3871,8 +3871,8 @@ form .field textarea {
   }
 
   .intro h1 { /*wip*/
-    font-size: 38px;
-    letter-spacing: 32px;
+    font-size: 48px;
+    letter-spacing: 24px;
     padding-left: 2%;
     padding-top: 20%;
     padding-bottom: 15%;
@@ -3886,11 +3886,11 @@ form .field textarea {
   }
    
    .line-wrapper-1 .line-1 { 
-    font-size: 28px;
+    font-size: 32px;
     word-spacing: 2px;
     margin-top: 2.5%;
     padding-top: 1%;
-    height: 15vh;
+    height: 16vh;
   }	
       
   .section-footer {   
@@ -3913,7 +3913,7 @@ form .field textarea {
     }
   
     .line-wrapper-2 .line-2 {
-      margin-top: 90%;
+      margin-top: 87%;
       font-size: 18px;
       word-spacing: 20px;
       height: 5vh;
@@ -3922,7 +3922,7 @@ form .field textarea {
     }	
   
   .spike#spike1 {
-    margin-top: 94%;
+    margin-top: 91%;
     height: 10vh;
   }
 
