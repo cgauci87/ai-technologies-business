@@ -3426,6 +3426,9 @@ width: 100% /*BUG*/;
   border-radius: 0px;
   background-color: rgba(255,255,255,.75);
   background-blend-mode:soft-light;
+  overflow-y: scroll;
+  scrollbar-color: #0e101f #0e101f;
+  scrollbar-width: 40px;
 }
 .article-header h2 {
   position: relative;
@@ -3439,7 +3442,7 @@ width: 100% /*BUG*/;
   padding-left: 1%;
 }
 
- .popup-heading-2 {  /*wip*/
+ .popup-heading-2 {
   background-color: #0e101f;
   position: absolute;
   height: 10vh;
@@ -3634,7 +3637,7 @@ z-index: 90;
   margin-right: -20%;
   height: 56vh;
   width: 130%;
-  margin-bottom: 20%;
+  margin-bottom: 30%;
 }
 
 
@@ -3643,15 +3646,42 @@ z-index: 90;
   position: absolute;
   display: inline-block;
   width: 100%;  
-  min-height: 7vh;
+  min-height: 20vh;
   z-index: 100;
-  margin-top: 50%;
+  margin-top: 45%;
 }
 
 
 /*==========================================================================================*/
  
 /*  ==============#podcasts============================   */
+
+
+.top-image-wrapper img {
+  position: absolute;
+  height: 15vh;
+  margin-top: -10%;
+  z-index: 1;
+}
+
+
+.playlist {
+  overflow-y: scroll;
+  scrollbar-color: #0e101f #0e101f;
+  scrollbar-width: 40px;
+  height: 60vh;
+}
+
+::-webkit-scrollbar {
+  height: 3px;
+  width: 6px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0e101f;
+}
+
 
 iframe {
 background-color: rgba(127, 221, 252, 0.932);
@@ -3663,35 +3693,30 @@ height: 15vh;
 
 .column{
   position:relative;
-  width: auto;
-  height: auto;
-  margin-left: 2%;
-  margin-right: 2%;
+  height: 2vh;
+  width: 100%;
+  margin: 0 auto;
 }
 
   .column p {
-    font-size: 12px;
-    line-height: 16px;
-    height: 18vh;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
   }
 
   .podcasts-container {
     position: absolute;
-    margin-top: 17%;
+    margin-top: 15%;
   }
 
-  #column-1 p {
-    height: 16vh;
-  }
-
-  #column-3 p {
-    margin-bottom: -5%;
-    height: 10vh;
-  }
-
-  
   #footer-pd {
-    margin-top: 190%;
+    position: absolute;
+    z-index: 999;
+    margin-top: 53.7%;
+  }
+
+  #wave1 {
+    height: 5.5vh;
   }
 
  /*===================================== */
