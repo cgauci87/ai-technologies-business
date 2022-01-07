@@ -3379,7 +3379,6 @@ width: 100% /*BUG*/;
     grid-template-rows: 175px 175px;
 }
 
-
 .grid h3 {                
 	font-size: 16px;
   font-weight:400;
@@ -3397,6 +3396,11 @@ width: 100% /*BUG*/;
 .grid a {
   font-size: 10px;
   font-weight: 300;
+}
+
+#healthph, #bankfin, #retailecom, #manufacturing {
+  background-position: center;
+  background-size:cover;
 }
 
 #adjust-footer {
@@ -3654,7 +3658,7 @@ z-index: 90;
 
 /*==========================================================================================*/
  
-/*  ==============#podcasts============================   */
+/*  ==============#podcasts section=====================   */
 
 .podcasts {
   background-color: #0e101f;
@@ -3670,8 +3674,9 @@ z-index: 90;
 
 .playlist {
   overflow-y: scroll;
-  scrollbar-color: #0e101f #0e101f;
+  scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8);
   scrollbar-width: 40px;
+  scroll-behavior: smooth;
   height: 60vh;
 }
 
@@ -3682,7 +3687,7 @@ z-index: 90;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0e101f;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -3718,22 +3723,15 @@ height: 15vh;
     display: inline-block;
     width: 100%;
     z-index: 100;
-    margin-top: 50%; /*wip*/
-  }
-/*
-  #footer-pd {
-    position: absolute;
-    z-index: 999;
-    margin-top: 53.7%; 
-
-    */
+    margin-top: 50%;
   }
 
   #wave1 {
     height: 5.5vh;
   }
 
- /*===================================== */
+
+ /*#subscribe section*/
 
  .subscribe {
    background-position: 0 20px;
@@ -3769,7 +3767,7 @@ height: 15vh;
 }
 
 #submit-button {
-  margin-top: -15.5%;
+  margin-top: -15.4%;
   margin-left: 20%;
 }
 
@@ -3785,59 +3783,65 @@ height: 15vh;
 
 #subscribe-footer {
   margin-top: 53.5%;
-}
+} 
 
-/*===============================================*/
+/* #contact section */
+
 .contact {
-  height: 100vh;
+  background-position: 0 20px;
 }
 
 .contact-container {
   position: absolute;
-  margin-top: 40%;
+  margin-top: 15%;
+  margin-left: 15%;
 }
 .contact-container form * {
   font-size: 14px;
 }
 
 .contact-container form .field label {
-  height: 5vh;
-  padding-top: 2%;
+  height: 7vh;
+  padding-top: 1.5%;
 }
 
-.contact-container form .field input[type="text"],
+.contact-container form .field input[type="text"], .field input[type="email"],
 form .field textarea {
-  height: 5vh;
+  height: 7vh;
   padding-left: 36%;
 }
 
 .contact-container form #msg {
-  height: 5vh;
+  height: 7vh;
   padding-top: 18px;
 }
 .contact-container form textarea:focus#msg,
 .contact-container form textarea:not(:placeholder-shown)#msg {
   height: 20vh;
 }
+
 .contact-container form input[type="text"]:focus + label,
 .contact-container form input[type="text"]:not(:placeholder-shown) + label,
+.contact-container form input[type="email"]:focus + label,
+.contact-container form input[type="email"]:not(:placeholder-shown) + label,
 .contact-container form textarea:focus + label,
 .contact-container form textarea:not(:placeholder-shown) + label,
 .contact-container form .field:hover label {
-  width: 32%;
+  width: 18%;
 }
 
 #send-btn {
-  margin-left: 38%;
-  height: 5vh;
-  width: 10px;
-  padding-left: 5%;
-  padding-top: 2%;
-  font-weight: 400;
+  
+  height: 6vh;
+  width: 20px;
+  padding-left: 1.8%;
+  padding-top: 0.5%;
+  margin-left: 89.5%;
 }
 
 .footer {
-  margin-top: -39%;
+  margin-top: -12%;
+  height: 5vh;
 }
 
 .footer p {
