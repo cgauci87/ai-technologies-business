@@ -3656,6 +3656,9 @@ z-index: 90;
  
 /*  ==============#podcasts============================   */
 
+.podcasts {
+  background-color: #0e101f;
+}
 
 .top-image-wrapper img {
   position: absolute;
@@ -3709,10 +3712,21 @@ height: 15vh;
     margin-top: 15%;
   }
 
+  #footer-pd  {
+    background-color: #0e101f;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    z-index: 100;
+    margin-top: 50%; /*wip*/
+  }
+/*
   #footer-pd {
     position: absolute;
     z-index: 999;
-    margin-top: 53.7%;
+    margin-top: 53.7%; 
+
+    */
   }
 
   #wave1 {
@@ -3721,13 +3735,18 @@ height: 15vh;
 
  /*===================================== */
 
+ .subscribe {
+   background-position: 0 20px;
+ }
+
  #subscribe-header {
-   margin-top: -0.5%;
+   margin-top: 0.7%;
  }
 
  .subscribe-form {
-   position: absolute; /*rt*/
-   margin-top: 40%;
+   position: absolute;
+   margin-top: 7%;
+   margin-left: 20%;
  }
 
  .subscribe-form h1 {
@@ -3749,8 +3768,23 @@ height: 15vh;
   color: #0e101f;
 }
 
+#submit-button {
+  margin-top: -15.5%;
+  margin-left: 20%;
+}
+
+#checkbox {
+  width: 15px;
+}
+
+#subscribe-form > label {
+  font-size: 10px;
+  margin-top: -11%;
+  margin-left: 10%;
+}
+
 #subscribe-footer {
-  margin-top: 175%;
+  margin-top: 53.5%;
 }
 
 /*===============================================*/
