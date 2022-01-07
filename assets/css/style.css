@@ -4035,11 +4035,25 @@ form .field textarea {
 
      /*===============================================================*/
 
+
+     #ai-img-1 {
+       position: relative;
+       width: 100%;
+       height: 10vh;
+       margin-top: 28%;
+     }
+
+     #ai-img-2 {
+      position: relative;
+      width: 100%;
+      height: 10vh;
+      margin-top: 6%;
+    }
+
 .ai-101-container h3 {
   font-size: 18px;
   font-weight: 600;
-  }
-  
+  }  
   .ai-101-container {
     position: absolute;
     line-height: 16px;
@@ -4054,11 +4068,11 @@ form .field textarea {
   }
 
   .ai-101-a {
-    margin-top: 16%;
+    margin-top: 5%;
   }
   
   .ai-101-d {
-    margin-top: -14%;
+    margin-top: -6%;
   } 
 
   #ml-icon {
@@ -4120,14 +4134,16 @@ form .field textarea {
 
     
      .form2-wrapper {
-      margin-top: 52%;
+      margin-top: 160%;
+      background-color: #0e101f;
+      height: 10vh;
     }
 
     .image-container {
       margin-top:  0;
       width: 100%;
     }
-  
+
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
 
 
