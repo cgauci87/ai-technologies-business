@@ -316,6 +316,9 @@ a { color: white; text-decoration: none; }
   background-position: 50% 50%;
 }
 
+#ai-img-1 ,  #ai-img-2 {
+  display: none;
+}
 
 .section-header{
   position: relative;
@@ -1424,6 +1427,10 @@ filter:invert(100);
 
   /*ai-101 section*/ 
 
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }  
+
   .section-header h2{
     padding-top: 3%;
     }
@@ -1619,6 +1626,10 @@ filter:invert(100);
   }
 
   /*ai-101 section*/
+
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }
 
   .section-header h2{
     padding-top: 4.5%;
@@ -1854,6 +1865,10 @@ filter:invert(100);
 
   /*ai-101 section*/
 
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }
+  
   .section-header h2{
     padding-top: 3%;
     }
@@ -2069,6 +2084,10 @@ filter:invert(100);
 
   /*#ai-101 section*/
 
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }  
+
   .section-header h2 {
    padding-bottom: 5%;
   }
@@ -2265,6 +2284,10 @@ filter:invert(100);
 
   /*#ai101 section*/
 
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }
+  
   .section-header h2 {
     padding-top: 3.5% ;
   }
@@ -2481,6 +2504,10 @@ height: 5vh ;
 
   /*#ai-101 section*/
 
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }
+  
   .section-header h2 {
     padding-top: 2.8%;
   }
@@ -2754,6 +2781,10 @@ height: 5vh ;
   }
 
   /*#ai-101 section*/
+
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }  
 
   .section-header h2{
   padding-top: 4%;
@@ -3159,6 +3190,10 @@ width: 100% /*BUG*/;
   }
 
   /* -=- #ai-101 section -=- */
+
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }  
 
   .section-header{
     height: 7vh;
@@ -3894,9 +3929,9 @@ form .field textarea {
   }	
       
   .section-footer {   
-    height: 4vh;
+    height: 2vh;
     position: absolute;
-    margin-top: 56%;
+    margin-top: 46%;
   }
 
   .goto-btn {
@@ -3908,8 +3943,8 @@ form .field textarea {
     }
 
     .goto-btn-txt {
-      font-size: 10px;
-      letter-spacing: 6px;
+      font-size: 14px;
+      letter-spacing: 2px;
     }
   
     .line-wrapper-2 .line-2 {
@@ -3927,6 +3962,8 @@ form .field textarea {
   }
 
   /* -=- #ai-101 section -=- */
+
+
 
   .section-header{
     height: 7vh;
@@ -3959,7 +3996,7 @@ form .field textarea {
       height: 150px;
       width: 100%;
       white-space: nowrap;
-      margin-top: -1%;
+      margin-top: 3%;
       margin-left: 0.5%;
       }
       
@@ -3978,14 +4015,14 @@ form .field textarea {
       .author aside {
        line-height: 18px;
        border-left: 2px solid rgba(127, 221, 252, 0.932);
-       height: 5vh;
+       height: 2.5vh;
      }
   
    
    .audio-player {
      float: right;
      margin-top: 0;
-     margin-right: -17.5%;
+     margin-right: -23%;
      opacity: 1;
      filter:invert(100%);
    }
@@ -3997,7 +4034,7 @@ form .field textarea {
     letter-spacing: 2px;
     position: absolute;
     margin-left: -45%;
-    margin-top: 8%;
+    margin-top: 22%;
    }
      
     audio {
@@ -4028,23 +4065,24 @@ form .field textarea {
      .author > aside > #read{
        float: left;
        font-size: 10px;
-       letter-spacing: 1px;
+       letter-spacing: 4px;
        margin-left: -32%;
-       margin-top: 25%;
+       margin-top: 42%;
      }
 
      /*===============================================================*/
 
-
      #ai-img-1 {
        position: relative;
+       display: flex;
        width: 100%;
        height: 10vh;
-       margin-top: 28%;
+       margin-top: 28.5%;
      }
 
      #ai-img-2 {
       position: relative;
+      display: flex;
       width: 100%;
       height: 10vh;
       margin-top: 6%;
@@ -4073,6 +4111,7 @@ form .field textarea {
   
   .ai-101-d {
     margin-top: -6%;
+    margin-bottom: 5%;
   } 
 
   #ml-icon {
@@ -4083,14 +4122,14 @@ form .field textarea {
 
   #mimic-icon {
     width: 42px;
-    margin-top: 10%;
+    margin-top: 17%;
     margin-left: 5%;
   }
   
   #process-icon {
     width: 42px;
-    margin-top: 13%;
-    margin-left: 15%;
+    margin-top: 21%;
+    margin-left: 20%;
   }
   
    #ux-icon {
@@ -4110,37 +4149,37 @@ form .field textarea {
 
     #bus-mgt-icon {
       width: 42px;
-      margin-top: 2%;
+      margin-top: 5%;
       margin-left: 1%;
     }
   
     #op-icon {
       width: 42px;
-      margin-top: 2%;
-      margin-left: 12%;
+      margin-top: 5%;
+      margin-left: 15%;
     }
    
     #elv-icon {
       width: 42px;
-      margin-top: 2%;
-      margin-left: 22%;
+      margin-top: 5%;
+      margin-left: 29%;
    }
    
      #growth-icon {
       width: 42px;
-      margin-top: 2%;
-      margin-left: 33%;
+      margin-top: 5%;
+      margin-left: 44%;
      }
 
     
      .form2-wrapper {
-      margin-top: 160%;
+      margin-top: 155%;
       background-color: #0e101f;
       height: 10vh;
     }
 
     .image-container {
-      margin-top:  0;
+      margin-top:  -5%;
       width: 100%;
     }
 
@@ -4696,6 +4735,10 @@ and (orientation: portrait) {
   }
 
   /* -=- #ai-101 section -=- */
+
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }  
 
   .section-header{
     background-color: rgb(18, 42, 49);
@@ -5430,13 +5473,16 @@ and (orientation: portrait) {
 
   /* -=- #ai-101 section -=- */
 
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }  
+
   .section-header{
     height: 7vh;
     position: absolute;
     margin-left: 35%;
     z-index: 2;
     }
-
     
   .section-header h2{
     font-size: 24px;
@@ -6099,6 +6145,10 @@ and (orientation: landscape) {
   }
 
   /* -=- #ai-101 section -=- */
+
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }
 
   .section-header{
     background-color: rgb(18, 42, 49);
@@ -6833,6 +6883,10 @@ and (orientation: landscape) {
   }
 
   /* -=- #ai-101 section -=- */
+
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }  
 
   .section-header{
     height: 7vh;
