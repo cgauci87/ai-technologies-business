@@ -5025,6 +5025,7 @@ and (orientation: portrait) {
   border-top-right-radius: 0;
   z-index: 1000;
   position: relative;
+  background-color: rgba(0,0,0,1);
 }
 
 .popup-article article { 
@@ -5037,6 +5038,7 @@ and (orientation: portrait) {
   scrollbar-color: #0e101f #0e101f;
   scrollbar-width: 10px;
 }
+
 .article-header h2 {
   position: relative;
   background-color: #0e101f;
@@ -5159,7 +5161,7 @@ margin-top: 17.2%;
 }
 
 .article-p1 p { 
-  margin-top: 5%;
+  margin-top: 21%;
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
@@ -5234,18 +5236,18 @@ z-index: 1;
   margin-right: -20%;
   height: 30vh;
   width: 130%;
-  margin-bottom: 5%;
+  margin-bottom: 50%;
 }
 
 
 .popup-footer {
   background-color: #0e101f;
-  position: relative;
-  width: 100%;  
-  min-height: 10vh;
-  z-index: 1;
+  position: absolute;
   display: flex;
-  margin: 0;
+  width: 100%;
+  min-height: 12vh;
+  margin-top: 160%;
+  z-index: 12;
 }
 
 
