@@ -4760,28 +4760,31 @@ and (orientation: portrait) {
     display: none;
   }
 
-
-
   .audio-player {
-    float: right;
+    position: relative;
+    display: flex;
     filter:invert(100%);
     opacity: 1;
     margin-top: 3%;
-    margin-right: -45%;
+    margin-left: 52%;
+    z-index: 1;
   }
 
   .audio-player > span {
+   position: relative;
+   display: flex;
    color:black;
    font-size: 8px;
    font-weight: 500;
    letter-spacing: 2px;
    position: absolute;
-   margin-left: -45%;
-   margin-top: 12%; /*mq*/
+   margin-left: 0;
+   margin-top: 12%;
+   padding-left: 8%;
   }
     
    audio {
-     width: 160px;
+     max-width: 150px;
      height: 5vh;
     }
 
@@ -4796,17 +4799,17 @@ and (orientation: portrait) {
       font-size: 10px;
       letter-spacing: 1px;
       margin-left: -25%;
-      margin-top: 40%;
+      margin-top: 31%;
     }
 
   /*wip*/
   .section-header{
-    background-color: rgb(18, 42, 49);
+    background: transparent;
     height: 7vh;
     position: absolute;
     margin-top: -0.1%;
     margin-left: 34%;
-    z-index: 10;
+    z-index: 1;
     }
 
     
@@ -4821,7 +4824,7 @@ and (orientation: portrait) {
     position: absolute;
     height: 10vh;
     margin-top: 14%;
-    z-index: 100;
+    z-index: 1;
     }
     
 
@@ -4830,17 +4833,16 @@ and (orientation: portrait) {
       display: flex;
       z-index: 1;
       float: left;
-      line-height: 20px;
       height: 150px;
       width: 100%;
       white-space: nowrap;
-      margin-top: -1%;
-      margin-left: 0.5%;
+      margin-top: -10%;
+      margin-left: 1%;
       }
    
    
       .author p {
-        line-height: 18px;
+        line-height: 12px;
         float:left;
         font-size: 8px;
       }
@@ -4854,7 +4856,7 @@ and (orientation: portrait) {
       .profile-photo {
         height: 30px;
         min-width: 30px;
-        margin-top: 2.2%;
+        margin-top: 7%;
       }
 
     
