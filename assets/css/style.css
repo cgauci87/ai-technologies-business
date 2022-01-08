@@ -4604,16 +4604,20 @@ height: 15vh;
 }
 
 #checkbox {
+  position: relative;
+  display: flex;
   width: 15px;
+  z-index: 1;
 }
 
 #subscribe-form > label {
   position: absolute;
+  display: flex;
   font-size: 9px;
   letter-spacing: 0.3px;
   font-weight: 600;
-  margin-top: 2.4%;
-  margin-left: 1%;
+  margin-top: 2.5%;
+  padding-left: 3.5%;
   white-space: nowrap;
   background-color: white;
 }
