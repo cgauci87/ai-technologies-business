@@ -4270,7 +4270,7 @@ form .field textarea {
   background-color: #0e101f;
   z-index: 13;
   font-size: 20px;
-  height: 7vh;
+  height: 2.5vh;
   text-align: left;
   margin-top: 0;
   padding-top: 0;
@@ -4280,7 +4280,7 @@ form .field textarea {
  .popup-heading-2 {
   background-color: #0e101f;
   position: absolute;
-  height: 10vh;
+  height: 5vh;
   width: 100%;
   z-index: 12;
   }
@@ -4314,7 +4314,7 @@ form .field textarea {
 
   .author-pu > aside  {
     border-left: 2px solid rgba(127, 221, 252, 0.932);
-    height: 9vh;
+    height: 5vh;
     position: absolute;
     margin-left: 100%;
     font-size: 9px; 
@@ -4342,8 +4342,8 @@ form .field textarea {
     width: 300px;
     height: 3vh;
     z-index:1;
-    margin-left: 74%;
-    margin-top: 0;
+    margin-left: 66%;
+    margin-top: -2.5%;
     opacity: 1;
   }
 
@@ -4353,7 +4353,7 @@ form .field textarea {
     font-weight: 500;
     letter-spacing: 2px;
     position: absolute;
-    margin-top: 12%;
+    margin-top: 17.5%;
     padding-left: 3%;
   }
 
@@ -4368,7 +4368,7 @@ form .field textarea {
     height: 7vh;
     z-index: 14;
     margin-top: -1%;
-    margin-left: 96%;
+    margin-left: 94%;
     }
   
 
@@ -4387,20 +4387,15 @@ margin-top: 17.2%;
 }
 
 .article-p1 p { 
-  margin-top: 2%;
+  margin-top: 5%;
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  word-break: break-all;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
   position: relative;
-  z-index: 30;
+  z-index: 1;
 }
 
 .quote-wrapper {
@@ -4409,7 +4404,7 @@ margin-top: 17.2%;
   padding-right: 2.5%;
   padding-left: 2.5%;
   position: relative;
-  z-index: 40;
+  z-index: 1;
 }
 
 .quote{ 
@@ -4418,7 +4413,7 @@ margin-top: 17.2%;
   font-weight:500;
   line-height: 22px;
   position: relative;
-  z-index: 50;
+  z-index: 1;
 }
 
 .q-caption {
@@ -4427,14 +4422,14 @@ margin-top: 17.2%;
   font-weight: 500;
   text-align: center;
   position: relative;
-  z-index: 60;
+  z-index: 1;
 }
 
 .q-icon {
   width: 36px;
   align-self: center;
   position: relative;
-  z-index: 70;
+  z-index: 1;
 }
 
 .article-p2 {
@@ -4445,13 +4440,8 @@ margin-top: 17.2%;
   font-weight: 500;
   line-height: 20px;
   word-spacing: -2px;
-  word-break: break-all;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
   position: relative;
-  z-index: 80;
+  z-index: 1;
 }
 
 .article-p2 h3 {
@@ -4460,7 +4450,7 @@ align-self: center;
 text-align: center;
 word-spacing: 2px;
 position: relative;
-z-index: 90;
+z-index: 1;
 }
 
 .btm-image-wrapper img{
@@ -4470,20 +4460,20 @@ z-index: 90;
   margin-top: 5%; 
   margin-left: -20%;
   margin-right: -20%;
-  height: 56vh;
+  height: 30vh;
   width: 130%;
-  margin-bottom: 30%;
+  margin-bottom: 60%;
 }
 
 
 .popup-footer {
   background-color: #0e101f;
-  position: absolute;
-  display: inline-block;
+  position: relative;
   width: 100%;  
-  min-height: 20vh;
-  z-index: 100;
-  margin-top: 45%;
+  min-height: 10vh;
+  z-index: 1;
+  display: flex;
+  margin-top: 60%;
 }
 
 
