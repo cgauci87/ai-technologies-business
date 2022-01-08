@@ -4263,7 +4263,7 @@ form .field textarea {
   background-blend-mode:soft-light;
   overflow-y: scroll;
   scrollbar-color: #0e101f #0e101f;
-  scrollbar-width: 40px;
+  scrollbar-width: 10px;
 }
 .article-header h2 {
   position: relative;
@@ -4462,7 +4462,7 @@ z-index: 1;
   margin-right: -20%;
   height: 30vh;
   width: 130%;
-  margin-bottom: 60%;
+  margin-bottom: 5%;
 }
 
 
@@ -4473,7 +4473,7 @@ z-index: 1;
   min-height: 10vh;
   z-index: 1;
   display: flex;
-  margin-top: 60%;
+  margin: 0;
 }
 
 
@@ -4482,18 +4482,20 @@ z-index: 1;
 /*  ==============#podcasts section=====================   */
 
 .podcasts {
-  background-color: #0e101f;
+  background-color: rgba(14, 16, 31, 1);
 }
 
 .top-image-wrapper img {
   position: absolute;
-  height: 15vh;
+  height: 20vh;
   margin-top: -10%;
   z-index: 1;
+  display: flex;
 }
 
 
 .playlist {
+  margin-top: 20%;
   overflow-y: scroll;
   scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8);
   scrollbar-width: 40px;
@@ -4502,8 +4504,8 @@ z-index: 1;
 }
 
 ::-webkit-scrollbar {
-  height: 3px;
-  width: 6px;
+  height: 5vh;
+  width: 10px;
   background: transparent;
 }
 
@@ -4522,7 +4524,7 @@ height: 15vh;
 
 .column{
   position:relative;
-  height: 2vh;
+  height: 10vh;
   width: 100%;
   margin: 0 auto;
 }
@@ -4531,6 +4533,7 @@ height: 15vh;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
+    height: 5vh;
   }
 
   .podcasts-container {
@@ -4539,23 +4542,28 @@ height: 15vh;
   }
 
   #footer-pd  {
-    background-color: #0e101f;
+    background-color: transparent;
     position: absolute;
     display: inline-block;
     width: 100%;
-    z-index: 100;
-    margin-top: 50%;
+    z-index: 10;
+    margin-top: 150%;
   }
 
   #wave1 {
     height: 5.5vh;
+    padding-top: 2.5%;
   }
 
 
  /*#subscribe section*/
 
  .subscribe {
-   background-position: 0 20px;
+   background-color: rgba(14, 16, 31, 1);
+   background-size: contain; /*wip*/
+   background-position: center;
+   background-blend-mode:difference;
+   color: rgba(0,0,0,1);
  }
 
  #subscribe-header {
@@ -4564,32 +4572,35 @@ height: 15vh;
 
  .subscribe-form {
    position: absolute;
-   margin-top: 7%;
-   margin-left: 20%;
+   margin-top: 56%;
+   margin-left: 5%;
  }
 
  .subscribe-form h1 {
-  font-size: 26px;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .subscribe-form p {
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 14px;
+  margin-top: -2.5%;
+  font-size: 18px;
 }
 
 .subscribe-form form {
   max-width: 220px;
 }
 .subscribe-form input {
-  height: 7vh;
-  font-size: 14px;
+  height: 4vh;
+  font-size: 18px;
   color: #0e101f;
 }
 
 #submit-button {
-  margin-top: -15.4%;
-  margin-left: 20%;
+  position: absolute;
+  margin-top: 32.3%;
+  margin-left: -1%;
 }
 
 #checkbox {
@@ -4597,13 +4608,18 @@ height: 15vh;
 }
 
 #subscribe-form > label {
-  font-size: 10px;
-  margin-top: -11%;
-  margin-left: 10%;
+  position: absolute;
+  font-size: 9px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  margin-top: 2.4%;
+  margin-left: 1%;
+  white-space: nowrap;
+  background-color: white;
 }
 
 #subscribe-footer {
-  margin-top: 53.5%;
+  margin-top: 150%;
 } 
 
 /* #contact section */
