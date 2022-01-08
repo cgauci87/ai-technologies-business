@@ -4533,7 +4533,7 @@ height: 15vh;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
-    height: 5vh;
+    height: 6vh;
   }
 
   .podcasts-container {
@@ -4560,7 +4560,7 @@ height: 15vh;
 
  .subscribe {
    background-color: rgba(14, 16, 31, 1);
-   background-size: contain; /*wip*/
+   background-size: contain;
    background-position: center;
    background-blend-mode:difference;
    color: rgba(0,0,0,1);
@@ -4625,27 +4625,32 @@ height: 15vh;
 /* #contact section */
 
 .contact {
-  background-position: 0 20px;
+  background-color: rgba(14, 16, 31, 1);
+  background-blend-mode: difference;
+  background-size: contain;
+  background-position: center;
 }
 
 .contact-container {
   position: absolute;
-  margin-top: 15%;
+  margin-top: 56%;
   margin-left: 15%;
 }
 .contact-container form * {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .contact-container form .field label {
-  height: 7vh;
+  height: 4vh;
   padding-top: 1.5%;
 }
 
 .contact-container form .field input[type="text"], .field input[type="email"],
 form .field textarea {
-  height: 7vh;
+  height: 4vh;
   padding-left: 36%;
+  color: white;
+  background-color: rgba(0,0,0,0.3); /*wip*/
 }
 
 .contact-container form #msg {
@@ -4654,7 +4659,7 @@ form .field textarea {
 }
 .contact-container form textarea:focus#msg,
 .contact-container form textarea:not(:placeholder-shown)#msg {
-  height: 20vh;
+  height: 17vh;
 }
 
 .contact-container form input[type="text"]:focus + label,
@@ -4664,21 +4669,20 @@ form .field textarea {
 .contact-container form textarea:focus + label,
 .contact-container form textarea:not(:placeholder-shown) + label,
 .contact-container form .field:hover label {
-  width: 18%;
+  width: 24%;
 }
 
 #send-btn {
   
+  float:right;
   height: 6vh;
-  width: 20px;
-  padding-left: 1.8%;
-  padding-top: 0.5%;
-  margin-left: 89.5%;
+  width: 100%;
+  font-weight: 400;
 }
 
 .footer {
-  margin-top: -12%;
-  height: 5vh;
+  margin-top: -17%;
+  height: 10vh;
 }
 
 .footer p {
