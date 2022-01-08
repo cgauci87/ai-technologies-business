@@ -5052,7 +5052,7 @@ and (orientation: portrait) {
  .popup-heading-2 {
   background-color: #0e101f;
   position: absolute;
-  height: 10vh;
+  height: 12vh;
   width: 100%;
   z-index: 12;
   }
@@ -5064,7 +5064,6 @@ and (orientation: portrait) {
   width: 100%;
   margin-top: 0;
   margin-left: 1%;
-
   }
 
   .author-pu > .profile-photo { /*wip*/
@@ -5079,31 +5078,31 @@ and (orientation: portrait) {
   .author-pu > p {
     position: absolute;
     display: flex;
-    font-size: 9px;
-    font-weight: 600;
+    font-size: 8px;
+    font-weight: 300;
     margin-top: 18%;
-    margin-left: 0;
+    margin-left: 5%;
     line-height: 10px;
   }
 
-  .author-pu > aside  {
+  .author-pu > aside {
     position: absolute;
     height: 10vh;
     margin-left: 65%;
-    font-size: 9px; 
-    font-weight: 500;
-    margin-top: -5%;
-    line-height: 12px;
+    margin-top: -10%;
+    font-size: 8.5px; 
+    font-weight: 300;
+    white-space: pre-line;
+    line-height: 8px;
   }
 
   .read-pu { /*new read*/
     float: left;
     color: white;
-    font-size: 10px;
-    font-weight: 500;
+    font-size: 8px;
     letter-spacing: 2px;
-    margin-top: 35%;
-    margin-left: 75%;
+    margin-top: 55%;
+    margin-left: 70%;
   }
 
   .popup-heading-2 span  > .clock-pu{
@@ -5112,16 +5111,10 @@ and (orientation: portrait) {
 
   .audio-player-pu {
     float: right;
-    
-    height: 3vh;
     z-index:1;
-    margin-left: 70%;
+    margin-left: 50%;
     margin-top: 2.5%;
     opacity: 1;
-  }
-
-  audio {
-    width: 80px; 
   }
 
   .listen-pu {  /*new*/
@@ -5132,7 +5125,7 @@ and (orientation: portrait) {
     font-weight: 500;
     letter-spacing: 1px;
     margin-top: 10%;
-    padding-left: 3%;
+    padding-left: 6%;
     white-space: pre-wrap;
   }
 
@@ -5146,8 +5139,8 @@ and (orientation: portrait) {
     border-top-right-radius: 0;
     height: 7vh;
     z-index: 14;
-    margin-top: -1%;
-    margin-left: 94%;
+    margin-top: -2%;
+    margin-left: 90%;
     }
   
 
