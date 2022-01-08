@@ -5024,14 +5024,12 @@ and (orientation: portrait) {
   margin-left: 5%;
   margin-right: 5%;
   border-top-right-radius: 0;
-  z-index: 1000;
-  position: relative;
   background-color: rgba(0,0,0,1);
 }
 
 .popup-article article { 
   height: 100%;
-  margin-top: 17.2%;
+  margin-top: 0;
   border-radius: 0px;
   background-color: rgba(255,255,255,.75);
   background-blend-mode:soft-light;
@@ -5039,9 +5037,7 @@ and (orientation: portrait) {
   scrollbar-width: auto;
 }
 
-.article-header {
-  clip-path: inset(0 0 0 0);
-}
+
 
 .article-header h2 {
   position: relative;
@@ -5056,8 +5052,8 @@ and (orientation: portrait) {
 }
 
  .popup-heading-2 {
-  background-color: #0e101f;
-  position: absolute;
+  background-color: #0e101f; /*tst*/
+  position: relative;
   height: 12vh;
   width: 100%;
   z-index: 20;
@@ -5072,7 +5068,7 @@ and (orientation: portrait) {
   margin-left: 1%;
   }
 
-  .author-pu > .profile-photo { /*wip*/
+  .author-pu > .profile-photo {
     position: relative;  
     float: left;
     border-radius: 50%;
@@ -5160,7 +5156,7 @@ and (orientation: portrait) {
 }
 
 .article-p1 p { 
-  margin-top: 21%;
+  margin-top: 2%;
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
@@ -5229,24 +5225,24 @@ z-index: 1;
 .btm-image-wrapper img{
   background: transparent;
   position: relative;
-  z-index: 10;
+  z-index: 9998;
   margin-top: 5%; 
   margin-left: -20%;
   margin-right: -20%;
   height: 30vh;
   width: 130%;
-  margin-bottom: 50%;
+  margin-bottom:  25%;
 }
 
 
 .popup-footer {
-  background-color: #0e101f;
   position: absolute;
-  display:contents;   /*flexbox works fine*/
-  width: 100%;
-  min-height: 12vh;
-  margin-top: 160%;
+  display: flex;
+  width: 100%;  
+  background: #0e101f;
+  min-height: 7vh;
   z-index: 9999;
+  margin-top: -20%
 }
 
 
