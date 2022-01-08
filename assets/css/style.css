@@ -112,6 +112,7 @@ a { color: white; text-decoration: none; }
       left: 0px;
     } 
     .nav > .nav-links > a {
+      padding: 4px 2px 4px 2px; /*test*/
       display: block;
       width: 100%;
     }
@@ -119,7 +120,7 @@ a { color: white; text-decoration: none; }
       height: 0px;
     }
     .nav > #nav-check:checked ~ .nav-links {
-      height: calc(60vh - 50px);
+      height: calc(38vh - 10px);
       background-color: rgba(0, 0, 0, 0.9);
       overflow-y: hidden;
       text-align: center;
@@ -3888,7 +3889,7 @@ form .field textarea {
 }
 /*=======================================================================================================*/
 
-/* portrait e-readers (Nook/Kindle), smaller tablets i.e. 600 x 1024  -> WIP <- */
+/* portrait e-readers (Nook/Kindle), smaller tablets i.e. 600 x 1024  -> PASS <- */
 @media screen and (min-width: 481px) and (max-width: 640px) {
 
   .nav{
@@ -4592,21 +4593,27 @@ height: 15vh;
   max-width: 220px;
 }
 .subscribe-form input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   height: 4vh;
   font-size: 18px;
+  width: 100%;
   color: #0e101f;
+  margin-left: -7%;
 }
 
 #submit-button {
-  position: absolute;
-  margin-top: 32.3%;
-  margin-left: -1%;
+  position: relative;
+  display: flex;
+  margin-top: 0;
 }
 
 #checkbox {
-  position: relative;
+  position: absolute;
   display: flex;
   width: 15px;
+  margin-top: 39.5%;
+  margin-left: -2.5%;
   z-index: 1;
 }
 
@@ -4614,10 +4621,10 @@ height: 15vh;
   position: absolute;
   display: flex;
   font-size: 9px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
   font-weight: 600;
   margin-top: 2.5%;
-  padding-left: 3.5%;
+  padding-left: 0.5%;
   white-space: nowrap;
   background-color: white;
 }
@@ -4654,7 +4661,7 @@ form .field textarea {
   height: 4vh;
   padding-left: 36%;
   color: white;
-  background-color: rgba(0,0,0,0.3); /*wip*/
+  background-color: rgba(0,0,0,0.3);
 }
 
 .contact-container form #msg {
@@ -4696,15 +4703,17 @@ form .field textarea {
 }
 /*=======================================================================================================*/
 
-/* smartphones, iPhone, portrait 480x320 phones*/
+/* Portrait 320x568 phones i.e. iPhone5/SE WIP */
 @media (min-width: 320px) and (max-width: 411px)
 and (orientation: portrait) { 
   .nav {
-    z-index: 300;
+    z-index: 10;
   }
-  #ai-logo {
-    font-size: 22px;
+  .nav > .nav-header > .nav-title {
+    font-size: 14px;
+    padding-top: 3%;
   }
+
 
   .intro {
     background-color: rgb(28, 63, 71); /* lighter*/
