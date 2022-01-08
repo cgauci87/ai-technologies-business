@@ -3460,7 +3460,7 @@ width: 100% /*BUG*/;
   background-blend-mode:soft-light;
   overflow-y: scroll;
   scrollbar-color: #0e101f #0e101f;
-  scrollbar-width: 40px;
+  scrollbar-width:auto;
 }
 .article-header h2 {
   position: relative;
@@ -3703,7 +3703,7 @@ z-index: 90;
 .playlist {
   overflow-y: scroll;
   scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8);
-  scrollbar-width: 40px;
+  scrollbar-width: auto;
   scroll-behavior: smooth;
   height: 60vh;
 }
@@ -4249,7 +4249,7 @@ form .field textarea {
   background-blend-mode:soft-light;
   overflow-y: scroll;
   scrollbar-color: #0e101f #0e101f;
-  scrollbar-width: 10px;
+  scrollbar-width: auto;
 }
 .article-header h2 {
   position: relative;
@@ -4484,7 +4484,7 @@ z-index: 1;
   margin-top: 20%;
   overflow-y: scroll;
   scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8);
-  scrollbar-width: 40px;
+  scrollbar-width: auto;
   scroll-behavior: smooth;
   height: 60vh;
 }
@@ -5018,6 +5018,7 @@ and (orientation: portrait) {
   background:rgba(0,0,0,0.8);
 }
 
+
 .popup-article {
   width:90%;
   margin-left: 5%;
@@ -5029,14 +5030,17 @@ and (orientation: portrait) {
 }
 
 .popup-article article { 
-  max-height: 100%;
-  margin-top: 30%;
+  height: 100%;
+  margin-top: 17.2%;
   border-radius: 0px;
   background-color: rgba(255,255,255,.75);
   background-blend-mode:soft-light;
-  overflow-y: scroll;
   scrollbar-color: #0e101f #0e101f;
-  scrollbar-width: 10px;
+  scrollbar-width: auto;
+}
+
+.article-header {
+  clip-path: inset(0 0 0 0);
 }
 
 .article-header h2 {
@@ -5056,7 +5060,7 @@ and (orientation: portrait) {
   position: absolute;
   height: 12vh;
   width: 100%;
-  z-index: 12;
+  z-index: 20;
   }
 
 .author-pu{
@@ -5148,16 +5152,11 @@ and (orientation: portrait) {
 
 /*=====================================================*/
 
-
 .lhs-image-wrapper img{
   height: 100%;
   width: 50%;
   border-radius: 0%;
   opacity: 0.3;
-}
-
-.popup-article article {
-margin-top: 17.2%;
 }
 
 .article-p1 p { 
@@ -5243,11 +5242,11 @@ z-index: 1;
 .popup-footer {
   background-color: #0e101f;
   position: absolute;
-  display: flex;
+  display:contents;   /*flexbox works fine*/
   width: 100%;
   min-height: 12vh;
   margin-top: 160%;
-  z-index: 12;
+  z-index: 9999;
 }
 
 
@@ -5791,6 +5790,7 @@ and (orientation: portrait) {
     color: white;
   }  
 /*=====================================================*/
+
 
 .article-header h2 {
   margin-top: 2%;
