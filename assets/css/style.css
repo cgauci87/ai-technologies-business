@@ -3196,6 +3196,10 @@ width: 100% /*BUG*/;
     display: none;
   }  
 
+  #listen , #display-clock {
+    display: none; /*qq*/
+  }
+  
   .section-header{
     height: 7vh;
     position: absolute;
@@ -3273,24 +3277,10 @@ width: 100% /*BUG*/;
       height: 5vh;
      }
 
-     
-     #listen {
-       float: right;
-       font-size: 10px;
-       letter-spacing: 1.5px;
-       margin-top: 0;
-       margin-left: 58%;
-       display: none;
-    }
-   
      .fas .fa-hand-pointer{
        float: right;
        color: rgba(127, 221, 252, 0.932);
        padding-right: 0.5%;
-     }
-     
-     .fa-clock {
-      display: none;
      }
 
      .author > aside > #read{
@@ -4049,11 +4039,6 @@ form .field textarea {
 
      
      #listen {
-       float: right;
-       font-size: 10px;
-       letter-spacing: 1.5px;
-       margin-top: 0;
-       margin-left: 58%;
        display: none;
     }
    
@@ -4063,7 +4048,7 @@ form .field textarea {
        padding-right: 0.5%;
      }
      
-     .fa-clock {
+     #display-clock {
       display: none;
      }
 
@@ -4718,7 +4703,8 @@ and (orientation: portrait) {
   .intro {
     background-color: rgb(28, 63, 71); /* lighter*/
     background-blend-mode: multiply;
-    background-position: 18%;
+    background-size: contain;
+    background-position: center;
   }
 
     .intro h1 {
@@ -4730,14 +4716,23 @@ and (orientation: portrait) {
    .line-wrapper-1 .line-1 { 
     font-size: 16px;
     word-spacing: 1px;
-    margin-top: 82%;
+    line-height: 16px;
+    margin-top: 2.5%;
     height: 12vh;
+  }  
+    
+  .line-wrapper-2 .line-2 {
+    margin-top: 78%;
+    padding-left: 7%;
+    white-space:pre-line;
+    font-size: 10px;
+    word-spacing: 0.5px;
   }	
       
   .section-footer {   
     height: 4.9vh;
     position: absolute;
-    margin-top: 105.5%;
+    margin-top: 90%;
   }
 
   .goto-btn {
@@ -4750,32 +4745,68 @@ and (orientation: portrait) {
       letter-spacing: 6px;
     }
   
-    .line-wrapper-2 .line-2 {
-      margin-top: 120%;
-      padding-left: 7%;
-      white-space:pre-line;
-      font-size: 10px;
-      word-spacing: 0.5px;
-    }	
-  
   .spike#spike1 {
-    margin-top: 125%;
-    height: 13vh;
+    margin-top: 108%;
+    height: 12.5vh;
   }
 
   /* -=- #ai-101 section -=- */
 
   #ai-img-1 ,  #ai-img-2 {
     display: none;
-  }  
+  } 
 
+  #listen , #display-clock { 
+    display: none;
+  }
+
+
+
+  .audio-player {
+    float: right;
+    filter:invert(100%);
+    opacity: 1;
+    margin-top: 3%;
+    margin-right: -45%;
+  }
+
+  .audio-player > span {
+   color:black;
+   font-size: 8px;
+   font-weight: 500;
+   letter-spacing: 2px;
+   position: absolute;
+   margin-left: -45%;
+   margin-top: 12%; /*mq*/
+  }
+    
+   audio {
+     width: 160px;
+     height: 5vh;
+    }
+
+    .fas .fa-hand-pointer{
+      float: right;
+      color: rgba(127, 221, 252, 0.932);
+      padding-right: 0.5%;
+    }
+
+    .author > aside > #read{
+      float: left;
+      font-size: 10px;
+      letter-spacing: 1px;
+      margin-left: -25%;
+      margin-top: 40%;
+    }
+
+  /*wip*/
   .section-header{
     background-color: rgb(18, 42, 49);
     height: 7vh;
     position: absolute;
     margin-top: -0.1%;
     margin-left: 34%;
-    z-index: 400; /*ppp*/
+    z-index: 10;
     }
 
     
@@ -4826,64 +4857,8 @@ and (orientation: portrait) {
         margin-top: 2.2%;
       }
 
-    audio {
-      width: 132px;
-      height: 4vh;
-      float: right;
-      margin-right: -2%;
-      margin-top: 12%;
-    }
-   
-   .audio-player {
-     opacity: 0.3;
-     filter:invert(100%);
-     z-index: 1;
-     }
-   
-     .audio-player:hover {
-       opacity: 0.9;
-     }
-   
-     audio::-webkit-media-controls-play-button {
-       background-color: transparent;
-       border-radius: 50%;
-     }
+    
      
-     audio::-webkit-media-controls-play-button:hover {
-       background-color: rgba(127, 221, 252, 0.932);
-       filter:invert(100%);
-     }
-     
-     #listen {
-       float: right;
-       margin-top: 9%;
-       margin-right: 1%;
-       color: white;
-       font-family: Arial, Helvetica, sans-serif;
-       font-size: 8px;
-       letter-spacing: 2px;
-       line-height: 10px;
-       height: 2vh;
-       background: transparent;
-     }
-   
-     .fas .fa-hand-pointer{
-       float: right;
-       color: rgba(127, 221, 252, 0.932);
-       padding-right: 0.5%;
-     }
-     
-     .fa-clock {
-       position: absolute;
-       height: 2.5vh;
-       font-family: Arial, Helvetica, sans-serif;
-       font-size: 8px;
-       letter-spacing: 0.5px;
-       margin-top: 11%;
-       margin-left: -86%;
-       color: white;
-     }  
-
      /*===============================================================*/
 
 .ai-101-container h3 {
