@@ -5357,7 +5357,7 @@ height: 100%;
 
 .subscribe-form {
   position: absolute;
-  margin-top: 40%;
+  margin-top: 45%;
   margin-left: 5%;
   line-height: 20px;
 }
@@ -5372,9 +5372,8 @@ height: 100%;
 }
 
 .subscribe-form p {
- margin-left: 10%;
- margin-right: 10%;
- margin-top: -0.5%;
+ text-align: center;
+ padding-right: 4%;
  font-size: 16px;
 }
 
@@ -5395,41 +5394,40 @@ height: 100%;
 #submit-button {
  position: absolute;
  display: flex;
- margin-top: 48.5%;
+ margin-top: 49.4%;
  margin-left: 46%;
- padding-top: 0.5%;
+ padding-top: 0.4%;
  font-weight: 800;
 }
 
 #checkbox {
  position: absolute;
  display: flex;
- width: 14px;
- margin-top: 39.5%;
- margin-left: -2.5%;
+ width: 10px;
+ margin-top: 58%;
+ margin-left: -4%;
  z-index: 1;
 }
 
 #subscribe-form > label {
- position: absolute;
- display: inline-block;
- margin-left: -50%;
-}
-
-#label-container {
   background-color: white;
   height: 1.5vh;
   font-size: 6px;
-  word-spacing: 0px;
-  line-height: 6px;
   font-weight: 600;
-  margin-top: 10%;
-  padding-top: 1%;
+  line-height: 6px;
+  letter-spacing: 0.5px;
   white-space: nowrap;
+  padding-top: 1%;
+  padding-left: 2%;
+  margin-top: 4%;
+  margin-right: -18%;
 }
 
+
+
+
 #subscribe-footer {
- margin-top: 150%;
+ margin-top: 165%;
 } 
 
 /* #contact section */
