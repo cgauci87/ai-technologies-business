@@ -5393,7 +5393,7 @@ height: 100%;
 
 #submit-button {
  position: absolute;
- display: flex;
+ display:block; /* display block is compatible with all browsers - while displayt flex is compatible with only FF*/
  margin-top: 49.4%;
  margin-left: 46%;
  padding-top: 0.4%;
