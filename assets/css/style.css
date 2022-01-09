@@ -6070,13 +6070,11 @@ z-index: 1;
 .podcasts {
   background-color: rgba(14, 16, 31, 1);
   background-image: url("../images/podcasts_img.png");
-
-  /*wip*/
 }
 
 #header-podcasts {
-  margin-top: 0;
-  padding-left: 4%;
+  margin-top: 0.5%;
+  text-align: center;
 }
 
 
@@ -6154,37 +6152,38 @@ height: 100%;
 
  .subscribe {
   background-color: rgba(14, 16, 31, 1);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-blend-mode:difference;
   color: rgba(0,0,0,1);
 }
 
 #subscribe-header {
-  margin-top: 2%;
-  padding-left: 4%;
+  text-align: center;
+  margin-top: 0.7%;
 }
 
 .subscribe-form {
   position: absolute;
-  margin-top: 45%;
-  margin-left: 5%;
+  margin-top: 10%;
   line-height: 20px;
+  text-align: center;
+  margin-left: 15%;
 }
 
 .subscribe-form h1 {
- font-size: 22px;
- font-weight: 700;
+ font-size: 32px;
+ word-spacing: 4px;
+ font-weight: 800;
  color: white;
- background-color: black;
- min-width: 100%;
- margin-left: -10%;
+ text-align: center;
 }
 
 .subscribe-form p {
+ font-size: 12px;
+ font-weight: 600;
  text-align: center;
- padding-right: 4%;
- font-size: 16px;
+ margin-top: -1%;
 }
 
 .subscribe-form form {
@@ -6193,8 +6192,8 @@ height: 100%;
 .subscribe-form input {
  border-top-right-radius: 0;
  border-bottom-right-radius: 0;
- height: 3vh;
- font-size: 8px;
+ height: 6vh;
+ font-size: 12px;
  font-weight: 400;
  width: 100%;
  color: #0e101f;
@@ -6204,33 +6203,33 @@ height: 100%;
 #submit-button {
  position: absolute;
  display:block; /* display block is compatible with all browsers - while displayt flex is compatible with only FF*/
- margin-top: 49.4%;
- margin-left: 46%;
- padding-top: 0.4%;
- font-weight: 800;
+ margin-top:  27.55%;
+ margin-left: 35%;
+ font-weight: 600;
+ font-size: 10px;
 }
 
 #checkbox {
  position: absolute;
  display: flex;
  width: 10px;
- margin-top: 55.6%;
- margin-left: -4%;
+ margin-top: 32.3%;
+ margin-left: -0.9%;
  z-index: 1;
 }
 
 #subscribe-form > label {
   background-color: white;
-  height: 1.5vh;
-  font-size: 6px;
+  height: 2.8vh;
+  font-size: 7px;
   font-weight: 600;
   line-height: 6px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
   white-space: nowrap;
   padding-top: 1%;
   padding-left: 2%;
   margin-top: 4%;
-  margin-right: -18%;
+  margin-right: -30%;
 }
 
 
@@ -6238,7 +6237,7 @@ height: 100%;
 
 #subscribe-footer {
  display: flex;
- margin-top: 165%;
+ margin-top: 53%;
 } 
 
 /* #contact section */
