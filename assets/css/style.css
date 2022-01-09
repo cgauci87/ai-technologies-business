@@ -5351,50 +5351,60 @@ height: 100%;
 }
 
 #subscribe-header {
-  margin-top: 0.7%;
+  margin-top: 2%;
+  padding-left: 4%;
 }
 
 .subscribe-form {
   position: absolute;
-  margin-top: 56%;
+  margin-top: 40%;
   margin-left: 5%;
+  line-height: 20px;
 }
 
 .subscribe-form h1 {
- font-size: 32px;
+ font-size: 22px;
  font-weight: 700;
+ color: white;
+ background-color: black;
+ min-width: 100%;
+ margin-left: -10%;
 }
 
 .subscribe-form p {
  margin-left: 10%;
  margin-right: 10%;
- margin-top: -2.5%;
- font-size: 18px;
+ margin-top: -0.5%;
+ font-size: 16px;
 }
 
 .subscribe-form form {
- max-width: 220px;
+ max-width: 150px;
 }
 .subscribe-form input {
  border-top-right-radius: 0;
  border-bottom-right-radius: 0;
- height: 4vh;
- font-size: 18px;
+ height: 3vh;
+ font-size: 8px;
+ font-weight: 400;
  width: 100%;
  color: #0e101f;
  margin-left: -7%;
 }
 
 #submit-button {
- position: relative;
+ position: absolute;
  display: flex;
- margin-top: 0;
+ margin-top: 48.5%;
+ margin-left: 46%;
+ padding-top: 0.5%;
+ font-weight: 800;
 }
 
 #checkbox {
  position: absolute;
  display: flex;
- width: 15px;
+ width: 14px;
  margin-top: 39.5%;
  margin-left: -2.5%;
  z-index: 1;
@@ -5402,14 +5412,20 @@ height: 100%;
 
 #subscribe-form > label {
  position: absolute;
- display: flex;
- font-size: 9px;
- letter-spacing: 0.2px;
- font-weight: 600;
- margin-top: 2.5%;
- padding-left: 0.5%;
- white-space: nowrap;
- background-color: white;
+ display: inline-block;
+ margin-left: -50%;
+}
+
+#label-container {
+  background-color: white;
+  height: 1.5vh;
+  font-size: 6px;
+  word-spacing: 0px;
+  line-height: 6px;
+  font-weight: 600;
+  margin-top: 10%;
+  padding-top: 1%;
+  white-space: nowrap;
 }
 
 #subscribe-footer {
