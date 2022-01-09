@@ -5427,6 +5427,7 @@ height: 100%;
 
 
 #subscribe-footer {
+ display: flex;
  margin-top: 165%;
 } 
 
@@ -5497,7 +5498,7 @@ form .field textarea {
 .bg-overlay {
   position: absolute;
   display: flex;
-  min-width: 100%; /*wip*/
+  min-width: 100%;
   padding: 0;
   height: 9.5vh;
   z-index: 0;
