@@ -3277,12 +3277,6 @@ width: 100% /*BUG*/;
       height: 5vh;
      }
 
-     .fas .fa-hand-pointer{
-       float: right;
-       color: rgba(127, 221, 252, 0.932);
-       padding-right: 0.5%;
-     }
-
      .author > aside > #read{
        float: left;
        font-size: 10px;
@@ -4042,12 +4036,6 @@ form .field textarea {
        display: none;
     }
    
-     .fas .fa-hand-pointer{
-       float: right;
-       color: rgba(127, 221, 252, 0.932);
-       padding-right: 0.5%;
-     }
-     
      #display-clock {
       display: none;
      }
@@ -4786,12 +4774,6 @@ and (orientation: portrait) {
    audio {
      max-width: 150px;
      height: 5vh;
-    }
-
-    .fas .fa-hand-pointer{
-      float: right;
-      color: rgba(127, 221, 252, 0.932);
-      padding-right: 0.5%;
     }
 
     .author > aside > #read{
@@ -5582,7 +5564,6 @@ and (orientation : landscape) {
       font-size: 8px;
       letter-spacing: 3px;
     }
-    /*wip*/
   
   .spike#spike1 {
     margin-top: 36.5%;
@@ -5599,13 +5580,76 @@ and (orientation : landscape) {
     display: none;
   }
 
+  .section-header{
+    height: 7vh;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 34%;
+    padding-left: 10%;
+    z-index: 11;
+    }
+
+  .section-header h2{
+    font-size: 24px;
+    background-color: transparent;
+    height: auto;
+  }
+
+  #ai101-heading-2 {
+  background-color: #0e101f;
+  position: absolute;
+  height: 10vh;
+  min-width: 100%;
+  margin-top: 8.8%;
+  z-index: 1;
+  }
+
+  .author{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    float: left;
+    height: 150px;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: -4.8%;
+    margin-left: 1%;
+    }
+
+    .profile-photo {
+      height: 25px;
+      min-width: 30px;
+      margin-top: 7%;
+    }
+ 
+    .author p {
+      line-height: 12px;
+      float:left;
+      font-size: 8px;
+    }
+ 
+    .author aside {
+     line-height: 18px;
+     border-left: 2px solid rgba(127, 221, 252, 0.932);
+     height: 8vh;
+   }
+   
+   .author > aside > #read{
+    float: left;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-left: 140%;
+    margin-top: 10%;
+    font-size: 8px;
+  }
+
   .audio-player {
     position: relative;
     display: flex;
     filter:invert(100%);
     opacity: 1;
-    margin-top: 3%;
-    margin-left: 52%;
+    margin-top: 1%;
+    margin-left: 72%;
     z-index: 1;
   }
 
@@ -5613,92 +5657,18 @@ and (orientation : landscape) {
    position: relative;
    display: flex;
    color:black;
-   font-size: 8px;
-   font-weight: 500;
+   font-weight: 800;
    letter-spacing: 2px;
    position: absolute;
-   margin-left: 0;
-   margin-top: 12%;
    padding-left: 8%;
+   margin-top: 6%;
+   font-size: 6px;
+
   }
-    
    audio {
      max-width: 150px;
      height: 5vh;
-    }
-
-    .fas .fa-hand-pointer{
-      float: right;
-      color: rgba(127, 221, 252, 0.932);
-      padding-right: 0.5%;
-    }
-
-    .author > aside > #read{
-      float: left;
-      font-size: 10px;
-      letter-spacing: 1px;
-      margin-left: -25%;
-      margin-top: 31%;
-    }
-
-  .section-header{
-    height: 7vh;
-    position: absolute;
-    margin-top: 2.6%;
-    margin-left: 34%;
-    padding-left: 10%;
-    z-index: 11;
-    }
-
-    
-  .section-header h2{
-    font-size: 24px;
-    background-color: transparent;
-    height: auto;
-    
-  }
-
-    #ai101-heading-2 {
-    background-color: #0e101f;
-    position: absolute;
-    height: 10vh;
-    margin-top: 14%;
-    z-index: 1;
-    }
-    
-
-    .author{
-      position: relative;
-      display: flex;
-      z-index: 1;
-      float: left;
-      height: 150px;
-      width: 100%;
-      white-space: nowrap;
-      margin-top: -10%;
-      margin-left: 1%;
-      }
-   
-   
-      .author p {
-        line-height: 12px;
-        float:left;
-        font-size: 8px;
-      }
-   
-      .author aside {
-       line-height: 18px;
-       border-left: 2px solid rgba(127, 221, 252, 0.932);
-       height: 4vh;
-     }
-   
-      .profile-photo {
-        height: 30px;
-        min-width: 30px;
-        margin-top: 7%;
-      }
-
-    
+    }  
      
      /*===============================================================*/
 
