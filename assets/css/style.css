@@ -5832,8 +5832,6 @@ and (orientation : landscape) {
   background-size:cover;
 }
 
-/*wip*/
-
 /*======================popup======================== */
 
 .cover {
@@ -5860,23 +5858,23 @@ and (orientation : landscape) {
   height: 100%;
   margin-top: 0;
   border-radius: 0px;
-  background-color: rgba(255,255,255,.75);
-  background-blend-mode:soft-light;
+  background-color: rgba(255,255,255,0.75);
+  background-blend-mode:overlay;
   scrollbar-color: #0e101f #0e101f;
   scrollbar-width: auto;
   scroll-padding: 0 0 100px 0;
 }
 
+
 .article-header h2 {
   position: relative;
-  background-color: #0e101f;
-  z-index: 21;
+  background-color: transparent;
   font-size: 16px;
-  height: 6vh;
-  text-align: left;
+  text-align: center;
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 5%;
   padding-left: 1%;
+  z-index: 21;
 }
 
  .popup-heading-2 {
@@ -5888,16 +5886,16 @@ and (orientation : landscape) {
   }
 
 .author-pu{
-  position: relative;
-  z-index: 13;
+  position: absolute;
+  z-index: 22;
   height: 150px;
   width: 100%;
-  margin-top: 0;
+  margin-top: -2%;
   margin-left: 1%;
   }
 
   .author-pu > .profile-photo {
-    margin: 0;
+    margin: -1%;
     height: 10vh;
     width: 40px;
   }
@@ -5936,7 +5934,7 @@ and (orientation : landscape) {
     position: absolute;
     display: flex;
     color: black;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 500;
     letter-spacing: 1px;
     margin-top: 6.5%;
@@ -5949,19 +5947,18 @@ and (orientation : landscape) {
     float: right;
     z-index:1;
     margin-left: 70%;
-    margin-top: 2.5%;
-    opacity: 1;
+    margin-top: 0;
+    opacity: 1; /*wip*/
   }
-
 
   .cancel {
     position: absolute;
     background-color: transparent;
     border-top-right-radius: 0;
-    height: 7vh;
-    z-index: 14;
-    margin-top: -2%;
-    margin-left: 90%;
+    margin-top: -0.5%;
+    margin-left: 94%;
+    font-size: 26px;
+    z-index: 23;
     }
   
 
@@ -6014,7 +6011,7 @@ and (orientation : landscape) {
 }
 
 .q-icon {
-  width: 24px;
+  width: 26px;
   align-self: center;
   position: relative;
   z-index: 1;
@@ -6048,9 +6045,9 @@ z-index: 1;
   margin-top: 5%; 
   margin-left: -20%;
   margin-right: -20%;
-  height: 30vh;
+  height: 60vh;
   width: 130%;
-  margin-bottom:  25%;
+  margin-bottom: 12%;
 }
 
 
@@ -6059,9 +6056,9 @@ z-index: 1;
   display: flex;
   width: 100%;  
   background: #0e101f;
-  min-height: 7vh;
+  min-height: 5vh;
   z-index: 9999;
-  margin-top: -20%
+  margin-top: -9%
 }
 
 
