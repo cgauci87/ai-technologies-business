@@ -5013,7 +5013,7 @@ and (orientation: portrait) {
   font-weight: 300;
 }
 
-/*==========wip============popup======================== */
+/*======================popup======================== */
 
 .cover {
   background:rgba(0,0,0,0.8);
@@ -5036,10 +5036,8 @@ and (orientation: portrait) {
   background-blend-mode:soft-light;
   scrollbar-color: #0e101f #0e101f;
   scrollbar-width: auto;
-  scroll-padding: 0 0 100px 0 !important; /*BUG*/
+  scroll-padding: 0 0 100px 0; /*BUG*/
 }
-
-
 
 .article-header h2 {
   position: relative;
@@ -5250,142 +5248,244 @@ z-index: 1;
 
 /*==========================================================================================*/
 
-/*  ==============#podcasts============================   */
+/*  ==============#podcasts===========================   */
+
+
+.podcasts {
+  background-color: rgba(14, 16, 31, 1);
+}
+
+#header-podcasts {
+  margin-top: 2.2%;
+  padding-left: 4%;
+}
+
+.top-image-wrapper img {
+  position: absolute;
+  height: 20vh;
+  margin-top: -10%;
+  z-index: 1;
+  display: flex;
+}
+
+
+.playlist {
+  margin-top: 20%;
+  overflow-y: scroll;
+  scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8);
+  scrollbar-width: auto;
+  scroll-behavior: smooth;
+  height: 60vh;
+}
+
+::-webkit-scrollbar {
+  height: 5vh;
+  width: 10px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.8);
+}
+
 
 iframe {
 background-color: rgba(127, 221, 252, 0.932);
 filter:saturate(25%);
 width: 100%;
-height: 15vh;
+height: 100%;
 }
 
 
 .column{
   position:relative;
-  width: auto;
-  height: auto;
-  margin-left: 2%;
-  margin-right: 2%;
+  height: 10vh;
+  width: 100%;
+  margin: 0 auto;
 }
 
   .column p {
-    font-size: 12px;
-    line-height: 16px;
-    height: 18vh;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    height: 11vh;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  #column-1 {
+    margin-top: 7%;
   }
 
   .podcasts-container {
     position: absolute;
-    margin-top: 17%;
+    margin-top: 15%;
   }
 
-  #column-1 p {
-    height: 16vh;
+  #footer-pd  {
+    background-color: transparent;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    z-index: 10;
+    margin-top: 150%;
   }
 
-  #column-3 p {
-    margin-bottom: -5%;
+  #wave1 {
     height: 10vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
-  
-  #footer-pd {
-    margin-top: 190%;
-  }
 
  /*===================================== */
+  
+ /*#subscribe section*/
 
- #subscribe-header {
-   margin-top: -0.5%;
- }
+ .subscribe {
+  background-color: rgba(14, 16, 31, 1);
+  background-size: contain;
+  background-position: center;
+  background-blend-mode:difference;
+  color: rgba(0,0,0,1);
+}
 
- .subscribe-form {
-   position: absolute; /*rt*/
-   margin-top: 40%;
- }
+#subscribe-header {
+  margin-top: 0.7%;
+}
 
- .subscribe-form h1 {
-  font-size: 26px;
+.subscribe-form {
+  position: absolute;
+  margin-top: 56%;
+  margin-left: 5%;
+}
+
+.subscribe-form h1 {
+ font-size: 32px;
+ font-weight: 700;
 }
 
 .subscribe-form p {
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 14px;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top: -2.5%;
+ font-size: 18px;
 }
 
 .subscribe-form form {
-  max-width: 220px;
+ max-width: 220px;
 }
 .subscribe-form input {
-  height: 7vh;
-  font-size: 14px;
-  color: #0e101f;
+ border-top-right-radius: 0;
+ border-bottom-right-radius: 0;
+ height: 4vh;
+ font-size: 18px;
+ width: 100%;
+ color: #0e101f;
+ margin-left: -7%;
+}
+
+#submit-button {
+ position: relative;
+ display: flex;
+ margin-top: 0;
+}
+
+#checkbox {
+ position: absolute;
+ display: flex;
+ width: 15px;
+ margin-top: 39.5%;
+ margin-left: -2.5%;
+ z-index: 1;
+}
+
+#subscribe-form > label {
+ position: absolute;
+ display: flex;
+ font-size: 9px;
+ letter-spacing: 0.2px;
+ font-weight: 600;
+ margin-top: 2.5%;
+ padding-left: 0.5%;
+ white-space: nowrap;
+ background-color: white;
 }
 
 #subscribe-footer {
-  margin-top: 175%;
-}
+ margin-top: 150%;
+} 
 
-/*===============================================*/
+/* #contact section */
+
 .contact {
-  height: 100vh;
+ background-color: rgba(14, 16, 31, 1);
+ background-blend-mode: difference;
+ background-size: contain;
+ background-position: center;
 }
 
 .contact-container {
-  position: absolute;
-  margin-top: 40%;
+ position: absolute;
+ margin-top: 56%;
+ margin-left: 15%;
 }
 .contact-container form * {
-  font-size: 14px;
+ font-size: 18px;
 }
 
 .contact-container form .field label {
-  height: 5vh;
-  padding-top: 2%;
+ height: 4vh;
+ padding-top: 1.5%;
 }
 
-.contact-container form .field input[type="text"],
+.contact-container form .field input[type="text"], .field input[type="email"],
 form .field textarea {
-  height: 5vh;
-  padding-left: 36%;
+ height: 4vh;
+ padding-left: 36%;
+ color: white;
+ background-color: rgba(0,0,0,0.3);
 }
 
 .contact-container form #msg {
-  height: 5vh;
-  padding-top: 18px;
+ height: 7vh;
+ padding-top: 18px;
 }
 .contact-container form textarea:focus#msg,
 .contact-container form textarea:not(:placeholder-shown)#msg {
-  height: 20vh;
+ height: 17vh;
 }
+
 .contact-container form input[type="text"]:focus + label,
 .contact-container form input[type="text"]:not(:placeholder-shown) + label,
+.contact-container form input[type="email"]:focus + label,
+.contact-container form input[type="email"]:not(:placeholder-shown) + label,
 .contact-container form textarea:focus + label,
 .contact-container form textarea:not(:placeholder-shown) + label,
 .contact-container form .field:hover label {
-  width: 32%;
+ width: 24%;
 }
 
 #send-btn {
-  margin-left: 38%;
-  height: 5vh;
-  width: 10px;
-  padding-left: 5%;
-  padding-top: 2%;
-  font-weight: 400;
+ 
+ float:right;
+ height: 6vh;
+ width: 100%;
+ font-weight: 400;
 }
 
 .footer {
-  margin-top: -39%;
+ margin-top: -17%;
+ height: 10vh;
 }
 
 .footer p {
-  font-size: 10px;
-}
+ font-size: 10px;
 }
 
-/*=======================================================================*/
+}
+/*=======================================================================================================*/
+
 /*=======================================================================*/
 
 /* portrait */
