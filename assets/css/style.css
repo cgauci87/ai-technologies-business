@@ -4997,16 +4997,16 @@ and (orientation: portrait) {
   font-weight:400;
 }
 
+
 .grid-span {
-  padding-left: 3%;
-  font-size: 24px;
+  font-size: 12px; 
   font-weight: 400;
   line-height: 15px;
   margin-left: -13%;
   margin-right: -13%;
   text-align: left;
+  padding-left: 3%;
 }
-
 
 .grid a {
   font-size: 10px;
@@ -5036,6 +5036,7 @@ and (orientation: portrait) {
   background-blend-mode:soft-light;
   scrollbar-color: #0e101f #0e101f;
   scrollbar-width: auto;
+  scroll-padding: 0 0 100px 0 !important; /*BUG*/
 }
 
 
