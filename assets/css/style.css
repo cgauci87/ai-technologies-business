@@ -6233,8 +6233,6 @@ height: 100%;
 }
 
 
-
-
 #subscribe-footer {
  display: flex;
  margin-top: 53%;
@@ -6245,13 +6243,13 @@ height: 100%;
 .contact {
  background-color: rgba(14, 16, 31, 1);
  background-blend-mode: difference;
- background-size: contain;
- background-position: center;
+ background-size: cover;
+ background-position: 0 15px;
 }
 
 .contact-container {
  position: absolute;
- margin-top: 56%;
+ margin-top: 12%;
  margin-left: 15%;
 }
 .contact-container form * {
@@ -6259,29 +6257,29 @@ height: 100%;
 }
 
 .contact-container form .field {
-  margin-bottom: 2.5%;
+  margin-bottom: 1%;
 }
 
 .contact-container form .field label {
- height: 4vh;
+ height: 6vh;
  padding-top: 0%;
 }
 
 .contact-container form .field input[type="text"], .field input[type="email"],
 form .field textarea {
- height: 4vh;
+ height: 6vh;
  color: white;
  background-color: rgba(0,0,0,0.3);
  padding-left: 35%; 
 }
 
 .contact-container form #msg {
- height: 4vh;
+ height: 6vh;
 }
 .contact-container form textarea:focus#msg,
 .contact-container form textarea:not(:placeholder-shown)#msg {
- height: 14vh;
- padding-top: 12%;
+ height: 20vh;
+ padding-top: 5%;
  padding-left: 2%;
  padding-right: 1%;
 }
@@ -6298,31 +6296,32 @@ form .field textarea {
 
 #send-btn {
  float:right;
- height: 12vh;
+ height: 16vh;
  width: 100%;
- font-weight: 400;
- z-index: 12;
+ z-index: 1;
 }
 
 .bg-overlay {
-  position: absolute;
-  display: flex;
-  min-width: 100%;
-  padding: 0;
-  height: 9.5vh;
-  z-index: 0;
-  margin-top: 70%;
-  background-color: rgba(0, 0, 0, 0.3);
+ display: none;
 }
 
 .footer {
- margin-top: -27%;
- height: 10vh;
+float:left;
+margin-top: -16%;
+margin-bottom: -50%;
+background-color: rgb(18, 42, 49, 0.5);
 }
 
 .footer p {
- font-size: 10px;
+  font-size: 10px;
+  margin-bottom: -5%;
 }
+
+.social-icon {
+  margin-top: -5%;
+  margin-bottom: -5%;
+}
+
 
 }
 
