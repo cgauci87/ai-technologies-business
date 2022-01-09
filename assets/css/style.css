@@ -4998,7 +4998,8 @@ and (orientation: portrait) {
 }
 
 .grid-span {
-  font-size: 12px;
+  padding-left: 3%;
+  font-size: 24px;
   font-weight: 400;
   line-height: 15px;
   margin-left: -13%;
