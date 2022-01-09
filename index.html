@@ -554,11 +554,11 @@
 						<div class="contact-container">
 									<form id="contact-form" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
 									<div class="field">
-										<input type="text" id="name" name="name" placeholder="Full Name" required>
+										<input type="text" id="name" name="name" maxlength="30" placeholder="Full Name" required>
 										<label for="name">Name</label>
 									</div>
 									<div class="field">
-										<input type="email" id="email" name="email" placeholder="mail@mail.com" required>
+										<input type="email" id="email" name="email" maxlength="40" placeholder="mail@mail.com" required>
 										<label for="email">Email</label>
 									</div>
 									<div class="field">
@@ -567,6 +567,7 @@
 									</div>
 									<input id="send-btn" type="submit" value="Send">
 									</form>
+									<div class="bg-overlay"></div>
 								</div>
 				</section>
 
