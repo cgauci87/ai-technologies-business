@@ -8663,7 +8663,7 @@ form .field textarea {
       }
   
   
-    /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-wip=--=-=-=-*/
+    /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
   
     #adjust-header {
       position: relative;
@@ -8713,7 +8713,7 @@ form .field textarea {
     font-weight: 300;
   }
   
-  /*======================popup============wip============ */
+  /*======================popup======================== */
 
 .cover {
   background:rgba(0,0,0,0.8);
@@ -8852,16 +8852,32 @@ form .field textarea {
 display: none;
 }
  
-.popup-article article { /*wip*/
+.popup-article article { 
 margin-top: 0;
 }
 
-#popup-article-bankfin {
-background-image: url("../images/bk_img.png");
+
+#popup-article-healthph {
+background-image: url("../images/medical_img.png");
 background-repeat: no-repeat;
 }
 
-/*wip*/
+#popup-article-bankfin {
+  background-image: url("../images/bk_img.png");
+  background-repeat: no-repeat;
+  }
+
+  #popup-article-ecom {
+    background-image: url("../images/eshop_img.png");
+    background-repeat: no-repeat;
+    }
+
+    #popup-article-mnf {
+      background-image: url("../images/products_img.png");
+      background-repeat: no-repeat;
+      background-blend-mode:screen;
+      }
+
 
 .article-p1 p { 
   margin-top: -129%;
@@ -8873,6 +8889,7 @@ background-repeat: no-repeat;
   line-height: 20px;
   position: relative;
   z-index: 0;
+  text-align:center;
 }
 
 .quote-wrapper {
@@ -8961,14 +8978,19 @@ z-index: 0;
 
 /*==========================================================================================*/
   
-  /*  ==============#podcasts============www===============   */
+  /*  ==============#podcasts============wip===============   */
   
   
 .podcasts {
   background-color: rgba(14, 16, 31, 1);
   background-image: url("../images/podcasts_img.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.top-image-wrapper img {
+display: none;
 }
 
 #header-podcasts {
@@ -8976,48 +8998,54 @@ z-index: 0;
   text-align: center;
 }
 
-.top-image-wrapper img {
-display: none;
-}
-
 .playlist {
   position:absolute;
-  margin-top: 5%;
   overflow-y: scroll;
   scroll-behavior: smooth;
-  scrollbar-color:rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3);
-  height: 80vh;
+  scrollbar-color: rgba(176, 221, 236, 0.966) rgba(176, 221, 236, 0.966);
+  height: 85vh;
   width: 100%;
+  margin-top: 6%;
 }
 
 iframe {
-background-color: rgba(127, 221, 252, 0.932);
+background-color: transparent;
 filter:saturate(25%);
-width: 100%;
-height: 100%;
+width: 165px;
+height: 30vh;
 }
 
 
 .column{
   position:relative;
-  height: 10vh;
+  display: flex;
+  height: auto;
   width: 100%;
   margin: 0 auto;
 }
 
   .column p {
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 15px;
-    height: 11vh;
+    height: auto;
     margin-top: 1%;
     margin-bottom: 1%;
     background-color: rgba(0,0,0,0.6);
     color: white;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 18px;
   }
 
   #column-1 {
     margin-top: 7%;
+  }
+
+  #column-1 p {
+    padding-top: 9%;
+  }
+
+  #column-3 p {
+   height: 30vh;
   }
 
   .podcasts-container {
@@ -9025,20 +9053,17 @@ height: 100%;
     margin: 0;
   }
 
-  #footer-pd  {
-    background-color: transparent;
+  #footer-pd {
     position: absolute;
-    display: inline-block;
+    display: flex;
     width: 100%;
     z-index: 0;
-    margin-top: 49.5%;
-
+    margin-top: 165%;
   }
 
   #wave1 {
     height: 3vh;
-    padding-top: 2%;
-    padding-bottom: 5%;
+    margin-top: -10%;
   }
   
    /*===================================== */
