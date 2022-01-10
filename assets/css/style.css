@@ -9927,10 +9927,8 @@ and (orientation: portrait) {
   }
 
   .section-header{
-    position: absolute;
-    text-align: center;
     height: 7vh;
-    margin-top: 1.3%;
+    margin-left: 45%;
     z-index: 11;
     }
 
