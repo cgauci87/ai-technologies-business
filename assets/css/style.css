@@ -10565,14 +10565,15 @@ and (orientation: portrait) {
     padding-left: 3%;
     white-space:pre-line;
     font-size: 16px;
-    word-spacing: 10px;
+    word-spacing: 8px;
+    line-height: 17.5px;
     height: 10vh;
   }	
       
   .section-footer {   
-    height: 4.9vh;
+    height: 4vh;
     position: absolute;
-    margin-top: 120%;
+    margin-top: 107%;
   }
 
   .goto-btn {
@@ -10586,7 +10587,7 @@ and (orientation: portrait) {
     }
   
   .spike#spike1 {
-    margin-top: 108%;
+    margin-top: 120%;
     height: 10vh;
   }
 
