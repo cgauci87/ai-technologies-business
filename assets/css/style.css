@@ -1384,6 +1384,284 @@ filter:invert(100);
 
 /*------------------------------------ MEDIA QUERIES-------------------------------*/
 
+/* (1366x768) WXGA Display -> PASS <- */
+@media  screen and (min-width: 1281px) and (max-width: 1366px) {
+  .nav > .nav-header > .nav-title {
+    font-size: 14px;
+    padding-top: 0.7%;
+  }
+
+  .nav > .nav-links {
+    margin-right: 0.3%;
+  }
+
+  .intro {
+    background-position: 0 50px;
+  }
+
+  .intro h1 {
+    font-size: 72px;
+    line-height: 80px;
+    padding-top: 4%;
+    padding-bottom: 1%;
+  }
+
+  .line-wrapper-1 .line-1 {
+    font-size: 32px;
+    word-spacing: 2px;
+    height: 9vh;
+    margin-top: 0.5%;
+  }
+
+
+  .section-footer {
+    margin-top: 15.5%;
+  }
+
+  .line-wrapper-2 .line-2 {
+    margin-top: 34%;
+    font-size: 23px;
+    word-spacing: 4px;
+  }
+
+  .spike#spike1 {
+    margin-top: 35%;
+    height: 9vh;
+  }
+
+  /*#ai-101 section*/
+
+  #ai-img-1 ,  #ai-img-2 {
+    display: none;
+  }
+  
+  .section-header h2 {
+    padding-top: 2.8%;
+  }
+
+  .audio-player {
+    margin-top: -5%;
+  }
+
+  .author {
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 78%;
+  }
+
+  .author > aside {
+    height: 5vh;
+  }
+
+  .profile-photo {
+    margin-top: 10%;
+  }
+
+  .fa-clock {
+    margin-top: -1.25%;
+    margin-left: 87.3%;
+  }
+
+  #listen {
+    margin-top: -1.25%;
+  }
+
+  .ai-101-container h3 {
+    font-size: 26px;
+  }
+  
+  .ai-101-container p {
+    font-size: 22px;
+  }
+
+  .ai-101-a {
+    margin-top: 3%;
+  }
+
+  #mimic-icon {
+    margin-top: 12%;
+  }
+  
+  #process-icon {
+    margin-top: 14%;
+    margin-left: 15%;
+  }
+  
+   #ux-icon {
+     margin-top: 2%;
+     margin-left: 9%;
+   }
+
+   #bus-mgt-icon {
+     margin-top: 2%;
+   }
+
+   #op-icon {
+    margin-top: 2%;
+    margin-left: 9%;
+  }
+ 
+  #elv-icon {
+   margin-top: 2%;
+   margin-left: 17%;
+ }
+ 
+   #growth-icon {
+     margin-top: 2%;
+     margin-left: 25%; 
+   }
+  
+  .image-container {
+    margin-top: -2%;
+    background-color: #0e101f;
+    height: 9vh;
+  }
+
+  /*#industries section*/
+
+  #adjust-header {
+    padding-top: 4.2%;
+  }
+
+  .grid h3 {
+    font-size: 24px;
+  }
+ 
+  .grid-span {
+    font-size: 20px;
+    font-weight: 500;
+  }
+ 
+  .grid a {
+    font-size: 18px;
+  }
+
+  #adjust-footer {
+    margin-top: 17%;
+  }
+
+
+  /*popup*/
+  .article-header h2 {
+    font-size: 26px;
+    padding-top: 2.4%;
+  }
+
+  .author-pu {
+    margin-left: 68%;
+    margin-top: -6%;
+  }
+
+  .author-pu > p {
+    line-height: 18px;
+    white-space: pre-line;
+    margin-top: -8%;
+  }
+
+  .author-pu > aside {
+   height: 5.5vh;
+  }
+
+
+  .audio-player-pu {
+    width: 280px;
+    margin-top: -5%;
+  }
+
+  .author-pu > .profile-photo {
+    margin-top: 12%;
+    min-width: 50px;
+    max-height: 40px;
+  }
+
+
+  .pointer-pu {
+    margin-top: 1.25%;
+  }
+
+  .clock-pu {
+    margin-left: 49%;
+    margin-top: 1.7%;
+  }
+
+  .cancel {
+    margin-left: 96%;
+  }
+
+  .lhs-image-wrapper > img {
+    width: 280px;
+  }
+  
+  .popup-article article { 
+  margin-top: 13.7%;
+  border-radius: 0;
+  padding-right: 3%;
+  }
+  
+  
+  .article-p1 p , .article-p2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .quote {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .article-p2 h3 {
+    font-size: 22px;
+  }
+
+
+/*#podcasts section*/
+
+.top-image-wrapper img {
+  height: 34vh;
+}
+
+.column p {
+  font-size: 18px;
+  line-height: 20px;
+  padding-left: 8.1%;
+  padding-right: 8.1%;
+}
+
+
+/*#subscribe section*/
+
+.subscribe {
+  background-position: 0 -10px;
+}
+
+.subscribe-form {
+  margin-top: -3%;
+}
+
+#subscribe-footer {
+  margin-top: 22%;
+}
+
+/*#contact section*/
+
+.contact {
+  background-position: 0 60px;
+}
+
+.contact-container {
+  margin-left: 14.5%;
+  margin-top: 8%;
+  }
+
+.footer {
+  margin-top: -8%;
+}
+
+}
+
+/*======================================================================*/
+
 /* Portrait 320x568 phones i.e. iPhone5/SE -> PASS <- */
 @media (min-width: 320px) and (max-width: 411px)
 and (orientation: portrait) { 
@@ -5379,8 +5657,7 @@ form .field textarea {
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 /* Landscape 667x375 -> PASS <- */
 @media only screen 
-and (min-width: 375px) 
-and (min-width: 667px) 
+and (min-width: 667px)
 and (orientation: landscape) { 
     .nav {
       z-index: 10;
@@ -6150,8 +6427,8 @@ margin: 0 auto;
   /*=======================================================================================================*/
 
 /* portrait tablets, iPad, e-readers, 800x480 or 854x480 phones -> PASS <- */	
-@media screen and (min-width: 800px), 
-screen and (max-height: 480px) {
+@media screen and (min-width: 800px) and (max-width: 1535)
+and (max-height: 480px) {
 
 .nav > .nav-header > .nav-title {
 font-size: 14px;
@@ -7281,284 +7558,6 @@ width: 100% /*BUG*/;
 
 /*=============================================================*/
 
-
-/* (1366x768) WXGA Display -> PASS <- */
-@media  screen and (min-width: 1281px) and (max-width: 1366px) {
-  .nav > .nav-header > .nav-title {
-    font-size: 14px;
-    padding-top: 0.7%;
-  }
-
-  .nav > .nav-links {
-    margin-right: 0.3%;
-  }
-
-  .intro {
-    background-position: 0 50px;
-  }
-
-  .intro h1 {
-    font-size: 72px;
-    line-height: 80px;
-    padding-top: 4%;
-    padding-bottom: 1%;
-  }
-
-  .line-wrapper-1 .line-1 {
-    font-size: 32px;
-    word-spacing: 2px;
-    height: 9vh;
-    margin-top: 0.5%;
-  }
-
-
-  .section-footer {
-    margin-top: 15.5%;
-  }
-
-  .line-wrapper-2 .line-2 {
-    margin-top: 34%;
-    font-size: 23px;
-    word-spacing: 4px;
-  }
-
-  .spike#spike1 {
-    margin-top: 35%;
-    height: 9vh;
-  }
-
-  /*#ai-101 section*/
-
-  #ai-img-1 ,  #ai-img-2 {
-    display: none;
-  }
-  
-  .section-header h2 {
-    padding-top: 2.8%;
-  }
-
-  .audio-player {
-    margin-top: -5%;
-  }
-
-  .author {
-    position: absolute;
-    margin-top: -5%;
-    margin-left: 78%;
-  }
-
-  .author > aside {
-    height: 5vh;
-  }
-
-  .profile-photo {
-    margin-top: 10%;
-  }
-
-  .fa-clock {
-    margin-top: -1.25%;
-    margin-left: 87.3%;
-  }
-
-  #listen {
-    margin-top: -1.25%;
-  }
-
-  .ai-101-container h3 {
-    font-size: 26px;
-  }
-  
-  .ai-101-container p {
-    font-size: 22px;
-  }
-
-  .ai-101-a {
-    margin-top: 3%;
-  }
-
-  #mimic-icon {
-    margin-top: 12%;
-  }
-  
-  #process-icon {
-    margin-top: 14%;
-    margin-left: 15%;
-  }
-  
-   #ux-icon {
-     margin-top: 2%;
-     margin-left: 9%;
-   }
-
-   #bus-mgt-icon {
-     margin-top: 2%;
-   }
-
-   #op-icon {
-    margin-top: 2%;
-    margin-left: 9%;
-  }
- 
-  #elv-icon {
-   margin-top: 2%;
-   margin-left: 17%;
- }
- 
-   #growth-icon {
-     margin-top: 2%;
-     margin-left: 25%; 
-   }
-  
-  .image-container {
-    margin-top: -2%;
-    background-color: #0e101f;
-    height: 9vh;
-  }
-
-  /*#industries section*/
-
-  #adjust-header {
-    padding-top: 4.2%;
-  }
-
-  .grid h3 {
-    font-size: 24px;
-  }
- 
-  .grid-span {
-    font-size: 20px;
-    font-weight: 500;
-  }
- 
-  .grid a {
-    font-size: 18px;
-  }
-
-  #adjust-footer {
-    margin-top: 17%;
-  }
-
-
-  /*popup*/
-  .article-header h2 {
-    font-size: 26px;
-    padding-top: 2.4%;
-  }
-
-  .author-pu {
-    margin-left: 68%;
-    margin-top: -6%;
-  }
-
-  .author-pu > p {
-    line-height: 18px;
-    white-space: pre-line;
-    margin-top: -8%;
-  }
-
-  .author-pu > aside {
-   height: 5.5vh;
-  }
-
-
-  .audio-player-pu {
-    width: 280px;
-    margin-top: -5%;
-  }
-
-  .author-pu > .profile-photo {
-    margin-top: 12%;
-    min-width: 50px;
-    max-height: 40px;
-  }
-
-
-  .pointer-pu {
-    margin-top: 1.25%;
-  }
-
-  .clock-pu {
-    margin-left: 49%;
-    margin-top: 1.7%;
-  }
-
-  .cancel {
-    margin-left: 96%;
-  }
-
-  .lhs-image-wrapper > img {
-    width: 280px;
-  }
-  
-  .popup-article article { 
-  margin-top: 13.7%;
-  border-radius: 0;
-  padding-right: 3%;
-  }
-  
-  
-  .article-p1 p , .article-p2 {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-
-  .quote {
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  .article-p2 h3 {
-    font-size: 22px;
-  }
-
-
-/*#podcasts section*/
-
-.top-image-wrapper img {
-  height: 34vh;
-}
-
-.column p {
-  font-size: 18px;
-  line-height: 20px;
-  padding-left: 8.1%;
-  padding-right: 8.1%;
-}
-
-
-/*#subscribe section*/
-
-.subscribe {
-  background-position: 0 -10px;
-}
-
-.subscribe-form {
-  margin-top: -3%;
-}
-
-#subscribe-footer {
-  margin-top: 22%;
-}
-
-/*#contact section*/
-
-.contact {
-  background-position: 0 60px;
-}
-
-.contact-container {
-  margin-left: 14.5%;
-  margin-top: 8%;
-  }
-
-.footer {
-  margin-top: -8%;
-}
-
-}
-
-/*======================================================================*/
 
 
 /* (1440x900) WXGA+ Display -> PASS <- */	
