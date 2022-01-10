@@ -8740,92 +8740,90 @@ form .field textarea {
   background:rgba(0,0,0,0.8);
 }
 
-
 .popup-article {
   width:90%;
   margin-left: 5%;
   margin-right: 5%;
   border-top-right-radius: 0;
-  background-color: rgba(0,0,0,1);
+  z-index: 100;
+  position: relative;
 }
 
 .popup-article article { 
-  height: 100%;
+  max-height: 100%;
   margin-top: 0;
   border-radius: 0px;
   background-color: rgba(255,255,255,.75);
   background-blend-mode:soft-light;
+  overflow-y: scroll;
   scrollbar-color: #0e101f #0e101f;
-  scrollbar-width: auto;
-  scroll-padding: 0 0 100px 0; /*BUG*/
+  scrollbar-width:auto;
 }
-
 .article-header h2 {
   position: relative;
   background-color: #0e101f;
-  z-index: 13;
   font-size: 20px;
-  height: 5vh;
+  height: 7vh;
   text-align: left;
   margin-top: 0;
   padding-top: 0;
   padding-left: 1%;
+  z-index: 110;
 }
 
  .popup-heading-2 {
-  background-color: #0e101f; /*tst*/
-  position: relative;
-  height: 12vh;
+  background-color: #0e101f;
+  position: absolute;
+  height: 10vh;
   width: 100%;
-  z-index: 20;
+  z-index: 120;
   }
+
 
 .author-pu{
   position: relative;
-  z-index: 13;
   height: 150px;
   width: 100%;
   margin-top: 0;
   margin-left: 1%;
+
   }
 
   .author-pu > .profile-photo {
     position: relative;  
     float: left;
     border-radius: 50%;
+    height: 8vh;
     margin: 0;
-    height: 6vh;
-    width: 40px;
   }
 
   .author-pu > p {
-    position: absolute;
-    display: flex;
-    font-size: 8px;
-    font-weight: 300;
-    margin-top: 18%;
-    margin-left: 5%;
+    font-size: 9px;
+    font-weight: 600;
+    margin-top: -16%;
+    white-space: pre-line;
     line-height: 10px;
   }
 
-  .author-pu > aside {
+  .author-pu > aside  {
+    border-left: 2px solid rgba(127, 221, 252, 0.932);
+    height: 9vh;
     position: absolute;
-    height: 10vh;
-    margin-left: 65%;
-    margin-top: -10%;
-    font-size: 8.5px; 
-    font-weight: 300;
-    white-space: pre-line;
-    line-height: 8px;
+    margin-left: 100%;
+    font-size: 9px; 
+    font-weight: 500;
+    margin-top: -5%;
+    line-height: 12px;
   }
 
   .read-pu { /*new read*/
     float: left;
     color: white;
-    font-size: 8px;
+    font-size: 10px;
+    font-weight: 500;
     letter-spacing: 2px;
-    margin-top: 55%;
-    margin-left: 70%;
+    margin-top: 35%;
+    margin-left: 110%;
   }
 
   .popup-heading-2 span  > .clock-pu{
@@ -8834,22 +8832,21 @@ form .field textarea {
 
   .audio-player-pu {
     float: right;
-    z-index:1;
-    margin-left: 50%;
-    margin-top: 2.5%;
+    width: 300px;
+    height: 3vh;
+    margin-left: 74%;
+    margin-top: 0;
     opacity: 1;
   }
 
   .listen-pu {  /*new*/
-    position: absolute;
-    display: flex;
     color: black;
     font-size: 10px;
     font-weight: 500;
-    letter-spacing: 1px;
-    margin-top: 10%;
-    padding-left: 6%;
-    white-space: pre-wrap;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-top: 12%;
+    padding-left: 3%;
   }
 
  .pointer-pu {
@@ -8861,23 +8858,31 @@ form .field textarea {
     background-color: transparent;
     border-top-right-radius: 0;
     height: 7vh;
-    z-index: 14;
-    margin-top: -2%;
-    margin-left: 90%;
+    z-index: 130;
+    margin-top: -1%;
+    margin-left: 96%;
     }
   
 
 /*=====================================================*/
 
+
+
 .lhs-image-wrapper img{
-  height: 100%;
-  width: 50%;
-  border-radius: 0%;
-  opacity: 0.3;
+display: none;
+}
+ 
+.popup-article article { /*wip*/
+margin-top: 0;
+}
+
+#popup-article-bankfin {
+background-image: url("../images/bk_img.png");
+background-repeat: no-repeat;
 }
 
 .article-p1 p { 
-  margin-top: 2%;
+  margin-top: -128%;
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
@@ -8885,7 +8890,7 @@ form .field textarea {
   font-weight: 500;
   line-height: 20px;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .quote-wrapper {
@@ -8894,7 +8899,7 @@ form .field textarea {
   padding-right: 2.5%;
   padding-left: 2.5%;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .quote{ 
@@ -8903,7 +8908,7 @@ form .field textarea {
   font-weight:500;
   line-height: 22px;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .q-caption {
@@ -8912,14 +8917,14 @@ form .field textarea {
   font-weight: 500;
   text-align: center;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .q-icon {
   width: 36px;
   align-self: center;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .article-p2 {
@@ -8930,8 +8935,13 @@ form .field textarea {
   font-weight: 500;
   line-height: 20px;
   word-spacing: -2px;
+  word-break: break-all;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .article-p2 h3 {
@@ -8940,32 +8950,34 @@ align-self: center;
 text-align: center;
 word-spacing: 2px;
 position: relative;
-z-index: 1;
+z-index: 0;
 }
 
-.btm-image-wrapper img{
-  background: transparent;
-  position: relative;
-  z-index: 9998;
-  margin-top: 5%; 
-  margin-left: -20%;
-  margin-right: -20%;
+.btm-image-wrapper{
+  position: absolute;
+  display:inline-block;
+  margin-top: 28%;
+  padding-left: 37%;
+}
+
+.btm-image-wrapper img {
   height: 30vh;
-  width: 130%;
-  margin-bottom:  25%;
+  width: 100%;
 }
 
 
 .popup-footer {
-  position: absolute;
-  display: flex;
+  position: relative;
   width: 100%;  
-  background: #0e101f;
-  min-height: 7vh;
-  z-index: 9999;
-  margin-top: -20%
+  background:#0e101f;
+  min-height: 10vh;
+  z-index: 100;
+  display: inline-block;
+  margin-top: -30%;
+  margin-bottom: 0%;
 }
 
+/*wip*/
 
 /*==========================================================================================*/
   
