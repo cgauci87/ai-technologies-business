@@ -3990,7 +3990,7 @@ form .field textarea {
 /* Portrait 375x667 -> PASS <-*/
 @media screen 
   and (min-width: 375px) 
-  and (min-height: 667px)
+  and (max-height: 667px)
   and (orientation: portrait) { 
 
     .nav {
@@ -7742,11 +7742,8 @@ form .field textarea {
 
 /*==============================================================================*/
 
-
-
-
 /* (1536x864) Display -> PASS <- */
-@media screen and (min-width: 1441px) and (max-width: 1536px) {
+@media screen and (min-width: 1536px) and (max-height: 864px) {
 
   .nav > .nav-header > .nav-title {
     font-size: 14px;
@@ -10520,7 +10517,7 @@ margin: 0 auto;
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 /* Portrait  WIP*/
 @media screen 
-and (min-width: 414px) 
+and (max-width: 414px)
 and (max-height: 736px)
 and (orientation: portrait) { 
 
@@ -11384,7 +11381,7 @@ form .field textarea {
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 /* Landscape */
 @media only screen 
-and (min-width: 414px) 
+and (max-width: 414px)
 and (max-height: 736px)
 and (orientation: landscape) { 
     .nav {
