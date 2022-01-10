@@ -348,7 +348,6 @@ float: left;
 text-align: right;  
 font-size: 32px;
 font-weight: 500;
-overflow-wrap: break-word;
 line-height: 20px;
 vertical-align: middle;
 display: inline;
@@ -3585,11 +3584,6 @@ margin-top: 17.2%;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  word-break: break-all;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
   position: relative;
   z-index: 30;
 }
@@ -3636,11 +3630,6 @@ margin-top: 17.2%;
   font-weight: 500;
   line-height: 20px;
   word-spacing: -2px;
-  word-break: break-all;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
   position: relative;
   z-index: 80;
 }
@@ -7463,11 +7452,6 @@ and (orientation: landscape) {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  word-break: break-all;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
   position: relative;
   z-index: 30;
 }
@@ -7514,11 +7498,6 @@ and (orientation: landscape) {
   font-weight: 500;
   line-height: 20px;
   word-spacing: -2px;
-  word-break: break-all;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
   position: relative;
   z-index: 80;
 }
@@ -8766,7 +8745,7 @@ form .field textarea {
   height: 7vh;
   text-align: left;
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 1.5%;
   padding-left: 1%;
   z-index: 110;
 }
@@ -8793,14 +8772,16 @@ form .field textarea {
     position: relative;  
     float: left;
     border-radius: 50%;
-    height: 8vh;
+    height: 6vh;
+    width: 30px;
     margin: 0;
   }
 
   .author-pu > p {
     font-size: 9px;
     font-weight: 600;
-    margin-top: -16%;
+    margin-top: 25%;
+    margin-left: 0;
     white-space: pre-line;
     line-height: 10px;
   }
@@ -8809,21 +8790,21 @@ form .field textarea {
     border-left: 2px solid rgba(127, 221, 252, 0.932);
     height: 9vh;
     position: absolute;
-    margin-left: 100%;
     font-size: 9px; 
     font-weight: 500;
     margin-top: -5%;
-    line-height: 12px;
+    margin-left: 70%;
+    line-height: 9px;
   }
 
   .read-pu { /*new read*/
     float: left;
     color: white;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 500;
     letter-spacing: 2px;
-    margin-top: 35%;
-    margin-left: 110%;
+    margin-top: 19%;
+    margin-left: 79%;
   }
 
   .popup-heading-2 span  > .clock-pu{
@@ -8834,8 +8815,6 @@ form .field textarea {
     float: right;
     width: 300px;
     height: 3vh;
-    margin-left: 74%;
-    margin-top: 0;
     opacity: 1;
   }
 
@@ -8843,10 +8822,10 @@ form .field textarea {
     color: black;
     font-size: 10px;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     position: absolute;
-    margin-top: 12%;
-    padding-left: 3%;
+    margin-top: 16%;
+    padding-left: 60%;
   }
 
  .pointer-pu {
@@ -8859,9 +8838,10 @@ form .field textarea {
     border-top-right-radius: 0;
     height: 7vh;
     z-index: 130;
-    margin-top: -1%;
-    margin-left: 96%;
+    margin-top: -1.9%;
+    margin-left: 92.5%;
     }
+
   
 
 /*=====================================================*/
@@ -8881,13 +8861,15 @@ background-image: url("../images/bk_img.png");
 background-repeat: no-repeat;
 }
 
+/*wip*/
+
 .article-p1 p { 
-  margin-top: -128%;
+  margin-top: -129%;
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 400;
   line-height: 20px;
   position: relative;
   z-index: 0;
@@ -8903,7 +8885,7 @@ background-repeat: no-repeat;
 }
 
 .quote{ 
-  font-size: 16px;
+  font-size: 17px;
   color: darkblue;
   font-weight:500;
   line-height: 22px;
@@ -8913,7 +8895,7 @@ background-repeat: no-repeat;
 
 .q-caption {
   color:black;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 500;
   text-align: center;
   position: relative;
@@ -8931,21 +8913,20 @@ background-repeat: no-repeat;
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  word-spacing: -2px;
-  word-break: break-all;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
   position: relative;
   z-index: 0;
 }
 
+.article-p2 p {
+  padding-top: 3%;
+  text-align:left;
+}
+
 .article-p2 h3 {
- font-size: 18px;
+ font-size: 16px;
 align-self: center;
 text-align: center;
 word-spacing: 2px;
@@ -8977,7 +8958,6 @@ z-index: 0;
   margin-bottom: 0%;
 }
 
-/*wip*/
 
 /*==========================================================================================*/
   
