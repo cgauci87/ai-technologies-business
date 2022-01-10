@@ -3318,8 +3318,8 @@ background-color: rgb(18, 42, 49, 0.5);
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 /* Portrait 375x667 -> PASS <-*/
 @media screen 
-  and (min-width: 375px) 
-  and (min-height: 667px)
+  and (max-width: 375px) 
+  and (max-height: 667px)
   and (orientation: portrait) { 
     .nav {
       z-index: 10;
@@ -9927,9 +9927,12 @@ and (orientation: portrait) {
   }
 
   .section-header{
+    position: absolute;
     height: 7vh;
-    margin-left: 45%;
+    text-align: center;
     z-index: 11;
+    margin-top: 1.5%;
+    margin-left: 44%;
     }
 
     
@@ -9942,7 +9945,8 @@ and (orientation: portrait) {
     background-color: #0e101f;
     position: absolute;
     height: 10vh;
-    margin-top: 13%;
+    margin-top: 12%;
+    min-width: 100%;
     z-index: 1;
     }
     
@@ -9981,10 +9985,9 @@ and (orientation: portrait) {
   .audio-player {
     position: relative;
     display: flex;
-    filter:invert(100%);
     opacity: 1;
     margin-top: -1%;
-    margin-left: 9%;
+    margin-left: 61%;
     z-index: 9;
   }
 
@@ -9998,8 +10001,7 @@ and (orientation: portrait) {
   }
     
    audio {
-     max-width: 150px;
-     height: 5vh;
+     min-width: 100px; /* wip */
     }
 
     .author > aside > #read{
