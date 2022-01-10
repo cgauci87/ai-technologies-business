@@ -9177,7 +9177,7 @@ height: 30vh;
    margin-left: 15%;
   }
   .contact-container form * {
-   font-size: 13px;
+   font-size: 15px;
   }
   
   .contact-container form .field {
@@ -9222,8 +9222,9 @@ height: 30vh;
    float:right;
    height: 12vh;
    width: 100%;
-   font-weight: 400;
+   font-weight: 500;
    z-index: 12;
+   padding-left: 20%;
   }
   
   .bg-overlay {
@@ -9243,7 +9244,7 @@ height: 30vh;
   }
   
   .footer p {
-   font-size: 10px;
+   font-size: 11px;
   }
   
   }
