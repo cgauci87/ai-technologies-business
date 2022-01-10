@@ -9066,7 +9066,7 @@ height: 30vh;
     margin-top: -10%;
   }
   
-   /*===================================== */
+   /*===========================wip========== */
     
    /*#subscribe section*/
   
@@ -9079,7 +9079,7 @@ height: 30vh;
   }
   
   #subscribe-header {
-    margin-top: 2%;
+    margin-top: 0.8%;
     padding-left: 4%;
   }
   
@@ -9094,17 +9094,16 @@ height: 30vh;
    font-size: 22px;
    font-weight: 700;
    color: white;
-   background-color: black;
    min-width: 100%;
-   margin-left: -10%;
   }
   
   .subscribe-form p {
    text-align: center;
    padding-right: 4%;
-   font-size: 16px;
+   margin-top: -0.5%;
+   font-size: 18px;
+   font-weight: 500;
   }
-  
   .subscribe-form form {
    max-width: 150px;
   }
@@ -9112,46 +9111,50 @@ height: 30vh;
    border-top-right-radius: 0;
    border-bottom-right-radius: 0;
    height: 3vh;
-   font-size: 8px;
+   font-size: 12px;
    font-weight: 400;
    width: 100%;
-   color: #0e101f;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.6);
+   position: relative;
    margin-left: -7%;
+   margin-top: -10%;
   }
   
   #submit-button {
    position: absolute;
    display:block; /* display block is compatible with all browsers - while displayt flex is compatible with only FF*/
-   margin-top: 49.4%;
-   margin-left: 46%;
-   padding-top: 0.4%;
-   font-weight: 800;
+   font-size: 14px;
+   font-weight: 700;
+   margin-top: 53.7%;
+   margin-left: 40%;
+   padding-top: 2%;
+   padding-bottom: 9%;
   }
   
   #checkbox {
    position: absolute;
    display: flex;
-   width: 10px;
-   margin-top: 55.6%;
-   margin-left: -4%;
+   width: 20px;
+   margin-top: 60.5%;
+   margin-left: -5%;
    z-index: 1;
   }
   
   #subscribe-form > label {
-    background-color: white;
-    height: 1.5vh;
-    font-size: 6px;
-    font-weight: 600;
-    line-height: 6px;
-    letter-spacing: 0.5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    height: 2.5vh;
     white-space: nowrap;
-    padding-top: 1%;
-    padding-left: 2%;
     margin-top: 4%;
-    margin-right: -18%;
+    margin-right: 7%;
+    font-size: 7px;
+    font-weight: 500;
+    line-height: 7px;
+    white-space: pre-wrap;
+    text-align: left;
+    padding-left: 5%;
   }
-  
-  
   
   
   #subscribe-footer {
