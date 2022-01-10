@@ -3911,7 +3911,6 @@ form .field textarea {
 }
 
 #send-btn {
-  
   float:right;
   height: 6vh;
   width: 100%;
@@ -8683,7 +8682,7 @@ height: 30vh;
            margin-top: 25%;
          }
     
-         /*===============================wip================================*/
+         /*===============================================================*/
     
     .ai-101-container h3 {
       font-size: 14px;
@@ -8801,11 +8800,11 @@ height: 30vh;
         grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
         display:grid;
         margin:0 auto;
-        padding-top: 6%;
+        padding-top: 8%;
     }
       
     .grid-template-rows-1{
-        grid-template-rows: 175px 175px;
+        grid-template-rows: 149px 149px;
     }
     
     .grid h3 {                
@@ -8834,7 +8833,7 @@ height: 30vh;
     
     #adjust-footer {
       position: absolute;
-      margin-top: 8%;
+      margin-top: 11%;
       z-index: 900;
     }
     
@@ -8878,9 +8877,9 @@ height: 30vh;
      .popup-heading-2 {
       background-color: #0e101f;
       position: absolute;
-      height: 10vh;
+      height: 14vh;
       width: 100%;
-      z-index: 12;
+      z-index: 100;
       }
     
     
@@ -8966,7 +8965,7 @@ height: 30vh;
         height: 7vh;
         z-index: 14;
         margin-top: -1%;
-        margin-left: 96%;
+        margin-left: 95%;
         }
       
     
@@ -9071,99 +9070,109 @@ height: 30vh;
       width: 100%;  
       min-height: 20vh;
       z-index: 100;
-      margin-top: 45%;
+      margin-top: -15%;
     }
     
     
     /*==========================================================================================*/
      
     /*  ==============#podcasts section=====================   */
+
     
-    .podcasts {
-      background-color: #0e101f;
-    }
-    
-    .top-image-wrapper img {
-      position: absolute;
-      height: 15vh;
-      margin-top: -10%;
-      z-index: 1;
-    }
-    
-    
-    .playlist {
-      overflow-y: scroll;
-      scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8);
-      scrollbar-width: auto;
-      scroll-behavior: smooth;
-      height: 60vh;
-    }
-    
-    ::-webkit-scrollbar {
-      height: 3px;
-      width: 6px;
-      background: transparent;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-      background: rgba(0, 0, 0, 0.8);
-    }
-    
-    
-    iframe {
-    background-color: rgba(127, 221, 252, 0.932);
-    filter:saturate(25%);
+.podcasts {
+  background-color: rgba(14, 16, 31, 1);
+  background-image: url("../images/podcasts_img.png");
+}
+
+#header-podcasts {
+  margin-top: 0.5%;
+  text-align: center;
+}
+
+
+
+.top-image-wrapper img {
+display: none;
+}
+
+
+.playlist {
+  position:absolute;
+  margin-top: 5%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-color:rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3);
+  height: 80vh;
+  width: 100%;
+}
+
+iframe {
+background-color: rgba(127, 221, 252, 0.932);
+filter:saturate(25%);
+width: 100%;
+height: 100%;
+}
+
+
+.column{
+  position:relative;
+  height: 10vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+  .column p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    height: 11vh;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+  }
+
+  #column-1 {
+    margin-top: 7%;
+  }
+
+  .podcasts-container {
+    position: relative;
+    margin: 0;
+  }
+
+  #footer-pd  {
+    background-color: transparent;
+    position: absolute;
+    display: inline-block;
     width: 100%;
-    height: 15vh;
-    }
-    
-    
-    .column{
-      position:relative;
-      height: 2vh;
-      width: 100%;
-      margin: 0 auto;
-    }
-    
-      .column p {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 22px;
-      }
-    
-      .podcasts-container {
-        position: absolute;
-        margin-top: 15%;
-      }
-    
-      #footer-pd  {
-        background-color: #0e101f;
-        position: absolute;
-        display: inline-block;
-        width: 100%;
-        z-index: 100;
-        margin-top: 50%;
-      }
-    
-      #wave1 {
-        height: 5.5vh;
-      }
-    
+    z-index: 0;
+    margin-top: 49.5%;
+
+  }
+
+  #wave1 {
+    height: 3vh;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+
     
      /*#subscribe section*/
     
      .subscribe {
-       background-position: 0 20px;
+       background-position: 0 -20px;
      }
     
      #subscribe-header {
-       margin-top: 0.7%;
+       margin-top: 0.6%;
+       margin-left: 42.5%;
      }
     
      .subscribe-form {
        position: absolute;
        margin-top: 7%;
-       margin-left: 20%;
+       margin-left: 16%;
      }
     
      .subscribe-form h1 {
@@ -9177,17 +9186,19 @@ height: 30vh;
     }
     
     .subscribe-form form {
-      max-width: 220px;
+      max-width: 170px;
     }
     .subscribe-form input {
       height: 7vh;
       font-size: 14px;
       color: #0e101f;
+      border-top-right-radius: 0%;
+      border-bottom-right-radius: 0%;
     }
     
     #submit-button {
-      margin-top: -15.4%;
-      margin-left: 20%;
+      margin-top: 0;
+      margin-right: -30%;
     }
     
     #checkbox {
@@ -9212,7 +9223,7 @@ height: 30vh;
     
     .contact-container {
       position: absolute;
-      margin-top: 15%;
+      margin-top: 13%;
       margin-left: 15%;
     }
     .contact-container form * {
@@ -9221,7 +9232,7 @@ height: 30vh;
     
     .contact-container form .field label {
       height: 7vh;
-      padding-top: 1.5%;
+      padding-top: 0.7%;
     }
     
     .contact-container form .field input[type="text"], .field input[type="email"],
@@ -9236,7 +9247,10 @@ height: 30vh;
     }
     .contact-container form textarea:focus#msg,
     .contact-container form textarea:not(:placeholder-shown)#msg {
-      height: 20vh;
+     height: 20vh;
+     padding-top: 6%;
+     padding-left: 2%;
+     padding-right: 2%;
     }
     
     .contact-container form input[type="text"]:focus + label,
@@ -9248,22 +9262,24 @@ height: 30vh;
     .contact-container form .field:hover label {
       width: 18%;
     }
-    
+
     #send-btn {
-      
-      height: 6vh;
-      width: 20px;
-      padding-left: 1.8%;
+      margin-left: 87%;
+      height: 7vh;
+      width: 10px;
+      padding-left: 2.5%;
       padding-top: 0.5%;
-      margin-left: 89.5%;
+      font-weight: 400;
     }
     
     .footer {
       margin-top: -12%;
       height: 5vh;
+      padding-top: 1%;
     }
     
     .footer p {
+      margin-top: -1%;
       font-size: 10px;
     }
     
@@ -9878,75 +9894,85 @@ margin-top: 45%;
 
 /*  ==============#podcasts section=====================   */
 
+
 .podcasts {
-background-color: #0e101f;
+  background-color: rgba(14, 16, 31, 1);
+  background-image: url("../images/podcasts_img.png");
+  background-repeat: no-repeat;
 }
 
+#header-podcasts {
+  margin-top: 0.5%;
+  text-align: center;
+}
+
+
+
 .top-image-wrapper img {
-position: absolute;
-height: 15vh;
-margin-top: -10%;
-z-index: 1;
+display: none;
 }
 
 
 .playlist {
-overflow-y: scroll;
-scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8);
-scrollbar-width: auto;
-scroll-behavior: smooth;
-height: 60vh;
+  position:absolute;
+  margin-top: 0;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-color:rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3);
+  height: 80vh;
+  width: 100%;
 }
-
-::-webkit-scrollbar {
-height: 3px;
-width: 6px;
-background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-background: rgba(0, 0, 0, 0.8);
-}
-
 
 iframe {
 background-color: rgba(127, 221, 252, 0.932);
 filter:saturate(25%);
 width: 100%;
-height: 15vh;
+height: 100%;
 }
 
 
 .column{
-position:relative;
-height: 2vh;
-width: 100%;
-margin: 0 auto;
+  position:relative;
+  height: 10vh;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.column p {
-font-size: 16px;
-font-weight: 400;
-line-height: 22px;
-}
+  .column p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    height: 11vh;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+  }
 
-.podcasts-container {
-position: absolute;
-margin-top: 15%;
-}
+  #column-1 {
+    margin-top: 7%;
+  }
 
-#footer-pd  {
-background-color: #0e101f;
-position: absolute;
-display: inline-block;
-width: 100%;
-z-index: 100;
-margin-top: 50%;
-}
+  .podcasts-container {
+    position: relative;
+    margin: 0;
+  }
 
-#wave1 {
-height: 5.5vh;
-}
+  #footer-pd  {
+    background-color: transparent;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    z-index: 0;
+    margin-top: 50.3%;
+
+  }
+
+  #wave1 {
+    height: 3vh;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
 
 
 /*#subscribe section*/
