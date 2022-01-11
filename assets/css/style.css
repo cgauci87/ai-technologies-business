@@ -10482,9 +10482,7 @@ text-align: center;
 
 .playlist {
 position:absolute;
-overflow-y: scroll;
-scroll-behavior: smooth;
-scrollbar-color: rgba(176, 221, 236, 0.966) rgba(176, 221, 236, 0.966);
+overflow-y:hidden;
 height: 85vh;
 width: 100%;
 margin-top: 47%;
