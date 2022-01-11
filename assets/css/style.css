@@ -11347,7 +11347,7 @@ margin: 0 auto;
 }
 
 .column p {
-  font-size: 13px;                     /*wip*/
+  font-size: 13px;                    
   font-weight: 500;
   line-height: 15px;
   height: 8vh;
@@ -11393,7 +11393,7 @@ margin: 0 auto;
    /*#subscribe section*/
   
    .subscribe {
-     background-position: 0 -20px;
+     background-position: 0 -50px;
    }
   
    #subscribe-header {
@@ -11435,16 +11435,22 @@ margin: 0 auto;
   
   #checkbox {
     width: 15px;
+    margin-left: -10%;
+    margin-top: -1%;
   }
-  
+
   #subscribe-form > label {
-    font-size: 10px;
-    margin-top: -11%;
-    margin-left: 10%;
+    position: absolute;
+    display: inline-block;
+    font-size: 9px;
+    margin-top: 1.5%;
+    padding-right: 10%;
+    word-spacing: 0px;
+    white-space: nowrap;
   }
   
   #subscribe-footer {
-    margin-top: 53.5%;
+    margin-top: 53%;
   } 
   
   /* #contact section */
