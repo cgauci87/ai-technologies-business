@@ -10875,7 +10875,7 @@ and (orientation: landscape) {
        }
     
      
-     .audio-player { /*wip*/
+     .audio-player {
        float: right;
        margin-top: 0;
        margin-right: -20.2%;
@@ -11028,7 +11028,7 @@ and (orientation: landscape) {
   }
     
   .grid-template-rows-1{
-      grid-template-rows: 160px 160px; /*wip*/
+      grid-template-rows: 160px 160px;
   }
   
   .grid h3 {                
@@ -11058,10 +11058,10 @@ and (orientation: landscape) {
   #adjust-footer {
     position: absolute;
     margin-top: 10%;
-    z-index: 900;
+    z-index: 900; 
   }
   
-  /*======================popup======================== */
+  /*======================popup============wip============ */
   
   .cover {
     background:rgba(0,0,0,0.8);
@@ -11101,7 +11101,7 @@ and (orientation: landscape) {
    .popup-heading-2 {
     background-color: #0e101f;
     position: absolute;
-    height: 14vh;
+    height: 12vh;
     width: 100%;
     z-index: 100;
     }
@@ -11121,7 +11121,8 @@ and (orientation: landscape) {
       position: relative;  
       float: left;
       border-radius: 50%;
-      height: 8vh;
+      width: 40px;
+      height: 40px;
       margin: 0;
     }
   
@@ -11175,7 +11176,7 @@ and (orientation: landscape) {
       letter-spacing: 2px;
       position: absolute;
       margin-top: 12%;
-      padding-left: 3%;
+      padding-left: 7.5%;
     }
   
    .pointer-pu {
@@ -11283,7 +11284,7 @@ and (orientation: landscape) {
     margin-right: -20%;
     height: 56vh;
     width: 130%;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
   }
   
   
