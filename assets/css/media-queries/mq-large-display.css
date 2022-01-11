@@ -1,5 +1,5 @@
-/* [D1] (1280x1024) SXGA Display  -> PASS <- */
-@media screen and (min-width:1280px) and (max-height:1024px) {
+/* [D1] (1280x1024) SXGA Display  -> PASS V <- */
+@media screen and (max-width:1280px) and (max-height:1024px) {
 
     .nav > .nav-header > .nav-title {
       font-size: 14px;
@@ -381,8 +381,8 @@
   /*=============================================================*/
   
 
-  /* [D2] (1366x768) WXGA Display -> PASS <- */
-@media  screen and (min-width:1366px) and (max-height: 768px) {
+  /* [D2] (1366x768) WXGA Display -> PASS V <- */
+@media  screen and (max-width:1366px) and (max-height: 768px) {
     .nav > .nav-header > .nav-title {
       font-size: 14px;
       padding-top: 0.7%;
@@ -660,8 +660,8 @@
   /*======================================================================*/
 
 
-/* [D3] (1440x900) WXGA+ Display -> PASS <- */	
-@media screen and (min-width: 1440px) and (max-height: 900px)  {
+/* [D3] (1440x900) WXGA+ Display -> PASS V <- */	
+@media screen and (max-width: 1440px) and (max-height: 900px)  {
 	
     /*intro section*/ 
    
@@ -877,11 +877,8 @@
   }
     /* ================================================================================= */
 
-
-
-
-/* [D4] (1536x864) Display -> PASS <- */
-@media screen and (min-width:1536px) and (min-height: 864px) {
+/* [D4] (1536x864) Display -> PASS V <- */
+@media screen and (max-width:1536px) and (max-height: 864px) {
 
     .nav > .nav-header > .nav-title {
       font-size: 14px;
@@ -1077,7 +1074,7 @@
   
   /*===================================================================================*/
 
-/* [D5] (1600x900) HD+ Display -> PASS <- */
+/* [D5] (1600x900) HD+ Display -> PASS V <- */
 @media screen and (min-width: 1600px) and (max-height: 900px) {
   
     .nav > .nav-header > .nav-title {
@@ -1274,7 +1271,7 @@
   }
   /*=====================================================================================*/
 
-  /* [D6] (1680x1050) WSXGA+ Display  -> PASS <- */
+  /* [D6] (1680x1050) WSXGA+ Display  -> PASS V <- */
   @media  screen and (min-width: 1680px) and (max-height: 1050px) {
     /*header*/
   
