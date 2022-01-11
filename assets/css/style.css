@@ -10361,7 +10361,7 @@ background-repeat: no-repeat;
     }
 
 
-.article-p1 p {    /*wip*/
+.article-p1 p {
 margin-top: 26%;
 padding-left: 2.5%;
 padding-right: 2.5%;
@@ -10459,7 +10459,7 @@ margin-bottom: 0%;
 
 /*==========================================================================================*/
 
-/*  ==============#podcasts===========================   */
+/*  ==============#podcasts===========wip========*/
 
 
 .podcasts {
@@ -10467,7 +10467,8 @@ background-color: rgba(14, 16, 31, 1);
 background-image: url("../images/podcasts_img.png");
 background-size: contain;
 background-repeat:no-repeat;
-background-position: center;
+background-position: 0 80px;
+background-blend-mode:luminosity;
 }
 
 .top-image-wrapper img {
@@ -10486,14 +10487,14 @@ scroll-behavior: smooth;
 scrollbar-color: rgba(176, 221, 236, 0.966) rgba(176, 221, 236, 0.966);
 height: 85vh;
 width: 100%;
-margin-top: 6%;
+margin-top: 47%;
 }
 
 iframe {
 background-color: transparent;
-filter:saturate(25%);
+filter:saturate(10%);
 width: 165px;
-height: 30vh;
+height: 17vh;
 }
 
 
@@ -10512,22 +10513,28 @@ margin: 0 auto;
   background-color: rgba(0,0,0,0.6);
   color: white;
   text-align: left;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 13px;   /*wip*/
+  font-weight: 500;
   line-height: 18px;
 }
 
 #column-1 {
-  margin-top: 7%;
+  margin-top: 7.5%;
 }
 
 #column-1 p {
-  padding-top: 9%;
+  padding-top: 4%;
 }
 
-#column-3 p {
- height: 30vh;
+#column-2 p {
+  padding-top: 1%;
 }
+
+
+#column-3 p {
+  padding-top: 2.5%;
+ }
+
 
 .podcasts-container {
   position: relative;
@@ -10543,8 +10550,9 @@ margin: 0 auto;
 }
 
 #wave1 {
-  height: 3vh;
+  height: 5vh;
   margin-top: -10%;
+  padding-top: 1.2%;
 }
 
  /*===================================== */
