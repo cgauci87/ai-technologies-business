@@ -9944,7 +9944,7 @@ and (orientation: portrait) {
     #ai101-heading-2 {
     background-color: #0e101f;
     position: absolute;
-    height: 15vh;
+    height: 10vh;
     margin-top: 12%;
     min-width: 100%;
     z-index: 1;
@@ -9959,27 +9959,35 @@ and (orientation: portrait) {
       height: 150px;
       width: 100%;
       white-space: nowrap;
-      margin-top: 3%;
+      margin-top: -12%;
       margin-left: 1%;
       }
    
    
       .author p {
-        line-height: 14px;
         float:left;
-        font-size: 8px;
+        font-size: 12px;
       }
    
       .author aside {
-       font-size: 14px;
+       font-size: 12px;
        line-height: 18px;
        border-left: 2px solid rgba(127, 221, 252, 0.932);
-       height: 4vh;
+       height: 7vh;
      }
+
+     .author > aside > #read{ /*wip*/
+      float: left;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-left: -32%;
+      margin-top: 40%;
+    }
    
       .profile-photo {
-        height: 30px;
-        min-width: 30px;
+        height: 40px;
+        min-width: 50px;
         margin-top: 7%;
       }
 
@@ -10007,15 +10015,6 @@ and (orientation: portrait) {
      padding-left: 10%;
     }
 
-
-    .author > aside > #read{ /*wip*/
-      float: left;
-      font-size: 10px;
-      letter-spacing: 1px;
-      margin-right: -20%;
-      margin-top: 31%;
-
-    }
 
     
      
