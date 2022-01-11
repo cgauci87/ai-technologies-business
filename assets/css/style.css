@@ -10738,8 +10738,8 @@ form .field textarea {
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
-/* Landscape */
-@media only screen 
+/* Landscape WIP */
+@media screen 
 and (max-width: 736px)
 and (max-height: 414px)
 and (orientation: landscape) { 
@@ -10764,10 +10764,10 @@ and (orientation: landscape) {
   
       .intro h1 {
       font-size: 32px;
-      letter-spacing: 40px;
+      letter-spacing: 34px;
       line-height: 50px;
       padding-top: 6%;
-      padding-left: 2%;
+      padding-left: 3%;
      }
      
      .line-wrapper-1 .line-1 { 
