@@ -11024,11 +11024,11 @@ and (orientation: landscape) {
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       display:grid;
       margin:0 auto;
-      padding-top: 8%;
+      padding-top: 7.3%;
   }
     
   .grid-template-rows-1{
-      grid-template-rows: 149px 149px;
+      grid-template-rows: 160px 160px; /*wip*/
   }
   
   .grid h3 {                
@@ -11057,7 +11057,7 @@ and (orientation: landscape) {
   
   #adjust-footer {
     position: absolute;
-    margin-top: 11%;
+    margin-top: 10%;
     z-index: 900;
   }
   
