@@ -1,6 +1,6 @@
 
 /* [M2] tablets, iPad, e-readers, 800x480 or 854x480 phones -> PASS <- */	
-@media screen and (min-width: 800px) and (max-height: 480px) {
+@media screen and (max-width: 800px) and (max-height: 480px) {
 
     .nav > .nav-header > .nav-title {
     font-size: 14px;
@@ -750,7 +750,7 @@
 
 
 /* [M1] e-readers (Nook/Kindle), smaller tablets i.e. 600 x 1024  -> BUG <- */
-@media screen and (max-width: 600px) and (min-height: 1024px)  {
+@media screen and (min-width: 600px) and (max-height: 1024px)  {
 
     .nav{
       z-index: 10;
