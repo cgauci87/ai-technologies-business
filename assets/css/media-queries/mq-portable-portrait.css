@@ -1,5 +1,4 @@
-
-/*[P1] Portrait 320x568 phones i.e. iPhone5/SE -> PASS <- */
+/*[P1] Portrait 320x568 phones i.e. iPhone5/SE -> PASS V <- */
 @media (max-width: 320px) and (min-height: 568px)
 and (orientation: portrait) { 
   .nav {
@@ -826,11 +825,11 @@ form .field textarea {
 /*=======================================================================================================*/
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-/* [P2] Portrait 375x667 -> PASS <-*/
+/* [P2] Portrait 375x667 -> PASS *BUG misplaced items in article <-*/
 @media screen 
-  and (max-width: 375px)
+  and (min-width: 375px)
   and (min-height: 667px)
-  and (orientation: portrait) { 
+    and (orientation: portrait) { 
     .nav {
       z-index: 10;
     }
@@ -1687,7 +1686,7 @@ height: 30vh;
   /*=======================================================================================================*/
 
 
-/* ----------- iPhone 6+, 7+ and 8+ -----414X736------ */
+/* [P3]---------- iPhone 6+, 7+ and 8+ -----414X736------ */
 /* Portrait  -> PASS <-*/
 @media screen 
 and (max-width: 414px)
