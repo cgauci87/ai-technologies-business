@@ -9944,7 +9944,7 @@ and (orientation: portrait) {
     #ai101-heading-2 {
     background-color: #0e101f;
     position: absolute;
-    height: 10vh;
+    height: 15vh;
     margin-top: 12%;
     min-width: 100%;
     z-index: 1;
@@ -9959,7 +9959,7 @@ and (orientation: portrait) {
       height: 150px;
       width: 100%;
       white-space: nowrap;
-      margin-top: -6%;
+      margin-top: 3%;
       margin-left: 1%;
       }
    
@@ -9983,33 +9983,27 @@ and (orientation: portrait) {
       }
 
   .audio-player {
-    position: relative;
-    display: flex;
+    position: absolute;
+    display: inline-block;
     opacity: 1;
-    margin-top: -1%;
-    margin-left: 61%;
-    z-index: 9;
+    margin-top: 12%;
+    margin-left: 20%;
+    z-index: 100;
   }
 
   .audio-player > span {
-   font-size: 8px;
-   font-weight: 500;
-   letter-spacing: 1px;
-   margin-top: 18%;
-   margin-left: 50%;
-   padding-left: 10%;
+    display: flex;
+    margin: 0;
   }
     
-   audio {
-     min-width: 100px; /* wip */
-    }
 
-    .author > aside > #read{
+    .author > aside > #read{ /*wip*/
       float: left;
       font-size: 10px;
       letter-spacing: 1px;
       margin-right: -20%;
       margin-top: 31%;
+
     }
 
     
