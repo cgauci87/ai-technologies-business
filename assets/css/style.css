@@ -10740,8 +10740,8 @@ form .field textarea {
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 /* Landscape */
 @media only screen 
-and (max-width: 414px)
-and (max-height: 736px)
+and (max-width: 736px)
+and (max-height: 414px)
 and (orientation: landscape) { 
     .nav {
       z-index: 10;
@@ -10753,25 +10753,25 @@ and (orientation: landscape) {
     }
   
     .nav > #nav-check:checked ~ .nav-links {
-      height: calc(68vh - 50px);
+      height: calc(60vh - 50px);
     }
   
     .intro {
       background-color: rgb(28, 63, 71); /* lighter*/
       background-blend-mode: multiply;
-      background-position: 0 50px;
+      background-position: 0 45px;
     }
   
       .intro h1 {
       font-size: 32px;
       letter-spacing: 40px;
       line-height: 50px;
-      padding-top: 7%;
+      padding-top: 6%;
       padding-left: 2%;
      }
      
      .line-wrapper-1 .line-1 { 
-      font-size: 18px;
+      font-size: 17px;
       word-spacing: 1px;
       margin-top: 0.5%;
       line-height: 17px;
@@ -10779,7 +10779,7 @@ and (orientation: landscape) {
     }	
         
     .section-footer {   
-      height: 4vh;
+      height: 5vh;
       position: absolute;
       margin-top: 16%;
     }
@@ -10788,7 +10788,7 @@ and (orientation: landscape) {
       border-radius: 5%;
       border-width: 0.2px;
       padding-left: 0.8%;
-      padding-bottom: 0.4%;
+      padding-bottom: 0.8%;
       margin: 0 auto;
       }
   
@@ -10800,15 +10800,15 @@ and (orientation: landscape) {
       }
     
       .line-wrapper-2 .line-2 {
-        margin-top: 32%;
-        font-size: 11.5px;
-        word-spacing: 0.2px;
+        margin-top: 33.5%;
+        font-size: 12px;
+        word-spacing: 5px;
         height: 3.8vh;
       }	
     
     .spike#spike1 {
-      margin-top: 33%;
-      height: 2vh;
+      margin-top: 34.5%;
+      height: 4vh;
     }
   
     /* -=- #ai-101 section -=- */
