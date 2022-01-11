@@ -11061,7 +11061,7 @@ and (orientation: landscape) {
     z-index: 900; 
   }
   
-  /*======================popup============wip============ */
+  /*======================popup======================== */
   
   .cover {
     background:rgba(0,0,0,0.8);
@@ -11347,19 +11347,26 @@ margin: 0 auto;
 }
 
 .column p {
-  font-size: 13px;
+  font-size: 13px;                     /*wip*/
   font-weight: 500;
   line-height: 15px;
-  height: 11vh;
+  height: 8vh;
   margin-top: 1%;
   margin-bottom: 1%;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.7);
   color: white;
+  text-justify: distribute;
+  text-align: left;
 }
 
 #column-1 {
-  margin-top: 7%;
+  margin-top: 5%;
 }
+
+#column-1 > p {
+  padding-top: 0.3%;
+}
+
 
 .podcasts-container {
   position: relative;
