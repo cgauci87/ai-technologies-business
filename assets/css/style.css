@@ -11434,14 +11434,16 @@ margin: 0 auto;
   }
   
   #checkbox {
+    position: absolute;
+    display: flex;
     width: 15px;
-    margin-left: -10%;
-    margin-top: -1%;
+    margin-left: -4%;
+    margin-top: 44%;
   }
 
   #subscribe-form > label {
     position: absolute;
-    display: inline-block;
+    display: flex;
     font-size: 9px;
     margin-top: 1.5%;
     padding-right: 10%;
@@ -11476,7 +11478,7 @@ margin: 0 auto;
   .contact-container form .field input[type="text"], .field input[type="email"],
   form .field textarea {
     height: 7vh;
-    padding-left: 36%;
+    padding-left: 20%;
   }
   
   .contact-container form #msg {
@@ -11502,22 +11504,22 @@ margin: 0 auto;
   }
 
   #send-btn {
-    margin-left: 87%;
+    margin-left: 88%;
     height: 7vh;
     width: 10px;
     padding-left: 2.5%;
     padding-top: 0.5%;
-    font-weight: 400;
+    font-weight: 500;
   }
   
   .footer {
     margin-top: -12%;
     height: 5vh;
-    padding-top: 1%;
+    padding-top: 2%;
   }
   
   .footer p {
-    margin-top: -1%;
+    margin-top: 0;
     font-size: 10px;
   }
   
