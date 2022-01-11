@@ -9965,12 +9965,13 @@ and (orientation: portrait) {
    
    
       .author p {
-        line-height: 12px;
+        line-height: 14px;
         float:left;
         font-size: 8px;
       }
    
       .author aside {
+       font-size: 14px;
        line-height: 18px;
        border-left: 2px solid rgba(127, 221, 252, 0.932);
        height: 4vh;
@@ -9982,20 +9983,30 @@ and (orientation: portrait) {
         margin-top: 7%;
       }
 
-  .audio-player {
-    position: absolute;
-    display: inline-block;
-    opacity: 1;
-    margin-top: 12%;
-    margin-left: 20%;
-    z-index: 100;
-  }
+      #ai-101-audio {    /*audio-small*/
+        width: 20%;
+        min-width: 100px;
+      }
+  
+    .audio-player {
+      position: relative;
+      display: flex;
+      filter:invert(100%);
+      opacity: 1;
+      margin-top:  3%;
+      margin-left: 75%;
+      z-index: 9;
+    }
+  
+    .audio-player > span {
+     font-size: 8px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     margin-top: 18%;
+     margin-left: 50%;
+     padding-left: 10%;
+    }
 
-  .audio-player > span {
-    display: flex;
-    margin: 0;
-  }
-    
 
     .author > aside > #read{ /*wip*/
       float: left;
