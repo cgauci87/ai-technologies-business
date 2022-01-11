@@ -9955,7 +9955,7 @@ and (orientation: portrait) {
       height: 150px;
       width: 100%;
       white-space: nowrap;
-      margin-top: -12%;
+      margin-top: -10.5%;
       margin-left: 1%;
       }
    
@@ -9990,6 +9990,8 @@ and (orientation: portrait) {
       #ai-101-audio {    /*audio-small*/
         width: 20%;
         min-width: 100px;
+        height: 50%;
+        min-height: 5vh;
       }
   
     .audio-player {
@@ -9997,18 +9999,18 @@ and (orientation: portrait) {
       display: flex;
       filter:invert(100%);
       opacity: 1;
-      margin-top:  3%;
+      margin-top:  0;
       margin-left: 75%;
       z-index: 9;
     }
   
     .audio-player > span {
      font-size: 8px;
-     font-weight: 500;
+     font-weight: 400;
      letter-spacing: 1px;
-     margin-top: 18%;
-     margin-left: 50%;
-     padding-left: 10%;
+     margin-left: -33.5%;
+     margin-top: 14.5%;
+     white-space: pre-wrap;
     }
 
 
