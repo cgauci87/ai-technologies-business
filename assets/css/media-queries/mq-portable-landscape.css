@@ -3125,8 +3125,8 @@ and (min-height: 375px)
 and (orientation: landscape) { 
 
     .nav > .nav-header > .nav-title {
-      font-size: 10px;
-      margin-top: -0.25%;
+      font-size: 12px;
+      margin-top: -0.50%;
       }
 
       .nav > .nav-header > .nav-title:hover {
@@ -3220,7 +3220,8 @@ and (orientation: landscape) {
     }
     
     .goto-btn-txt {
-    font-size: 8px;
+    font-size: 9.5px;
+    font-weight: 750;
     letter-spacing: 6px;
     }
 
@@ -3415,9 +3416,10 @@ and (orientation: landscape) {
     /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
     
     
-    #adjust-header{  /*wip*/
+    #adjust-header{
     position: relative;
-    margin-top: 0.8%;
+    margin-top: 1.5%;
+    margin-left: -50%;
     }
     
     
@@ -3499,7 +3501,7 @@ and (orientation: landscape) {
     padding-left: 1%;
     }
     
-    .popup-heading-2 {
+    .popup-heading-2 {              /*wip*/
     background-color: #0e101f;
     position: absolute;
     height: 10vh;
