@@ -2347,7 +2347,7 @@ display: none;
 }
 
 #header-podcasts {
-margin-top: 0.5%;
+margin-top: 1.7%;
 text-align: center;
 }
 
@@ -2432,14 +2432,13 @@ margin: 0 auto;
 
  .subscribe {
   background-color: rgba(14, 16, 31, 1);
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-blend-mode:difference;
-  color: rgba(0,0,0,1);
-}
+  background-position: right -350px;
+ }
 
-#subscribe-header {
-  margin-top: 0.8%;
+#subscribe-header { /*wip*/
+  margin-top: 2%;
   padding-left: 0;
 }
 
@@ -2451,17 +2450,18 @@ margin: 0 auto;
 }
 
 .subscribe-form h1 {
- font-size: 22px;
+ font-size: 32px;
  font-weight: 700;
  color: black;
  min-width: 100%;
+ margin-top: 32%;
  margin-left: -5%;
 }
 
 .subscribe-form p {
  text-align: center;
  padding-right: 4%;
- margin-top: -0.5%;
+ margin-top: 6%;
  font-size: 18px;
  font-weight: 500;
 }
@@ -2469,17 +2469,10 @@ margin: 0 auto;
  max-width: 150px;
 }
 .subscribe-form input {
- border-top-right-radius: 0;
- border-bottom-right-radius: 0;
- height: 3vh;
- font-size: 12px;
- font-weight: 400;
- width: 100%;
- color: white;
- background-color: rgba(0, 0, 0, 0.6);
  position: relative;
  margin-left: -7%;
  margin-top: -10%;
+ filter: invert(100);
 }
 
 #submit-button {
@@ -2520,7 +2513,7 @@ margin: 0 auto;
 
 #subscribe-footer {
  display: flex;
- margin-top: 170%;
+ margin-top: 201.5%;
 } 
 
 /* #contact section */
