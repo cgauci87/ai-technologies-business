@@ -3257,7 +3257,7 @@ and (orientation: landscape) {
     z-index: 1;
     }
     
-    .author{                         /*wip*/
+    .author{
     position: relative;
     display: flex;
     float:left;
@@ -3337,7 +3337,7 @@ and (orientation: landscape) {
     margin-left: 1%;
     }
     
-    .ai-101-a {       /*wip*/
+    .ai-101-a {
     margin-top: 15%;
     }
     
@@ -3415,10 +3415,9 @@ and (orientation: landscape) {
     /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
     
     
-    #adjust-header {
+    #adjust-header{  /*wip*/
     position: relative;
-    margin-top: 8%;
-    padding: 0;
+    margin-top: 0.8%;
     }
     
     
@@ -3426,21 +3425,21 @@ and (orientation: landscape) {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     display:grid;
     margin:0 auto;
-    padding-top: 6%;
+    padding-top: 3.8%;
     }
     
     .grid-template-rows-1{
-    grid-template-rows: 175px 175px;
+    grid-template-rows: 155px 155px;
     }
     
     .grid h3 {                
-    font-size: 16px;
-    font-weight:400;
+    font-size: 17px;
+    font-weight:700;
     }
     
     .grid-span {
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     line-height: 15px;
     margin-left: -13%;
     margin-right: -13%;
@@ -3448,7 +3447,7 @@ and (orientation: landscape) {
     
     
     .grid a {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 300;
     }
     
