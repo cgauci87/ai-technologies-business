@@ -3116,40 +3116,70 @@ margin: 0 auto;
   }
   /*=======================================================================================================*/
 
-  /* ----------- iPhone X ----------- */
+  /* ----------- iPhone X ------WIP----- */
 /* Landscape 812x375 */
 @media only screen 
-and (min-width: 812px) 
-and (max-height: 375px)
+and (max-width: 812px) 
+and (min-height: 375px)
 and (orientation: landscape) { 
 
-  .nav > .nav-header > .nav-title {
-    font-size: 4px;
-    padding-top: 1.5%;
+    .nav {
+    height: 8.5vh;
     }
-    
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      padding-right: 35px;
+      padding-top: 10%;
+    }
+    .nav > .nav-header > .nav-title {
+      position: absolute;
+      display: inline-block;
+      font-size: 8px;
+      margin-top: 0;
+      }
+
+      .nav > .nav-btn > label > span {
+        display: block;
+        width: 20px;
+        height: 2vh;
+        border-top: 2px solid #eee;
+      }
+      
+
     .nav > #nav-check:checked ~ .nav-links {
-    height: calc(80vh - 50px);
+    height: calc(64vh - 50px);
     }
     
     .intro {
     background-color: rgb(28, 63, 71); /* lighter*/
     background-blend-mode: multiply;
-    background-position: 0 50px;
+    background-position: 0px -10px;
     }
     
     .intro h1 {
     font-size: 32px;
-    letter-spacing: 40px;
-    line-height: 50px;
+    letter-spacing: 38px;
+    line-height: 32px;
     padding-top: 6%;
-    }
+    padding-bottom: 0.5%;
+    padding-left: 2%;
+  }
     
     .line-wrapper-1 .line-1 { 
-    font-size: 18px;
+    font-size: 16px;
     word-spacing: 1px;
     margin-top: 0.5%;
-    height: 9vh;
+    line-height: 14px;
+    height: 8vh;
+    padding-bottom: 2%;
     }	
     
     .section-footer {   
