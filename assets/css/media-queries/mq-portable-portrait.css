@@ -1714,12 +1714,12 @@ and (orientation: portrait) {
 
     .intro h1 {
     font-size: 32px;
-    letter-spacing: 16px;
+    letter-spacing: 14px;
     line-height: 60px;
     writing-mode:vertical-lr;
     text-orientation: upright;
     text-transform: uppercase;
-    padding-top: 16%;
+    padding-top: 8%;
     padding-bottom: 5%;
     padding-left: 0.8%;
    }
