@@ -1777,8 +1777,8 @@ and (orientation: portrait) {
   .spike#spike1 {
     transform: rotate(90deg);
     height: 5vh;
-    width: 711px;
-    margin-top: -116%;
+    width: 711.8px;
+    margin-top: -113.6%;
     margin-left: 0;
   }
 
