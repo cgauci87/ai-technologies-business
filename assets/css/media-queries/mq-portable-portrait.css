@@ -1727,22 +1727,23 @@ and (orientation: portrait) {
     font-size: 20px;
     word-spacing: 1px;
     line-height: 17px;
-    margin-top: -135%;
+    margin-top: -125%;
     height: 20vh;
-    max-width: 60%;
-    margin-left: 40%;
-    writing-mode:horizontal-tb;
-    text-orientation: upright;
+    max-width: 57%;
+    margin-left: 36%;
+    background-color: rgba(25,25,25, 0.2);
   }  
     
   .line-wrapper-2 .line-2 {
-    margin-top: 92%;
-    padding-left: 3%;
-    white-space:pre-line;
+    margin-top: -70%;
+    margin-left: 36%;
     font-size: 16px;
-    word-spacing: 8px;
-    line-height: 17.5px;
-    height: 10vh;
+    font-weight: 900;
+    word-spacing: 2px;
+    height: 14.5vh;
+    max-width: 57%;
+    background-color: rgba(25,25,25, 0.2);
+    filter: invert(100);
   }	
       
   .section-footer {   
@@ -2658,7 +2659,8 @@ and (orientation: portrait) {
     }
   
   .spike#spike1 {
-    margin-top: 120%;
+    position: absolute;
+    display: inline-block;
     height: 10vh;
   }
 
