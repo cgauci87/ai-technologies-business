@@ -1721,6 +1721,7 @@ and (orientation: portrait) {
     padding-left: 4%;
     writing-mode:vertical-lr;
     text-orientation: upright;
+    text-transform: uppercase;
    }
    
    .line-wrapper-1 .line-1 { 
