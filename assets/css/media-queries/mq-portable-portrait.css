@@ -1694,7 +1694,7 @@ and (min-height: 812px)
 and (orientation: portrait) { 
 
   .nav {
-    z-index: 20;
+    z-index: 20;  /*jj*/
   }
   .nav > .nav-header > .nav-title {
     font-size: 16px;
@@ -1703,6 +1703,7 @@ and (orientation: portrait) {
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(26vh - 10px);
   }
+
 
   .intro {
     background-image: url("/assets/images/intro_img_vertical.png");
@@ -1794,31 +1795,33 @@ and (orientation: portrait) {
     position: absolute;
     height: 7vh;
     text-align: center;
-    z-index: 12;
     margin-top: 1.5%;
     margin-left: 44%;
+    padding: 0%;
+    z-index: 21;  /*jj*/
     }
 
     
   .section-header h2{
     font-size: 24px;
-    background-color: transparent;      
+    background-color: transparent;    
+    padding: 0%;
   }
 
     #ai101-heading-2 {
     background-color: #0e101f;
     position: absolute;
+    display: inline-block;
     height: 10vh;
     margin-top: 12%;
     min-width: 100%;
-    z-index: 13;
+    z-index: 19;  /*jj*/
     }
     
 
     .author{
       position: relative;
       display: flex;
-      z-index: 1;
       float: left;
       height: 150px;
       width: 100%;
@@ -1867,7 +1870,7 @@ and (orientation: portrait) {
         width: 20%;
         min-width: 190px;
         height: 100%;
-        min-height: 5vh;
+        min-height: 5vh;  /*jj*/
       }
   
     .audio-player {
@@ -1886,13 +1889,12 @@ and (orientation: portrait) {
      margin-left: -67%;
      margin-top: 15%;
      position: relative;
-     z-index: 1;
     }
 
 
     /*===================*/
 
-    #ai-img-1 { /*wip*/
+    #ai-img-1 {
       position: relative;
       display: flex;
       width: 100%;
@@ -2010,7 +2012,7 @@ and (orientation: portrait) {
 
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
 
-  #adjust-header {
+  #adjust-header {  /*wip*/
     position: relative;
     margin-top: 2%;
     margin-left: -20%;
