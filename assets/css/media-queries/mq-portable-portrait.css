@@ -2475,6 +2475,7 @@ margin: 0 auto;
  background-color: rgba(127, 221, 252, 0.932);
  color: black;
  border: 2px solid white;
+ font-weight: 600;
 }
 
 
@@ -2571,7 +2572,7 @@ form .field textarea {
 }
 .contact-container form textarea:focus#msg,
 .contact-container form textarea:not(:placeholder-shown)#msg {
- height: 14vh;
+ height: 17vh;
  padding-top: 12%;
  padding-left: 2%;
  padding-right: 1%;
@@ -2601,7 +2602,7 @@ form .field textarea {
   display: flex;
   min-width: 100%;
   padding: 0;
-  height: 9.5vh;
+  height: 17vh;
   z-index: 0;
   margin-top: 70%;
   background-color: rgba(0, 0, 0, 0.3);
