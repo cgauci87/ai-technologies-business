@@ -2203,8 +2203,6 @@ margin-left: 1.5%;
 
 /*=====================================================*/
 
-
-
 .lhs-image-wrapper img{
 display: none;
 }
@@ -2361,14 +2359,14 @@ position:absolute;
 overflow-y:hidden;
 height: 85vh;
 width: 100%;
-margin-top: 47%;
+margin-top: 6%;
 }
 
 iframe {
 background-color: transparent;
 filter:saturate(10%);
-width: 165px;
-height: 17vh;
+width: 200px;  
+height: 24vh; /*wip*/
 }
 
 
@@ -2407,6 +2405,7 @@ margin: 0 auto;
 
 #column-3 p {
   padding-top: 2.5%;
+  height: auto;
  }
 
 
@@ -2420,13 +2419,14 @@ margin: 0 auto;
   display: flex;
   width: 100%;
   z-index: 0;
-  margin-top: 165%;
+  margin-top: 190%; /*wip*/
+  padding-top: 12%;
 }
 
 #wave1 {
   height: 5vh;
-  margin-top: -10%;
-  padding-top: 1.2%;
+  margin-top: -13%;
+  padding-top: 2%;
 }
 
  /*===================================== */
