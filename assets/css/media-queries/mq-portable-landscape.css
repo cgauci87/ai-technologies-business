@@ -3126,7 +3126,7 @@ and (orientation: landscape) {
 
     .nav > .nav-header > .nav-title {
       font-size: 10px;
-      padding-bottom: 40%;
+      margin-top: -0.25%;
       }
 
       .nav > .nav-header > .nav-title:hover {
@@ -3135,6 +3135,7 @@ and (orientation: landscape) {
 
       .nav {
         height: 8.5vh;
+        z-index: 10;
       }
 
       .nav > .nav-btn {
@@ -3190,7 +3191,7 @@ and (orientation: landscape) {
     }	
     
         
-    .line-wrapper-2 .line-2 {       /*wip*/
+    .line-wrapper-2 .line-2 {
       font-size: 11px;
       word-spacing: 21px;
       max-height: 3vh;
@@ -3224,21 +3225,21 @@ and (orientation: landscape) {
     }
 
     
-    /* -=- #ai-101 section -=- */
+    /* -=- #ai-101 section -=- */  
     
     #ai-img-1 ,  #ai-img-2 {
     display: none;
     }  
     
     #listen , #display-clock {
-    display: none; /*qq*/
-    }
-    
-    .section-header{
+    display: none;
+    } 
+
+    .section-header{ 
     height: 7vh;
     position: absolute;
     margin-left: 45%;
-    margin-top: 0.8%;
+    margin-top: -0.5%;
     z-index: 11;
     }
     
