@@ -1750,7 +1750,7 @@ and (orientation: portrait) {
   .section-footer {   
     height: 4vh;
     position: absolute;
-    margin-top: 107%;
+    margin-top: -40%;
   }
 
   .goto-btn {
@@ -1764,8 +1764,11 @@ and (orientation: portrait) {
     }
   
   .spike#spike1 {
-    margin-top: 120%;
-    height: 10vh;
+    transform: rotate(90deg);
+    height: 7vh;
+    width: 760px;
+    margin-top: -109%;
+    margin-left: 0;
   }
 
   /* -=- #ai-101 section -=- */
