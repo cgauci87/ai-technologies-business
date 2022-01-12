@@ -1709,48 +1709,59 @@ and (orientation: portrait) {
     background-color: rgb(18, 42, 49);
     background-blend-mode: multiply;
     background-size: cover;
-    
+    background-position: -50px -50px;
   }
 
     .intro h1 {
     font-size: 32px;
     letter-spacing: 16px;
     line-height: 60px;
-    padding-top: 16%;
-    padding-bottom: 5%;
-    padding-left: 4%;
     writing-mode:vertical-lr;
     text-orientation: upright;
     text-transform: uppercase;
+    padding-top: 16%;
+    padding-bottom: 5%;
+    padding-left: 0.8%;
    }
    
    .line-wrapper-1 .line-1 { 
+    background-color: rgba(25,25,25, 0.2);
     font-size: 20px;
     word-spacing: 1px;
     line-height: 17px;
-    margin-top: -125%;
     height: 20vh;
     max-width: 57%;
     margin-left: 36%;
-    background-color: rgba(25,25,25, 0.2);
+    margin-top: -135%;
   }  
     
   .line-wrapper-2 .line-2 {
-    margin-top: -70%;
-    margin-left: 36%;
+    background-color: rgba(25,25,25, 0.2);
     font-size: 16px;
     font-weight: 900;
     word-spacing: 2px;
     height: 14.5vh;
     max-width: 57%;
-    background-color: rgba(25,25,25, 0.2);
     filter: invert(100);
+    margin-left: 36%;
+    margin-top: -80%;
   }	
+
+    /* Typewriter Animation */
+    .anim-typewriter{
+      animation: typewriter 4s steps(44) 1s 1 normal both,
+                 blinkTextCursor 1000ms steps(44) infinite normal;
+    }
+    @keyframes typewriter{
+      from{width: 0%;}
+      to{width: 100%;}
+    }
       
   .section-footer {   
-    height: 4vh;
+    height: 7vh;
     position: absolute;
-    margin-top: -40%;
+    margin-top: -13%;
+    padding-top: 3%;
   }
 
   .goto-btn {
