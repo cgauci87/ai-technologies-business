@@ -2208,7 +2208,7 @@ display: none;
 }
 
 .popup-article article { 
-text-justify: distribute;
+text-justify:inter-character;
 margin: 0 auto;
 }
 
