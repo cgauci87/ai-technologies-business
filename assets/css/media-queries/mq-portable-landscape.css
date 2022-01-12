@@ -3510,7 +3510,7 @@ and (orientation: landscape) {
     }
     
     
-    .author-pu{                  /*wip*/
+    .author-pu{                
     position: relative;
     height: 150px;
     width: 100%;
@@ -3707,16 +3707,14 @@ and (orientation: landscape) {
     
     .podcasts {
       background-color: rgba(14, 16, 31, 1);
-      background-image: url("../images/podcasts_img.png");
+      background-image: url("/assets/images/podcasts_img.png");
       background-repeat: no-repeat;
     }
     
-    #header-podcasts {
-      margin-top: 0.5%;
+    #header-podcasts {             /*wip*/
+      margin-top: -0.8%;
       text-align: center;
     }
-    
-    
     
     .top-image-wrapper img {
     display: none;
@@ -3749,18 +3747,24 @@ and (orientation: landscape) {
     }
     
       .column p {
-        font-size: 13px;
-        font-weight: 500;
+        background-color: rgba(0,0,0,0.6);
+        color: white;
         line-height: 15px;
         height: 11vh;
         margin-top: 1%;
         margin-bottom: 1%;
-        background-color: rgba(0,0,0,0.6);
-        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        padding-top: 0.5%;
       }
+
     
       #column-1 {
-        margin-top: 7%;
+        margin-top: 5%;
+      }
+
+      #column-1 p {
+        padding-top: 1.5%;
       }
     
       .podcasts-container {
@@ -3774,8 +3778,7 @@ and (orientation: landscape) {
         display: inline-block;
         width: 100%;
         z-index: 0;
-        margin-top: 50.3%;
-    
+        margin-top: 38%;
       }
     
       #wave1 {
