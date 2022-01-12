@@ -1829,13 +1829,18 @@ and (orientation: portrait) {
       .author p {
         float:left;
         font-size: 12px;
+        font-weight: 350;
+        letter-spacing: 0.5px;
+        margin-top: 15%;
       }
    
       .author aside {
        font-size: 12px;
-       line-height: 18px;
+       line-height: 1px;
        border-left: 2px solid rgba(127, 221, 252, 0.932);
-       height: 7vh;
+       height: 8vh;
+       white-space: pre-line;
+       margin-top: 10%;
      }
 
      .author > aside > #read{
@@ -1843,8 +1848,8 @@ and (orientation: portrait) {
       font-size: 12px;
       font-weight: 600;
       letter-spacing: 1px;
-      margin-left: -32%;
-      margin-top: 40%;
+      margin-left: -140%;
+      margin-top: 50%;  /*wip*/
     }
    
       .profile-photo {
