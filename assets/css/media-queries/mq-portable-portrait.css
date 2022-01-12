@@ -1694,7 +1694,7 @@ and (min-height: 812px)
 and (orientation: portrait) { 
 
   .nav {
-    z-index: 20;  /*jj*/
+    z-index: 10;  /*jj*/
   }
   .nav > .nav-header > .nav-title {
     font-size: 16px;
@@ -1703,7 +1703,6 @@ and (orientation: portrait) {
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(26vh - 10px);
   }
-
 
   .intro {
     background-image: url("/assets/images/intro_img_vertical.png");
@@ -1798,7 +1797,7 @@ and (orientation: portrait) {
     margin-top: 1.5%;
     margin-left: 44%;
     padding: 0%;
-    z-index: 21;  /*jj*/
+    z-index: 11;  /*jj*/
     }
 
     
@@ -1815,7 +1814,7 @@ and (orientation: portrait) {
     height: 10vh;
     margin-top: 12%;
     min-width: 100%;
-    z-index: 19;  /*jj*/
+    z-index: 9;  /*jj*/
     }
     
 
@@ -1868,10 +1867,11 @@ and (orientation: portrait) {
 
       #ai-101-audio { 
         width: 20%;
-        min-width: 190px;
+        min-width: 150px;
         height: 100%;
         min-height: 5vh;  /*jj*/
       }
+
   
     .audio-player {
       position: relative;
@@ -1879,16 +1879,18 @@ and (orientation: portrait) {
       filter:invert(100%);
       opacity: 1;
       padding-top: 5%;
-      margin-left: 48%;
+      margin-left: 57%;
     }
   
     .audio-player > span {
      font-size: 10px;
      font-weight: 600;
-     letter-spacing: 3px;
-     margin-left: -67%;
+     letter-spacing: 1px;
+     margin-left: -5%;
      margin-top: 15%;
-     position: relative;
+     position: absolute;
+     display: flex;
+     white-space: pre-line;
     }
 
 
@@ -2016,7 +2018,6 @@ and (orientation: portrait) {
     position: relative;
     margin-top: 2%;
     margin-left: -20%;
-    z-index: 0;
   }
 
   #adjust-footer {
