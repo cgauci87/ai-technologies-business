@@ -2338,11 +2338,8 @@ margin-bottom: 0%;
 
 .podcasts {
 background-color: rgba(14, 16, 31, 1);
-background-image: url("../images/podcasts_img.png");
-background-size: contain;
-background-repeat:no-repeat;
-background-position: 0 80px;
-background-blend-mode:luminosity;
+background-image: url("/assets/images/podcasts_img.png");
+background-size:400%;
 }
 
 .top-image-wrapper img {
@@ -2364,9 +2361,9 @@ margin-top: 6%;
 
 iframe {
 background-color: transparent;
-filter:saturate(10%);
+filter:saturate(60%);
 width: 200px;  
-height: 24vh; /*wip*/
+height: 24vh;
 }
 
 
