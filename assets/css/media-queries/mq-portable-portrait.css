@@ -2472,48 +2472,63 @@ margin: 0 auto;
  position: relative;
  margin-left: -7%;
  margin-top: -10%;
- filter: invert(100);
+ background-color: rgba(127, 221, 252, 0.932);
+ color: black;
+ border: 2px solid white;
 }
+
+
 
 #submit-button {
  position: absolute;
  display:block;
  font-size: 14px;
  font-weight: 700;
- margin-top: 34%;
- margin-left: 35.5%;
  padding-top: 2%;
  padding-bottom: 9%;
+ background-color:transparent;
+ filter: none;
+ margin-top: 62.8%;
+ margin-left: 40%;
+ height: 5.6vh;
+}
+
+#submit-button:hover {
+  filter: none;
+  background-color: rgba(14, 16, 31, 1);
 }
 
 #checkbox {
  position: absolute;
  display: flex;
  width: 20px;
- margin-top: 40.5%;
- margin-left: -5%;
- z-index: 1;
+ margin-top: 69.5%;
+ margin-left: -3.2%;
+
 }
 
 #subscribe-form > label {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   height: 2.5vh;
-  white-space: nowrap;
-  margin-top: 4%;
-  margin-right: 7%;
   white-space: pre-wrap;
   text-align: left;
   padding-left: 5%;
   font-size: 8px;
   font-weight: 400;
   line-height: 9px;
+  border: 2px solid white;
+  border-top: none;
+  margin-top: 0;
+  margin-right: 7%;
+  width: 86%;
 }
 
 
 #subscribe-footer {
  display: flex;
  margin-top: 201.5%;
+ padding-bottom: 3%;
 } 
 
 /* #contact section */
