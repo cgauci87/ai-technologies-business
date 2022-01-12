@@ -3248,27 +3248,24 @@ and (orientation: landscape) {
     background-color: transparent;
     }
     
-    #ai101-heading-2 {
+    #ai101-heading-2 {                
     background-color: #0e101f;
     position: absolute;
     width: 100%;
-    height: 8vh;
-    margin-top:6.3%;
+    height: 12vh;
+    margin-top: 3.6%;
     z-index: 1;
     }
     
-    .author{
+    .author{                         /*wip*/
     position: relative;
     display: flex;
-    z-index: 1;
-    float: left;
-    line-height: 20px;
-    height: 150px;
-    width: 100%;
-    white-space: nowrap;
-    margin-top: -1%;
+    float:left;
+    margin-top: -0.5%;
     margin-left: 0.5%;
     }
+
+
     
     .profile-photo {
     height: 30px;
@@ -3285,13 +3282,20 @@ and (orientation: landscape) {
     .author aside {
     line-height: 18px;
     border-left: 2px solid rgba(127, 221, 252, 0.932);
-    height: 5vh;
+    height: 5.5vh;
     }
-    
+
+    .author > aside > #read{
+      float: left;
+      font-size: 10px;
+      letter-spacing: 1px;
+      margin-left: -32%;
+      margin-top: 26%;
+      }
     
     .audio-player {
     float: right;
-    margin-top: 0;
+    margin-top: 1%;
     margin-right: -17.5%;
     opacity: 1;
     filter:invert(100%);
@@ -3312,36 +3316,29 @@ and (orientation: landscape) {
     height: 5vh;
     }
     
-    .author > aside > #read{
-    float: left;
-    font-size: 10px;
-    letter-spacing: 1px;
-    margin-left: -32%;
-    margin-top: 25%;
-    }
     
     /*===============================================================*/
     
     .ai-101-container h3 {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     }
     
     .ai-101-container {
     position: absolute;
-    line-height: 16px;
+    line-height: 13px;
     margin-top: -3%;
     margin-left: 2%;
     margin-right: 2%;
     }
     .ai-101-container p {
-    font-size: 13px;
+    font-size: 12px;
     font-weight:400;
     margin-left: 1%;
     }
     
-    .ai-101-a {
-    margin-top: 16%;
+    .ai-101-a {       /*wip*/
+    margin-top: 15%;
     }
     
     .ai-101-d {
@@ -3349,65 +3346,65 @@ and (orientation: landscape) {
     } 
     
     #ml-icon {
-    width: 50px;
+    width: 40px;
     margin-top: 1%;
     margin-left: 1%;
     }
     
     #mimic-icon {
-    width: 42px;
+    width: 32px;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 4%;
     }
     
     #process-icon {
-    width: 42px;
-    margin-top: 13%;
-    margin-left: 15%;
+    width: 32px;
+    margin-top: 12.5%;
+    margin-left: 12.5%;
     }
     
     #ux-icon {
-    width: 34px;
-    margin-top: 2%;
-    margin-left: 10%;
+    width: 28px;
+    margin-top: 1%;
+    margin-left: 8%;
     }
     
     #big-data-icon {
-    width: 34px;
+    width: 24px;
     float: left;
     position: absolute;
     display: flex;
-    margin-top: 1%;
+    margin-top: 0.5%;
     margin-left: 1%; 
     }
     
     #bus-mgt-icon {
-    width: 42px;
-    margin-top: 2%;
+    width: 32px;
+    margin-top: 0.5%;
     margin-left: 1%;
     }
     
     #op-icon {
-    width: 42px;
-    margin-top: 2%;
-    margin-left: 12%;
+    width: 32px;
+    margin-top: 0.5%;
+    margin-left: 9%;
     }
     
     #elv-icon {
-    width: 42px;
-    margin-top: 2%;
-    margin-left: 22%;
+    width: 32px;
+    margin-top: 0.5%;
+    margin-left: 17%;
     }
     
     #growth-icon {
-    width: 42px;
-    margin-top: 2%;
-    margin-left: 33%;
+    width: 32px;
+    margin-top: 0.5%;
+    margin-left: 25%;
     }
     
     
     .form2-wrapper {
-    margin-top: 52%;
+    margin-top: 42%;
     }
     
     .image-container {
