@@ -1558,7 +1558,7 @@
   }
   .nav > .nav-header > .nav-title {
   font-size: 14px;
-  padding-top: 1.5%;
+  padding-top: 1.2%;
   }
   
   .nav > #nav-check:checked ~ .nav-links {
@@ -1827,7 +1827,7 @@
   padding-top: 6%;
   }
   
-  .grid-template-rows-1{ /*wip*/
+  .grid-template-rows-1{
   grid-template-rows: 255px 255px;
   }
   
@@ -1889,7 +1889,7 @@
   scrollbar-width:auto;
   }
 
-  .article-header h2 {                      /*wip*/
+  .article-header h2 {
   position: relative;
   background-color: rgba(14, 16, 31, 0.7);
   z-index: 13;
@@ -2100,7 +2100,7 @@
   
   .podcasts {
     background-color: rgba(14, 16, 31, 1);
-    background-image: url("../images/podcasts_img.png");
+    background-image: url("/assets/images/podcasts_img.png");
     background-repeat: no-repeat;
   }
   
@@ -2108,8 +2108,6 @@
     margin-top: 0.5%;
     text-align: center;
   }
-  
-  
   
   .top-image-wrapper img {
   display: none;
@@ -2120,23 +2118,22 @@
     position:absolute;
     margin-top: 0;
     overflow-y: scroll;
-    scroll-behavior: smooth;
-    scrollbar-color:rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3);
     height: 80vh;
     width: 100%;
+    scrollbar-width: 20px;
   }
   
   iframe {
   background-color: rgba(127, 221, 252, 0.932);
   filter:saturate(25%);
   width: 100%;
-  height: 100%;
+  height: 20vh;
   }
   
   
   .column{
     position:relative;
-    height: 10vh;
+    height: 2vh;
     width: 100%;
     margin: 0 auto;
   }
@@ -2145,16 +2142,22 @@
       font-size: 13px;
       font-weight: 500;
       line-height: 15px;
-      height: 11vh;
+      height: 5.5vh;
       margin-top: 1%;
       margin-bottom: 1%;
       background-color: rgba(0,0,0,0.6);
       color: white;
     }
   
-    #column-1 {
+    #column-1 {               /*wip*/
       margin-top: 7%;
     }
+
+    #column-1 p {
+      padding-top: 1%;
+    }
+
+
   
     .podcasts-container {
       position: relative;
@@ -2167,7 +2170,7 @@
       display: inline-block;
       width: 100%;
       z-index: 0;
-      margin-top: 50.3%;
+      margin-top: 63.5%;
   
     }
   
