@@ -798,10 +798,779 @@
   }
   
   }
-  /*=======================================================================================================*/
+  /*=====================================================================================================*/
+
+  
+/* [M2] 600x800 tablets  -> WIP  <- */	
+@media screen and (max-width:600px) and (min-height:800px) {
+
+  .nav {
+    z-index: 10;
+  }
+  .nav > .nav-header > .nav-title {
+  font-size: 16px;
+  padding-top: 1.2%;
+  }
+  
+  .nav > #nav-check:checked ~ .nav-links {
+  height: calc(31vh - 50px);
+  }
+  
+  .intro {
+  background-color: rgb(28, 63, 71); /* lighter*/
+  background-blend-mode: multiply;
+  background-position: 0 70px;
+  }
+  
+  .intro h1 {
+  font-size: 32px;
+  letter-spacing: 28px;
+  line-height: 50px;
+  padding-top: 8%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  }
+  
+  .line-wrapper-1 .line-1 { 
+  font-size: 20px;
+  word-spacing: 1px;
+  margin-top: 0.5%;
+  height: 9.5vh;
+  }	
+  
+  .section-footer {   
+  height: 3.5vh;
+  position: absolute;
+  margin-top: 24%;
+  }
+  
+  .goto-btn {
+  border-radius: 5%;
+  border-width: 0.2px;
+  padding-left: 0.8%;
+  padding-bottom: 0.4%;
+  margin: 0 auto;
+  }
+  
+  .goto-btn-txt {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  }
+  
+  .line-wrapper-2 .line-2 {
+  font-size: 10.5px;
+  word-spacing: 0px;
+  height: 2vh;
+  margin-top: 92.5%;
+  padding-left: 0.2%;
+  }	
+  
+  .spike#spike1 {
+  margin-top: 94%;
+  height: 10vh;
+  }
+  
+  /* -=- #ai-101 section -=- */ 
+
+  #ai-img-1 ,  #ai-img-2 {
+  display: none;
+  }  
+  
+  #listen , #display-clock {
+  display: none;
+  }
+  
+  .section-header{
+  height: 7vh;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 0.8%;
+  z-index: 11;
+  }
+  
+  .section-header h2{
+  font-size: 24px;
+  background-color: transparent;
+  }
+  
+  #ai101-heading-2 {
+  background-color: #0e101f;
+  position: absolute;
+  width: 100%;
+  height: 8vh;
+  margin-top:6.3%;
+  z-index: 1;
+  }
+  
+  .author{                 
+  position: relative;
+  display: flex;
+  z-index: 1;
+  float: left;
+  line-height: 20px;
+  height: 150px;
+  width: 100%;
+  white-space: nowrap;
+  margin-top: 0%;
+  margin-left: 0.5%;
+  }
+  
+  .profile-photo {
+  height: 40px;
+  min-width: 50px;
+  margin-top: 4%;
+  }
+  
+  .author p {
+  float:left;
+  font-size: 12px;
+  line-height: 12px;
+  }
+  
+  .author aside {
+  font-size: 12px;
+  line-height: 18px;
+  border-left: 2px solid rgba(127, 221, 252, 0.932);
+  height: 5vh;
+  }
+
+  .author > aside > #read{
+    position: absolute;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-left: 195%;
+    margin-top: 6.5%;
+    }
+  
+  
+  .audio-player {
+  float: right;
+  margin-top: 0;
+  margin-right: -17.5%;
+  opacity: 1;
+  filter:invert(100%);
+  }
+  
+  .audio-player > span {
+  color:black;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  position: absolute;
+  margin-left: -52%;
+  margin-top: 10%;
+  }
+  
+  audio {
+  width: 160px;
+  height: 5vh;
+  }
+  
+  
+  /*===============================================================*/
+  
+  .ai-101-container h3 {
+  font-size: 20px;
+  font-weight: 600;
+  }
+  
+  .ai-101-container {
+  position: absolute;
+  line-height: 16px;
+  margin-top: -3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  }
+  .ai-101-container p {
+  font-size: 15px;
+  font-weight:400;
+  margin-left: 1%;
+  }
+  
+  .ai-101-a {
+  margin-top: 24.5%; 
+  }
+  
+  .ai-101-d {
+  margin-top: -14%;
+  } 
+  
+  #ml-icon {
+  width: 50px;
+  margin-top: 1%;
+  margin-left: 1%;
+  }
+  
+  #mimic-icon {
+  width: 42px;
+  margin-top: 10%;
+  margin-left: 5%;
+  }
+  
+  #process-icon {
+  width: 42px;
+  margin-top: 13%;
+  margin-left: 15%;
+  }
+  
+  #ux-icon {
+  width: 34px;
+  margin-top: 2%;
+  margin-left: 10%;
+  }
+  
+  #big-data-icon {
+  width: 34px;
+  float: left;
+  position: absolute;
+  display: flex;
+  margin-top: 1%;
+  margin-left: 1%; 
+  }
+  
+  #bus-mgt-icon {
+  width: 42px;
+  margin-top: 2%;
+  margin-left: 1%;
+  }
+  
+  #op-icon {
+  width: 42px;
+  margin-top: 2%;
+  margin-left: 12%;
+  }
+  
+  #elv-icon {
+  width: 42px;
+  margin-top: 2%;
+  margin-left: 22%;
+  }
+  
+  #growth-icon {
+  width: 42px;
+  margin-top: 2%;
+  margin-left: 33%;
+  }
+  
+  
+  .form2-wrapper {  
+  margin-top: 70%;
+  }
+  
+  .image-container {
+  margin-top:  0;
+  width: 100%;
+  }
+  
+  /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
+  
+  
+  #adjust-header {
+  position: relative;
+  margin-top: 8%;
+  padding: 0;
+  }
+  
+  
+  .grid-template-rows-1 , .grid { 
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  display:grid;
+  margin:0 auto;
+  padding-top: 6%;
+  }
+  
+  .grid-template-rows-1{
+  grid-template-rows: 255px 255px;
+  }
+  
+  .grid h3 {                
+  font-size: 20px;
+  font-weight:500;
+  }
+  
+  .grid-span {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: -13%;
+  margin-right: -13%;
+  text-align: left;
+  padding-left: 2%;
+  }
+  
+  
+  .grid a {
+  font-size: 13px;
+  font-weight: 400;
+  }
+  
+  #healthph, #bankfin, #retailecom, #manufacturing {
+  background-position: center;
+  background-size:cover;
+  }
+  
+  #adjust-footer { 
+  position: absolute;
+  margin-top: 15%;
+  z-index: 12;
+  }
+  
+  /*======================popup======================== */
+  
+  .cover {
+  background:rgba(0,0,0,0.8);
+  }
+  
+  .popup-article {
+  width:90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top-right-radius: 0;
+  z-index: 1000;
+  position: relative;
+  }
+  
+  .popup-article article { 
+  max-height: 100%;
+  margin-top: 30%;
+  border-radius: 0px;
+  background-color: rgba(255,255,255,.75);
+  background-blend-mode:soft-light;
+  overflow-y: scroll;
+  scrollbar-color: #0e101f #0e101f;
+  scrollbar-width:auto;
+  }
+
+  .article-header h2 {
+  position: relative;
+  background-color: rgba(14, 16, 31, 0.7);
+  z-index: 13;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 40%;
+  padding-top: 2%;
+  }
+  
+  .popup-heading-2 {
+  background-color: #0e101f;
+  position: absolute;
+  height: 8vh;
+  width: 100%;
+  z-index: 12;
+  }
+  
+  
+  .author-pu{
+  position: relative;
+  z-index: 100;
+  height: 150px;
+  width: 100%;
+  margin-top: 0;
+  margin-left: 1%;
+  }
+  
+  .author-pu > .profile-photo {
+  position: relative;  
+  float: left;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: 4%;
+  }
+  
+  .author-pu > p {
+  font-size: 12px;
+  font-weight: 350;
+  margin-top: -12%;
+  white-space: pre-line;
+  line-height: 14px;
+  }
+  
+  .author-pu > aside  {
+  border-left: 2px solid rgba(127, 221, 252, 0.932);
+  height: 6.5vh;
+  position: absolute;
+  margin-left: 110%;
+  font-size: 12px; 
+  font-weight: 500;
+  margin-top: 0%;
+  line-height: 15px;
+  }
+  
+  .read-pu { /*new read*/
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-top: 10%;
+  margin-left: 300%;
+  }
+  
+  .popup-heading-2 span  > .clock-pu{
+  display: none; /*old clock*/
+  }
+  
+  .audio-player-pu {
+  float: right;
+  width: 300px;
+  height: 3vh;
+  z-index:1;
+  margin-left: 74%;
+  margin-top: 0;
+  opacity: 1;
+  }
+  
+  .listen-pu {  /*new*/
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  position: absolute;
+  margin-top: 12%;
+  padding-left: 1.5%;
+  }
+  
+  .pointer-pu {
+  display: none; /*old*/
+  }
+  
+  .cancel {
+  position: absolute;
+  background-color: transparent;
+  border-top-right-radius: 0;
+  height: 7vh;
+  z-index: 14;
+  margin-top: -0.5%;
+  margin-left: 95%;
+  }
+  
+  
+  /*=====================================================*/
+  
+  
+  .lhs-image-wrapper img{
+  height: 100%;
+  width: 50%;
+  border-radius: 0%;
+  opacity: 0.3;
+  }
+  
+  .popup-article article {
+  margin-top: 17.2%;
+  }
+  
+  .article-p1 p { 
+  margin-top: 2%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  position: relative;
+  }
+  
+  .quote-wrapper {
+  margin-top: 2%;
+  float: left;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  position: relative;
+  }
+  
+  .quote{ 
+  font-size: 16px;
+  color: darkblue;
+  font-weight:500;
+  line-height: 22px;
+  position: relative;
+  }
+  
+  .q-caption {
+  color:black;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  }
+  
+  .q-icon {
+  width: 36px;
+  align-self: center;
+  position: relative;
+  }
+  
+  .article-p2 {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  word-spacing: -2px;
+  padding-top: 5%;
+  position: relative;
+  }
+  
+  .article-p2 h3 {
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  word-spacing: 2px;
+  position: relative;
+  }
+  
+  .btm-image-wrapper img{
+  background: transparent;
+  position: relative;
+  margin-top: 5%; 
+  margin-left: -20%;
+  margin-right: -20%;
+  height: 56vh;
+  width: 130%;
+  margin-bottom: 30%;
+  z-index: 5;
+  }
+  
+  
+  .popup-footer {
+  background-color: #0e101f;
+  position: absolute;
+  display: inline-block;
+  width: 100%;  
+  min-height: 20vh;
+  z-index: 18;
+  margin-top: -20%
+  }
+  
+  
+  /*==========================================================================================*/
+  
+  /*  ==============#podcasts section=====================   */
+  
+  
+  .podcasts {
+    background-color: rgba(14, 16, 31, 1);
+    background-image: url("/assets/images/podcasts_img.png");
+    background-repeat: no-repeat;
+  }
+  
+  #header-podcasts {
+    margin-top: 0.5%;
+    text-align: center;
+  }
+  
+  .top-image-wrapper img {
+  display: none;
+  }
+  
+  
+  .playlist {
+    position:absolute;
+    margin-top: 0;
+    overflow-y: scroll;
+    height: 80vh;
+    width: 100%;
+    scrollbar-width: 20px;
+    scrollbar-color: rgba(14, 16, 31, 1);
+  }
+  
+  iframe {
+  background-color: rgba(127, 221, 252, 0.932);
+  filter:saturate(25%);
+  width: 100%;
+  height: 20vh;
+  }
+  
+  
+  .column{
+    position:relative;
+    height: 2vh;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+    .column p {
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 15px;
+      height: 5.5vh;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+    }
+  
+    #column-1 {              
+      margin-top: 7%;
+    }
+
+    #column-1 p {
+      padding-top: 1%;
+    }
 
 
-/* [M2] tablets, iPad, e-readers, 800x480 or 854x480 phones -> PASS  *BUG* SECTION HEADER NOT VISIBLE and also 854px not being effective<- */	
+  
+    .podcasts-container {
+      position: relative;
+      margin: 0;
+    }
+  
+    #footer-pd  {
+      background-color: transparent;
+      position: absolute;
+      display: inline-block;
+      width: 100%;
+      z-index: 0;
+      margin-top: 63.5%;
+  
+    }
+  
+    #wave1 {
+      height: 3vh;
+      padding-top: 2%;
+      padding-bottom: 5%;
+    }
+  
+  
+  /*#subscribe section*/
+  
+  .subscribe {
+  background-position: -40px -40px;        /*wip*/
+  }
+  
+  #subscribe-header {
+  margin-top: 0.7%;
+  }
+  
+  .subscribe-form {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 20%;
+  }
+  
+  .subscribe-form h1 {
+  font-size: 30px;
+  padding-left: 16%;
+  }
+  
+  .subscribe-form p {
+  font-size: 13px;
+  padding-left: 6%;
+  white-space: nowrap;
+  }
+  
+  .subscribe-form form {
+  max-width: 220px;
+  }
+  .subscribe-form input {
+  height: 7vh;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0e101f;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  }
+  
+  #submit-button {
+  position: absolute;
+  display: inline-block;
+  margin-top: 37.1%;
+  margin-left: 0%;
+  height: 7vh;
+  }
+  
+  #checkbox {
+  width: 15px;
+  }
+  
+  #subscribe-form > label {
+  font-size: 10px;
+  margin-top: -13%;
+  margin-left: 10%;
+  }
+  
+  #subscribe-footer {
+  margin-top: 71.2%;
+  } 
+  
+  /* #contact section */
+  
+  .contact {
+  background-position: 0 100px;
+  }
+  
+  .contact-container {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 15%;
+  }
+  .contact-container form * {
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  }
+  
+  .contact-container form .field label {
+  height: 7vh;
+  padding-top: 1.5%;
+  }
+  
+  .contact-container form .field input[type="text"], .field input[type="email"],
+  form .field textarea {
+  height: 7vh;
+  padding-left: 20%;
+  }
+  
+  .contact-container form #msg {
+  height: 7vh;
+  }
+  .contact-container form textarea:focus#msg,
+  .contact-container form textarea:not(:placeholder-shown)#msg {
+  height: 28vh;
+  padding-top: 45px;
+  padding-left: 8px;
+  }
+  
+  .contact-container form input[type="text"]:focus + label,
+  .contact-container form input[type="text"]:not(:placeholder-shown) + label,
+  .contact-container form input[type="email"]:focus + label,
+  .contact-container form input[type="email"]:not(:placeholder-shown) + label,
+  .contact-container form textarea:focus + label,
+  .contact-container form textarea:not(:placeholder-shown) + label,
+  .contact-container form .field:hover label {
+  width: 18%;
+  }
+  
+  #send-btn {
+  font-size: 16px;
+  font-weight: 500;
+  height: 6vh;
+  width: 20px;
+  padding-left: 1%;
+  padding-top: 1%;
+  margin-left: 89.5%;
+  }
+  
+  .footer {
+  margin-top: -12%;
+  height: 5vh;
+  }
+  
+  .footer p {
+  font-size: 12px;
+  margin-top: -0.2%;
+  }
+  
+  }
+  
+  
+  /*======================================================================================*/
+
+/* [M3] tablets, iPad, e-readers, 800x480 or 854x480 phones -> PASS  *BUG* SECTION HEADER NOT VISIBLE and also 854px not being effective<- */	
 @media screen and (min-width:800px) and (max-height:480px) {
 
     .nav > .nav-header > .nav-title {
@@ -1550,7 +2319,7 @@
     /*======================================================================================*/
 
   
-/* [M2] 800x600 tablets  -> WIP  <- */	
+/* [M4] 800x600 tablets  -> PASS  <- */	
 @media screen and (min-width:800px) and (max-height:600px) {
 
   .nav {
@@ -2316,5 +3085,3 @@
   
   
   /*======================================================================================*/
- 
-   
