@@ -2121,6 +2121,7 @@
     height: 80vh;
     width: 100%;
     scrollbar-width: 20px;
+    scrollbar-color: rgba(14, 16, 31, 1);
   }
   
   iframe {
