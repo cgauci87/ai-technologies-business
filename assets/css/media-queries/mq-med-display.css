@@ -1895,7 +1895,7 @@
   z-index: 13;
   font-size: 20px;
   text-align: left;
-  padding-left: 35%;
+  padding-left: 40%;
   padding-top: 2%;
   }
   
@@ -1950,9 +1950,9 @@
   color: white;
   font-size: 12px;
   font-weight: 500;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   margin-top: 10%;
-  margin-left: 290%;
+  margin-left: 300%;
   }
   
   .popup-heading-2 span  > .clock-pu{
@@ -1971,12 +1971,12 @@
   
   .listen-pu {  /*new*/
   color: black;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 2px;
   position: absolute;
   margin-top: 12%;
-  padding-left: 3%;
+  padding-left: 1.5%;
   }
   
   .pointer-pu {
@@ -1989,8 +1989,8 @@
   border-top-right-radius: 0;
   height: 7vh;
   z-index: 14;
-  margin-top: -1%;
-  margin-left: 96%;
+  margin-top: -0.5%;
+  margin-left: 95%;
   }
   
   
