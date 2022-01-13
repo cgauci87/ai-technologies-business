@@ -1530,16 +1530,17 @@
   /* #contact section */  /*wip*/
   
   .contact {
-  background-position:center;
+  background-size: cover;
+  background-position: -480px 140px;
   }
   
   .contact-container {
   position: absolute;
-  margin-top: 20%;
+  margin-top: 40%;
   margin-left: 15%;
   }
   .contact-container form * {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
@@ -1547,13 +1548,13 @@
   
   .contact-container form .field label {
   height: 7vh;
-  padding-top: 1.5%;
+  padding-top: 3.5%;
   }
   
   .contact-container form .field input[type="text"], .field input[type="email"],
   form .field textarea {
   height: 7vh;
-  padding-left: 20%;
+  padding-left: 30%;
   }
   
   .contact-container form #msg {
@@ -1562,8 +1563,8 @@
   .contact-container form textarea:focus#msg,
   .contact-container form textarea:not(:placeholder-shown)#msg {
   height: 28vh;
-  padding-top: 45px;
-  padding-left: 8px;
+  padding-top: 60px;
+  padding-left: 10px;
   }
   
   .contact-container form input[type="text"]:focus + label,
@@ -1573,17 +1574,16 @@
   .contact-container form textarea:focus + label,
   .contact-container form textarea:not(:placeholder-shown) + label,
   .contact-container form .field:hover label {
-  width: 18%;
+  width: 22%;
   }
   
   #send-btn {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   height: 6vh;
-  width: 20px;
-  padding-left: 1%;
+  width: 100%;
+  margin: 0 auto;
   padding-top: 1%;
-  margin-left: 89.5%;
   }
   
   .footer {
@@ -3057,8 +3057,6 @@
   .contact-container form * {
   font-size: 16px;
   font-weight: 400;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: white;
   }
   
   .contact-container form .field label {
