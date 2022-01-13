@@ -1160,7 +1160,7 @@
   scrollbar-width:auto;
   }
 
-  .article-header h2 {                                  /*wip*/
+  .article-header h2 {                                 
   position: relative;
   background-color: rgba(14, 16, 31, 0.7);
   z-index: 13;
@@ -1286,7 +1286,7 @@
   margin-top: 17.2%;
   }
   
-  .article-p1 p {                   /*wip*/
+  .article-p1 p {              
   margin-top: 5.5%;
   padding-left: 2.5%;
   padding-right: 2.5%;
@@ -1524,13 +1524,13 @@
   }
   
   #subscribe-footer {
-  margin-top: 129%;  /*wip*/
+  margin-top: 129%; 
   } 
   
-  /* #contact section */
+  /* #contact section */  /*wip*/
   
   .contact {
-  background-position: 0 100px;
+  background-position:center;
   }
   
   .contact-container {
