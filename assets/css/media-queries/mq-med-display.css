@@ -1587,7 +1587,7 @@
   }	
   
   .section-footer {   
-  height: 4vh;
+  height: 3.5vh;
   position: absolute;
   margin-top: 24%;
   }
@@ -1601,7 +1601,8 @@
   }
   
   .goto-btn-txt {
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 700;
   letter-spacing: 6px;
   }
   
@@ -1617,8 +1618,8 @@
   height: 10vh;
   }
   
-  /* -=- #ai-101 section -=- */    /*wip*/
-  
+  /* -=- #ai-101 section -=- */ 
+
   #ai-img-1 ,  #ai-img-2 {
   display: none;
   }  
@@ -1649,7 +1650,7 @@
   z-index: 1;
   }
   
-  .author{                   /*wip*/
+  .author{                 
   position: relative;
   display: flex;
   z-index: 1;
@@ -1686,7 +1687,7 @@
     font-size: 12px;
     letter-spacing: 5px;
     margin-left: 195%;
-    margin-top: 5%;
+    margin-top: 6.5%;
     }
   
   
@@ -1735,7 +1736,7 @@
   }
   
   .ai-101-a {
-  margin-top: 24.5%;  /*wip*/
+  margin-top: 24.5%; 
   }
   
   .ai-101-d {
@@ -1800,7 +1801,7 @@
   }
   
   
-  .form2-wrapper {   /*wip*/
+  .form2-wrapper {  
   margin-top: 70%;
   }
   
@@ -1826,26 +1827,28 @@
   padding-top: 6%;
   }
   
-  .grid-template-rows-1{
-  grid-template-rows: 175px 175px;
+  .grid-template-rows-1{ /*wip*/
+  grid-template-rows: 255px 255px;
   }
   
   .grid h3 {                
-  font-size: 16px;
-  font-weight:400;
+  font-size: 20px;
+  font-weight:500;
   }
   
   .grid-span {
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 550;
   line-height: 15px;
   margin-left: -13%;
   margin-right: -13%;
+  text-align: left;
+  padding-left: 2%;
   }
   
   
   .grid a {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
   }
   
@@ -1854,10 +1857,10 @@
   background-size:cover;
   }
   
-  #adjust-footer {
+  #adjust-footer { 
   position: absolute;
-  margin-top: 8%;
-  z-index: 900;
+  margin-top: 15%;
+  z-index: 12;
   }
   
   /*======================popup======================== */
@@ -1885,22 +1888,21 @@
   scrollbar-color: #0e101f #0e101f;
   scrollbar-width:auto;
   }
-  .article-header h2 {
+
+  .article-header h2 {                      /*wip*/
   position: relative;
-  background-color: #0e101f;
+  background-color: rgba(14, 16, 31, 0.7);
   z-index: 13;
   font-size: 20px;
-  height: 7vh;
   text-align: left;
-  margin-top: 0;
-  padding-top: 0;
-  padding-left: 1%;
+  padding-left: 35%;
+  padding-top: 2%;
   }
   
   .popup-heading-2 {
   background-color: #0e101f;
   position: absolute;
-  height: 10vh;
+  height: 8vh;
   width: 100%;
   z-index: 12;
   }
@@ -1908,49 +1910,49 @@
   
   .author-pu{
   position: relative;
-  z-index: 13;
+  z-index: 100;
   height: 150px;
   width: 100%;
   margin-top: 0;
   margin-left: 1%;
-  
   }
   
   .author-pu > .profile-photo {
   position: relative;  
   float: left;
   border-radius: 50%;
-  height: 8vh;
-  margin: 0;
+  width: 40px;
+  height: 40px;
+  margin-top: 4%;
   }
   
   .author-pu > p {
-  font-size: 9px;
-  font-weight: 600;
-  margin-top: -16%;
+  font-size: 12px;
+  font-weight: 350;
+  margin-top: -12%;
   white-space: pre-line;
-  line-height: 10px;
+  line-height: 14px;
   }
   
   .author-pu > aside  {
   border-left: 2px solid rgba(127, 221, 252, 0.932);
-  height: 9vh;
+  height: 6.5vh;
   position: absolute;
-  margin-left: 100%;
-  font-size: 9px; 
+  margin-left: 110%;
+  font-size: 12px; 
   font-weight: 500;
-  margin-top: -5%;
-  line-height: 12px;
+  margin-top: 0%;
+  line-height: 15px;
   }
   
   .read-pu { /*new read*/
-  float: left;
+  position: absolute;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 2px;
-  margin-top: 35%;
-  margin-left: 110%;
+  margin-top: 10%;
+  margin-left: 290%;
   }
   
   .popup-heading-2 span  > .clock-pu{
