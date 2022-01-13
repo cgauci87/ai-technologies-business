@@ -828,7 +828,7 @@ form .field textarea {
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 /* [P2] Portrait 375x667 -> PASS *BUG misplaced items in article <-*/
 @media screen 
-  and (max-width: 375px)  
+  and (min-width: 375px)  
   and (min-height: 667px)
     and (orientation: portrait) { 
     .nav {
