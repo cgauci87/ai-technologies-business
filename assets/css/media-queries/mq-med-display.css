@@ -1534,6 +1534,10 @@
   background-position: -480px 140px;
   }
   
+  #contact-header {
+    margin-top: 2%;
+  }
+
   .contact-container {
   position: absolute;
   margin-top: 40%;
@@ -1555,6 +1559,7 @@
   form .field textarea {
   height: 7vh;
   padding-left: 30%;
+  color: white;
   }
   
   .contact-container form #msg {
@@ -1565,6 +1570,7 @@
   height: 28vh;
   padding-top: 60px;
   padding-left: 10px;
+  color: white;
   }
   
   .contact-container form input[type="text"]:focus + label,
@@ -1587,13 +1593,13 @@
   }
   
   .footer {
-  margin-top: -12%;
+  margin-top: -15%;
   height: 5vh;
   }
   
   .footer p {
   font-size: 12px;
-  margin-top: -0.2%;
+  margin: 0;
   }
   
   }
@@ -3057,6 +3063,8 @@
   .contact-container form * {
   font-size: 16px;
   font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
   }
   
   .contact-container form .field label {
