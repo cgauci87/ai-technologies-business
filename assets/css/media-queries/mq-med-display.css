@@ -1501,19 +1501,26 @@
   #submit-button {
   position: absolute;
   display: inline-block;
-  margin-top: 38.5%;
-  margin-left: 30%;
-  height: 7.2vh;
+  margin-top: 38.7%;
+  margin-left: 29%;
+  height: 7vh;
+  width: 60px;
   }
   
   #checkbox {
-  width: 15px;
+  width: 25px;
+  margin-top: -5%;
   }
   
   #subscribe-form > label {
-  font-size: 10px;
-  margin-top: -13%;
-  margin-left: 70%;
+  position: absolute;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0;
+  white-space: pre-line;
+  padding-left: 1%;
+  padding-top: 1%;
+  line-height: 12px;
   }
   
   #subscribe-footer {
