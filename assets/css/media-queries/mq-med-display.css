@@ -1838,7 +1838,7 @@
   
   .grid-span {
   font-size: 15px;
-  font-weight: 550;
+  font-weight: 500;
   line-height: 15px;
   margin-left: -13%;
   margin-right: -13%;
@@ -1848,8 +1848,8 @@
   
   
   .grid a {
-  font-size: 12px;
-  font-weight: 300;
+  font-size: 13px;
+  font-weight: 400;
   }
   
   #healthph, #bankfin, #retailecom, #manufacturing {
@@ -2017,7 +2017,6 @@
   font-weight: 500;
   line-height: 20px;
   position: relative;
-  z-index: 30;
   }
   
   .quote-wrapper {
@@ -2026,7 +2025,6 @@
   padding-right: 2.5%;
   padding-left: 2.5%;
   position: relative;
-  z-index: 40;
   }
   
   .quote{ 
@@ -2035,7 +2033,6 @@
   font-weight:500;
   line-height: 22px;
   position: relative;
-  z-index: 50;
   }
   
   .q-caption {
@@ -2044,14 +2041,12 @@
   font-weight: 500;
   text-align: center;
   position: relative;
-  z-index: 60;
   }
   
   .q-icon {
   width: 36px;
   align-self: center;
   position: relative;
-  z-index: 70;
   }
   
   .article-p2 {
@@ -2062,8 +2057,8 @@
   font-weight: 500;
   line-height: 20px;
   word-spacing: -2px;
+  padding-top: 5%;
   position: relative;
-  z-index: 80;
   }
   
   .article-p2 h3 {
@@ -2072,19 +2067,18 @@
   text-align: center;
   word-spacing: 2px;
   position: relative;
-  z-index: 90;
   }
   
   .btm-image-wrapper img{
   background: transparent;
   position: relative;
-  z-index: 10;
   margin-top: 5%; 
   margin-left: -20%;
   margin-right: -20%;
   height: 56vh;
   width: 130%;
   margin-bottom: 30%;
+  z-index: 5;
   }
   
   
@@ -2094,8 +2088,8 @@
   display: inline-block;
   width: 100%;  
   min-height: 20vh;
-  z-index: 100;
-  margin-top: 45%;
+  z-index: 18;
+  margin-top: -20%
   }
   
   
