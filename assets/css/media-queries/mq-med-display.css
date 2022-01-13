@@ -1384,7 +1384,7 @@
   }
   
   #header-podcasts {
-    margin-top: 0.5%;         /*wip*/
+    margin-top: 0.5%;     
     text-align: center;
   }
   
@@ -1453,10 +1453,10 @@
     }
   
   
-  /*#subscribe section*/
-  
+
   .subscribe {
-  background-position: -40px -40px;
+    background-size: cover;
+    background-position:right;
   }
   
   #subscribe-header {
@@ -1465,19 +1465,23 @@
   
   .subscribe-form {
   position: absolute;
-  margin-top: 14%;
-  margin-left: 20%;
+  margin-top: 30%;
+  margin-left: 10%;
   }
   
   .subscribe-form h1 {
-  font-size: 30px;
-  padding-left: 16%;
+  font-size: 32px;
+  padding-left: 0%;
+  background-color: black;
   }
   
   .subscribe-form p {
-  font-size: 13px;
-  padding-left: 6%;
-  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 40%;
+  white-space:pre-line;
+  background-color: white;
+  color: black;
   }
   
   .subscribe-form form {
@@ -1490,14 +1494,16 @@
   color: #0e101f;
   border-top-right-radius: 0%;
   border-bottom-right-radius: 0%;
+  width: 80%;
+  margin-left: 60%;
   }
   
   #submit-button {
   position: absolute;
   display: inline-block;
-  margin-top: 37.1%;
-  margin-left: 0%;
-  height: 7vh;
+  margin-top: 38.5%;
+  margin-left: 30%;
+  height: 7.2vh;
   }
   
   #checkbox {
@@ -1507,11 +1513,11 @@
   #subscribe-form > label {
   font-size: 10px;
   margin-top: -13%;
-  margin-left: 10%;
+  margin-left: 70%;
   }
   
   #subscribe-footer {
-  margin-top: 71.2%;
+  margin-top: 129%;  /*wip*/
   } 
   
   /* #contact section */
