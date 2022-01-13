@@ -2213,7 +2213,8 @@
   }
   .subscribe-form input {
   height: 7vh;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
   color: #0e101f;
   border-top-right-radius: 0%;
   border-bottom-right-radius: 0%;
@@ -2222,8 +2223,9 @@
   #submit-button {
   position: absolute;
   display: inline-block;
-  margin-top: 37.3%;
+  margin-top: 37.1%;
   margin-left: 0%;
+  height: 7vh;
   }
   
   #checkbox {
@@ -2237,22 +2239,25 @@
   }
   
   #subscribe-footer {
-  margin-top: 72%;
+  margin-top: 71.2%;
   } 
   
   /* #contact section */
   
   .contact {
-  background-position: 0 20px;
+  background-position: 0 100px;
   }
   
   .contact-container {
   position: absolute;
-  margin-top: 15%;
+  margin-top: 20%;
   margin-left: 15%;
   }
   .contact-container form * {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
   }
   
   .contact-container form .field label {
@@ -2263,16 +2268,17 @@
   .contact-container form .field input[type="text"], .field input[type="email"],
   form .field textarea {
   height: 7vh;
-  padding-left: 36%;
+  padding-left: 20%;
   }
   
   .contact-container form #msg {
   height: 7vh;
-  padding-top: 18px;
   }
   .contact-container form textarea:focus#msg,
   .contact-container form textarea:not(:placeholder-shown)#msg {
   height: 20vh;
+  padding-top: 45px;
+  padding-left: 8px;
   }
   
   .contact-container form input[type="text"]:focus + label,
@@ -2286,11 +2292,12 @@
   }
   
   #send-btn {
-  
+  font-size: 16px;
+  font-weight: 500;
   height: 6vh;
   width: 20px;
-  padding-left: 1.8%;
-  padding-top: 0.5%;
+  padding-left: 1%;
+  padding-top: 1%;
   margin-left: 89.5%;
   }
   
