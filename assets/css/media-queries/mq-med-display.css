@@ -842,7 +842,7 @@
   }	
   
   .section-footer {   
-  height: 3.5vh;
+  height: 2.8vh;
   position: absolute;
   margin-top: 40%;
   }
@@ -876,7 +876,7 @@
     height: 20vh;
     }
   
-  /* -=- #ai-101 section -=- */ /*wip*/
+  /* -=- #ai-101 section -=- */
 
   #ai-img-1 {
     position: relative;
@@ -1006,7 +1006,7 @@
   }
   
   .ai-101-a {
-  margin-top: 2.5%;    /*wip*/
+  margin-top: 2.5%;
   }
   
   .ai-101-d {
@@ -1086,8 +1086,8 @@
   
   #adjust-header {
   position: relative;
-  margin-top: 8%;
-  padding: 0;
+  margin-top: 3.5%;
+  margin-left: -42%;
   }
   
   
@@ -1095,11 +1095,11 @@
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   display:grid;
   margin:0 auto;
-  padding-top: 6%;
+  padding-top: 8%;
   }
   
   .grid-template-rows-1{
-  grid-template-rows: 255px 255px;
+  grid-template-rows: 350px 350px;
   }
   
   .grid h3 {                
@@ -1108,9 +1108,9 @@
   }
   
   .grid-span {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
-  line-height: 15px;
+  line-height: 17px;
   margin-left: -13%;
   margin-right: -13%;
   text-align: left;
@@ -1119,7 +1119,7 @@
   
   
   .grid a {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   }
   
@@ -1130,7 +1130,7 @@
   
   #adjust-footer { 
   position: absolute;
-  margin-top: 15%;
+  margin-top: 27%;
   z-index: 12;
   }
   
@@ -1160,14 +1160,15 @@
   scrollbar-width:auto;
   }
 
-  .article-header h2 {
+  .article-header h2 {                                  /*wip*/
   position: relative;
   background-color: rgba(14, 16, 31, 0.7);
   z-index: 13;
   font-size: 20px;
   text-align: left;
-  padding-left: 40%;
-  padding-top: 2%;
+  padding-left: 32%;
+  padding-top: 1%;
+  height: 4vh;
   }
   
   .popup-heading-2 {
@@ -1219,24 +1220,30 @@
   .read-pu { /*new read*/
   position: absolute;
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
-  letter-spacing: 5px;
-  margin-top: 10%;
-  margin-left: 300%;
+  letter-spacing: 3px;
+  margin-top: 45%;
+  margin-left: 120%;
   }
   
   .popup-heading-2 span  > .clock-pu{
   display: none; /*old clock*/
   }
   
-  .audio-player-pu {
+  
+.audio-player-pu-small {    /*audio small*/
+  width: 60%;
+  min-width: 100px;
+  height: 30%;
+  min-height: 5vh;
+}
+
+  .audio-player-pu { /*wip*/
   float: right;
-  width: 300px;
-  height: 3vh;
   z-index:1;
-  margin-left: 74%;
-  margin-top: 0;
+  margin-left: 66%;
+  margin-top: 1%;
   opacity: 1;
   }
   
@@ -1246,8 +1253,8 @@
   font-weight: 500;
   letter-spacing: 2px;
   position: absolute;
-  margin-top: 12%;
-  padding-left: 1.5%;
+  margin-top: 14%;
+  padding-left: 6%;
   }
   
   .pointer-pu {
@@ -1258,10 +1265,10 @@
   position: absolute;
   background-color: transparent;
   border-top-right-radius: 0;
-  height: 7vh;
   z-index: 14;
-  margin-top: -0.5%;
-  margin-left: 95%;
+  font-size: 34px;
+  margin-top: 0%;
+  margin-left: 94%;
   }
   
   
