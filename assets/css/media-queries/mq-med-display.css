@@ -1553,6 +1553,9 @@
 /* [M2] 800x600 tablets  -> WIP  <- */	
 @media screen and (min-width:800px) and (max-height:600px) {
 
+  .nav {
+    z-index: 10;
+  }
   .nav > .nav-header > .nav-title {
   font-size: 14px;
   padding-top: 1.5%;
@@ -1614,14 +1617,14 @@
   height: 10vh;
   }
   
-  /* -=- #ai-101 section -=- */
+  /* -=- #ai-101 section -=- */    /*wip*/
   
   #ai-img-1 ,  #ai-img-2 {
   display: none;
   }  
   
   #listen , #display-clock {
-  display: none; /*qq*/
+  display: none;
   }
   
   .section-header{
@@ -1646,7 +1649,7 @@
   z-index: 1;
   }
   
-  .author{
+  .author{                   /*wip*/
   position: relative;
   display: flex;
   z-index: 1;
@@ -1655,27 +1658,36 @@
   height: 150px;
   width: 100%;
   white-space: nowrap;
-  margin-top: -1%;
+  margin-top: 0%;
   margin-left: 0.5%;
   }
   
   .profile-photo {
-  height: 30px;
-  min-width: 30px;
-  margin-top: 10%;
+  height: 40px;
+  min-width: 50px;
+  margin-top: 4%;
   }
   
   .author p {
   float:left;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 12px;
   }
   
   .author aside {
+  font-size: 12px;
   line-height: 18px;
   border-left: 2px solid rgba(127, 221, 252, 0.932);
   height: 5vh;
   }
+
+  .author > aside > #read{
+    position: absolute;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-left: 195%;
+    margin-top: 5%;
+    }
   
   
   .audio-player {
@@ -1688,12 +1700,12 @@
   
   .audio-player > span {
   color:black;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 500;
   letter-spacing: 2px;
   position: absolute;
-  margin-left: -45%;
-  margin-top: 8%;
+  margin-left: -52%;
+  margin-top: 10%;
   }
   
   audio {
@@ -1701,18 +1713,11 @@
   height: 5vh;
   }
   
-  .author > aside > #read{
-  float: left;
-  font-size: 10px;
-  letter-spacing: 1px;
-  margin-left: -32%;
-  margin-top: 25%;
-  }
   
   /*===============================================================*/
   
   .ai-101-container h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   }
   
@@ -1724,13 +1729,13 @@
   margin-right: 2%;
   }
   .ai-101-container p {
-  font-size: 13px;
+  font-size: 15px;
   font-weight:400;
   margin-left: 1%;
   }
   
   .ai-101-a {
-  margin-top: 16%;
+  margin-top: 24.5%;  /*wip*/
   }
   
   .ai-101-d {
@@ -1795,8 +1800,8 @@
   }
   
   
-  .form2-wrapper {
-  margin-top: 52%;
+  .form2-wrapper {   /*wip*/
+  margin-top: 70%;
   }
   
   .image-container {
