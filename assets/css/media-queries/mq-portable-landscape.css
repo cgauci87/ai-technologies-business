@@ -3711,7 +3711,7 @@ and (orientation: landscape) {
       background-repeat: no-repeat;
     }
     
-    #header-podcasts {             /*wip*/
+    #header-podcasts {            
       margin-top: -0.8%;
       text-align: center;
     }
@@ -3791,11 +3791,11 @@ and (orientation: landscape) {
     /*#subscribe section*/
     
     .subscribe {
-    background-position: 0 20px;
+    background-position: center;  /*wip*/
     }
     
     #subscribe-header {
-    margin-top: 0.7%;
+    margin-top: -0.7%;
     }
     
     .subscribe-form {
@@ -3818,14 +3818,17 @@ and (orientation: landscape) {
     max-width: 220px;
     }
     .subscribe-form input {
-    height: 7vh;
-    font-size: 14px;
     color: #0e101f;
+    font-size: 14px;
+    height: 7vh;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
     }
     
     #submit-button {
-    margin-top: -15.4%;
-    margin-left: 20%;
+    margin-top: -11.9%;
+    margin-right: -22%;
+    height: 6.8vh;
     }
     
     #checkbox {
@@ -3835,7 +3838,9 @@ and (orientation: landscape) {
     #subscribe-form > label {
     font-size: 10px;
     margin-top: -11%;
-    margin-left: 10%;
+    margin-left: 16%;
+    white-space: nowrap;
+    width: 100;
     }
     
     #subscribe-footer {
