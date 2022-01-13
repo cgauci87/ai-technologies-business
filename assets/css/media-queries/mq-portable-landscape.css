@@ -3791,7 +3791,7 @@ and (orientation: landscape) {
     /*#subscribe section*/
     
     .subscribe {
-    background-position: center;  /*wip*/
+    background-position: center;
     }
     
     #subscribe-header {
@@ -3846,18 +3846,18 @@ and (orientation: landscape) {
     }
     
     #subscribe-footer {
-    margin-top: 53.5%;
+    margin-top: 43.5%;
     } 
     
     /* #contact section */
     
     .contact {
-    background-position: 0 20px;
+    background-position: 0px 0px;   /*wip*/
     }
     
     .contact-container {
     position: absolute;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 15%;
     }
     .contact-container form * {
@@ -3866,18 +3866,19 @@ and (orientation: landscape) {
     
     .contact-container form .field label {
     height: 7vh;
-    padding-top: 1.5%;
+    padding-top: 0.7%;
     }
     
     .contact-container form .field input[type="text"], .field input[type="email"],
     form .field textarea {
     height: 7vh;
-    padding-left: 36%;
+    padding-left: 20%;
     }
     
     .contact-container form #msg {
     height: 7vh;
-    padding-top: 18px;
+    padding-top: 20px;
+    padding-left: 5px;
     }
     .contact-container form textarea:focus#msg,
     .contact-container form textarea:not(:placeholder-shown)#msg {
@@ -3895,7 +3896,6 @@ and (orientation: landscape) {
     }
     
     #send-btn {
-    
     height: 6vh;
     width: 20px;
     padding-left: 1.8%;
