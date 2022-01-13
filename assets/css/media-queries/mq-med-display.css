@@ -1239,7 +1239,7 @@
   min-height: 5vh;
 }
 
-  .audio-player-pu { /*wip*/
+  .audio-player-pu { 
   float: right;
   z-index:1;
   margin-left: 66%;
@@ -1286,12 +1286,12 @@
   margin-top: 17.2%;
   }
   
-  .article-p1 p { 
-  margin-top: 2%;
+  .article-p1 p {                   /*wip*/
+  margin-top: 5.5%;
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   position: relative;
@@ -1306,9 +1306,9 @@
   }
   
   .quote{ 
-  font-size: 16px;
+  font-size: 14px;
   color: darkblue;
-  font-weight:500;
+  font-weight:600;
   line-height: 22px;
   position: relative;
   }
@@ -1316,7 +1316,7 @@
   .q-caption {
   color:black;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   position: relative;
   }
@@ -1331,7 +1331,7 @@
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   word-spacing: -2px;
@@ -1340,7 +1340,7 @@
   }
   
   .article-p2 h3 {
-  font-size: 18px;
+  font-size: 16px;
   align-self: center;
   text-align: center;
   word-spacing: 2px;
@@ -1353,9 +1353,9 @@
   margin-top: 5%; 
   margin-left: -20%;
   margin-right: -20%;
-  height: 56vh;
+  height: 38vh;
   width: 130%;
-  margin-bottom: 30%;
+  margin-bottom: 25%;
   z-index: 5;
   }
   
