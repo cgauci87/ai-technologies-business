@@ -2276,7 +2276,7 @@
   }
   .contact-container form textarea:focus#msg,
   .contact-container form textarea:not(:placeholder-shown)#msg {
-  height: 20vh;
+  height: 28vh;
   padding-top: 45px;
   padding-left: 8px;
   }
@@ -2307,7 +2307,8 @@
   }
   
   .footer p {
-  font-size: 10px;
+  font-size: 12px;
+  margin-top: -0.2%;
   }
   
   }
