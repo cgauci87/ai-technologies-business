@@ -3836,11 +3836,13 @@ and (orientation: landscape) {
     }
     
     #subscribe-form > label {
+    position: absolute;
+    display: flex;
     font-size: 10px;
-    margin-top: -11%;
-    margin-left: 16%;
     white-space: nowrap;
     width: 100;
+    margin-top: 1.5%;
+    margin-left: 4%;
     }
     
     #subscribe-footer {
