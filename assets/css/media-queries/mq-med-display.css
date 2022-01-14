@@ -3984,7 +3984,7 @@ form .field textarea {
   .section-footer {   
     height: 2vh;
     position: absolute;
-    margin-top: 20%;
+    margin-top: 18%;
   }
 
   .goto-btn {
@@ -3996,8 +3996,8 @@ form .field textarea {
     }
 
     .goto-btn-txt {
-      font-size: 14px;
-      letter-spacing: 2px;
+      font-size: 16px;
+      letter-spacing: 4px;
     }
   
     .line-wrapper-2 .line-2 {
@@ -4014,13 +4014,11 @@ form .field textarea {
 
   /* -=- #ai-101 section -=- */
 
-
-
-  .section-header{
+  .section-header{              /*wip*/
     height: 7vh;
     position: absolute;
     margin-left: 45%;
-    margin-top: 0.8%;
+    margin-top: 3.5%;
     z-index: 11;
     }
 
@@ -4029,17 +4027,25 @@ form .field textarea {
     background-color: transparent;
   }
 
+  .author > aside > #read{
+    float: left;
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-left: 285%;
+    margin-top: 24%;
+  }
+
     #ai101-heading-2 {
     background-color: #0e101f;
     position: absolute;
     width: 100%;
     height: 8vh;
-    margin-top:6.3%;
+    margin-top: 3.7%;
     z-index: 1;
     }
     
     .author{
-      position: relative;
+      position: relative;            /*wip*/
       display: flex;
       z-index: 1;
       float: left;
@@ -4047,45 +4053,45 @@ form .field textarea {
       height: 150px;
       width: 100%;
       white-space: nowrap;
-      margin-top: 3%;
+      margin-top: 1%;
       margin-left: 0.5%;
       }
       
       .profile-photo {
-        height: 30px;
-        min-width: 30px;
-        margin-top: 10%;
+        height: 45px;
+        min-width: 60px;
+        margin-top: -2%;
       }
       
       .author p {
         float:left;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 12px;
       }
    
       .author aside {
        line-height: 18px;
        border-left: 2px solid rgba(127, 221, 252, 0.932);
-       height: 2.5vh;
+       height: 3vh;
      }
   
    
    .audio-player {
      float: right;
-     margin-top: 0;
-     margin-right: -23%;
+     margin-top: 0.8%;
+     margin-right: -14%;
      opacity: 1;
-     filter:invert(100%);
+     filter:invert(100%);  /*wip*/
    }
 
    .audio-player > span {
     color:black;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
     position: absolute;
     margin-left: -45%;
-    margin-top: 22%;
+    margin-top: 12%;
    }
      
     audio {
@@ -4102,13 +4108,7 @@ form .field textarea {
       display: none;
      }
 
-     .author > aside > #read{
-       float: left;
-       font-size: 10px;
-       letter-spacing: 4px;
-       margin-left: -32%;
-       margin-top: 42%;
-     }
+
 
      /*===============================================================*/
 
