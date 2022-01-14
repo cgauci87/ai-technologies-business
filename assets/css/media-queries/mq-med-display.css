@@ -3982,7 +3982,7 @@ form .field textarea {
   }	
       
   .section-footer {   
-    height: 2vh;
+    height: 4vh;
     position: absolute;
     margin-top: 18%;
   }
@@ -4014,7 +4014,7 @@ form .field textarea {
 
   /* -=- #ai-101 section -=- */
 
-  .section-header{              /*wip*/
+  .section-header{            
     height: 7vh;
     position: absolute;
     margin-left: 45%;
@@ -4023,7 +4023,7 @@ form .field textarea {
     }
 
   .section-header h2{
-    font-size: 24px;
+    font-size: 26px;
     background-color: transparent;
   }
 
@@ -4045,7 +4045,7 @@ form .field textarea {
     }
     
     .author{
-      position: relative;            /*wip*/
+      position: relative;           
       display: flex;
       z-index: 1;
       float: left;
@@ -4081,7 +4081,7 @@ form .field textarea {
      margin-top: 0.8%;
      margin-right: -14%;
      opacity: 1;
-     filter:invert(100%);  /*wip*/
+     filter:invert(100%); 
    }
 
    .audio-player > span {
@@ -4112,7 +4112,7 @@ form .field textarea {
 
      /*===============================================================*/
 
-     #ai-img-1 {                              /*wip*/
+     #ai-img-1 {                            
        position: relative;
        display: flex;
        width: 100%;
@@ -4229,14 +4229,14 @@ form .field textarea {
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
 
 
-  #adjust-header {
+  #adjust-header {            /*wip*/
     position: relative;
-    margin-top: 2.5%;
+    margin-top: 10%;
     margin-left: -40%;
-  }
 
-  
-.grid-template-rows-1 , .grid { 
+  }
+    
+  .grid-template-rows-1 , .grid { 
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     display:grid;
     margin:0 auto;
@@ -4244,9 +4244,10 @@ form .field textarea {
 }
   
 .grid-template-rows-1{
-    grid-template-rows: 450px 450px;
-}
+    grid-template-rows: 300px 300px;
 
+}
+  
 .grid h3 {            
     font-size: 18px;
   font-weight:400;
@@ -4275,7 +4276,7 @@ form .field textarea {
 
 #adjust-footer {
   position: absolute;
-  margin-top: 35%;
+  margin-top: 14%;    /*wip*/
   z-index: 1;
 }
 
