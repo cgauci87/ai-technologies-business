@@ -4249,13 +4249,13 @@ form .field textarea {
 }
   
 .grid h3 {            
-    font-size: 18px;
-  font-weight:400;
+  font-size: 20px;
+  font-weight:600;
 }
 
 .grid-span {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 500;
   text-align: left;
   line-height: 20px;
   padding-left: 3%;
@@ -4265,7 +4265,7 @@ form .field textarea {
 
 
 .grid a {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -4305,7 +4305,7 @@ form .field textarea {
   scrollbar-color: #0e101f #0e101f;
   scrollbar-width: auto;
 }
-.article-header h2 {
+.article-header h2 {                            /*wip*/
   position: relative;
   background-color: #0e101f;
   z-index: 13;
@@ -4313,14 +4313,14 @@ form .field textarea {
   height: 2.5vh;
   text-align: left;
   margin-top: 0;
-  padding-top: 0;
-  padding-left: 1%;
+  padding-top: 3%;
+  padding-left: 36%;
 }
 
  .popup-heading-2 {
   background-color: #0e101f;
   position: absolute;
-  height: 5vh;
+  height: 7vh;
   width: 100%;
   z-index: 12;
   }
@@ -4380,10 +4380,10 @@ form .field textarea {
   .audio-player-pu {
     float: right;
     width: 300px;
-    height: 3vh;
+    height: 2vh;
     z-index:1;
-    margin-left: 66%;
-    margin-top: -2.5%;
+    margin-left: 79%;
+    margin-top: 0;
     opacity: 1;
   }
 
@@ -4407,8 +4407,8 @@ form .field textarea {
     border-top-right-radius: 0;
     height: 7vh;
     z-index: 14;
-    margin-top: -1%;
-    margin-left: 94%;
+    margin-top: -0.5%;
+    margin-left: 96.5%;
     }
   
 
