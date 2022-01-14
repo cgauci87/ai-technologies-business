@@ -2351,12 +2351,12 @@ height: 15vh;
   background-color: rgba(14, 16, 31, 1);
   background-blend-mode: difference;
   background-size: contain;
-  background-position: center;
+  background-position: bottom;
 }
 
 .contact-container {
   position: absolute;
-  margin-top: 56%;
+  margin-top: 45%;
   margin-left: 15%;
 }
 .contact-container form * {
@@ -2371,18 +2371,20 @@ height: 15vh;
 .contact-container form .field input[type="text"], .field input[type="email"],
 form .field textarea {
   height: 4vh;
-  padding-left: 36%;
+  padding-left: 28%;
   color: white;
   background-color: rgba(0,0,0,0.3);
 }
 
 .contact-container form #msg {
-  height: 7vh;
+  height: 4vh;
   padding-top: 18px;
 }
 .contact-container form textarea:focus#msg,
 .contact-container form textarea:not(:placeholder-shown)#msg {
-  height: 17vh;
+  height: 38vh;
+  padding-top: 10%;
+  padding-left: 2%;
 }
 
 .contact-container form input[type="text"]:focus + label,
@@ -2403,12 +2405,12 @@ form .field textarea {
 }
 
 .footer {
-  margin-top: -17%;
+  margin-top: -12%;
   height: 10vh;
 }
 
 .footer p {
-  font-size: 10px;
+  font-size: 10px;  
 }
 
 }
