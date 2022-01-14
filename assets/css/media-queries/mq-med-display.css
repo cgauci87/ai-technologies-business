@@ -2209,7 +2209,7 @@ z-index: 1;
   scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8);
   scrollbar-width: auto;
   scroll-behavior: smooth;
-  height: 60vh;
+  height: 78vh;
 }
 
 ::-webkit-scrollbar {
@@ -2234,15 +2234,15 @@ height: 15vh;
 .column{
   position:relative;
   height: 10vh;
-  width: 100%;
+  width: 100%;  
   margin: 0 auto;
 }
 
   .column p {
     font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    height: 6vh;
+    font-weight: 500;
+    line-height: 20px;
+    height: 4vh;
   }
 
   .podcasts-container {
@@ -2256,7 +2256,7 @@ height: 15vh;
     display: inline-block;
     width: 100%;
     z-index: 10;
-    margin-top: 150%;
+    margin-top: 126%;
   }
 
   #wave1 {
