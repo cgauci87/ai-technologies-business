@@ -2046,9 +2046,9 @@
     width: 300px;
     height: 3vh;
     z-index:1;
-    margin-left: 66%;
-    margin-top: -2.5%;
-    opacity: 1;
+    margin-left: 70%;
+    margin-top: 1%;
+    opacity: 1;   /*wip*/
   }
 
   .listen-pu {  /*new*/
@@ -2057,8 +2057,8 @@
     font-weight: 500;
     letter-spacing: 2px;
     position: absolute;
-    margin-top: 17.5%;
-    padding-left: 3%;
+    margin-top: 11%;
+    padding-left: 7.5%;
   }
 
  .pointer-pu {
@@ -2091,7 +2091,7 @@ margin-top: 17.2%;
 }
 
 .article-p1 p { 
-  margin-top: 5%;
+  margin-top: 1.5%;
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
@@ -2122,8 +2122,8 @@ margin-top: 17.2%;
 
 .q-caption {
   color:black;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -2148,6 +2148,10 @@ margin-top: 17.2%;
   z-index: 1;
 }
 
+.article-p2 p {
+  padding-top: 1%;
+}
+
 .article-p2 h3 {
  font-size: 18px;
 align-self: center;
@@ -2166,18 +2170,19 @@ z-index: 1;
   margin-right: -20%;
   height: 30vh;
   width: 130%;
-  margin-bottom: 5%;
+  margin-bottom: 30%;
 }
 
 
 .popup-footer {
   background-color: #0e101f;
   position: relative;
-  width: 100%;  
+  width: 100%;
+  width: 900px;  
   min-height: 10vh;
   z-index: 1;
   display: flex;
-  margin: 0;
+  margin: -20%;
 }
 
 
