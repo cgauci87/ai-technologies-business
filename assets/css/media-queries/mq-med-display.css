@@ -1905,7 +1905,7 @@
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     display:grid;
     margin:0 auto;
-    padding-top: 9%;
+    padding-top: 7%;
 }
   
 .grid-template-rows-1{
@@ -1913,24 +1913,24 @@
 }
 
 .grid h3 {            
-    font-size: 18px;
-  font-weight:400;
+    font-size: 20px;
+  font-weight:700;
 }
 
 .grid-span {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
   text-align: left;
   line-height: 20px;
   padding-left: 3%;
   margin-left: -13%;
   margin-right: -13%;
-}
+  }
 
 
 .grid a {
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 #healthph, #bankfin, #retailecom, #manufacturing {
@@ -1940,7 +1940,7 @@
 
 #adjust-footer {
   position: absolute;
-  margin-top: 35%;
+  margin-top: 27%;
   z-index: 1;
 }
 
