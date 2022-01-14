@@ -1610,7 +1610,7 @@
 @media screen and (min-width: 767px) and (max-width: 769px) and (min-height: 1024px)  {
 
   .nav{
-    z-index: 10;
+    z-index: 100;
   }
   
   .nav > .nav-header > .nav-title {
@@ -1651,7 +1651,7 @@
   }	
       
   .section-footer {   
-    height: 2vh;
+    height: 2.7vh;
     position: absolute;
     margin-top: 38.5%;
   }
@@ -1665,8 +1665,9 @@
     }
 
     .goto-btn-txt {
-      font-size: 14px;
-      letter-spacing: 2px;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 8px;
     }
   
     .line-wrapper-2 .line-2 {
@@ -2268,11 +2269,9 @@ height: 15vh;
  /*#subscribe section*/
 
  .subscribe {
-   background-color: rgba(14, 16, 31, 1);
-   background-size: contain;
-   background-position: center;
+   background-size: cover;
    background-blend-mode:difference;
-   color: rgba(0,0,0,1);
+   background-position: right;
  }
 
  #subscribe-header {
@@ -2281,20 +2280,24 @@ height: 15vh;
 
  .subscribe-form {
    position: absolute;
-   margin-top: 56%;
-   margin-left: 5%;
+   margin-top: 30%;
+   margin-left: 10%;
  }
 
  .subscribe-form h1 {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 700;
+  background-color: #0e101f;
+  color: white;
 }
 
 .subscribe-form p {
-  margin-left: 10%;
   margin-right: 10%;
   margin-top: -2.5%;
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: white;
+  color: #0e101f;
 }
 
 .subscribe-form form {
@@ -2319,29 +2322,30 @@ height: 15vh;
 #checkbox {
   position: absolute;
   display: flex;
-  width: 15px;
-  margin-top: 39.5%;
+  width: 20px;
+  margin-top: 39.6%;
   margin-left: -2.5%;
   z-index: 1;
+  filter: invert(100);
 }
 
 #subscribe-form > label {
   position: absolute;
   display: flex;
-  font-size: 9px;
-  letter-spacing: 0.2px;
-  font-weight: 600;
-  margin-top: 2.5%;
-  padding-left: 0.5%;
+  font-size: 12px;
+  letter-spacing: 0.2px;  
+  font-weight: 500;
+  margin-top: 1%;
+  padding-left: 2%;
   white-space: nowrap;
   background-color: white;
 }
 
 #subscribe-footer {
-  margin-top: 150%;
+  margin-top: 130%;
 } 
 
-/* #contact section */
+/* #contact section */  /*wip*/
 
 .contact {
   background-color: rgba(14, 16, 31, 1);
