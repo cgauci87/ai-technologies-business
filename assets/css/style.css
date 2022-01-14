@@ -65,8 +65,7 @@ a { color: white; text-decoration: none; }
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #efefef;
-    
+    color: #efefef; 
   }
   
   .nav > .nav-links > a:hover {
