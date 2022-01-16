@@ -1996,7 +1996,7 @@
   z-index: 13;
   height: 150px;
   width: 100%;
-  margin-top: -1%;
+  margin-top: 0%;
   margin-left: 1%;
 
   }
@@ -2005,8 +2005,9 @@
     position: relative;  
     float: left;
     border-radius: 50%;
-    height: 8vh;
-    margin: 0;
+    height: 40px;
+    width: 40px;
+    margin-top: 6%;
   }
 
   .author-pu > p {
@@ -2015,27 +2016,29 @@
     margin-top: -16%;
     white-space: pre-line;
     line-height: 10px;
+    padding-top: 28%;
   }
 
   .author-pu > aside  {
     border-left: 2px solid rgba(127, 221, 252, 0.932);
-    height: 5vh;
+    height: 3.5vh;
     position: absolute;
     margin-left: 100%;
     font-size: 9px; 
     font-weight: 500;
-    margin-top: -5%;
+    margin-top: 0;
+    padding-top: 10%;
     line-height: 12px;
   }
 
   .read-pu { /*new read*/
     float: left;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 2px;
-    margin-top: 35%;
-    margin-left: 110%;
+    margin-top: 12%;
+    margin-left: 300%;
   }
 
   .popup-heading-2 span  > .clock-pu{
@@ -2047,7 +2050,7 @@
     width: 300px;
     height: 3vh;
     z-index:1;
-    margin-left: 70%;
+    margin-left: 76%;
     margin-top: 1%;
     opacity: 1;
   }
@@ -2070,8 +2073,8 @@
     position: absolute;
     background-color: transparent;
     border-top-right-radius: 0;
-    height: 7vh;
-    z-index: 14;
+    height: 2vh;
+    z-index: 14;  
     margin-top: -1%;
     margin-left: 94%;
     }
