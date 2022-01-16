@@ -4881,6 +4881,10 @@ form .field textarea {
       z-index: 1;
       }
 
+      #ai-101-heading-2 h2 {
+        margin-top: -3%;  
+      }
+
       .profile-photo {
         height: 40px;
         width: 40px;
@@ -4893,51 +4897,30 @@ form .field textarea {
         padding-top: 0.6%;
         }
         
-        .author p {
-          float:left;
-          font-size: 12px;
-          line-height: 12px;
-        }
-     
+
         .author aside {
          height: 2vh;
        }
        
-       .author > aside > #read{
-        float: left;
-        font-size: 12px;
-        letter-spacing: 4px;
-        margin-left: 285%;
-        margin-top: 24%;
-      }
-    
      
      .audio-player {
-       float: right;
-       margin-top: 0.8%;
-       margin-right: -14%;
-       opacity: 1;
-       filter:invert(100%); 
+       margin-top: 0.2%;
+       margin-right: -15%;
      }
   
-     .audio-player > span {
-      color:black;
-      font-size: 12px;
-      font-weight: 500;
-      letter-spacing: 0px;
-      position: absolute;
-      margin-left: -45%;
-      margin-top: 12%;
+     .audio-player  > span {
+       padding-left: 3.8%;
      }
+
        
       audio {
-        width: 160px;
-        height: 5vh;
+        width: 150px;
+        height: 2.5vh;
        }
   
        
        #listen {
-         display: none;
+         display:   none;
       }
      
        #display-clock {
