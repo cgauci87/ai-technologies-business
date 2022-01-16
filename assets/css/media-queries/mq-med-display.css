@@ -1614,8 +1614,8 @@
   }
   
   .nav > .nav-header > .nav-title {
-    font-size: 16px;
-    padding-top: 1%;
+    font-size: 14px;
+    padding-top: 1.5%;
   }
 
   .nav > #nav-check:checked ~ .nav-links {
@@ -1659,15 +1659,15 @@
   .goto-btn {
     border-radius: 5%;
     border-width: 0.2px;
-    padding-left: 0.8%;
-    padding-bottom: 0.4%;
+    padding-left: 3.5px;
+    padding-bottom: 0.2%;
     margin: 0 auto;
     }
 
     .goto-btn-txt {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 600;
-      letter-spacing: 8px;
+      letter-spacing: 2.5px;
     }
   
     .line-wrapper-2 .line-2 {
@@ -1884,6 +1884,7 @@
     
      .form2-wrapper {
       margin-top: 128%;
+      padding-top: 1%;
       background-color: #0e101f;
     }
 
@@ -1942,6 +1943,7 @@
 #adjust-footer {
   position: absolute;
   margin-top: 27%;
+  padding-top: 0.5%;
   z-index: 1;
 }
 
@@ -2271,7 +2273,7 @@ height: 15vh;
  .subscribe {
    background-size: cover;
    background-blend-mode:difference;
-   background-position: right;
+   background-position: -700px -200px;
  }
 
  #subscribe-header {
@@ -2287,7 +2289,7 @@ height: 15vh;
  .subscribe-form h1 {
   font-size: 48px;
   font-weight: 700;
-  background-color: #0e101f;
+  background-color: rgba(14, 16, 31, 0.6);
   color: white;
 }
 
@@ -2337,6 +2339,7 @@ height: 15vh;
   font-weight: 500;
   margin-top: 1%;
   padding-left: 2%;
+  padding-right: 1%;
   white-space: nowrap;
   background-color: white;
 }
