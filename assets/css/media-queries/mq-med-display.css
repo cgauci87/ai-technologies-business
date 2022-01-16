@@ -1610,7 +1610,7 @@
 @media screen and (min-width: 767px) and (max-width: 769px) and (min-height: 1024px)  {
 
   .nav{
-    z-index: 10;
+    z-index: 19;
   }
   
   .nav > .nav-header > .nav-title {
@@ -1980,8 +1980,8 @@
   height: 2.5vh;
   text-align: left;
   margin-top: 0;
-  padding-top: 0;
-  padding-left: 1%;
+  padding-top: 5.5%;
+  padding-left: 34%;
 }
 
  .popup-heading-2 {
