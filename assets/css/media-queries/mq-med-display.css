@@ -1610,7 +1610,7 @@
 @media screen and (min-width: 767px) and (max-width: 769px) and (min-height: 1024px)  {
 
   .nav{
-    z-index: 100;
+    z-index: 10;
   }
   
   .nav > .nav-header > .nav-title {
@@ -1691,7 +1691,7 @@
     position: absolute;
     margin-left: 45%;
     margin-top: 0.8%;
-    z-index: 11;
+    z-index: 20; /*yuy*/
     }
 
   .section-header h2{
