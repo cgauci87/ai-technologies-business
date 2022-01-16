@@ -2347,7 +2347,8 @@ height: 15vh;
 
 #subscribe-footer {
   margin-top: 130%;
-} 
+  padding-top: 0.25%;
+}
 
 /* #contact section */
 
