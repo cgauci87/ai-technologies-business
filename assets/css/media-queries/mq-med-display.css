@@ -4620,12 +4620,16 @@ height: 13vh;
  }
 
  #subscribe-header {
-   margin-top: 4%;
+  background-color: #efefef;
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 3.8%;
  }
 
  #subscribe-header h2 {
   color: #0e101f;
   min-width: 100%;
+  margin-top: -2.3%;
  }
 
  .subscribe-form {
@@ -4692,6 +4696,7 @@ height: 13vh;
   white-space: nowrap;
   background-color: white;
   padding-left: 2.2%;
+  padding-right: 0.2%;
 }
 
 #subscribe-footer {
