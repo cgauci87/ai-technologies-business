@@ -4229,7 +4229,7 @@ form .field textarea {
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
 
 
-  #adjust-header {            /*wip*/
+  #adjust-header {
     position: relative;
     margin-top: 10%;
     margin-left: -40%;
@@ -4276,7 +4276,7 @@ form .field textarea {
 
 #adjust-footer {
   position: absolute;
-  margin-top: 14%;    /*wip*/
+  margin-top: 14%;
   z-index: 1;
 }
 
@@ -4305,7 +4305,7 @@ form .field textarea {
   scrollbar-color: #0e101f #0e101f;
   scrollbar-width: auto;
 }
-.article-header h2 {                            /*wip*/
+.article-header h2 {
   position: relative;
   background-color: #0e101f;
   z-index: 13;
@@ -4525,7 +4525,7 @@ z-index: 1;
  
 /*  ==============#podcasts section=====================   */
 
-.podcasts {    /*wip*/
+.podcasts {
   background-color: rgba(14, 16, 31, 1);
   background-image: url("/assets/images/podcasts_img.png");
   background-repeat: no-repeat;
@@ -4533,9 +4533,12 @@ z-index: 1;
 
 #header-podcasts {
   text-align: center;
-  color:rgba(14, 16, 31, 1);
   margin-left: 45%;
   margin-top: 4%;
+}
+
+#header-podcasts h2 {
+  color: #0e101f;
 }
 
 .top-image-wrapper img {
@@ -4547,7 +4550,7 @@ display: none;
   position:absolute;
   margin-top: 2%;
   overflow-y: hidden;
-  height: 75vh;
+  height: 90vh;
   width: 100%;
 }
 
@@ -4561,7 +4564,7 @@ height: 13vh;
 
 .column{
   position:relative;
-  height: 1vh;
+  height: 4vh;
   width: 100%;
   margin: 0 auto;
 }
@@ -4569,13 +4572,15 @@ height: 13vh;
   .column p {
     font-size: 13px;
     font-weight: 500;
-    line-height: 15px;
-    height: 2.5vh;
+    line-height: 10px;
+    height: 4vh;
     margin-top: 1%;
     margin-bottom: 1%;
     background-color: rgba(0,0,0,0.6);
     color: white;
     padding-left: 1%;
+    padding-bottom: 0%;
+    padding-top: 1%;
   }
 
   #column-1 {              
@@ -4593,7 +4598,7 @@ height: 13vh;
     display: inline-block;
     width: 100%;
     z-index: 0;
-    margin-top: 60.5%;
+    margin-top: 67.3%;            /*wip*/
 
   }
 
