@@ -5089,21 +5089,24 @@ form .field textarea {
   margin-top: 30%;
 }
 
-
-  /*wip*/
-
   /*======================popup======================== */
 
-  .article-header h2 {
-    margin-top: 0;
-    padding-top: 0.5%;
-    padding-left: 36%;
-    background-color: rgba(0,0,0,0.8);
+  .article-header  > h2 {
+    background-color: rgba(0,0,0,0.8);    /*wip*/
+    font-size: 22px;
+    height: 3.5vh;
+    margin-top: -2%;
   }
   
    .popup-heading-2 {
     height: 3vh; 
     }
+
+    .cancel {
+      margin-left: 95%;
+      margin-top: -0.3%;
+    }
+    
   
   
   .author-pu{
