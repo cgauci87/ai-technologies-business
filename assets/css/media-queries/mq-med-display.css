@@ -4626,7 +4626,7 @@ height: 13vh;
    background-size: contain;
    background-blend-mode:difference;
    color: rgba(0,0,0,1);               
-   background-position: 0 -40px; /*wip*/
+   background-position: 0 -40px;
  }
 
  #subscribe-header {
@@ -4720,7 +4720,7 @@ height: 13vh;
   background-color: rgba(14, 16, 31, 1);
   background-blend-mode: difference;
   background-size: contain;
-  background-position: 0 200px;  /*wip*/
+  background-position: 0 200px;
 }
 
 .contact-container {
@@ -4838,7 +4838,7 @@ form .field textarea {
     }	
         
     .section-footer {   
-      height: 2vh;
+      height: 2.3vh;
       position: absolute;
       margin-top: 76.5%;
     } 
@@ -4931,11 +4931,11 @@ form .field textarea {
   
        /*===============================================================*/
   
-       #ai-img-1 {                            
+       #ai-img-1 {                            /*wip*/
          position: relative;
          display: flex;
          width: 100%;
-         height: 15vh;
+         height: 20vh;
          margin-top: 16.5%;
        }
   
@@ -4943,8 +4943,8 @@ form .field textarea {
         position: absolute;
         display: flex;
         width: 100%;
-        height: 15vh;
-        margin-top: 8.5%;
+        height: 20vh;
+        margin-top: 16%;
       }
   
   .ai-101-container h3 {
@@ -5031,19 +5031,22 @@ form .field textarea {
        }
   
       
-       .form2-wrapper {
-        margin-top: 70%;
-        background-color: #0e101f;
-        height: 3.8vh;
-        padding-top: 0.1%;
+       .form2-wrapper {                       /*wip*/
+        height: 8vh;
+        margin-top: 123%;
+      }
+
+      .form2-wrapper > button {
+        padding: 12px 12px ;
+        margin-top: -2.2%;
+        background-color: #efefef;
+        color:rgba(14, 16, 31, 1);
       }
   
-      .image-container {
-        margin-top:  -5%;
-      }
-  
-      .image-container img {
-        height: 5vh;
+
+      .form2-wrapper > button:hover {
+        background-color: rgb(28, 63, 71);
+        color: #efefef;
       }
   
     /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
@@ -5435,7 +5438,7 @@ form .field textarea {
      background-size: contain;
      background-blend-mode:difference;
      color: rgba(0,0,0,1);               
-     background-position: 0 -40px; /*wip*/
+     background-position: 0 -40px;
    }
   
    #subscribe-header {
@@ -5529,7 +5532,7 @@ form .field textarea {
     background-color: rgba(14, 16, 31, 1);
     background-blend-mode: difference;
     background-size: contain;
-    background-position: 0 200px;  /*wip*/
+    background-position: 0 200px;
   }
   
   .contact-container {
