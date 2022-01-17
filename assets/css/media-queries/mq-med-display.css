@@ -5106,39 +5106,39 @@ form .field textarea {
       margin-left: 95%;
       margin-top: -0.3%;
     }
-    
-  
-  
+
   .author-pu{
-    margin-top: 0.2%;
-    margin-left: 0.5%;
+    position: absolute;
+    display: inline-block;
+    margin-left: -3%;
     }
   
     .author-pu > .profile-photo {
       height: 35px;
       width: 35px;
-      margin-top: 0;
+      margin-top: 15%;
     }
 
     .author-pu > p {
       font-size: 12px;
       font-weight: 400;
       line-height: 16px;
-      margin-top: -20%;
+      margin-top: 30%;
+      margin-left: 30%;
     }
 
     .author-pu > aside  {
       font-size: 12px;
-      height: 3vh;
+      height: 4vh;
       margin-left: 110%;
-      margin-top: -4.5%;
+      margin-top: -60%;
       padding-left: 5%;
     }
   
     .read-pu { /*new read*/
       font-size: 12px;
-      margin-top: 10%;
-      margin-left: 400%;
+      margin-top: -10%;
+      margin-left: 320%;
     }
   
     .popup-heading-2 span  > .clock-pu{
@@ -5147,7 +5147,7 @@ form .field textarea {
   
     .audio-player-pu {
       margin-top: 0.8%;
-      margin-left: 82%;
+      margin-left: 76%;
       opacity: 1;
     }
 
