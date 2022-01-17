@@ -5339,23 +5339,28 @@ form .field textarea {
   /* #contact section */
   
   .contact {
-    background-color: rgba(14, 16, 31, 1);
-    background-blend-mode: difference;
-    background-size: contain;
-    background-position: 0 200px;
+    background-position: 0 360px;
   }
   
   .contact-container {
-    position: absolute;
-    margin-top: 22%;
-    margin-left: 15%;
+    margin-top: 41%;
   }
   
   #contact-header {
-  margin-top: 9%;
+  background-color: #efefef;
+  margin-top: 3.4%;
+  margin-left: 0;
+  width: 1024px;
+  height: 7vh;
   }
+
+  #contact-header h2 {
+    margin-top: -1%;
+    color:rgba(14, 16, 31, 1);
+  }
+
   .contact-container form * {
-    font-size: 18px;
+    font-size: 22px;
   }
   
   .contact-container form .field label {
@@ -5363,7 +5368,7 @@ form .field textarea {
     padding-top: 0%;
   }
   
-  .contact-container form .field input[type="text"], .field input[type="email"],
+  .contact-container form .field input[type="text"], .field input[type="ema il"],
   form .field textarea {
     height: 4vh;
     padding-left: 26%;  
@@ -5377,7 +5382,7 @@ form .field textarea {
   }
   .contact-container form textarea:focus#msg,
   .contact-container form textarea:not(:placeholder-shown)#msg {
-    height: 34vh;
+    height: 16vh;
     padding-top: 5%;
     padding-left: 2%;
   }
@@ -5402,10 +5407,12 @@ form .field textarea {
   .footer {
     margin-top: -10%;
     height: 10vh;
+    padding-bottom: 4%;
   }
   
   .footer p {
-    font-size: 10px;
+    margin-top: -0.2%;
+    font-size: 12px;
   }
   
   }
