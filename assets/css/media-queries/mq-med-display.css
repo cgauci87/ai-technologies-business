@@ -5261,39 +5261,39 @@ form .field textarea {
      background-size: contain;
      background-blend-mode:difference;
      color: rgba(0,0,0,1);               
-     background-position: 0 -40px;
+     background-position: 10px 400px;    /*wip*/
    }
   
    #subscribe-header {
     background-color: #efefef;
     width: 100%;
     margin-left: 0%;
-    margin-top: 3.8%;
+    margin-top: 3.5%;
    }
   
    #subscribe-header h2 {
     color: #0e101f;
     min-width: 100%;
-    margin-top: -2.3%;
+    margin-top: -0.7%;
    }
   
    .subscribe-form {
      position: absolute;
-     margin-top: 60%;
-     margin-left: 20%;
+     margin-top: 100%;
+     margin-left: 15%;
    }
   
    .subscribe-form h1 {
-    font-size: 32px;
+    font-size: 54px;
     font-weight: 700;
     margin-top: -70%;
   }
   
   .subscribe-form p {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: -2.5%;
-    font-size: 18px;
+    text-align: center;
+    font-size: 22px;
+    margin-left: -3%;
+    width: 100%;
   }
   
   .subscribe-form form {
@@ -5345,7 +5345,7 @@ form .field textarea {
   }
   
   #subscribe-footer {
-    margin-top: 67%;
+    margin-top: 130%;
     padding-top: 0.2%;
   } 
   
