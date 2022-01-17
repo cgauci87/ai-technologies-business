@@ -5579,7 +5579,7 @@ form .field textarea {
 }
 
 #adjust-footer {
-  margin-top: 18%;
+  margin-top: 19%;
 }
 
 #healthph, #bankfin, #retailecom, #manufacturing {
@@ -5587,7 +5587,7 @@ form .field textarea {
   background-size:cover;
 }
 
-/*popup*/
+/*popup*/                   /*wip*/
 
 .popup-article { 
   margin-top: -52%;
@@ -5693,15 +5693,16 @@ z-index: 80;
 
 /*-------------popup header----------------------- */
 
+
 .article-header h2 {
-  padding-top: 4.2%;
+  padding-top: 4%;
   margin-left: -4%;
   }
 
 .author-pu{
   position: absolute;
-  margin-top: -6%;
-  margin-left: 69%;
+  margin-top: -5%;
+  margin-left: 71%;
   }
 
   .author-pu > .profile-photo {
@@ -5713,32 +5714,44 @@ z-index: 80;
   .author-pu > p {
     line-height: 16px;
     white-space: pre-line;
-    padding-top: 14%;
+    padding-top: 12%;
   }
 
-  .author-pu > aside {
+  .author-pu > aside   {
     height: 6vh;
+    margin: 0;
   }
  
 
 .audio-player-pu {
- width: 220px;
- margin-top: -5%;
+ margin-top: -4%;
+ }
+
+ .audio-player-pu-small {
+   width: 150px;
+   height: 4vh;
  }
 
  .pointer-pu {
-   margin-top: 3%; /* mq */
+   margin-top: 1%; /* mq */
+   letter-spacing: 1px;
+   margin-left: 0.5%;
  }
 
  
- .clock-pu{  
+ .clock-pu {  
    margin-top: 3%;
    margin-left: 48%;
+   display: none;
  }  
+
+.read-pu {
+  margin-top: 62%;
+  margin-left: -280%;
+}
 
 .cancel {
   margin-left: 96%;
-  height: 2vh;
   padding: 0;
 }
 
