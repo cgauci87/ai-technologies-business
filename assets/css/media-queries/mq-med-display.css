@@ -4791,7 +4791,7 @@ form .field textarea {
 /*================================================================================================*/
 
 
-  /* iPad Portrait 1024x1366  -> WIP <- */
+  /* iPad Portrait 1024x1366  -> PASS <- */
   @media screen and (min-width: 1024px) and (min-height: 1366px)  {
 
     .nav{
