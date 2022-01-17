@@ -5059,18 +5059,17 @@ form .field textarea {
     /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
     
     #adjust-header {
-      margin-top: 7%;
+      padding-top: 5%;
     }
   
     .grid-template-rows-1 , .grid { 
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       display:grid;
-      margin:0 auto;
-      padding-top: 9%;
+      margin-top: 0%;
   }
     
   .grid-template-rows-1{
-      grid-template-rows: 465px 465px;
+      grid-template-rows: 550px 550px;
   }
     
   .grid h3 {
@@ -5085,6 +5084,13 @@ form .field textarea {
     font-size: 18px;
   }
   
+  
+#adjust-footer {
+  margin-top: 30%;
+}
+
+
+  /*wip*/
 
   /*======================popup======================== */
 
