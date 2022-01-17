@@ -5455,20 +5455,28 @@ form .field textarea {
 
   .section-header h2{
   padding-top: 4%;
+  font-size: 42px;
+  height: 12vh;
   }
 
   .audio-player {
-    margin-top: -6.5%;
+    margin-top: -5%;
+  }
+
+  #listen-in {
+    display: none;
   }
 
   #listen {
-  margin-top: -1.25%;
+  margin-top: -1.2%;   /*wip*/
+  padding-left: 0.5%;
   }
+
 
   .author {
     position: absolute;
-    margin-left: 76%;
-    margin-top: -7%;
+    margin-left: 78%;
+    margin-top: -5%;
   }
 
   .author > aside {
@@ -5476,8 +5484,12 @@ form .field textarea {
   }
 
   .fa-clock {
-    margin-top: -1.25%;
-    margin-left: 88%;
+    margin-top: -1.1%;
+    margin-left: 85%;
+  }
+
+  #read {
+    display: none;
   }
 
   .ai-101-a {
