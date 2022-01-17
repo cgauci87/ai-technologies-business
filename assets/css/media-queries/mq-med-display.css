@@ -5257,10 +5257,6 @@ form .field textarea {
    /*#subscribe section*/
   
    .subscribe {
-     background-color: rgba(14, 16, 31, 1);
-     background-size: contain;
-     background-blend-mode:difference;
-     color: rgba(0,0,0,1);               
      background-position: 10px 400px;    /*wip*/
    }
   
@@ -5300,29 +5296,20 @@ form .field textarea {
     max-width: 220px;
   }
   .subscribe-form input {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    height: 4vh;
-    font-size: 18px;
-    width: 140%;
-    color: #0e101f;
-    margin-left: -40%;
+    font-size: 22px;
   }
   
   #submit-button {
     margin-top: -50.2%;
     margin-left: 30%;
     height: 6.85vh;
+    padding-right: 6%;
+    font-weight: 800;
   }
   
-  
   #checkbox {
-    position: absolute;
-    display: flex;
-    width: 20px;
     margin-top: -42.5%;
     margin-left: -12%;
-    z-index: 1;
   }
   
   #subscribe-form > label {
@@ -5411,7 +5398,6 @@ form .field textarea {
   }
   
   .footer p {
-    margin-top: -0.2%;
     font-size: 12px;
   }
   
