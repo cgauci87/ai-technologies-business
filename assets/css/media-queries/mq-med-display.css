@@ -5609,8 +5609,8 @@ form .field textarea {
   margin-top: 2%;
   padding-left: 1.5%;
   padding-right: 2.5%;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 28px;
   word-spacing: -2px;
 }
@@ -5625,7 +5625,7 @@ form .field textarea {
 
 .quote{ 
   color: darkblue;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 32px;
   position: relative;
@@ -5634,7 +5634,7 @@ form .field textarea {
 
 .q-caption {
   color:black;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   text-align: center;
   position: relative;
@@ -5654,14 +5654,14 @@ form .field textarea {
   color: black;
   position: relative;
   z-index: 70;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 28px;
   word-spacing: -2px;
 }
 
 .article-p2 h3 {
- font-size: 26px;
+ font-size: 22px;
 align-self: center;
 text-align: center;
 word-spacing: 2px;
@@ -5669,26 +5669,19 @@ position: relative;
 z-index: 80;
 }
 
-.btm-image-wrapper{
-  background: transparent;
-  position: relative;
-  z-index: 90;
-  margin-top: 12%; 
-  margin-left: -20%;
-  margin-right: -20%;
-  margin-bottom: -70%;
-  height: 56vh;
+.btm-image-wrapper img{
+  height: 25vh;
+  margin-bottom: 10%;
 }
 
 .popup-footer {
   position: relative;
   width: 100%;  
   background:#0e101f;
-  min-height: 10vh;
+  min-height: 5vh;
   z-index: 100;
   display: inline-block;
-  margin-top: 60%;
-  margin-bottom: 0%;
+  margin-top: -10%;
 }
 
 /*-------------popup header----------------------- */
