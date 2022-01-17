@@ -5099,8 +5099,10 @@ form .field textarea {
   
     /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
     
-    #adjust-header > h2 {
-      margin-top: 30%;
+    #adjust-header {
+      position: relative;
+      margin-top: 2.5%;
+      margin-left: -40%;
     }
 
     /*wippp*/
@@ -5108,7 +5110,7 @@ form .field textarea {
     .grid-template-rows-1 , .grid { 
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       display:grid;
-      margin-top: 0%;
+      margin-top: 15%;
   }
     
   .grid-template-rows-1{
