@@ -1,5 +1,5 @@
 /* [D1] (1280x1024) SXGA Display  -> PASS V <- */
-@media screen and (min-width:1280px) and (min-height:1024px) {
+@media screen and (max-width:1280px) and (min-height:1024px) {
 
     .nav > .nav-header > .nav-title {
       font-size: 14px;
@@ -1274,7 +1274,7 @@
   /*=====================================================================================*/
 
   /* [D6] (1680x1050) WSXGA+ Display  -> PASS V <- */
-  @media  screen and (max-width: 1680px) and (min-height: 1050px) {
+  @media  screen and (min-width: 1680px) and (min-height: 1050px) {
     /*header*/
   
     .nav > .nav-header > .nav-title {
