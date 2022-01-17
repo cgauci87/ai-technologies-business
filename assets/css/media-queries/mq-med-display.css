@@ -1084,11 +1084,10 @@
   
   
   #adjust-header {
-  position: relative;
-  margin-top: 3.5%;
-  margin-left: -42%;
-  }
-  
+    position: relative;
+    margin-top: 3.5%;
+    margin-left: -42%;
+    }
   
   .grid-template-rows-1 , .grid { 
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -4860,9 +4859,10 @@ form .field textarea {
         font-size: 31px;
         word-spacing: 100px;
         white-space: pre-line;
-        line-height: 42px;
+        line-height: 32px;
         height: 10vh;
         margin-top: 62%;
+        padding-top: 0.5%;
       }	
     
     .spike#spike1 {
@@ -4870,84 +4870,112 @@ form .field textarea {
       height: 10vh;   
      }
   
-    /* -=- #ai-101 section -=- */
+    /* -=- #ai-101 section -=- */  
 
 
-     .section-header > h2 {
-       font-size: 32px;
-       padding-top: 4.5%;
-       height: 7vh;
-     }
+/* -=- #ai-101 section -=- */
 
-      #ai101-heading-2 {
-      background-color: #0e101f;
-      position: absolute;
-      width: 100%;
-      height: 4vh;
-      margin-top: -5%;
-      z-index: 1;
-      }
+.section-header{
+  position: absolute;
+  margin-left: 45%;
+  margin-top: -15%;
+  z-index: 20;
+  }
 
-      #ai-101-heading-2 h2 {
-        margin-top: -3%;  
-      }
+.section-header h2{
+  font-size: 24px;
+  background-color: transparent;
+}
 
-      .profile-photo {
-        height: 40px;
-        width: 40px;
-        margin-top: 0.5%;
-      }
-      
-      
-      .author{
-        margin: 0 auto;
-        padding-top: 0.6%;
-        }
-        
-
-        .author aside {
-         height: 2vh;
-       }
-       
-
-      .author > aside > #read {
-        margin-left: 300%;
-      }
-     
-     .audio-player {
-       margin-top: 0.2%;
-       margin-right: -15%;
-     }
+  #ai101-heading-2 {
+  background-color: #0e101f;
+  position: absolute;
+  width: 100%;
+  height: 5vh;
+  margin-top: 3.5%;
+  z-index: 1;
+  } 
   
-     .audio-player  > span {
-       padding-left: 3.8%;
-     }
+  .author{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    float: left;
+    line-height: 20px;
+    height: 150px;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 1%;
+    margin-left: 0.5%;
+    }
+    
+    .profile-photo {
+      height: 50px;
+      min-width: 50px;
+      margin-top: -2%;
+    }
+    
+    .author p {
+      float:left;
+      font-size: 12px;
+      line-height: 12px;
+    }
+ 
+    .author aside {
+     line-height: 18px;
+     border-left: 2px solid rgba(127, 221, 252, 0.932);
+     height: 2.5vh;
+   }
 
-       
-      audio {
-        width: 150px;
-        height: 2.5vh;
-       }
-  
-       
-       #listen {
-         display:   none;
-      }
-     
-       #display-clock {
-        display: none;
-       }
-  
-  
-  
-       /*===============================================================*/
+ 
+ .audio-player {
+   float: right;
+   margin-top:  1%; 
+   margin-right: -14%;
+   opacity: 1;
+   filter:invert(100%);
+ }
+
+ .audio-player > span {
+  color:black;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  position: absolute;
+  margin-left: -45%;
+  margin-top: 10%;
+ }
+   
+  audio {
+    width: 160px;
+    height: 2.5vh;
+   }
+
+   
+   #listen {
+     display: none;
+  }
+ 
+   #display-clock {
+    display: none;
+   }
+
+   .author > aside > #read{
+     float: left;
+     font-size: 12px;
+     letter-spacing: 4px;
+     margin-left: 300%;
+     margin-top: 20%;
+   }
+
+   /*===============================================================*/
   
        #ai-img-1 {
          position: relative;
          display: flex;
          width: 100%;
          height: 20vh;
-         margin-top: 6.5%;
+         margin-top: 16%;
        }
   
        #ai-img-2 {
@@ -4957,6 +4985,19 @@ form .field textarea {
         height: 20vh;
         margin-top: 16%;
         padding-right: 2%;
+      }
+
+      .section-header{
+        height: 7vh;
+        position: absolute;
+        margin-left: 45%;
+        margin-top: 3.5%;
+        z-index: 20;
+        }
+    
+      .section-header h2{
+        font-size: 24px;
+        background-color: transparent;
       }
   
   .ai-101-container h3 {
@@ -5042,7 +5083,7 @@ form .field textarea {
   
        .form2-wrapper {
         height: 5vh;
-        margin-top: 120%;
+        margin-top: 127%;
       }
 
       .form2-wrapper > button {
@@ -5058,9 +5099,11 @@ form .field textarea {
   
     /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
     
-    #adjust-header {
-      padding-top: 5%;
+    #adjust-header > h2 {
+      margin-top: 30%;
     }
+
+    /*wippp*/
   
     .grid-template-rows-1 , .grid { 
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
