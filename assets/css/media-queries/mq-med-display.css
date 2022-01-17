@@ -4858,7 +4858,8 @@ form .field textarea {
     
       .line-wrapper-2 .line-2 {
         font-size: 31px;
-        word-spacing: 40px;
+        word-spacing: 100px;
+        white-space: pre-line;
         line-height: 42px;
         height: 10vh;
         margin-top: 62%;
