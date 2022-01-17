@@ -5157,10 +5157,14 @@ form .field textarea {
     }
 
   
-    .listen-pu { 
+    .listen-pu {  /*new*/
       font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      position: absolute;
       margin-top: 7%;
-      letter-spacing: 0.8px;
+      padding-left: 2%;
+      filter: invert(100);
     }
   
    .pointer-pu {
