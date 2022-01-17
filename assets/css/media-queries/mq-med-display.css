@@ -4800,8 +4800,8 @@ form .field textarea {
     }
     
     .nav > .nav-header > .nav-title {
-      font-size: 11px;
-      margin-top: -1%;
+      font-size: 14px;
+      margin-top: -1.5%;
     }
   
     .nav > .nav-links > a {
@@ -4809,7 +4809,7 @@ form .field textarea {
       padding: 8px 6px 8px 6px;
       text-decoration: none;
       color: #efefef;
-      font-size: 14px;
+      font-size: 16px;
     }
   
     .intro h1 {
@@ -4871,6 +4871,11 @@ form .field textarea {
   
     /* -=- #ai-101 section -=- */
 
+     .section-header > h2 {
+       font-size: 32px;
+       margin-top: -10%;
+     }
+
 
       #ai101-heading-2 {
       background-color: #0e101f;
@@ -4902,6 +4907,10 @@ form .field textarea {
          height: 2vh;
        }
        
+
+      .author > aside > #read {
+        margin-left: 300%;
+      }
      
      .audio-player {
        margin-top: 0.2%;
@@ -5049,7 +5058,10 @@ form .field textarea {
       }
   
     /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
-  
+    
+    #adjust-header {
+      margin-top: 7%;
+    }
   
     .grid-template-rows-1 , .grid { 
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -5062,33 +5074,18 @@ form .field textarea {
       grid-template-rows: 465px 465px;
   }
     
-  .grid h3 {            
-    font-size: 20px;
-    font-weight:600;
+  .grid h3 {        /*wip*/    
+    font-size: 22px;
   }
   
   .grid-span {
-    font-size: 18px;
-    font-weight: 500;
-    text-align: left;
-    line-height: 20px;
-    padding-left: 3%;
-    margin-left: -13%;
-    margin-right: -13%;
+    font-size: 20px;
   }
-  
   
   .grid a {
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 18px;
   }
   
-
-  #adjust-footer {
-    position: absolute;
-    margin-top: 14%;
-    z-index: 1;
-  }
   
   /*======================popup======================== */
   
