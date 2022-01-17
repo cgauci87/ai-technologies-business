@@ -4796,14 +4796,14 @@ form .field textarea {
 
     .nav{
       z-index: 10;
-      height: 2.5vh;
+      height: 2.8vh;
     }
     
     .nav > .nav-header > .nav-title {
       font-size: 14px;
-      margin-top: -1.5%;
+      margin-top: -0.5%;
     }
-  
+    
     .nav > .nav-links > a {
       display: inline-block;
       padding: 8px 6px 8px 6px;
