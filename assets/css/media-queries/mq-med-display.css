@@ -5373,7 +5373,7 @@ z-index: 80;
    /*#subscribe section*/
   
    .subscribe {
-     background-position: 10px 400px;
+     background-position:  -900px -300px;
    }
   
    #subscribe-header {
@@ -5391,7 +5391,7 @@ z-index: 80;
   
    .subscribe-form {
      position: absolute;
-     margin-top: 100%;
+     margin-top:  85%;
      margin-left: 15%;
    }
   
