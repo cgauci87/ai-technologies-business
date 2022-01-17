@@ -5408,23 +5408,25 @@ z-index: 80;
   }
   
   .subscribe-form form {
-    max-width: 220px;
+    max-width: 320px;
+    
   }
   .subscribe-form input {
     font-size: 22px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
   }
   
   #submit-button {
-    margin-top: -50.2%;
-    margin-left: 30%;
-    height: 6.85vh;
-    padding-right: 6%;
+    height: 6.8vh;
     font-weight: 800;
+    margin-top: 0%;
+    margin-right: -18%;
   }
   
   #checkbox {
-    margin-top: -42.5%;
-    margin-left: -12%;
+    margin-top: -6%;
+    margin-left: 0%;
   }
   
   #subscribe-form > label {
@@ -5434,8 +5436,9 @@ z-index: 80;
   }
   
   #subscribe-footer {
-    margin-top: 130%;
+    margin-top: 108%;
     padding-top: 0.2%;
+    background-color: #efefef;
   } 
   
   /* #contact section */
