@@ -4940,7 +4940,7 @@ form .field textarea {
   
        /*===============================================================*/
   
-       #ai-img-1 {                            /*wip*/
+       #ai-img-1 {
          position: relative;
          display: flex;
          width: 100%;
@@ -5039,7 +5039,7 @@ form .field textarea {
        }
   
       
-       .form2-wrapper {                       /*wip*/
+       .form2-wrapper {
         height: 8vh;
         margin-top: 123%;
       }
@@ -5074,7 +5074,7 @@ form .field textarea {
       grid-template-rows: 465px 465px;
   }
     
-  .grid h3 {        /*wip*/    
+  .grid h3 {
     font-size: 22px;
   }
   
@@ -5097,7 +5097,7 @@ form .field textarea {
   }
   
    .popup-heading-2 {
-    height: 3vh;        /*wip*/
+    height: 3vh; 
     }
   
   
@@ -5195,19 +5195,21 @@ form .field textarea {
   /*  ==============#podcasts section=====================   */
   
   .podcasts {
-    background-color: rgba(14, 16, 31, 1);
-    background-image: url("/assets/images/podcasts_img.png");
-    background-repeat: no-repeat;
+    background-position: 0 80px;                          /*wip*/
   }
   
   #header-podcasts {
     text-align: center;
-    margin-left: 45%;
-    margin-top: 4%;
+    margin-left: 0%;
+    margin-top: 13.5%;
   }
   
   #header-podcasts h2 {
     color: #0e101f;
+    background-color: #efefef;
+    height: 4vh;
+    min-width: 1024px;
+    padding-top: 0.5%;
   }
   
   .top-image-wrapper img {
@@ -5217,7 +5219,7 @@ form .field textarea {
   
   .playlist {
     position:absolute;
-    margin-top: 2%;
+    margin-top: 28%;
     overflow-y: hidden;
     height: 90vh;
     width: 100%;
@@ -5234,14 +5236,14 @@ form .field textarea {
   .column{
     position:relative;
     height: 4vh;
-    width: 100%;
+    width: 100%;  
     margin: 0 auto;
   }
   
     .column p {
-      font-size: 13px;
+      font-size: 16px;
       font-weight: 500;
-      line-height: 10px;
+      line-height: 18px;
       height: 4vh;
       margin-top: 1%;
       margin-bottom: 1%;
@@ -5255,6 +5257,10 @@ form .field textarea {
     #column-1 {              
       margin-top: 7%;
     }
+
+    #column-1 p {
+      padding-top: 1.5%;
+    }
   
     .podcasts-container {
       position: relative;
@@ -5267,7 +5273,7 @@ form .field textarea {
       display: inline-block;
       width: 100%;
       z-index: 0;
-      margin-top: 67.3%;
+      margin-top: 124%;   /*wip*/
   
     }
   
