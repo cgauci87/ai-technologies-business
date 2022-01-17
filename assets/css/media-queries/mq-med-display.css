@@ -5051,13 +5051,6 @@ form .field textarea {
     /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
   
   
-    #adjust-header {
-      position: relative;
-      margin-top: 10%;
-      margin-left: -40%;
-  
-    }
-      
     .grid-template-rows-1 , .grid { 
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       display:grid;
@@ -5066,8 +5059,7 @@ form .field textarea {
   }
     
   .grid-template-rows-1{
-      grid-template-rows: 300px 300px;
-  
+      grid-template-rows: 465px 465px;
   }
     
   .grid h3 {            
@@ -5091,11 +5083,7 @@ form .field textarea {
     font-weight: 300;
   }
   
-  #healthph, #bankfin, #retailecom, #manufacturing {
-    background-position: center;
-    background-size:cover;
-  }
-  
+
   #adjust-footer {
     position: absolute;
     margin-top: 14%;
