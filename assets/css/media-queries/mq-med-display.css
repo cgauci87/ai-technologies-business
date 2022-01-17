@@ -5376,11 +5376,10 @@ z-index: 80;
      background-position:  -900px -300px;
    }
   
-   #subscribe-header {
+   #subscribe-header > h2 {
     background-color: #efefef;
     width: 100%;
-    margin-left: 0%;
-    margin-top: 3.5%;
+    padding-top: 4%;
    }
   
    #subscribe-header h2 {
