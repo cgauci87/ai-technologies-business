@@ -4936,7 +4936,7 @@ form .field textarea {
          display: flex;
          width: 100%;
          height: 20vh;
-         margin-top: 16.5%;
+         margin-top: 14.3%;
        }
   
        #ai-img-2 {
@@ -4945,60 +4945,59 @@ form .field textarea {
         width: 100%;
         height: 20vh;
         margin-top: 16%;
+        padding-right: 2%;
       }
   
   .ai-101-container h3 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     }  
     .ai-101-container {
       position: absolute;
-      line-height: 16px;
+      line-height: 23px;
       margin-top: -3%;
       margin-left: 2%;
       margin-right: 2%;
     }
   .ai-101-container p {
-      font-size: 16px;
+      font-size: 20px;
       font-weight:400;
       margin-left: 1%;
     }
   
     .ai-101-a {
-      margin-top: 2%;
+      margin-top: 3.5%;
     }
     
     .ai-101-d {
-      margin-top: -16%;
+      margin-top: -10%;
       margin-bottom: 5%;
     } 
   
     #ml-icon {
-      width: 50px;
-      margin-top: 1%;
-      margin-left: 1%;
+      width: 72px;
     }
   
     #mimic-icon {
-      width: 42px;
-      margin-top: 7%;
-      margin-left: 8%;
+      width: 62px;
+      margin-top: 14%;
+      margin-left: 4%;
     }
     
     #process-icon {
-      width: 42px;
-      margin-top: 11%;
+      width: 52px;
+      margin-top: 16%;
       margin-left: 16%;
     }
     
      #ux-icon {
-       width: 34px;
+       width: 38px;
        margin-top: 1%;
        margin-left: 10%;
      }
   
       #big-data-icon {
-        width: 28px;
+        width: 38px;
         float: left;
         position: absolute;
         display: flex;
@@ -5007,27 +5006,27 @@ form .field textarea {
       }
   
       #bus-mgt-icon {
-        width: 32px;
-        margin-top: 0.5%;
+        width: 52px;
+        margin-top: 2.5%;
         margin-left: 2%;
       }
     
       #op-icon {
-        width: 32px;
-        margin-top: 0.5%;
-        margin-left: 11%;
+        width: 52px;
+        margin-top: 2.5%;
+        margin-left: 13%;
       }
      
       #elv-icon {
-        width: 32px;
-        margin-top: 0.55%;
-        margin-left: 20%;
+        width: 52px;
+        margin-top: 2.5%;
+        margin-left: 22%;
      }
   
        #growth-icon {
-        width: 32px;
-        margin-top: 0.5%;
-        margin-left: 29%;
+        width: 52px;
+        margin-top: 2.5%;
+        margin-left: 31%;
        }
   
       
