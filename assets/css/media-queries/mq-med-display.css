@@ -5086,98 +5086,51 @@ form .field textarea {
     font-size: 18px;
   }
   
-  
+
   /*======================popup======================== */
-  
-  .cover {
-    background:rgba(0,0,0,0.8);
-  }
-  
-  .popup-article {
-    width:90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-top-right-radius: 0;
-    z-index: 1000;
-    position: relative;
-  }
-  
-  .popup-article article { 
-    max-height: 100%;
-    margin-top: 30%;
-    border-radius: 0px;
-    background-color: rgba(255,255,255,.75);
-    background-blend-mode:soft-light;
-    overflow-y: scroll;
-    scrollbar-color: #0e101f #0e101f;
-    scrollbar-width: auto;
-  }
+
   .article-header h2 {
-    position: relative;
-    background-color: #0e101f;
-    z-index: 13;
-    font-size: 20px;
-    height: 2.5vh;
-    text-align: left;
     margin-top: 0;
-    padding-top: 3%;
+    padding-top: 0.5%;
     padding-left: 36%;
+    background-color: rgba(0,0,0,0.8);
   }
   
    .popup-heading-2 {
-    background-color: #0e101f;
-    position: absolute;
-    height: 7vh;
-    width: 100%;
-    z-index: 12;
+    height: 3vh;        /*wip*/
     }
   
   
   .author-pu{
-    position: relative;
-    z-index: 13;
-    height: 150px;
-    width: 100%;
-    margin-top: 0;
-    margin-left: 1%;
-  
+    margin-top: 0.2%;
+    margin-left: 0.5%;
     }
   
     .author-pu > .profile-photo {
-      position: relative;  
-      float: left;
-      border-radius: 50%;
-      height: 8vh;
-      margin: 0;
+      height: 35px;
+      width: 35px;
+      margin-top: 0;
     }
-  
+
     .author-pu > p {
-      font-size: 9px;
-      font-weight: 600;
-      margin-top: -16%;
-      white-space: pre-line;
-      line-height: 10px;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      margin-top: -20%;
     }
-  
+
     .author-pu > aside  {
-      border-left: 2px solid rgba(127, 221, 252, 0.932);
-      height: 5vh;
-      position: absolute;
-      margin-left: 100%;
-      font-size: 9px; 
-      font-weight: 500;
-      margin-top: -5%;
-      line-height: 12px;
+      font-size: 12px;
+      height: 3vh;
+      margin-left: 110%;
+      margin-top: -4.5%;
+      padding-left: 5%;
     }
   
     .read-pu { /*new read*/
-      float: left;
-      color: white;
-      font-size: 10px;
-      font-weight: 500;
-      letter-spacing: 2px;
-      margin-top: 35%;
-      margin-left: 110%;
+      font-size: 12px;
+      margin-top: 10%;
+      margin-left: 400%;
     }
   
     .popup-heading-2 span  > .clock-pu{
@@ -5185,38 +5138,27 @@ form .field textarea {
     }
   
     .audio-player-pu {
-      float: right;
-      width: 300px;
-      height: 2vh;
-      z-index:1;
-      margin-left: 79%;
-      margin-top: 0;
+      margin-top: 0.8%;
+      margin-left: 82%;
       opacity: 1;
     }
+
+    .audio-player-pu-small {
+      width: 150px;
+      height: 1vh;
+    }
+
   
-    .listen-pu {  /*new*/
-      color: black;
-      font-size: 10px;
-      font-weight: 500;
-      letter-spacing: 2px;
-      position: absolute;
-      margin-top: 14%;
-      padding-left: 6.5%;
+    .listen-pu { 
+      font-size: 12px;
+      margin-top: 7%;
+      letter-spacing: 0.8px;
     }
   
    .pointer-pu {
       display: none; /*old*/
     }
-  
-    .cancel {
-      position: absolute;
-      background-color: transparent;
-      border-top-right-radius: 0;
-      height: 7vh;
-      z-index: 14;
-      margin-top: -0.5%;
-      margin-left: 96.5%;
-      }
+
     
   
   /*=====================================================*/
@@ -5228,103 +5170,23 @@ form .field textarea {
     border-radius: 0%;
     opacity: 0.3;
   }
-  
+
+
   .popup-article article {
-  margin-top: 17.2%;
-  }
-  
-  .article-p1 p { 
-    margin-top: 1.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    color: black;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .quote-wrapper {
-    margin-top: 2%;
-    float: left;
-    padding-right: 2.5%;
-    padding-left: 2.5%;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .quote{ 
-    font-size: 16px;
-    color: darkblue;
-    font-weight:500;
-    line-height: 22px;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .q-caption {
-    color:black;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .q-icon {
-    width: 36px;
-    align-self: center;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .article-p2 {
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    color: black;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    word-spacing: -2px;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .article-p2 p {
-    padding-top: 2%;
-  }
-  
-  .article-p2 h3 {
-   font-size: 18px;
-  align-self: center;
-  text-align: center;
-  word-spacing: 2px;
-  position: relative;
-  z-index: 1;
+  margin-top: 15%;
   }
   
   .btm-image-wrapper img{
-    background: transparent;
-    position: relative;
-    z-index: 10;
-    margin-top: 5%; 
-    margin-left: -20%;
-    margin-right: -20%;
-    height: 40vh;
-    width: 130%;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
   }
-  
   
   .popup-footer {
     background-color: #0e101f;
     position: relative;
-    min-height: 10vh;
+    height: 2vh;
+    min-height: 1vh;
     width: 1100px;
-    z-index: 1;
-    display: flex;
-    margin: -20%
+    margin-top: -12%;
   }
   
   
