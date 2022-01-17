@@ -5351,31 +5351,26 @@ form .field textarea {
   }
   
   .contact-container form .field label {
-    height: 4vh;
-    padding-top: 0%;
+    padding-top: 1.2%;
   }
   
-  .contact-container form .field input[type="text"], .field input[type="ema il"],
+  .contact-container form .field input[type="text"], .field input[type="email"],
   form .field textarea {
-    height: 4vh;
     padding-left: 26%;  
     color: white;
     background-color: rgba(0,0,0,0.3);
   }
   
-  .contact-container form #msg {
-    height: 4vh;
-    padding-top: 18px;
-  }
+
   .contact-container form textarea:focus#msg,
   .contact-container form textarea:not(:placeholder-shown)#msg {
-    height: 16vh;
-    padding-top: 5%;
+    padding-top: 9%;
     padding-left: 2%;
+    height: 18vh;
   }
   
   .contact-container form input[type="text"]:focus + label,
-  .contact-container form inp ut[type="text"]:not(:placeholder-shown) + label,
+  .contact-container form input[type="text"]:not(:placeholder-shown) + label,
   .contact-container form input[type="email"]:focus + label,
   .contact-container form input[type="email"]:not(:placeholder-shown) + label,
   .contact-container form textarea:focus + label,
@@ -5385,10 +5380,10 @@ form .field textarea {
   }
   
   #send-btn {
-    float:right;
-    height: 6vh;
-    width: 100%;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 1%;
+    padding-left: 7%;
   }
   
   .footer {
