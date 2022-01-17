@@ -4803,7 +4803,7 @@ form .field textarea {
       font-size: 14px;
       margin-top: -0.5%;
     }
-    
+
     .nav > .nav-links > a {
       display: inline-block;
       padding: 8px 6px 8px 6px;
@@ -4875,7 +4875,7 @@ form .field textarea {
 
      .section-header > h2 {
        font-size: 32px;
-       margin-top: 0%;
+       padding-top: 4.5%;
        height: 7vh;
      }
 
@@ -4947,7 +4947,7 @@ form .field textarea {
          display: flex;
          width: 100%;
          height: 20vh;
-         margin-top: 14.3%;
+         margin-top: 6.5%;
        }
   
        #ai-img-2 {
@@ -5040,15 +5040,12 @@ form .field textarea {
         margin-left: 31%;
        }
   
-      
        .form2-wrapper {
-        height: 8vh;
-        margin-top: 123%;
+        height: 5vh;
+        margin-top: 120%;
       }
 
       .form2-wrapper > button {
-        padding: 12px 12px ;
-        margin-top: -2.2%;
         background-color: #efefef;
         color:rgba(14, 16, 31, 1);
       }
