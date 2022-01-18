@@ -5498,11 +5498,14 @@ z-index: 80;
   /* #contact section */
   
   .contact {
-    background-position: -700px 250px;
+    background-position: -800px 250px;
   }
   
   .contact-container {
-    margin-top: 41%;
+    position: absolute;
+    display: inline-block;
+    margin-top: 50%;
+    margin-left: 15%;
   }
   
   #contact-header {
@@ -5519,7 +5522,7 @@ z-index: 80;
   }
 
   .contact-container form * {
-    font-size: 22px;
+    font-size: 28px;
   }
   
   .contact-container form .field label {
@@ -5536,8 +5539,9 @@ z-index: 80;
 
   .contact-container form textarea:focus#msg,
   .contact-container form textarea:not(:placeholder-shown)#msg {
-    padding-top: 9%;
+    padding-top: 10%;
     padding-left: 2%;
+    padding-right: 1.5%;
     height: 18vh;
   }
   
@@ -5552,10 +5556,10 @@ z-index: 80;
   }
   
   #send-btn {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 500;
-    padding-top: 1%;
-    padding-left: 7%;
+    width: 100%;
+    margin-left: 0%;
   }
   
   .footer {
