@@ -4931,23 +4931,23 @@ form .field textarea {
  .audio-player {
    float: right;
    margin-top:  1%; 
-   margin-right: -14%;
+   margin-right: -10%;
    opacity: 1;
    filter:invert(100%);
  }
 
  .audio-player > span {
   color:black;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 500;
   letter-spacing: 2px;
   position: absolute;
-  margin-left: -45%;
-  margin-top: 10%;
+  margin-left: -58%;
+  margin-top: 13%;
  }
    
   audio {
-    width: 160px;
+    width: 200px;
     height: 2.5vh;
    }
 
@@ -4965,7 +4965,7 @@ form .field textarea {
      font-size: 12px;
      letter-spacing: 4px;
      margin-left: 300%;
-     margin-top: 20%;
+     margin-top: 30%;
    }
 
    /*===============================================================*/
@@ -4996,7 +4996,7 @@ form .field textarea {
         }
     
       .section-header h2{
-        font-size: 24px;
+        font-size: 32px;
         background-color: transparent;
       }
   
@@ -5103,14 +5103,15 @@ form .field textarea {
       position: relative;
       margin-top: 2.5%;
       margin-left: -40%;
+      padding-top: 11%;
     }
 
     /*wippp*/
-  
+
     .grid-template-rows-1 , .grid { 
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       display:grid;
-      margin-top: 15%;
+      padding-top: 9%;
   }
     
   .grid-template-rows-1{
