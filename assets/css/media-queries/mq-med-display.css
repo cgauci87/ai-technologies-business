@@ -4878,7 +4878,7 @@ form .field textarea {
 .section-header{
   position: absolute;
   margin-left: 45%;
-  margin-top: -15%;
+  margin-top: -30%;
   z-index: 20;
   }
 
@@ -5103,7 +5103,7 @@ form .field textarea {
       position: relative;
       margin-top: 2.5%;
       margin-left: -40%;
-      padding-top: 11%;
+      padding-top: 5%;
     }
 
     /*wippp*/
@@ -5132,7 +5132,7 @@ form .field textarea {
   
   
 #adjust-footer {
-  margin-top: 30%;
+  margin-top: 38%;
 }
 
   /*======================popup======================== */
@@ -5292,7 +5292,7 @@ form .field textarea {
   z-index: 50;
 }
 
-.q-icon {
+.q  -icon {
   width: 46px;
   align-self: center;
   position: relative;
