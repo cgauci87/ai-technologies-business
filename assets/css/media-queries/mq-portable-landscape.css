@@ -1,6 +1,5 @@
-
-/* [L2] landscape phones 480x320  BUG NOT COMPLETED */
-@media (max-width: 480px) and (max-height: 320px)
+/* landscape phones 480x320  -> PASS <-*/
+@media (min-width: 480px) and (max-height: 320px)
 and (orientation: landscape) { 
   .nav {
     z-index: 300;
@@ -3121,7 +3120,8 @@ margin: 0 auto;
   /* ----------- iPhone X ------WIP----- */
 /* Landscape 812x375 */
 @media only screen 
-and  (min-width: 811px) 
+and  (min-width: 811px)
+and (max-width: 813px)
 and (max-height: 376px)
 and (orientation: landscape) { 
 
