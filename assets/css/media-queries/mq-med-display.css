@@ -5430,21 +5430,20 @@ z-index: 80;
      background-position:  -900px -300px;
    }
   
-   #subscribe-header > h2 {
-    background-color: #efefef;
-    width: 100%;
-    padding-top: 4%;
-   }
-  
    #subscribe-header h2 {
-    color: #0e101f;
-    min-width: 100%;
-    margin-top: -0.7%;
+    text-align: center;
+    background-color: #efefef;
+    color: rgba(14, 16, 31, 1);
+    height: 5vh;
+    width: 1024px;
+    margin-top: 0.2%;
+    margin-left: -45%;
+    padding-top: 1%;
    }
   
    .subscribe-form {
      position: absolute;
-     margin-top:  85%;
+     margin-top:  100%;
      margin-left: 15%;
    }
   
@@ -5466,7 +5465,8 @@ z-index: 80;
     
   }
   .subscribe-form input {
-    font-size: 22px;
+    font-size: 28px;
+    color: black;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;
   }
@@ -5490,8 +5490,8 @@ z-index: 80;
   }
   
   #subscribe-footer {
-    margin-top: 108%;
-    padding-top: 0.2%;
+    margin-top: 117%;
+    padding-top: 0%;
     background-color: #efefef;
   } 
   
