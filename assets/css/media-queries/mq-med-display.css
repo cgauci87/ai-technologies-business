@@ -5106,8 +5106,6 @@ form .field textarea {
       padding-top: 5%;
     }
 
-    /*wippp*/
-
     .grid-template-rows-1 , .grid { 
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       display:grid;
@@ -5139,7 +5137,7 @@ form .field textarea {
   /*======================popup======================== */
 
   .article-header  > h2 {
-    background-color: rgba(0,0,0,0.8);    /*wip*/
+    background-color: rgba(0,0,0,0.8);
     font-size: 22px;
     height: 3.5vh;
     margin-top: -2%;
@@ -5229,9 +5227,6 @@ form .field textarea {
     border-radius: 0%;
     opacity: 0.3;
   }
-
-
-  /*wipp*/
 
   .popup-article { 
     height:100vh;
@@ -5576,7 +5571,7 @@ z-index: 80;
   
   /*================================================================================================*/
 
-  /* iPad Pro Landscape (1366x1024) -> WIP <- */
+  /* iPad Pro Landscape (1366x1024) -> PASS <- */
 @media screen and (min-width:1366px) and (min-height:1024px) {
 
   .nav > .nav-header > .nav-title {
@@ -5645,7 +5640,7 @@ z-index: 80;
   }
 
   #listen {
-  margin-top: -1.2%;   /*wip*/
+  margin-top: -1.2%;
   padding-left: 0.5%;
   }
 
@@ -5763,7 +5758,7 @@ z-index: 80;
   background-size:cover;
 }
 
-/*popup*/                   /*wip*/
+/*popup*/             
 
 .popup-article { 
   margin-top: -52%;
@@ -5945,7 +5940,6 @@ z-index: 80;
   padding-top: 1.5%;
 }
 
- /*wip*/
 
 /*#subscribe section*/
 
