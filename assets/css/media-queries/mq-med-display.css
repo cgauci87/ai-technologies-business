@@ -5498,7 +5498,7 @@ z-index: 80;
   /* #contact section */
   
   .contact {
-    background-position: 0 360px;
+    background-position: -700px 250px;
   }
   
   .contact-container {
@@ -5511,7 +5511,7 @@ z-index: 80;
   margin-left: 0;
   width: 1024px;
   height: 7vh;
-  }
+  } 
 
   #contact-header h2 {
     margin-top: -1%;
