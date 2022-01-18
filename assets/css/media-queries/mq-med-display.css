@@ -5132,7 +5132,8 @@ form .field textarea {
   
   
 #adjust-footer {
-  margin-top: 38%;
+  margin-top: 39%;
+  padding-top: 0.2%;
 }
 
   /*======================popup======================== */
@@ -5340,13 +5341,20 @@ z-index: 80;
   .podcasts {
     background-color: rgba(14, 16, 31, 1);
     background-image: url("/assets/images/podcasts_img.png");
-    background-size: cover;
-    background-blend-mode:exclusion;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 150px;
   }
   
   #header-podcasts h2 { 
     text-align: center;
-    margin-top: -5%;
+    background-color: #efefef;
+    color: rgba(14, 16, 31, 1);
+    height: 5vh;
+    width: 1024px;
+    margin-top: 0.2%;
+    margin-left: -45%;
+    padding-top: 1%;
   }
   
   .top-image-wrapper img {
@@ -5356,7 +5364,7 @@ z-index: 80;
   
   .playlist {
     position:absolute;
-    margin-top: -8%;
+    margin-top: 39%;
     overflow-y: hidden;
     width: 100%;
     height: 90vh;
@@ -5366,7 +5374,7 @@ z-index: 80;
   background-color: rgba(127, 221, 252, 0.932);
   filter:saturate(5%);
   width: 100%;
-  height: 20vh;
+  height: 10vh;
   }
   
   
@@ -5393,7 +5401,7 @@ z-index: 80;
     #column-1 {              
       margin-top: 7%;
     }
-  
+
     .podcasts-container {
       position: relative;
       margin: 0;
@@ -5406,7 +5414,7 @@ z-index: 80;
       width: 100%;
       z-index: 0;
       height: 7vh;
-      margin-top: 115%;  
+      margin-top: 125%;  
     }
   
     #wave1 {
