@@ -827,7 +827,7 @@ background-color: rgb(18, 42, 49, 0.5);
 
 
 /* ----------- Samsung Galaxy S5/S6/S7 ----------- */
-/* Landscape 640x360  -> WIP <-*/
+/* Landscape 640x360  -> PASS <-*/
 @media (max-width: 640px) and (min-height: 360px) 
 and (orientation: landscape) { 
 
@@ -1489,7 +1489,7 @@ height: 100%;
 
  /*===================================== */
   
- /*#subscribe section*/   /*wip*/
+ /*#subscribe section*/
 
  .subscribe {
   background-color: rgba(14, 16, 31, 1);
