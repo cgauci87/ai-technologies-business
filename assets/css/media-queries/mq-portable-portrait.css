@@ -1460,13 +1460,14 @@ display: none;
   scrollbar-color: rgba(176, 221, 236, 0.966) rgba(176, 221, 236, 0.966);
   height: 85vh;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 4.5%;
 }
 
 iframe {
 background-color: transparent;
 filter:saturate(25%);
-height: 30vh;
+height: auto;
+width: 160px;
 }
 
 
@@ -1474,7 +1475,7 @@ height: 30vh;
   position:relative;
   display: flex;
   height: auto;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -1491,16 +1492,7 @@ height: 30vh;
   }
 
   #column-1 {
-    margin-top: 7%;
-    padding-top: 8%;
-  }
-
-  #column-2 {
-    padding-top:  7%;
-  }
-
-  #column-3 {
-    padding-top:  7%;
+    margin-top: 16%;
   }
 
 
