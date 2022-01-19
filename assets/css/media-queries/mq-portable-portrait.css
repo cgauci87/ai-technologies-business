@@ -825,7 +825,7 @@ form .field textarea {
 /*=======================================================================================================*/
 
 /* ----------- Samsung Galaxy S5/S6/S7 ----------- */
-/* [P2] Portrait 360x640  -> WIP <-*/
+/* [P2] Portrait 360x640  -> PASS <-*/
 @media (max-width: 360px) and (min-height: 640px)
 and (orientation: portrait) { 
   
@@ -1112,7 +1112,7 @@ and (orientation: portrait) {
   
     /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
 
-    #adjust-header {                    /*wip*/
+    #adjust-header {
       position: relative;
       margin-top: 3%;
       margin-left: -10%;
