@@ -834,7 +834,7 @@ form .field textarea {
       z-index: 10;
     }
     .nav > .nav-header > .nav-title {
-      font-size: 4px;
+      font-size: 16px;
       padding-top: 2%;
     }
     
@@ -846,25 +846,27 @@ form .field textarea {
       background-color: rgb(28, 63, 71); /* lighter*/
       background-blend-mode: multiply;
       background-size: contain;
-      background-position: center;
+      background-position: 0 200px;
     }
   
       .intro h1 {
-      font-size: 34px;
-      letter-spacing: 8px;
-      padding-top: 15%;
+      font-size: 28px;
+      letter-spacing: 10px;
+      padding-top: 13%;
+      padding-bottom: 1%;
      }
      
      .line-wrapper-1 .line-1 { 
       font-size: 17px;
       word-spacing: 1px;
       line-height: 16px;
-      margin-top: 2.5%;
-      height: 10vh;
+      height: 11vh;
+      margin-top: 1%;
+      padding-top: 0.5%;
     }  
       
     .line-wrapper-2 .line-2 {
-      margin-top: 75%;
+      margin-top: 84%;
       padding-left: 3%;
       white-space:pre-line;
       font-size: 12px;
@@ -875,7 +877,7 @@ form .field textarea {
     .section-footer {   
       height: 4.9vh;
       position: absolute;
-      margin-top: 90%;
+      margin-top: 96%;
     }
   
     .goto-btn {
@@ -889,7 +891,7 @@ form .field textarea {
       }
     
     .spike#spike1 {
-      margin-top: 108%;
+      margin-top: 112%;
       height: 16vh;
     }
   
