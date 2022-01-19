@@ -1073,25 +1073,25 @@ and (orientation: landscape) {
 
     #bus-mgt-icon {
       width: 22px;
-      margin-top: -0.5%;
+      margin-top:  1%;
       margin-left: 1%;
     }
   
     #op-icon {
       width: 22px;
-      margin-top: -0.5%;
+      margin-top: 1%;
       margin-left: 13%;
     }
    
     #elv-icon {
       width: 22px;
-      margin-top: -0.5%;
+      margin-top: 1%;
       margin-left: 23.5%;
    }
    
      #growth-icon {
       width: 22px;
-      margin-top: -0.5%;
+      margin-top: 1%;
       margin-left: 34%;
      }
     
@@ -1100,7 +1100,7 @@ and (orientation: landscape) {
     }
 
     .form2-wrapper {
-      margin-top: 53%; /*wip*/
+      margin-top: 53%;
     }
 
 
@@ -1120,7 +1120,7 @@ and (orientation: landscape) {
 
   
 .grid-template-rows-1 , .grid { 
-    grid-template-columns: 281px 281px;
+    grid-template-columns: 281px 281px;  /*wip*/
     display:grid;
     position: absolute;
     margin-top: 9%;
