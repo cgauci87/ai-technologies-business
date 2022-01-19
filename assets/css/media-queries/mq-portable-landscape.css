@@ -1193,6 +1193,9 @@ and (orientation: landscape) {
   scroll-padding: 0 0 100px 0;
 }
 
+.article-header {
+  height: 6vh;
+}
 
 .article-header h2 {
   position: relative;
@@ -1211,6 +1214,7 @@ and (orientation: landscape) {
   height: 14vh;
   width: 100%;
   z-index: 20;
+  margin-top: 8.5%;
   }
 
 .author-pu{
@@ -1223,8 +1227,8 @@ and (orientation: landscape) {
   }
 
   .author-pu > .profile-photo {
-    margin: -1%;
-    height: 10vh;
+    margin-top: 10%;
+    height: 40px;
     width: 40px;
   }
 
@@ -1232,51 +1236,54 @@ and (orientation: landscape) {
     position: relative;
     display: inline-block;
     font-size: 8px;
-    margin-left: -55%;
-    margin-top: 5%;
+    font-weight: 400;
+    margin-left: -54%;
+    margin-top: 24%;
   }
 
-  .author-pu > aside {
-    position: absolute;
+  .author-pu > aside {  
+    position: relative;
     display: inline-block;
-    height: 16vh;
-    font-size: 7px; 
-    font-weight: 300;
-    white-space: pre-line;
-    line-height: 7px;
-    margin-left: 65%;
-    margin-top: -10%;
+    height: 14vh;
+    font-size: 8px; 
+    font-weight: 400;
+    line-height: 14px;
+    margin-top: 12%;  
+    padding-left: 5%;
   }
 
   .read-pu { /*new read*/
     position: absolute;
     display: flex;
-    font-size: 6px;
+    font-size: 8px;
     font-weight: 500;
     letter-spacing: 0.8px;
-    margin-top: 11%;
-    margin-left: 73%;
+    margin-top: 45%;
+    margin-left: 250%;
   }
   
   .listen-pu {  /*new*/
     position: absolute;
     display: flex;
     color: black;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     margin-top: 6.5%;
     padding-left: 6%;
     white-space: pre-wrap;
   }
 
-
   .audio-player-pu {
     float: right;
     z-index:1;
-    margin-left: 70%;
-    margin-top: 0;
+    margin-left: 76%;
+    margin-top: 2%;
     opacity: 1;
+  }
+
+  .audio-player-pu-small {
+    width: 120px;
   }
 
   .cancel {
@@ -1284,7 +1291,7 @@ and (orientation: landscape) {
     background-color: transparent;
     border-top-right-radius: 0;
     margin-top: -0.5%;
-    margin-left: 94%;
+    margin-left: 95%;
     font-size: 26px;
     z-index: 23;
     }
