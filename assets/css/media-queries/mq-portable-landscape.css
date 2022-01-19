@@ -926,7 +926,7 @@ and (orientation: landscape) {
   position: absolute;
   height: 10vh;
   min-width: 100%;
-  margin-top: 8.8%;
+  margin-top: 7.8%;
   z-index: 1;
   }
 
@@ -945,7 +945,7 @@ and (orientation: landscape) {
     .profile-photo {
       height: 25px;
       min-width: 30px;
-      margin-top: 7%;
+      margin-top: 10%;
     }
  
     .author p {
@@ -964,7 +964,7 @@ and (orientation: landscape) {
     float: left;
     letter-spacing: 3px;
     font-weight: 600;
-    margin-left: 140%;
+    margin-left: 175%;
     margin-top: 10%;
     font-size: 8px;
   }
@@ -975,7 +975,7 @@ and (orientation: landscape) {
     filter:invert(100%);
     opacity: 1;
     margin-top: 1%;
-    margin-left: 72%;
+    margin-left: 74.8%;
     z-index: 1;
   }
 
