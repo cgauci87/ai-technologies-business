@@ -873,7 +873,7 @@ and (orientation: landscape) {
   }	
       
   .section-footer {   
-    height: 4.7vh;
+    height: 5vh;
     position: absolute;
     margin-top: 18%;
   }
@@ -1020,7 +1020,7 @@ and (orientation: landscape) {
   }
 
   .ai-101-a {
-    margin-top: -4.8%;
+    margin-top: -4%;
   }
 
   .ai-101-b {
@@ -1095,11 +1095,12 @@ and (orientation: landscape) {
       margin-left: 34%;
      }
     
+     .form2-wrapper img {
+       margin-bottom: 6%;
+    }
+
     .form2-wrapper {
-      position: absolute;
-      margin-top: 46%;
-      padding-bottom: 11%;
-      background-color: #0e101f;
+      margin-top: 53%; /*wip*/
     }
 
 
@@ -3217,8 +3218,8 @@ margin: 0 auto;
   }
   /*=======================================================================================================*/
 
-  /* ----------- iPhone X ------WIP----- */
-/* Landscape 812x375 */
+  /* ----------- iPhone X ----------- */
+/* Landscape 812x375  > PASS < */
 @media only screen 
 and  (min-width: 811px)
 and (max-width: 813px)
@@ -3953,7 +3954,7 @@ and (orientation: landscape) {
     /* #contact section */
     
     .contact {
-    background-position: 0px 0px;   /*wip*/
+    background-position: 0px 0px;
     }
     
     .contact-container {
