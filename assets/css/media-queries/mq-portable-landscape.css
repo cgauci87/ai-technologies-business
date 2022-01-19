@@ -1110,39 +1110,39 @@ and (orientation: landscape) {
   #adjust-header {
     position: relative;
     margin-top: 2%;
-    margin-left: -20%;
+    margin-left: -32%;
     z-index: 0;
   }
 
   #adjust-footer {
     position: absolute;
-    margin-top: 52.5%;
+    margin-top: 52%;
   }
 
   
 .grid-template-rows-1 , .grid { 
-    grid-template-columns: 281px 281px;  /*wip*/
+    grid-template-columns: 317px 317px;  /*wip*/
     display:grid;
     position: absolute;
-    margin-top: 9%;
+    margin-top: 8%;
     margin-bottom: -90%;
 }
   
 .grid-template-rows-1{
-    grid-template-rows: 120px 120px;
-    padding-bottom: 2.5px; /*chk*/
+    grid-template-rows: 132px 132px;
+    padding-bottom: 2.5px;
 }
 
 
 .grid h3 {                
-	font-size: 14px;
-  font-weight:400;
+	font-size: 16px;
+  font-weight:700;
 }
 
 
 .grid-span {
-  font-size: 10px; 
-  font-weight: 400;
+  font-size: 12px; 
+  font-weight: 600;
   line-height: 15px;
   margin-left: -13%;
   margin-right: -13%;
@@ -1151,8 +1151,8 @@ and (orientation: landscape) {
 }
 
 .grid a {
-  font-size: 8px;
-  font-weight: 300;
+  font-size: 10px;
+  font-weight: 500;
 }
 
 #healthph, #bankfin, #retailecom, #manufacturing {
