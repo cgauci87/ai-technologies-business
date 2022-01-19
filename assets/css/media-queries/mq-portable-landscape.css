@@ -1300,20 +1300,20 @@ and (orientation: landscape) {
 /*=====================================================*/
 
 .lhs-image-wrapper img{
-  height: 100%;
+  max-height: 90%;
   width: 50%;
   border-radius: 0%;
   opacity: 0.3;
 }
 
 .article-p1 p { 
-  margin-top: 2%;
+  margin-top: 10%;
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 16px;
   position: relative;
   z-index: 1;
 }
@@ -1328,18 +1328,19 @@ and (orientation: landscape) {
 }
 
 .quote{ 
-  font-size: 12px;
+  font-size: 14px;
   color: darkblue;
   font-weight:500;
-  line-height: 20px;
+  line-height: 18px;
   position: relative;
   z-index: 1;
+  padding-top: 1%;
 }
 
 .q-caption {
   color:black;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -1356,16 +1357,20 @@ and (orientation: landscape) {
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 16px;
   word-spacing: -2px;
   position: relative;
   z-index: 1;
 }
 
+.article-p2 p {
+  padding-top: 3%;
+}
+
 .article-p2 h3 {
- font-size: 12px;
+ font-size: 16px;
 align-self: center;
 text-align: center;
 word-spacing: 2px;
@@ -1376,13 +1381,13 @@ z-index: 1;
 .btm-image-wrapper img{
   background: transparent;
   position: relative;
-  z-index: 9998;
+  z-index: 20;
   margin-top: 5%; 
   margin-left: -20%;
   margin-right: -20%;
   height: 60vh;
   width: 130%;
-  margin-bottom: 12%;
+  margin-bottom: 5%;
 }
 
 
@@ -1391,9 +1396,9 @@ z-index: 1;
   display: flex;
   width: 100%;  
   background: #0e101f;
-  min-height: 5vh;
-  z-index: 9999;
-  margin-top: -9%
+  height: 8vh;
+  z-index: 22;
+  margin-top: 1%
 }
 
 
