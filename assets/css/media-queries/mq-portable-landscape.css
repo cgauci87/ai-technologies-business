@@ -828,7 +828,7 @@ background-color: rgb(18, 42, 49, 0.5);
 
 /* ----------- Samsung Galaxy S5/S6/S7 ----------- */
 /* Landscape 640x360  -> WIP <-*/
-@media (max-width: 640px) and (min-height: 360px)
+@media (max-width: 640px) and (min-height: 360px) 
 and (orientation: landscape) { 
 
   .nav {
@@ -883,7 +883,7 @@ and (orientation: landscape) {
     border-width: 0.2px;
     padding-left: 0.8%;
     padding-top: 0.4%;
-    padding-bottom: 0.4%;
+    padding-bottom: 0.2%;
     margin: 0 auto;
     }
 
@@ -1594,11 +1594,13 @@ height: 100%;
 
 .contact-container {
  position: absolute;
- margin-top: 12%;
+ margin-top: 10%;
  margin-left: 15%;
 }
+
 .contact-container form * {
- font-size: 13px;
+ font-size: 16px;
+ font-weight: 400;
 }
 
 .contact-container form .field {
@@ -1606,25 +1608,25 @@ height: 100%;
 }
 
 .contact-container form .field label {
- height: 6vh;
+ height: 7vh;
  padding-top: 0%;
 }
 
 .contact-container form .field input[type="text"], .field input[type="email"],
 form .field textarea {
- height: 6vh;
+ height: 7vh;
  color: white;
  background-color: rgba(0,0,0,0.3);
  padding-left: 35%; 
 }
 
 .contact-container form #msg {
- height: 6vh;
+ height: 7vh;
 }
 .contact-container form textarea:focus#msg,
 .contact-container form textarea:not(:placeholder-shown)#msg {
- height: 20vh;
- padding-top: 5%;
+ height: 34vh;
+ padding-top: 7%;
  padding-left: 2%;
  padding-right: 1%;
 }
@@ -1641,7 +1643,7 @@ form .field textarea {
 
 #send-btn {
  float:right;
- height: 16vh;
+ height: 14vh;
  width: 100%;
  z-index: 1;
 }
@@ -1650,21 +1652,13 @@ form .field textarea {
  display: none;
 }
 
-.footer {
-float:left;
-margin-top: -14%;
-margin-bottom: -50%;
-background-color: rgb(18, 42, 49, 0.5);
+.social-icon {
+  margin-top: -10%;
 }
 
 .footer p {
   font-size: 10px;
-  margin-bottom: -5%;
-}
-
-.social-icon {
-  margin-top: -5%;
-  margin-bottom: -5%;
+  margin-top: -2%;
 }
 
 }
