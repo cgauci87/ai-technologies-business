@@ -826,12 +826,11 @@ form .field textarea {
 
 /* ----------- Samsung Galaxy S5/S6/S7 ----------- */
 /* [P2] Portrait 360x640  -> WIP <-*/
-@media screen 
-  and (max-width: 360px) and (max-height: 640px)
-    and (orientation: portrait) { 
-
+@media screen and (min-width: 360px) and (max-height: 640px) and (-webkit-device-pixel-ratio: 2) {
     .nav {
       z-index: 10;
+      max-width: 100%;
+      width: 360px;
     }
     .nav > .nav-header > .nav-title {
       font-size: 14px;
@@ -1458,7 +1457,7 @@ iframe {
 background-color: transparent;
 filter:saturate(25%);
 max-width: 100%;
-width: 360px;
+width: 150px;
 height: 30vh;
 }
 
