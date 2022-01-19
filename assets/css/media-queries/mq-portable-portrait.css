@@ -1528,13 +1528,13 @@ width: 160px;
   }
   
   #subscribe-header {
-    margin-top: 0.8%;
-    padding-left: 4%;
+    margin-top: 1%;
+    margin-left: 38%;
   }
   
   .subscribe-form {
     position: absolute;
-    margin-top: 45%;
+    margin-top: 39%;
     margin-left: 5%;
     line-height: 20px;
   }
@@ -1548,10 +1548,11 @@ width: 160px;
   
   .subscribe-form p {
    text-align: center;
-   padding-right: 4%;
+   margin-left: -5%;
    margin-top: -0.5%;
-   font-size: 18px;
-   font-weight: 500;
+   font-size: 14px;
+   font-weight: 700;
+   background-color: white;
   }
   .subscribe-form form {
    max-width: 150px;
