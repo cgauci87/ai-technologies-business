@@ -1303,7 +1303,7 @@ and (orientation: landscape) {
   max-height: 90%;
   width: 50%;
   border-radius: 0%;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .article-p1 p { 
