@@ -1576,9 +1576,9 @@ width: 160px;
    display:block; /* display block is compatible with all browsers - while displayt flex is compatible with only FF*/
    font-size: 14px;
    font-weight: 700;
-   margin-top: 53.7%;
-   margin-left: 40%;
-   padding-top: 2%;
+   margin-top: 37.5%;
+   margin-left: 40.5%;
+   padding-top: 2.8%;
    padding-bottom: 9%;
   }
   
@@ -1586,7 +1586,7 @@ width: 160px;
    position: absolute;
    display: flex;
    width: 20px;
-   margin-top: 60.5%;
+   margin-top: 44.8%;
    margin-left: -5%;
    z-index: 1;
   }
@@ -1598,13 +1598,14 @@ width: 160px;
     white-space: nowrap;
     margin-top: 4%;
     margin-right: 7%;
-    font-size: 7px;
+    font-size: 8px;
     font-weight: 500;
     line-height: 7px;
     white-space: pre-wrap;
     text-align: left;
     padding-left: 5%;
-  }
+    padding-top: 0.5%;
+    }
   
   
   #subscribe-footer {
