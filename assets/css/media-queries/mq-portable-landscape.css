@@ -1489,19 +1489,20 @@ height: 100%;
 
  /*===================================== */
   
- /*#subscribe section*/
+ /*#subscribe section*/   /*wip*/
 
  .subscribe {
   background-color: rgba(14, 16, 31, 1);
   background-size: cover;
-  background-position: center;
+  background-position: -300px -40px;
   background-blend-mode:difference;
   color: rgba(0,0,0,1);
 }
 
 #subscribe-header {
   text-align: center;
-  margin-top: 0.7%;
+  margin-top: 0.5%;
+  margin-left: 34%;
 }
 
 .subscribe-form {
@@ -1509,7 +1510,7 @@ height: 100%;
   margin-top: 10%;
   line-height: 20px;
   text-align: center;
-  margin-left: 15%;
+  margin-left: 18%;
 }
 
 .subscribe-form h1 {
@@ -1521,10 +1522,11 @@ height: 100%;
 }
 
 .subscribe-form p {
- font-size: 12px;
+ font-size: 14px;
  font-weight: 600;
  text-align: center;
  margin-top: -1%;
+ filter: invert(100);
 }
 
 .subscribe-form form {
@@ -1534,7 +1536,7 @@ height: 100%;
  border-top-right-radius: 0;
  border-bottom-right-radius: 0;
  height: 6vh;
- font-size: 12px;
+ font-size: 14px;
  font-weight: 400;
  width: 100%;
  color: #0e101f;
