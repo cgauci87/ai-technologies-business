@@ -824,8 +824,8 @@ form .field textarea {
 }
 /*=======================================================================================================*/
 
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-/* [P2] Portrait 375x667 Samsung Galaxy S5/S6/S7 -> WIP <-*/
+/* ----------- Samsung Galaxy S5/S6/S7 ----------- */
+/* [P2] Portrait 375x667  -> WIP <-*/
 @media screen 
   and (min-width: 360px)  
   and (min-height: 640px)
