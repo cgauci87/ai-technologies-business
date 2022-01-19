@@ -873,7 +873,7 @@ and (orientation: landscape) {
   }	
       
   .section-footer {   
-    height: 5vh;
+    height: 4.5vh;
     position: absolute;
     margin-top: 18%;
   }
@@ -882,7 +882,8 @@ and (orientation: landscape) {
     border-radius: 5%;
     border-width: 0.2px;
     padding-left: 0.8%;
-    padding-bottom: 0.8%;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
     margin: 0 auto;
     }
 
