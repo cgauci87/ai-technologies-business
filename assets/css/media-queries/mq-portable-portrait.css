@@ -830,8 +830,11 @@ form .field textarea {
   and (min-width: 360px)  
   and (min-height: 640px)
     and (orientation: portrait) { 
+
     .nav {
       z-index: 10;
+      max-width: 100%;
+      width: 360px;
     }
     .nav > .nav-header > .nav-title {
       font-size: 16px;
@@ -997,7 +1000,7 @@ form .field textarea {
 
        /*===============================================================*/
   .ai-101 {
-    background-blend-mode:color;/*color */
+    background-blend-mode:color;
   }
 
   .ai-101-container h3 {
@@ -1020,7 +1023,7 @@ form .field textarea {
     }
   
     .ai-101-a {
-      margin-top: 28%;
+      margin-top: 20%;
     }
   
     .ai-101-b {
@@ -1036,7 +1039,7 @@ form .field textarea {
     } 
   
     #ml-icon {
-      width: 50px;
+      width: 40px;
       float: left;
       position: absolute;
       display: flex;
@@ -1045,25 +1048,25 @@ form .field textarea {
     }
   
     #mimic-icon {
-      width: 42px;
+      width: 32px;
       margin-top:  20%;
       margin-left: 5%;
     }
     
     #process-icon {
-      width: 42px;
+      width: 28px;
       margin-top: 25%;
       margin-left: 23%;
     }
     
      #ux-icon {
-       width: 34px;
+       width: 24px;
        margin-top: 2%;
        margin-left: 16%;
      }
   
       #big-data-icon {
-        width: 34px;
+        width: 24px;
         float: left;
         position: absolute;
         display: flex;
@@ -1072,27 +1075,27 @@ form .field textarea {
       }
   
       #bus-mgt-icon {
-        width: 42px;
-        margin-top: 3%;
-        margin-left: 1%;
+        width: 28px;
+        margin-top: 6%;
+        margin-left: 2%;
       }
     
       #op-icon {
-        width: 42px;
-        margin-top: 3%;
+        width: 28px;
+        margin-top: 6%;
         margin-left: 20%;
       }
      
       #elv-icon {
-        width: 42px;
-        margin-top: 3%;
-        margin-left: 38%;
+        width: 28px;
+        margin-top: 6%;
+        margin-left: 40%;
      }
      
        #growth-icon {
-        width: 42px;
-        margin-top: 3%;
-        margin-left: 53.5%;
+        width: 28px;
+        margin-top: 6%;
+        margin-left: 58%;
        }
       
       .form2-wrapper {
@@ -1117,7 +1120,7 @@ form .field textarea {
   
     
   .grid-template-rows-1 , .grid {
-    grid-template-columns: 185px 185px;
+    grid-template-columns: 175px 175px;
       display:grid;
       position: absolute;
       margin-top: 13%;
@@ -1125,7 +1128,7 @@ form .field textarea {
   }
     
   .grid-template-rows-1{
-      grid-template-rows: 280px 280px;
+      grid-template-rows: 270px 270px;
       padding-bottom: 2.5px; /*chk*/
   }
   
