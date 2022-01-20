@@ -2499,7 +2499,7 @@ margin: 0 auto;
  margin-top: 156%;
 } 
 
-/* #contact section */
+/* #contact section wip */
 
 .contact {
  background-color: rgba(14, 16, 31, 1);
@@ -2510,9 +2510,15 @@ margin: 0 auto;
 
 .contact-container {
  position: absolute;
- margin-top: 56%;
+ margin-top: 50.5%;
  margin-left: 15%;
 }
+
+#contact-header {
+  margin-top: 1.1%;
+  margin-left: 38%;
+}
+
 .contact-container form * {
  font-size: 15px;
 }
@@ -2586,10 +2592,7 @@ form .field textarea {
 
 }
 
-
-
-
-    /*=======================================================================================================*/
+ /*=======================================================================================================*/
 
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
