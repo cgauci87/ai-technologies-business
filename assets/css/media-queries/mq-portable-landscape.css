@@ -2313,13 +2313,13 @@ margin-top: 51%;
  }
 
  #subscribe-header {
-   margin-top: 0.6%;
-   margin-left: 42.5%;
+   margin-top: 0.8%;
+   margin-left: 32%;
  }
 
  .subscribe-form {
    position: absolute;
-   margin-top: 7%;
+   margin-top: 12%;
    margin-left: 16%;
  }
 
@@ -2345,22 +2345,23 @@ margin-top: 51%;
 }
 
 #submit-button {
-  margin-top: 0;
-  margin-right: -30%;
+  margin-top: 28.8%;
+  margin-left: 33%;
+  padding-top: 0.5%;
 }
 
 #checkbox {
-  width: 15px;
+  width: 40px;
+  margin-top: 29%;
+  margin-left: -14%;
 }
 
 #subscribe-form > label {
   font-size: 10px;
-  margin-top: -11%;
-  margin-left: 10%;
 }
 
 #subscribe-footer {
-  margin-top: 53.5%;
+  margin-top: 57%;
 } 
 
 /* #contact section */
