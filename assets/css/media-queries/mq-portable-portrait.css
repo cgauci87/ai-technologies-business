@@ -1776,99 +1776,100 @@ and (max-height: 640px)
 
 /*WIP*/
 
-#listen , #display-clock { 
-  display: none;
-}
 
-.section-header{
-  position: absolute;
-  height: 7vh;
-  text-align: center;
-  z-index: 11;
-  margin-top: 1.5%;
-  margin-left: 44%;
+  #listen , #display-clock { 
+    display: none;
   }
 
-  
-.section-header h2{
-  font-size: 24px;
-  background-color: transparent;      
-}
+  .section-header{
+    position: absolute;
+    height: 7vh;
+    text-align: center;
+    z-index: 11;
+    margin-top: 1.5%;
+    margin-left: 44%;
+    }
 
-  #ai101-heading-2 {
-  background-color: #0e101f;
-  position: absolute;
-  height: 10vh;
-  margin-top: 12%;
-  min-width: 100%;
-  z-index: 1;
+    
+  .section-header h2{
+    font-size: 24px;
+    background-color: transparent;      
   }
-  
 
-  .author{
-    position: relative;
-    display: flex;
+    #ai101-heading-2 {
+    background-color: #0e101f;
+    position: absolute;
+    height: 10vh;
+    margin-top: 12%;
+    min-width: 100%;
     z-index: 1;
-    float: left;
-    height: 150px;
-    width: 100%;
-    white-space: nowrap;
-    margin-top: -10.5%;
-    margin-left: 1%;
     }
- 
- 
-    .author p {
-      float:left;
+    
+
+    .author{
+      position: relative;
+      display: flex;
+      z-index: 1;
+      float: left;
+      height: 150px;
+      width: 100%;
+      white-space: nowrap;
+      margin-top: -10.5%;
+      margin-left: 1%;
+      }
+   
+   
+      .author p {
+        float:left;
+        font-size: 12px;
+      }
+   
+      .author aside {
+       font-size: 12px;
+       line-height: 18px;
+       border-left: 2px solid rgba(127, 221, 252, 0.932);
+       height: 7vh;
+     }
+
+     .author > aside > #read{
+      float: left;
       font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-left: -32%;
+      margin-top: 40%;
     }
- 
-    .author aside {
-     font-size: 12px;
-     line-height: 18px;
-     border-left: 2px solid rgba(127, 221, 252, 0.932);
-     height: 7vh;
-   }
+   
+      .profile-photo {
+        height: 40px;
+        min-width: 50px;
+        margin-top: 7%;
+      }
 
-   .author > aside > #read{
-    float: left;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-left: -32%;
-    margin-top: 40%;
-  }
- 
-    .profile-photo {
-      height: 40px;
-      min-width: 50px;
-      margin-top: 7%;
+      #ai-101-audio { 
+        width: 20%;
+        min-width: 100px;
+        height: 50%;
+        min-height: 5vh;
+      }
+  
+    .audio-player {
+      position: relative;
+      display: flex;
+      filter:invert(100%);
+      opacity: 1;
+      margin-top:  0;
+      margin-left: 73%;
+      z-index: 9;
     }
-
-    #ai-101-audio { 
-      width: 20%;
-      min-width: 100px;
-      height: 50%;
-      min-height: 5vh;
+  
+    .audio-player > span {
+     font-size: 10px;
+     font-weight: 400;
+     letter-spacing: 0.5px;
+     margin-left: -45%;
+     margin-top: 14.5%;
     }
-
-  .audio-player {
-    position: relative;
-    display: flex;
-    filter:invert(100%);
-    opacity: 1;
-    margin-top:  0;
-    margin-left: 73%;
-    z-index: 9;
-  }
-
-  .audio-player > span {
-   font-size: 10px;
-   font-weight: 400;
-   letter-spacing: 0.5px;
-   margin-left: -45%;
-   margin-top: 14.5%;
-  }
 
 
 
