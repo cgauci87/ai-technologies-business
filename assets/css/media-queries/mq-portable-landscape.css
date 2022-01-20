@@ -2348,6 +2348,7 @@ margin-top: 51%;
   margin-top: 28.8%;
   margin-left: 33%;
   padding-top: 0.5%;
+  height: 7.2vh;
 }
 
 #checkbox {
@@ -2422,14 +2423,16 @@ form .field textarea {
 }
 
 .footer {
-  margin-top: -12%;
-  height: 5vh;
-  padding-top: 1%;
+  margin-top: -15%;
+}
+
+.social-icon {
+  padding-top: 9%;
+  font-size: 10px;
 }
 
 .footer p {
-  margin-top: -1%;
-  font-size: 10px;
+  padding-top: 2%;
 }
 
 }
