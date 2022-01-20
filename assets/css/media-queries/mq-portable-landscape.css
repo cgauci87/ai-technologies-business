@@ -1708,7 +1708,7 @@ and (orientation: landscape) {
   .section-footer {   
     height: 4vh;
     position: absolute;
-    margin-top: 16%;
+    margin-top: 17%;
   }
 
   .goto-btn {
@@ -1727,15 +1727,15 @@ and (orientation: landscape) {
     }
   
     .line-wrapper-2 .line-2 {
-      margin-top: 32%;
-      font-size: 11.5px;
-      word-spacing: 0.2px;
+      font-size: 11px;
+      word-spacing: 1px;
       height: 3.8vh;
+      margin-top: 34%;
     }	
   
   .spike#spike1 {
-    margin-top: 33%;
-    height: 2vh;
+    margin-top: 35%;
+    height: 6.7vh;
   }
 
   /* -=- #ai-101 section -=- */
