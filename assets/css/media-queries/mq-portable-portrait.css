@@ -1788,7 +1788,7 @@ and (max-height: 640px)
       position: relative;
       display: inline-block;
       height: 7vh;
-      padding-top: 7.7%;
+      padding-top: 7.8%;
       padding-left: 40%;
       z-index: 11;
       }
@@ -1802,14 +1802,13 @@ and (max-height: 640px)
       #ai101-heading-2 {
       background-color: #0e101f;
       position: absolute;
+      display: flex;
       height: 10vh;
       margin-top: 2.9%;
       z-index: 1;
       }
 
     .author{
-      position: relative;
-      display: flex;
       z-index: 1;
       float: left;
       height: 150px;
@@ -1847,8 +1846,6 @@ and (max-height: 640px)
     }
 
   .audio-player { 
-    position: relative;
-    display: flex;
     filter:invert(100%);
     opacity: 1; 
     margin-top: 2%;
