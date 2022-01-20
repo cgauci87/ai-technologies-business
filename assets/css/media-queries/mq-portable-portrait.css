@@ -1814,7 +1814,7 @@ and (max-height: 640px)
       height: 150px;
       width: 100%;
       white-space: nowrap;
-      margin-top: -10.5%;
+      margin-top: -8.5%;
       margin-left: 1%;
       }
    
@@ -1843,7 +1843,7 @@ and (max-height: 640px)
       .profile-photo {
         height: 40px;
         min-width: 50px;
-        margin-top: 7%;
+        margin-top: 8%;
       }
 
       #ai-101-audio { 
