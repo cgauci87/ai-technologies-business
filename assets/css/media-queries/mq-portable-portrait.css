@@ -1912,7 +1912,7 @@ and (max-height: 640px)
   } 
 
   #ml-icon {
-    width: 50px;
+    width: 38px;
     float: left;
     position: absolute;
     display: flex;
@@ -1921,25 +1921,25 @@ and (max-height: 640px)
   }
 
   #mimic-icon {
-    width: 42px;
-    margin-top:  20%;
-    margin-left: 5%;
+    width: 32px;
+    margin-top:  17.5%;
+    margin-left: 8%;
   }
   
   #process-icon {
-    width: 42px;
-    margin-top: 25%;
-    margin-left: 23%;
+    width: 32px;
+    margin-top: 23.5%;
+    margin-left: 24%;
   }
   
    #ux-icon {
-     width: 34px;
+     width: 24px;
      margin-top: 2%;
      margin-left: 16%;
    }
 
     #big-data-icon {
-      width: 34px;
+      width: 28px;
       float: left;
       position: absolute;
       display: flex;
@@ -1948,26 +1948,26 @@ and (max-height: 640px)
     }
 
     #bus-mgt-icon {
-      width: 42px;
-      margin-top: 3%;
+      width: 28px;
+      margin-top: 4.5%;
       margin-left: 1%;
     }
   
     #op-icon {
-      width: 42px;
-      margin-top: 3%;
+      width: 28px;
+      margin-top: 4.5%;
       margin-left: 20%;
     }
    
     #elv-icon {
-      width: 42px;
-      margin-top: 3%;
+      width: 28px;
+      margin-top: 4.5%;
       margin-left: 38%;
    }
    
      #growth-icon {
-      width: 42px;
-      margin-top: 3%;
+      width: 28px;
+      margin-top: 4.5%;
       margin-left: 53.5%;
      }
     
@@ -2116,7 +2116,7 @@ margin-left: 1%;
   line-height: 9px;
 }
 
-.read-pu { /*new read*/
+.read-pu { 
   float: left;
   color: white;
   font-size: 8px;
@@ -2127,7 +2127,7 @@ margin-left: 1%;
 }
 
 .popup-heading-2 span  > .clock-pu{
-  display: none; /*old clock*/
+  display: none;
 }
 
 .audio-player-pu {
@@ -2137,7 +2137,7 @@ margin-left: 1%;
   opacity: 1;
 }
 
-.listen-pu {  /*new*/
+.listen-pu { 
   color: black;
   font-size: 10px;
   font-weight: 500;
@@ -2148,7 +2148,7 @@ margin-left: 1%;
 }
 
 .pointer-pu {
-  display: none; /*old*/
+  display: none;
 }
 
 .cancel {
