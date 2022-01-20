@@ -1787,7 +1787,8 @@ and (max-height: 640px)
     text-align: center;
     display: flex;
     height: 7vh;
-    margin-top: 8%;
+    padding-top: 8%;
+    margin-top: 0%;
     margin-left: 40%;
     z-index: 11;              /*wip*/
     }
