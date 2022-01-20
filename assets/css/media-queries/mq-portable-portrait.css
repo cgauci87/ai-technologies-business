@@ -1987,7 +1987,7 @@ and (max-height: 640px)
   #adjust-header {
     position: relative;
     margin-top: 2%;
-    margin-left: -20%;
+    margin-left: -50%;
     z-index: 0;
   }
 
@@ -2324,8 +2324,8 @@ display: none;
 }
 
 #header-podcasts {
-margin-top: 0.5%;
-text-align: center;
+margin-top: 0.8%;
+margin-left: 38%;
 }
 
 .playlist {
@@ -2392,7 +2392,6 @@ margin: 0 auto;
   margin-top: 155%;
 } 
 
-/*wip*/
 #wave1 {
   height: 8vh;
   margin-top: -12%;
