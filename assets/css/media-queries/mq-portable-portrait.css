@@ -2012,13 +2012,13 @@ and (max-height: 640px)
 
 
 .grid h3 {                
-  font-size: 15px;
-  font-weight:400;
+  font-size: 16px;
+  font-weight:700;
 }
 
 
 .grid-span {
-  font-size: 13px; 
+  font-size: 14px; 
   font-weight: 600;
   line-height: 15px;
   margin-left: -13%;
@@ -2028,8 +2028,8 @@ and (max-height: 640px)
 }
 
 .grid a {
-  font-size: 11px;
-  font-weight: 300;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 /*======================popup======================== */
