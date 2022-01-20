@@ -1730,15 +1730,16 @@ and (max-height: 640px)
     .intro h1 {
     font-size: 34px;
     letter-spacing: 8px;
-    padding-top: 15%;
+    padding-top: 12%;
    }
    
    .line-wrapper-1 .line-1 { 
     font-size: 17px;
     word-spacing: 1px;
     line-height: 16px;
-    margin-top: 2.5%;
-    height: 10vh;
+    margin-top: 2%;
+    height: 11vh;
+    padding-top: 0.2%;
   }  
     
   .line-wrapper-2 .line-2 {
