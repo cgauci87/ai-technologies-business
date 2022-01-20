@@ -2442,10 +2442,10 @@ margin: 0 auto;
 
 
 /* ---------- iPhone 6+, 7+ and 8+ 736x414 / Google Pixel 731x411 -----------  */
-/* Landscape 736x414 -> PASS V -<*/
+/* Landscape -> PASS V -<*/
 @media screen 
 and (min-width: 731px)
-and (max-height: 414px)
+and (max-width: 736px)
 and (orientation: landscape) { 
     .nav {
       z-index: 10;
