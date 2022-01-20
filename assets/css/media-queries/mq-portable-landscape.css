@@ -2133,11 +2133,11 @@ and (orientation: landscape) {
   height: 100%;
   width: 50%;
   border-radius: 0%;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .popup-article article {
-margin-top: 17.2%;
+margin-top: 10.8%;
 }
 
 .article-p1 p { 
@@ -2216,7 +2216,7 @@ z-index: 90;
   margin-right: -20%;
   height: 56vh;
   width: 130%;
-  margin-bottom: 30%;
+  margin-bottom: 23%;
 }
 
 
@@ -2225,9 +2225,9 @@ z-index: 90;
   position: absolute;
   display: inline-block;
   width: 100%;  
-  min-height: 20vh;
+  height: 4vh;
   z-index: 100;
-  margin-top: -15%;
+  margin-top: -17.5%;
 }
 
 
