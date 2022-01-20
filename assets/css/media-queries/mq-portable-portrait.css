@@ -1703,7 +1703,7 @@ width: 160px;
   /*=======================================================================================================*/
 
 /* ----------- Nexus 4 ----------- */
-/* Portrait 384x640 -> WIP <-*/
+/* Portrait 384x640 -> PASS <-*/
 @media screen 
 and (min-width: 384px)  
 and (max-height: 640px)
@@ -2401,7 +2401,7 @@ margin: 0 auto;
 
  /*===================================== */
   
- /*#subscribe section*/  /*wip*/
+ /*#subscribe section*/
 
  .subscribe {
   background-color: rgba(14, 16, 31, 1);
@@ -2499,7 +2499,7 @@ margin: 0 auto;
  margin-top: 156%;
 } 
 
-/* #contact section wip */
+/* #contact section */
 
 .contact {
  background-color: rgba(14, 16, 31, 1);
