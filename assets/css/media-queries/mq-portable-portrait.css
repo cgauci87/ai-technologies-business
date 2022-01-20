@@ -4137,7 +4137,7 @@ display: none;
 
 #header-podcasts {
 margin-top: 0.8%;
-text-align: center;         /*wip*/
+text-align: center;  
 margin-left: 40%;
 }
 
@@ -4155,7 +4155,6 @@ filter:saturate(5%);
 width: 165px;
 height: 17vh;
 }
-
 
 .column{
 position:relative;
@@ -4229,7 +4228,7 @@ margin: 0 auto;
 
 #subscribe-header {
   margin-top: 0.8%;
-  padding-left: 0;
+  margin-left: 34%;
 }
 
 .subscribe-form {
@@ -4319,6 +4318,11 @@ margin: 0 auto;
  background-blend-mode: difference;
  background-size: contain;
  background-position: center;
+}
+
+#contact-header {
+  margin-top: 0.8%;
+  margin-left: 40%;
 }
 
 .contact-container {
