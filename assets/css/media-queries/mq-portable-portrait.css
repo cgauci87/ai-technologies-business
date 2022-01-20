@@ -1774,9 +1774,6 @@ and (max-height: 640px)
 
 /* -=- #ai-101 section -=- */
 
-/*WIP*/
-
-
   #listen , #display-clock { 
     display: none;
   }
@@ -1876,7 +1873,7 @@ and (max-height: 640px)
      
 /*===============================================================*/
 .ai-101 {
-  background-blend-mode:color;/*color */
+  background-blend-mode:color;
 }
 
 .ai-101-container h3 {
@@ -1899,7 +1896,7 @@ and (max-height: 640px)
   }
 
   .ai-101-a {
-    margin-top: 13%;  /*wip*/
+    margin-top: 27%;
   }
 
   .ai-101-b {
@@ -1974,9 +1971,14 @@ and (max-height: 640px)
       margin-left: 53.5%;
      }
     
-    .form2-wrapper {
+     .form2-wrapper {
       position: absolute;
-      margin-top: 145%;
+      margin-top: 158%;
+      padding-top: 1.5%;
+    }
+
+    .form2-wrapper img {
+      padding-bottom: 12%;
     }
 
 
