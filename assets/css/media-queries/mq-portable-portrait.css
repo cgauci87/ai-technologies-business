@@ -1928,7 +1928,7 @@ and (max-height: 640px)
   
   #process-icon {
     width: 32px;
-    margin-top: 23.5%;
+    margin-top: 22%;
     margin-left: 24%;
   }
   
@@ -1949,25 +1949,25 @@ and (max-height: 640px)
 
     #bus-mgt-icon {
       width: 28px;
-      margin-top: 4.5%;
+      margin-top: 5%;
       margin-left: 1%;
     }
   
     #op-icon {
       width: 28px;
-      margin-top: 4.5%;
+      margin-top: 5%;
       margin-left: 20%;
     }
    
     #elv-icon {
       width: 28px;
-      margin-top: 4.5%;
+      margin-top: 5%;
       margin-left: 38%;
    }
    
      #growth-icon {
       width: 28px;
-      margin-top: 4.5%;
+      margin-top: 5%;
       margin-left: 53.5%;
      }
     
@@ -1993,12 +1993,12 @@ and (max-height: 640px)
 
   #adjust-footer {
     position: absolute;
-    margin-top: 166%;
+    margin-top: 154%;
   }
 
   
 .grid-template-rows-1 , .grid {
-  grid-template-columns: 185px 185px;
+  grid-template-columns: 190px 190px;
     display:grid;
     position: absolute;
     margin-top: 13%;
@@ -2006,8 +2006,8 @@ and (max-height: 640px)
 }
   
 .grid-template-rows-1{
-    grid-template-rows: 280px 280px;
-    padding-bottom: 2.5px; /*chk*/
+    grid-template-rows: 260px 260px;
+    padding-bottom: 2.5px;
 }
 
 
@@ -2097,32 +2097,31 @@ margin-left: 1%;
 }
 
 .author-pu > p {
-  font-size: 9px;
-  font-weight: 600;
-  margin-top: 25%;
-  margin-left: 0;
-  white-space: pre-line;
+  font-size: 10px;
+  font-weight: 400;
   line-height: 10px;
+  margin-top: 25%;
+  margin-left: -60%;
 }
 
 .author-pu > aside  {
   border-left: 2px solid rgba(127, 221, 252, 0.932);
   height: 9vh;
   position: absolute;
-  font-size: 9px; 
+  font-size: 10px; 
   font-weight: 500;
   margin-top: -5%;
   margin-left: 70%;
-  line-height: 9px;
+  line-height: 16px;
 }
 
 .read-pu { 
   float: left;
   color: white;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 500;
   letter-spacing: 2px;
-  margin-top: 19%;
+  margin-top: 43%;
   margin-left: 79%;
 }
 
@@ -2130,21 +2129,31 @@ margin-left: 1%;
   display: none;
 }
 
+.audio-player-pu-small { 
+  width: 20%;
+  min-width: 100px;
+  height: 50%;
+  min-height: 5vh;
+}
+
+
 .audio-player-pu {
   float: right;
   width: 300px;
   height: 3vh;
   opacity: 1;
+  margin-left: 68%;
+  margin-top: 1%;
 }
 
-.listen-pu { 
+.listen-pu {
   color: black;
   font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 1px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   position: absolute;
-  margin-top: 16%;
-  padding-left: 60%;
+  margin-top: 14%;
+  padding-left: 0;
 }
 
 .pointer-pu {
@@ -2152,13 +2161,8 @@ margin-left: 1%;
 }
 
 .cancel {
-  position: absolute;
-  background-color: transparent;
-  border-top-right-radius: 0;
-  height: 7vh;
-  z-index: 130;
   margin-top: -1.9%;
-  margin-left: 92.5%;
+  margin-left: 91%;
   }
 
 
@@ -3893,7 +3897,7 @@ margin-left: 1.5%;
   line-height: 16px;
 }
 
-.read-pu { /*new read*/
+.read-pu {
   float: left;
   color: white;
   font-size: 10px;
@@ -3904,10 +3908,10 @@ margin-left: 1.5%;
 }
 
 .popup-heading-2 span  > .clock-pu{
-  display: none; /*old clock*/
+  display: none;
 }
 
-.audio-player-pu-small {    /*audio small*/
+.audio-player-pu-small { 
   width: 20%;
   min-width: 100px;
   height: 50%;
@@ -3923,7 +3927,7 @@ margin-left: 1.5%;
   margin-left: 68%;
 }
 
-.listen-pu {  /*new*/
+.listen-pu {
   color: black;
   font-size: 10px;
   font-weight: 700;
