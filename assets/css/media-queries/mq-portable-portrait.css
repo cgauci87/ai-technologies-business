@@ -2234,6 +2234,7 @@ font-weight:500;
 line-height: 22px;
 position: relative;
 z-index: 0;
+padding-top: 2%;
 }
 
 .q-caption {
@@ -2400,7 +2401,7 @@ margin: 0 auto;
 
  /*===================================== */
   
- /*#subscribe section*/
+ /*#subscribe section*/  /*wip*/
 
  .subscribe {
   background-color: rgba(14, 16, 31, 1);
