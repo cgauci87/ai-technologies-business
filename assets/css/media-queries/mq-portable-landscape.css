@@ -2373,7 +2373,7 @@ margin-top: 51%;
 
 .contact-container {
   position: absolute;
-  margin-top: 13%;
+  margin-top: 9.7%;
   margin-left: 15%;
 }
 .contact-container form * {
@@ -2388,7 +2388,7 @@ margin-top: 51%;
 .contact-container form .field input[type="text"], .field input[type="email"],
 form .field textarea {
   height: 7vh;
-  padding-left: 36%;
+  padding-left: 21%;
 }
 
 .contact-container form #msg {
@@ -2397,8 +2397,8 @@ form .field textarea {
 }
 .contact-container form textarea:focus#msg,
 .contact-container form textarea:not(:placeholder-shown)#msg {
- height: 20vh;
- padding-top: 6%;
+ height: 34vh;
+ padding-top: 8%;
  padding-left: 2%;
  padding-right: 2%;
 }
