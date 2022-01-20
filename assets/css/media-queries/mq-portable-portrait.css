@@ -2250,9 +2250,11 @@ width: 36px;
 align-self: center;
 position: relative;
 z-index: 0;
+padding-top: 7%;
 }
 
 .article-p2 {
+padding-top: 7%;
 padding-left: 2.5%;
 padding-right: 2.5%;
 color: black;
