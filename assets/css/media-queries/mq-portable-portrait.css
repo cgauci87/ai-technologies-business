@@ -3553,7 +3553,7 @@ and (orientation: portrait) {
   }	
       
   .section-footer {   
-    height: 4vh;
+    height: 3.8vh;
     position: absolute;
     margin-top: 107%;
   }
@@ -3646,7 +3646,7 @@ and (orientation: portrait) {
         margin-top: 7%;
       }
 
-      #ai-101-audio {    /*audio-small*/
+      #ai-101-audio { 
         width: 20%;
         min-width: 100px;
         height: 50%;
@@ -3795,22 +3795,18 @@ and (orientation: portrait) {
       padding-bottom: 15%;
     }
 
-
-    /*wip*/
-
-
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
 
   #adjust-header {
     position: relative;
     margin-top: 2%;
-    margin-left: -20%;
+    margin-left: -48%;
     z-index: 0;
   }
 
   #adjust-footer {
     position: absolute;
-    margin-top: 166%;
+    margin-top: 168%;
   }
 
   
@@ -3824,7 +3820,7 @@ and (orientation: portrait) {
   
 .grid-template-rows-1{
     grid-template-rows: 310px 310px;
-    padding-bottom: 2.5px; /*chk*/
+    padding-bottom: 2.5px;
 }
 
 
