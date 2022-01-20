@@ -1801,7 +1801,7 @@ and (max-height: 640px)
     background-color: #0e101f;
     position: absolute;
     height: 10vh;
-    margin-top: 13%;
+    margin-top: 19%;
     z-index: 1;
     }
     
@@ -1814,7 +1814,7 @@ and (max-height: 640px)
       height: 150px;
       width: 100%;
       white-space: nowrap;
-      margin-top: 0%;
+      margin-top: -12%;
       margin-left: 1%;
       }
    
@@ -1822,12 +1822,13 @@ and (max-height: 640px)
       .author p {
         line-height: 12px;
         float:left;
-        font-size: 8px;
+        font-size: 10px;
       }
    
       .author aside {
        line-height: 18px;
        border-left: 2px solid rgba(127, 221, 252, 0.932);
+       font-size: 10px;
        height: 4vh;
      }
    
@@ -1842,13 +1843,13 @@ and (max-height: 640px)
     display: flex;
     filter:invert(100%);
     opacity: 1;
-    margin-top: -1%;
-    margin-left: 9%;
+    margin-top: 5.5%;
+    margin-left: 70.7%;
     z-index: 9;
   }
 
   .audio-player > span {
-   font-size: 8px;
+   font-size: 10px;
    font-weight: 500;
    letter-spacing: 1px;
    margin-top: 18%;
@@ -1857,15 +1858,15 @@ and (max-height: 640px)
   }
     
    audio {
-     max-width: 150px;
-     height: 5vh;
+     max-width: 100px;
+     height: 3vh;
     }
 
     .author > aside > #read{
       float: left;
       font-size: 10px;
       letter-spacing: 1px;
-      margin-right: -20%;
+      margin-left: -30%;
       margin-top: 31%;
     }
 
