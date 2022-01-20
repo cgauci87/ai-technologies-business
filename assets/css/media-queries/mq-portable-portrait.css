@@ -2412,7 +2412,8 @@ margin: 0 auto;
 
 #subscribe-header {
   margin-top: 0.8%;
-  padding-left: 4%;
+  margin-left: 38%;
+  padding:0%;
 }
 
 .subscribe-form {
