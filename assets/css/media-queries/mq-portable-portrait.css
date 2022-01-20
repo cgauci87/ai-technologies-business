@@ -3928,7 +3928,7 @@ margin-left: 1.5%;
   line-height: 16px;
 }
 
-.read-pu { /*new read*/
+.read-pu {
   float: left;
   color: white;
   font-size: 10px;
@@ -3939,10 +3939,10 @@ margin-left: 1.5%;
 }
 
 .popup-heading-2 span  > .clock-pu{
-  display: none; /*old clock*/
+  display: none;
 }
 
-.audio-player-pu-small {    /*audio small*/
+.audio-player-pu-small {
   width: 20%;
   min-width: 100px;
   height: 50%;
@@ -3958,7 +3958,7 @@ margin-left: 1.5%;
   margin-left: 70%;
 }
 
-.listen-pu {  /*new*/
+.listen-pu {
   color: black;
   font-size: 10px;
   font-weight: 700;
@@ -3969,7 +3969,7 @@ margin-left: 1.5%;
 }
 
 .pointer-pu {
-  display: none; /*old*/
+  display: none;
 }
 
 .cancel {
@@ -4124,7 +4124,7 @@ margin-bottom: 0%;
 
 .podcasts {
 background-color: rgba(14, 16, 31, 1);
-background-image: url("../images/podcasts_img.png");
+background-image: url("/assets/images/podcasts_img.png");
 background-size: contain;
 background-repeat:no-repeat;
 background-position: 0 80px;
@@ -4136,8 +4136,9 @@ display: none;
 }
 
 #header-podcasts {
-margin-top: 0.5%;
-text-align: center;
+margin-top: 0.8%;
+text-align: center;         /*wip*/
+margin-left: 40%;
 }
 
 .playlist {
@@ -4145,12 +4146,12 @@ position:absolute;
 overflow-y:hidden;
 height: 85vh;
 width: 100%;
-margin-top: 47%;
+margin-top: 45%;
 }
 
 iframe {
 background-color: transparent;
-filter:saturate(10%);
+filter:saturate(5%);
 width: 165px;
 height: 17vh;
 }
@@ -4191,6 +4192,7 @@ margin: 0 auto;
 
 #column-3 p {
   padding-top: 2.5%;
+  height: auto;
  }
 
 
