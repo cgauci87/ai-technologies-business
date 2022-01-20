@@ -2405,10 +2405,9 @@ margin: 0 auto;
 
  .subscribe {
   background-color: rgba(14, 16, 31, 1);
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-blend-mode:difference;
-  color: rgba(0,0,0,1);
+  background-position: -500px -50px;
 }
 
 #subscribe-header {
@@ -2419,59 +2418,65 @@ margin: 0 auto;
 
 .subscribe-form {
   position: absolute;
-  margin-top: 45%;
+  margin-top: 40%;
   margin-left: 5%;
   line-height: 20px;
 }
 
 .subscribe-form h1 {
- font-size: 22px;
+ font-size: 34px;
  font-weight: 700;
  color: white;
  min-width: 100%;
+ margin-left: -10%;
+ background-color: rgba(14, 16, 31, 1);
+ height: 7vh;
+ padding-top: 2.5%;
 }
 
 .subscribe-form p {
  text-align: center;
  padding-right: 4%;
- margin-top: -0.5%;
+ margin-top: 0%;
  font-size: 18px;
  font-weight: 500;
 }
 .subscribe-form form {
- max-width: 150px;
+ max-width: 200px;
 }
 .subscribe-form input {
  border-top-right-radius: 0;
  border-bottom-right-radius: 0;
- height: 3vh;
- font-size: 12px;
- font-weight: 400;
+ height: 6vh;
+ font-size: 18px;
+ font-weight: 500;
  width: 100%;
  color: white;
  background-color: rgba(0, 0, 0, 0.6);
  position: relative;
  margin-left: -7%;
  margin-top: -10%;
+ padding-bottom: 1%;
 }
 
 #submit-button {
  position: absolute;
  display:block; /* display block is compatible with all browsers - while displayt flex is compatible with only FF*/
- font-size: 14px;
+ font-size: 18px;
  font-weight: 700;
- margin-top: 53.7%;
- margin-left: 40%;
- padding-top: 2%;
+ margin-top: 40%;
+ margin-left: 52%;
+ padding-top: 3.5%;
  padding-bottom: 9%;
+ height: 10vh;
 }
 
 #checkbox {
  position: absolute;
  display: flex;
- width: 20px;
- margin-top: 60.5%;
- margin-left: -5%;
+ width: 60px;
+ margin-top: 40.8%;
+ margin-left: -18%;
  z-index: 1;
 }
 
@@ -2482,10 +2487,8 @@ margin: 0 auto;
   white-space: nowrap;
   margin-top: 4%;
   margin-right: 7%;
-  font-size: 7px;
+  font-size: 10px;
   font-weight: 500;
-  line-height: 7px;
-  white-space: pre-wrap;
   text-align: left;
   padding-left: 5%;
 }
@@ -2493,7 +2496,7 @@ margin: 0 auto;
 
 #subscribe-footer {
  display: flex;
- margin-top: 165%;
+ margin-top: 156%;
 } 
 
 /* #contact section */
