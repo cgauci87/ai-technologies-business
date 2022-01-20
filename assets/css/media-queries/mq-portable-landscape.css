@@ -1674,12 +1674,12 @@ and (orientation: landscape) {
   }
 
   .nav > .nav-header > .nav-title {
-    font-size: 4px;
-    padding-top: 1.5%;
+    font-size: 14px;
+    padding-top: 1.7%;
   }
 
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(68vh - 50px);
+    height: calc(64vh - 50px);
   }
 
   .intro {
@@ -1690,14 +1690,15 @@ and (orientation: landscape) {
 
     .intro h1 {
     font-size: 32px;
-    letter-spacing: 40px;
-    line-height: 50px;
-    padding-top: 7%;
-    padding-left: 2%;
+    letter-spacing: 28px;
+    line-height: 38px;
+    padding-top: 8%;
+    padding-left: 3.5%;
+    padding-bottom: 1%;
    }
    
    .line-wrapper-1 .line-1 { 
-    font-size: 18px;
+    font-size: 16px;
     word-spacing: 1px;
     margin-top: 0.5%;
     line-height: 17px;
