@@ -1964,7 +1964,6 @@ and (orientation: landscape) {
     padding-bottom: 2.5px; /*chk*/
 }
 
-
 .grid h3 {                
   font-size: 18px;
   font-weight: 600;
@@ -2021,14 +2020,14 @@ and (orientation: landscape) {
 }
 .article-header h2 {
   position: relative;
-  background-color: #0e101f;
+  background-color: rgba(0,0,0,0.3);
   z-index: 13;
   font-size: 20px;
-  height: 7vh;
+  height: 9vh;
   text-align: left;
   margin-top: 0;
   padding-top: 0;
-  padding-left: 1%;
+  padding-left: 30%;
 }
 
  .popup-heading-2 {
@@ -2054,15 +2053,16 @@ and (orientation: landscape) {
     position: relative;  
     float: left;
     border-radius: 50%;
-    height: 8vh;
+    height: 35px;
+    width: 35px;
     margin: 0;
   }
 
   .author-pu > p {
     font-size: 9px;
     font-weight: 600;
-    margin-top: -16%;
-    white-space: pre-line;
+    margin-top: 16%;
+    margin-left: -60%;
     line-height: 10px;
   }
 
@@ -2070,11 +2070,11 @@ and (orientation: landscape) {
     border-left: 2px solid rgba(127, 221, 252, 0.932);
     height: 9vh;
     position: absolute;
-    margin-left: 100%;
     font-size: 9px; 
     font-weight: 500;
-    margin-top: -5%;
     line-height: 12px;
+    margin-top: 0%;
+    margin-left: 66%;
   }
 
   .read-pu { /*new read*/
@@ -2083,8 +2083,8 @@ and (orientation: landscape) {
     font-size: 10px;
     font-weight: 500;
     letter-spacing: 2px;
-    margin-top: 35%;
-    margin-left: 110%;
+    margin-top: 20%;
+    margin-left: 235%;
   }
 
   .popup-heading-2 span  > .clock-pu{
@@ -2097,32 +2097,32 @@ and (orientation: landscape) {
     height: 3vh;
     z-index:1;
     margin-left: 74%;
-    margin-top: 0;
+    margin-top: 1%;
     opacity: 1;
   }
 
-  .listen-pu {  /*new*/
+  .listen-pu {
     color: black;
     font-size: 10px;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     position: absolute;
-    margin-top: 12%;
-    padding-left: 3%;
+    margin-top: 10%;
+    padding-left: 1%;
   }
 
  .pointer-pu {
-    display: none; /*old*/
+    display: none;
   }
 
   .cancel {
     position: absolute;
     background-color: transparent;
     border-top-right-radius: 0;
-    height: 7vh;
     z-index: 14;
     margin-top: -1%;
     margin-left: 95%;
+    font-size: 34px;
     }
   
 
@@ -2143,7 +2143,7 @@ margin-top: 17.2%;
 .article-p1 p { 
   margin-top: 2%;
   padding-left: 2.5%;
-  padding-right: 2.5%;
+  padding-right: 2.5%0;
   color: black;
   font-size: 16px;
   font-weight: 500;
