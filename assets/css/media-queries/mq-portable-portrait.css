@@ -1801,7 +1801,7 @@ and (max-height: 640px)
     #ai101-heading-2 {
     background-color: #0e101f;
     position: absolute;
-    height: 10vh;
+    height: 8vh;
     margin-top: 19%;
     z-index: 1;
     }
@@ -1815,10 +1815,15 @@ and (max-height: 640px)
       height: 150px;
       width: 100%;
       white-space: nowrap;
-      margin-top: -12%;
+      margin-top: -11%;
       margin-left: 1%;
       }
-   
+      
+      .profile-photo {
+        height: 30px;
+        min-width: 30px;
+        margin-top: 7%;
+      }
    
       .author p {
         line-height: 12px;
@@ -1832,43 +1837,37 @@ and (max-height: 640px)
        font-size: 10px;
        height: 4vh;
      }
-   
-      .profile-photo {
-        height: 30px;
-        min-width: 30px;
-        margin-top: 7%;
-      }
+
+     .author > aside > #read{
+      float: left;
+      font-size: 10px;
+      letter-spacing: 1px;
+      margin-left: -30%;
+      margin-top: 31%;
+    }
 
   .audio-player {
     position: relative;
     display: flex;
     filter:invert(100%);
-    opacity: 1;
-    margin-top: 5.5%;
-    margin-left: 70.7%;
+    opacity: 1; 
+    margin-top: 2%;
+    margin-left: 68%;
     z-index: 9;
   }
 
   .audio-player > span {
    font-size: 10px;
    font-weight: 500;
-   letter-spacing: 1px;
-   margin-top: 18%;
-   margin-left: 50%;
-   padding-left: 10%;
+   letter-spacing: 0.5px;
+   margin-left: -40%;
+   margin-top: 8.5%;
+   padding: 0;
   }
     
    audio {
-     max-width: 100px;
+     max-width: 120px;
      height: 3vh;
-    }
-
-    .author > aside > #read{
-      float: left;
-      font-size: 10px;
-      letter-spacing: 1px;
-      margin-left: -30%;
-      margin-top: 31%;
     }
 
     
