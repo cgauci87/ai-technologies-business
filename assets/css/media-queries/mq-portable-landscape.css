@@ -292,8 +292,8 @@ and (orientation: landscape) {
 
   #adjust-header {
     position: relative;
-    margin-top: 2%;
-    margin-left: -20%;
+    margin-top: 2.5%;
+    margin-left: -40%;
     z-index: 0;
   }
 
