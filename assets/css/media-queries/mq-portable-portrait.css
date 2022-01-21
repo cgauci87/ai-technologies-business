@@ -37,7 +37,7 @@ and (orientation: portrait) {
   }	
       
   .section-footer {   
-    height: 5.5vh;
+    height: 4.5vh;
     position: absolute;
     margin-top: 70%;
   }
@@ -45,11 +45,16 @@ and (orientation: portrait) {
   .goto-btn {
     border-radius: 0.3em;
     padding: 0.1em 0.1em;
+    border-width: 0.15em;
     margin: 0 auto;
+    padding-left: 2%;
+    padding-bottom: 0.5%;
     }
 
     .goto-btn-txt {
       letter-spacing: 6px;
+      font-size: 14px;
+      font-weight: 500;
     }
   
     .line-wrapper-2 .line-2 {
