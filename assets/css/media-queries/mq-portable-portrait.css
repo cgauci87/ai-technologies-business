@@ -1,8 +1,8 @@
 /* smartphones, iPhone, portrait 320x480 phones WIP*/
-@media (min-width: 320px) and (max-height: 480px)
+@media (max-width: 320px) and (max-height: 480px)
 and (orientation: portrait) { 
   .nav {
-    z-index: 10;
+    z-index: 20;
   }
 
   .nav > .nav-header > .nav-title {
@@ -16,7 +16,7 @@ and (orientation: portrait) {
   }
 
   .intro {
-    background-color: rgb(28, 63, 71); /* lighter*/
+    background-color: rgb(28, 63, 71);
     background-blend-mode: multiply;
     background-size: contain;
     background-position: 0 100px;
@@ -87,7 +87,7 @@ and (orientation: portrait) {
     position: absolute;
     height: 14vh;
     margin-top: 14%;
-    z-index: 100;
+    z-index: 1  ;
     }
     
 
@@ -165,29 +165,29 @@ and (orientation: portrait) {
      /*===============================================================*/
 
 .ai-101-container h3 {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   }
   
   .ai-101-container {
     position: absolute;
-    line-height: 12px;
+    line-height: 6px;
     margin-top: 19%;
     margin-left: 2%;
     margin-right: 2%;
   }
 .ai-101-container p {
-    font-size: 10px;
-    font-weight: 600;
+    font-size: 8px;
+    font-weight: 400;
     margin-left: 1%;
   }
 
   .ai-101-a {
-    margin-top: 16.5%;
+    margin-top: 22%;
   }
 
   #ml-icon {
-    width: 50px;
+    width: 38px;
     float: left;
     position: absolute;
     display: flex;
@@ -196,25 +196,25 @@ and (orientation: portrait) {
   }
 
   #mimic-icon {
-    width: 42px;
-    margin-top:  20%;
-    margin-left: 5%;
+    width: 34px;
+    margin-top:  23%;
+    margin-left: 8%;
   }
   
   #process-icon {
-    width: 42px;
-    margin-top: 28%;
-    margin-left: 22%;
+    width: 34px;
+    margin-top: 30%;
+    margin-left: 26%;
   }
   
    #ux-icon {
-     width: 34px;
+     width: 30px;
      margin-top: 2%;
      margin-left: 16%;
    }
 
     #big-data-icon {
-      width: 34px;
+      width: 24px;
       float: left;
       position: absolute;
       display: flex;
@@ -223,35 +223,40 @@ and (orientation: portrait) {
     }
 
      .ai-101-d {
-   margin-top: -5%;
+   margin-top: 0%;
  } 
     #bus-mgt-icon {
-      width: 42px;
+      width: 30px;
       margin-top: 3%;
       margin-left: 1%;
     }
   
     #op-icon {
-      width: 42px;
-      margin-top: 3%;
+      width: 30px;
+      margin-top: 3.5%;
       margin-left: 20%;
     }
    
     #elv-icon {
-      width: 42px;
-      margin-top: 3%;
+      width: 30px;
+      margin-top: 3.5%;
       margin-left: 38%;
    }
    
      #growth-icon {
-      width: 42px;
-      margin-top: 3%;
+      width: 30px;
+      margin-top: 3.5%;
       margin-left: 56%;
      }
     
-    .form2-wrapper {
+     .form2-wrapper {
       position: absolute;
-      margin-top: 180%; 
+      margin-top: 140%;
+    }
+
+    .form2-wrapper img {
+      margin-top: 15%;
+      padding-bottom: 15%;
     }
 
 
