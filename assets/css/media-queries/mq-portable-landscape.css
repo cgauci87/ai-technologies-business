@@ -9,42 +9,45 @@ and (orientation: landscape) {
   .nav > .nav-header > .nav-title {
     font-size: 14px;
     padding-top: 1.8%;
+    height: 15.8vh;
   }
 
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(68vh - 10px);
+    height: calc(64vh - 10px);
   }
 
   .intro {
     background-color: rgb(28, 63, 71); /* lighter*/
     background-blend-mode: multiply;
-    background-position: 0 30px;
+    background-position: 0 70px;
   }
 
     .intro h1 {
-    font-size: 34px;
-    letter-spacing: 8px;
-    padding-top: 8%;
+    font-size: 32px;
+    letter-spacing: 18px;
+    line-height: 30px;
+    padding-top: 12%;
+    padding-bottom: 2%;
    }
    
    .line-wrapper-1 .line-1 { 
-    font-size: 14.5px;
-    word-spacing: 0.5px;
-    line-height: 16px;
+    font-size: 13px;
+    word-spacing: 0px;
+    line-height: 14px;
     font-weight: 400;
     margin-top: 0.8%;
-    height: 12vh;
+    height: 10vh;
   }  
     
   .line-wrapper-2 .line-2 {
     margin-top: 35.5%;
     padding-left: 0.5%;
-    font-size: 10px;
-    word-spacing: -1px;
+    font-size: 8px;
+    word-spacing: 2.5px;
   }	
       
   .section-footer {   
-    height: 4.9vh;
+    height: 4.5vh;
     position: absolute;
     margin-top: 18%;
   }
@@ -59,12 +62,15 @@ and (orientation: landscape) {
 
     .goto-btn-txt {
       font-size: 8px;
-      letter-spacing: 3px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      padding-bottom: 0.5%;
+      padding-left: 1%;
     }
   
   .spike#spike1 {
     margin-top: 36.5%;
-    height: 4.4vh;
+    height: 5.5vh;
   }
 
   /* -=- #ai-101 section -=- */
