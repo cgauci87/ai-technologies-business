@@ -313,157 +313,157 @@ and (orientation: portrait) {
   margin-top: 140.5%;
 }
 
+
 /*======================popup======================== */
 
 .cover {
   background:rgba(0,0,0,0.8);
 }
 
+
 .popup-article {
   width:90%;
   margin-left: 5%;
   margin-right: 5%;
   border-top-right-radius: 0;
-  z-index: 1000;
-  position: relative;
+  background-color: rgba(0,0,0,1);
 }
 
 .popup-article article { 
-  max-height: 100%;
-  margin-top: 30%;
+  height: 100%;
+  margin-top: 0;
   border-radius: 0px;
   background-color: rgba(255,255,255,.75);
   background-blend-mode:soft-light;
+  scrollbar-color: #0e101f #0e101f;
+  scrollbar-width: auto;
+  scroll-padding: 0 0 100px 0; /*BUG*/
 }
 
-
- /*www*/
+.article-header h2 {
+  position: relative;
+  background-color: #0e101f;
+  z-index: 13;
+  font-size: 16px;
+  height: 5vh;
+  text-align: left;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 1%;
+}
 
  .popup-heading-2 {
-  background-color: #0e101f;
-  position: absolute;
-  height: 10vh;
+  background-color: #0e101f; /*tst*/
+  position: relative;
+  height: 14vh;
   width: 100%;
-  margin-top: 10%;
-  z-index: 100;
+  z-index: 20;
   }
 
 .author-pu{
-  position: absolute;
-  display: flex;
-  z-index: 1;
-  float: left;
+  position: relative;
+  z-index: 13;
   height: 150px;
   width: 100%;
-  margin-top: 1%;
-  margin-left: 0.5%;
-  
+  margin-top: 0;
+  margin-left: 2%;
+  }
+
+  .author-pu > .profile-photo {
+    position: relative;  
+    float: left;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-top: 0%;
   }
 
   .author-pu > p {
+    position: absolute;
+    display: flex;
     font-size: 8px;
-    margin-top: -8%;
-    white-space: pre-line;
-    line-height: 10px;
-  }
+    font-weight: 400;
+    margin-top: 18%;
+  }                                       /*wip*/
 
   .author-pu > aside  {
     border-left: 2px solid rgba(127, 221, 252, 0.932);
     height: 12vh;
     position: absolute;
-    margin-left: 75%;
     font-size: 8px; 
-    margin-top: -10%;
+    font-weight: 500;
+    margin-top: -5%;
+    margin-left: 70%;
+    line-height: 8px;
+    white-space: pre-line;
   }
-  
-  .author-pu > .profile-photo {
-    border-radius: 50%;
-    height: 6vh;
-    width: 40px;
-    margin-top: 8%;
-    position: relative;  
-    z-index: 1;
+
+  .read-pu { /*new read*/
     float: left;
+    color: white;
+    font-size: 8px;
+    letter-spacing: 2px;
+    margin-top: 55%;
+    margin-left: 200%;
+  }
+
+  .popup-heading-2 span  > .clock-pu{
+    display: none; /*old clock*/
   }
 
   .audio-player-pu {
     float: right;
-    width: 100px;
-    height: 3vh;
     z-index:1;
-    margin-left: 64%;
-    margin-top: 3%;
+    margin-left: 56%;
+    margin-top: 2.5%;
+    opacity: 1;
+  }
+
+  .listen-pu {  /*new*/
+    position: absolute;
+    display: flex;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10%;
+    padding-left: 1%;
   }
 
  .pointer-pu {
-    float: right;
-    margin-top: 18%;
-    margin-right: 0.5%;
+    display: none; /*old*/
   }
 
-  .pointer-pu span {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 9px;
-    letter-spacing: 0;
-    height: 2vh;
-    background: transparent;
-  }
+  .cancel {
+    position: absolute;
+    background-color: transparent;
+    border-top-right-radius: 0;
+    height: 7vh;
+    z-index: 14;
+    margin-top: -2%;
+    margin-left: 90%;
+    }
+  
 
-  .clock-pu {
-    position: relative;
-    height: 2.5vh;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8px;
-    letter-spacing: 0.5px;
-    margin-right: 15%;
-    margin-top: 16%;
-    color: white;
-  }  
 /*=====================================================*/
 
-.article-header h2 {
-  position: relative;
-  z-index: 500;
-  font-size: 20px;
-  height: 7vh;
-  text-align: left;
-  margin-top: 0;
-  padding-top: 3.5%;
-  padding-left: 2%;
-  background-color: #0e101f;
+.lhs-image-wrapper img{
+  height: 100%;
+  width: 50%;
+  border-radius: 0%;
+  opacity: 0.3;
 }
-
-.cancel {
-  position: absolute;
-  margin-top: 0;
-  padding-top: 2.5%;
-  background-color: transparent;
-  border-top-right-radius: 0;
-  height: 7vh;
-  z-index: 600;
-  }
-
-.lhs-image-wrapper {
-  height: 76.6vh;
-}
-
 
 .article-p1 p { 
-  margin-top: 5%;
+  margin-top: 2%;
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  word-break: break-all;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
   position: relative;
-  z-index: 30;
+  z-index: 1;
 }
 
 .quote-wrapper {
@@ -472,7 +472,7 @@ and (orientation: portrait) {
   padding-right: 2.5%;
   padding-left: 2.5%;
   position: relative;
-  z-index: 40;
+  z-index: 1;
 }
 
 .quote{ 
@@ -481,7 +481,7 @@ and (orientation: portrait) {
   font-weight:500;
   line-height: 22px;
   position: relative;
-  z-index: 50;
+  z-index: 1;
 }
 
 .q-caption {
@@ -490,14 +490,14 @@ and (orientation: portrait) {
   font-weight: 500;
   text-align: center;
   position: relative;
-  z-index: 60;
+  z-index: 1;
 }
 
 .q-icon {
   width: 36px;
   align-self: center;
   position: relative;
-  z-index: 70;
+  z-index: 1;
 }
 
 .article-p2 {
@@ -508,13 +508,8 @@ and (orientation: portrait) {
   font-weight: 500;
   line-height: 20px;
   word-spacing: -2px;
-  word-break: break-all;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
   position: relative;
-  z-index: 80;
+  z-index: 1;
 }
 
 .article-p2 h3 {
@@ -523,72 +518,30 @@ align-self: center;
 text-align: center;
 word-spacing: 2px;
 position: relative;
-z-index: 90;
+z-index: 1;
 }
 
-.btm-image-wrapper{
+.btm-image-wrapper img{
   background: transparent;
   position: relative;
-  z-index: 90;
+  z-index: 9998;
   margin-top: 5%; 
   margin-left: -20%;
   margin-right: -20%;
-  height: 56vh;
-  margin-bottom: -64%;
+  height: 30vh;
+  width: 130%;
+  margin-bottom:  25%;
 }
 
 
 .popup-footer {
-  background-color: #0e101f;
-  position: relative; 
+  position: absolute;
+  display: flex;
   width: 100%;  
+  background: #0e101f;
   min-height: 7vh;
-  z-index: 100;
-  display: inline-block;
-}
-
-/* bankfin===============POP-UP ARTICLE=============bankfin */
-
-
-#popup-article-bankfin:target, #popup-article-bankfin:target + .cover{
-  display:block;
-  opacity:2;
-}
-
-
-#bk-img {
-  width: 150px;
-  height: 100%;
-  opacity: 0.3;
-  border-radius: 0px;
-  position: relative;
-  z-index: 10;
-}
-
-
-#risk-comp-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-
-/* healthph===============POP-UP ARTICLE=============healthph */
-
-
-
-#medical-img {
-  width: 150px;
-  height: 100%;
-  opacity: 0.3;
-  border-radius: 0px;
-  position: relative;
-  z-index: 10;
-}
-
-
-#surgery-img {
-  max-width: 100%;
-  max-height: 100%;
+  z-index: 9999;
+  margin-top: -20%
 }
 
 
