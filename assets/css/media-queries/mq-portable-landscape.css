@@ -767,7 +767,7 @@ height: 45vh;
  background-color: rgba(14, 16, 31, 1);
  background-blend-mode: difference;
  background-size: cover;
- background-position: 0 15px;
+ background-position: 0 40px;
 }
 
 .contact-container {
@@ -801,8 +801,8 @@ form .field textarea {
 }
 .contact-container form textarea:focus#msg,
 .contact-container form textarea:not(:placeholder-shown)#msg {
- height: 20vh;
- padding-top: 5%;
+ height: 28vh;
+ padding-top: 7%;
  padding-left: 2%;
  padding-right: 1%;
 }
@@ -841,7 +841,7 @@ background-color: rgb(18, 42, 49, 0.5);
 }
 
 .social-icon {
-  margin-top: -5%;
+  margin-top: -14%;
   margin-bottom: -5%;
 }
 
