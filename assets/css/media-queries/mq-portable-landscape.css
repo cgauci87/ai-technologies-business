@@ -197,19 +197,19 @@ and (orientation: landscape) {
   }
 
   .ai-101-a {
-    margin-top: -4.8%;
+    margin-top: -3.5%;
   }
 
   .ai-101-b {
-    margin-top: -1%;
+    margin-top: -2%;
   }
 
   .ai-101-c {
-    margin-top: -1%;
+    margin-top: -2%;
   }
 
   .ai-101-d {
-    margin-top: -16%;
+    margin-top: -12.5%;
   } 
 
   #ml-icon {
@@ -272,13 +272,19 @@ and (orientation: landscape) {
       margin-left: 31%;
      }
     
-    .form2-wrapper {
-      position: absolute;
-      margin-top: 46%;
-      padding-bottom: 11%;
-      background-color: #0e101f;
+       
+     .form2-wrapper {
+      margin-top: 63.5%;
     }
 
+    .image-container {
+      margin-top:  -7%;
+      width: 100%;
+    }
+
+    #graphical-img {
+      height: 8vh;
+    }
 
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
 
