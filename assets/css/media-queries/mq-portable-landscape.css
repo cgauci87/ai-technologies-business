@@ -850,8 +850,8 @@ background-color: rgb(18, 42, 49, 0.5);
 
 /*=========================================================================*/
 
-/* [L1] 568x320 phones i.e. iPhone5/SE -> PASS V <- */
-@media screen and (min-width:567px) and (max-width:640px) and (min-height: 320px) and (max-height: 360px)
+/* 568x320 phones i.e. iPhone5/SE -> PASS V <- */
+@media screen and (min-width:567px) and (max-width:640px) and (min-height: 320px)
 and (orientation : landscape) {
 
   .nav {
@@ -1677,8 +1677,9 @@ background-color: rgb(18, 42, 49, 0.5);
 
 /* ----------- Samsung Galaxy S5/S6/S7 ----------- */
 /* Landscape 640x360  -> PASS <-*/
-@media (max-width: 640px) and (min-height: 360px) 
-and (orientation: landscape) { 
+@media (min-width: 640px)  and (max-width: 667px) 
+and (min-height: 360px) and (max-height: 375px)
+and (orientation: landscape) {
 
   .nav {
     z-index: 10;
@@ -2516,8 +2517,8 @@ form .field textarea {
 /* ----------- Nexus 4 ----------- */
 /* Landscape 640x384 -> PASS <-*/
 @media screen 
-and (min-width: 640px)  
-and (min-height: 384px)
+and (min-width: 640px)  and (max-width: 667px) 
+and (min-height: 375px) and (max-height: 384px)
 and (orientation: landscape) {
   .nav {
     z-index: 10;
