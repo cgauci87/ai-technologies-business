@@ -440,7 +440,8 @@ and (orientation: portrait) {
     border-top-right-radius: 0;
     height: 7vh;
     z-index: 14;
-    margin-top: -2%;
+    font-size: 28px;
+    margin-top: -0.5%;
     margin-left: 90%;
     }
   
@@ -451,7 +452,7 @@ and (orientation: portrait) {
   height: 100%;
   width: 50%;
   border-radius: 0%;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .article-p1 p { 
@@ -459,9 +460,9 @@ and (orientation: portrait) {
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 13px;
   position: relative;
   z-index: 1;
 }
@@ -476,17 +477,18 @@ and (orientation: portrait) {
 }
 
 .quote{ 
-  font-size: 16px;
+  font-size: 12px;
   color: darkblue;
-  font-weight:500;
-  line-height: 22px;
+  font-weight:600;
+  line-height: 14px;
   position: relative;
   z-index: 1;
+  padding-top: 2%;
 }
 
 .q-caption {
   color:black;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   text-align: center;
   position: relative;
@@ -498,27 +500,32 @@ and (orientation: portrait) {
   align-self: center;
   position: relative;
   z-index: 1;
+  padding-top: 2%;
 }
 
 .article-p2 {
   padding-left: 2.5%;
   padding-right: 2.5%;
   color: black;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
-  line-height: 20px;
-  word-spacing: -2px;
-  position: relative;
+  line-height: 13px;
+  text-align: left;
   z-index: 1;
 }
 
+.article-p2 p {
+  padding-top: 3%;
+}
+
 .article-p2 h3 {
- font-size: 18px;
-align-self: center;
+ font-size: 14px;
 text-align: center;
 word-spacing: 2px;
 position: relative;
 z-index: 1;
+margin-top: 4%;
+line-height: 16px;
 }
 
 .btm-image-wrapper img{
