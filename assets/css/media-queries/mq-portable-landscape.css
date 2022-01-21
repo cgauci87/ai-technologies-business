@@ -93,7 +93,7 @@ and (orientation: landscape) {
     }
 
   .section-header h2{
-    font-size: 24px;
+    font-size: 22px;
     background-color: transparent;
     height: auto;
   }
@@ -101,7 +101,7 @@ and (orientation: landscape) {
   #ai101-heading-2 {
   background-color: #0e101f;
   position: absolute;
-  height: 10vh;
+  height: 14vh;
   min-width: 100%;
   margin-top: 8.8%;
   z-index: 1;
@@ -112,23 +112,22 @@ and (orientation: landscape) {
     display: flex;
     z-index: 1;
     float: left;
-    height: 150px;
     width: 100%;
     white-space: nowrap;
-    margin-top: -4.8%;
+    margin-top: -3.5%;
     margin-left: 1%;
     }
 
     .profile-photo {
-      height: 25px;
-      min-width: 30px;
-      margin-top: 7%;
+      height: 35px;
+      width: 35px;
+      margin-top: 4%;
     }
  
     .author p {
-      line-height: 12px;
       float:left;
-      font-size: 8px;
+      font-size: 10px;
+      line-height: 12px;
     }
  
     .author aside {
@@ -136,7 +135,7 @@ and (orientation: landscape) {
      border-left: 2px solid rgba(127, 221, 252, 0.932);
      height: 8vh;
    }
-   
+
    .author > aside > #read{
     float: left;
     letter-spacing: 3px;
@@ -197,7 +196,7 @@ and (orientation: landscape) {
   }
 
   .ai-101-a {
-    margin-top: -3.5%;
+    margin-top: -1%;
   }
 
   .ai-101-b {
@@ -283,7 +282,7 @@ and (orientation: landscape) {
     }
 
     #graphical-img {
-      height: 8vh;
+      height: 5vh;
     }
 
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
