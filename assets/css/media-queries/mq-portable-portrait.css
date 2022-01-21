@@ -707,7 +707,7 @@ height: 100%;
  position: absolute;
  display:block;
  padding-top: 0.4%;
- font-size: 12px;
+ font-size: 12px; 
  font-weight: 600;
  height: 6.4vh;
  margin-top: 42.5%;
@@ -750,13 +750,17 @@ height: 100%;
  background-position: center;
 }
 
+#contact-header {
+  margin-left: 40%;
+}
+
 .contact-container {
  position: absolute;
- margin-top: 56%;
+ margin-top: 42%;
  margin-left: 15%;
 }
 .contact-container form * {
- font-size: 13px;
+ font-size: 12px;
 }
 
 .contact-container form .field {
@@ -773,7 +777,7 @@ form .field textarea {
  height: 4vh;
  color: white;
  background-color: rgba(0,0,0,0.3);
- padding-left: 35%; 
+ padding-left: 34%; 
 }
 
 .contact-container form #msg {
@@ -781,7 +785,7 @@ form .field textarea {
 }
 .contact-container form textarea:focus#msg,
 .contact-container form textarea:not(:placeholder-shown)#msg {
- height: 14vh;
+ height: 20vh;
  padding-top: 12%;
  padding-left: 2%;
  padding-right: 1%;
@@ -812,16 +816,18 @@ form .field textarea {
   padding: 0;
   height: 9.5vh;
   z-index: 0;
-  margin-top: 70%;
+  margin-top: 74%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 .footer {
- margin-top: -27%;
+ margin-top: -26%;
  height: 10vh;
+ padding-bottom: 10%;
 }
 
 .footer p {
+ margin-top: -2.5%;
  font-size: 10px;
 }
 
