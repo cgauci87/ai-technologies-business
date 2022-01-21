@@ -6134,7 +6134,7 @@ form .field textarea {
 /*==========================================================================*/
 
 
-/* ---------- OnePlus 6 / 7 412x892 ----------- */
+/* ---------- OnePlus 6 / 7 412x892 -------WIP---- */
 /* Portrait  -> PASS <-*/
 @media screen 
 and (min-width: 412px)
@@ -6142,55 +6142,76 @@ and (max-height: 892px)
 and (orientation: portrait) { 
 
   .nav {
-    z-index: 10;
+    z-index: 12;
   }
   .nav > .nav-header > .nav-title {
     font-size: 4px;
     padding-top: 1.9%;
   }
-  
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(28vh - 10px);
+    height: calc(26vh - 10px);
   }
 
   .intro {
-    background-color: rgb(28, 63, 71);
+    background-image: url("/assets/images/intro_img_vertical.png");
+    background-color: rgb(18, 42, 49);
     background-blend-mode: multiply;
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: -50px -50px;
   }
 
     .intro h1 {
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing: 14px;
-    line-height: 38px;
-    padding-top: 16%;
+    line-height: 60px;
+    writing-mode:vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+    padding-top: 8%;
     padding-bottom: 5%;
-    padding-left: 4%;
+    padding-left: 0.8%;
    }
+
    
    .line-wrapper-1 .line-1 { 
+    background-color: rgba(25,25,25, 0.2);
     font-size: 20px;
     word-spacing: 1px;
     line-height: 17px;
-    margin-top: 2%;
-    height: 10vh;
+    height: 19.5vh;
+    max-width: 56%;
+    margin-left: 33%;
+    margin-top: -136%;
   }  
     
   .line-wrapper-2 .line-2 {
-    margin-top: 92%;
-    padding-left: 3%;
-    white-space:pre-line;
-    font-size: 16px;
-    word-spacing: 8px;
-    line-height: 17.5px;
-    height: 10vh;
+    background-color: rgba(25,25,25, 0.2);
+    filter: invert(100);
+    font-size: 15.5px;
+    font-weight: 900;
+    word-spacing: 2px;
+    height: 12vh;
+    max-width: 56%;
+    margin-left: 33%;
+    margin-top: -80%;
   }	
+
+    /* Typewriter Animation */
+    .anim-typewriter{
+      animation: typewriter 4s steps(44) 1s 1 normal both,
+                 blinkTextCursor 1000ms steps(44) infinite normal;
+    }
+    @keyframes typewriter{
+      from{width: 0%;}
+      to{width: 100%;}
+    }
       
   .section-footer {   
-    height: 3.8vh;
+    height: 7vh;
     position: absolute;
-    margin-top: 107%;
+    margin-top: -13%;
+    padding-top: 3%;
+    background-color: rgba(18, 42, 49,1);
   }
 
   .goto-btn {
@@ -6204,10 +6225,11 @@ and (orientation: portrait) {
     }
   
   .spike#spike1 {
-    position: absolute;
-    display: inline-block;
-    height: 10vh;
-    margin-top: 120%;
+    transform: rotate(90deg);
+    height: 5vh;
+    width: 711.8px;
+    margin-top: -113.6%;
+    margin-left: 0;
   }
 
   /* -=- #ai-101 section -=- */
@@ -6220,31 +6242,33 @@ and (orientation: portrait) {
     position: absolute;
     height: 7vh;
     text-align: center;
-    z-index: 11;
     margin-top: 1.5%;
     margin-left: 44%;
+    padding: 0%;
+    z-index: 11;  /*jj*/
     }
 
     
   .section-header h2{
     font-size: 24px;
-    background-color: transparent;      
+    background-color: transparent;    
+    padding: 0%;
   }
 
     #ai101-heading-2 {
     background-color: #0e101f;
     position: absolute;
+    display: inline-block;
     height: 10vh;
     margin-top: 12%;
     min-width: 100%;
-    z-index: 1;
+    z-index: 9;  /*jj*/
     }
     
 
     .author{
       position: relative;
       display: flex;
-      z-index: 1;
       float: left;
       height: 150px;
       width: 100%;
@@ -6257,13 +6281,21 @@ and (orientation: portrait) {
       .author p {
         float:left;
         font-size: 12px;
+        font-weight: 350;
+        letter-spacing: 0.5px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 25%;
       }
    
       .author aside {
        font-size: 12px;
-       line-height: 18px;
+       line-height: 1px;
        border-left: 2px solid rgba(127, 221, 252, 0.932);
-       height: 7vh;
+       height: 9.5vh;
+       white-space: pre-line;
+       margin-top: 5%;
+       padding-left: 0.7%;
      }
 
      .author > aside > #read{
@@ -6271,39 +6303,42 @@ and (orientation: portrait) {
       font-size: 12px;
       font-weight: 600;
       letter-spacing: 1px;
-      margin-left: -32%;
-      margin-top: 40%;
+      margin-left: -140%;
+      margin-top: 60%;
     }
    
       .profile-photo {
-        height: 40px;
-        min-width: 50px;
-        margin-top: 7%;
+        height: 45px;
+        min-width: 60px;
+        margin-top: 17%;
       }
 
       #ai-101-audio { 
         width: 20%;
-        min-width: 100px;
-        height: 50%;
+        min-width: 150px;
+        height: 100%;
         min-height: 5vh;
       }
+
   
     .audio-player {
       position: relative;
-      display: flex;
+      display:flex;
       filter:invert(100%);
       opacity: 1;
-      margin-top:  0;
-      margin-left: 73%;
-      z-index: 9;
+      padding-top: 5%;
+      margin-left: 57%;
     }
   
     .audio-player > span {
      font-size: 10px;
-     font-weight: 400;
-     letter-spacing: 0.5px;
-     margin-left: -45%;
-     margin-top: 14.5%;
+     font-weight: 600;
+     letter-spacing: 1px;
+     margin-left: -5%;
+     margin-top: 15%;
+     position: absolute;
+     display: flex;
+     white-space: pre-line;
     }
 
 
@@ -6313,16 +6348,16 @@ and (orientation: portrait) {
       position: relative;
       display: flex;
       width: 100%;
-      height: 10vh;
-      margin-top: 23%;
+      height: 15vh;
+      margin-top: 18%;
     }
 
     #ai-img-2 {
      position: relative;
      display: flex;
      width: 100%;
-     height: 10vh;
-     margin-top: 5%;  
+     height: 15vh;
+     margin-top: 10%;  
    }
 
 
@@ -6333,17 +6368,15 @@ and (orientation: portrait) {
   
   .ai-101-container {
     position: absolute;
-    line-height: 10px;
-    text-justify:distribute;
+    line-height: 7px;
     margin-top: 19%;
     margin-left: 2%;
     margin-right: 2%;
   }
 .ai-101-container p {
     font-size: 9px;
-    font-weight: 400;
+    font-weight: 300;
     margin-left: 1%;
-    word-spacing: 0.5px;
   }
 
   .ai-101-a {
@@ -6351,7 +6384,7 @@ and (orientation: portrait) {
   }
 
   .ai-101-b {
-    margin-top: -1%;
+    margin-top: -3%;
   }
 
   .ai-101-c {
@@ -6359,7 +6392,7 @@ and (orientation: portrait) {
   }
 
   .ai-101-d {
-    margin-top: -7%;
+    margin-top: -2%;
     margin-bottom: 2%;
   } 
 
@@ -6420,55 +6453,51 @@ and (orientation: portrait) {
       margin-left: 42%;
      }
     
-     .form2-wrapper {
+    .form2-wrapper {
       position: absolute;
-      margin-top: 167%;
+      margin-top: 189%;
+      height: 13vh;
     }
 
-    .form2-wrapper img {
-      margin-top: 15%;
-      padding-bottom: 15%;
-    }
 
   /*-=-=-=-=-=-=-=-=-#industries=-=-=-=-=-=--=-=-=-*/
 
   #adjust-header {
     position: relative;
     margin-top: 2%;
-    margin-left: -48%;
-    z-index: 0;
+    margin-left: -20%;
   }
 
   #adjust-footer {
     position: absolute;
-    margin-top: 168%;
+    margin-top: 200.5%;
   }
 
   
 .grid-template-rows-1 , .grid {
-  grid-template-columns: 205px 205px;
+  grid-template-columns: 185px 185px;
     display:grid;
     position: absolute;
-    margin-top: 12%;
+    margin-top: 13%;
     margin-bottom: -90%;
 }
   
 .grid-template-rows-1{
-    grid-template-rows: 310px 310px;
-    padding-bottom: 2.5px;
+    grid-template-rows: 350px 350px;
+    padding-bottom: 2.5px; /*chk*/
 }
 
 
 .grid h3 {                
-  font-size: 15px;
+  font-size: 18px;
   font-weight:400;
 }
 
 
 .grid-span {
-  font-size: 13px; 
+  font-size: 16px; 
   font-weight: 600;
-  line-height: 15px;
+  line-height: 18px;
   margin-left: -13%;
   margin-right: -13%;
   text-align: left;
@@ -6476,7 +6505,7 @@ and (orientation: portrait) {
 }
 
 .grid a {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -6548,7 +6577,7 @@ margin-left: 1.5%;
   font-size: 10px;
   font-weight: 350;
   line-height: 10px;
-  margin-top: 25%;
+  margin-top: 30%;
   margin-left: -60%;
 }
 
@@ -6577,7 +6606,7 @@ margin-left: 1.5%;
   display: none;
 }
 
-.audio-player-pu-small {
+.audio-player-pu-small { 
   width: 20%;
   min-width: 100px;
   height: 50%;
@@ -6590,7 +6619,7 @@ margin-left: 1.5%;
   width: 300px;
   height: 3vh;
   opacity: 1;
-  margin-left: 70%;
+  margin-left: 68%;
 }
 
 .listen-pu {
@@ -6604,7 +6633,7 @@ margin-left: 1.5%;
 }
 
 .pointer-pu {
-  display: none;
+  display: none; /*old*/
 }
 
 .cancel {
@@ -6614,7 +6643,7 @@ margin-left: 1.5%;
   height: 7vh;
   z-index: 130;
   margin-top: -1.9%;
-  margin-left: 92.5%;
+  margin-left: 91%;
   }
 
 
@@ -6622,42 +6651,40 @@ margin-left: 1.5%;
 
 /*=====================================================*/
 
-
-
 .lhs-image-wrapper img{
 display: none;
 }
 
 .popup-article article { 
-margin-top: 0;
-text-justify: distribute;
+text-justify:inter-character;
+margin: 0 auto;
 }
-
 
 #popup-article-healthph {
-background-image: url("/assets/images/medical_img.png");
-background-repeat: no-repeat;
-}
-
-#popup-article-bankfin {
-background-image: url("/assets/images/bk_img.png");
-background-repeat: no-repeat;
-}
-
-#popup-article-ecom {
-  background-image: url("/assets/images/eshop_img.png");
+  background-image: url("/assets/images/medical_img.png");
   background-repeat: no-repeat;
   }
-
-  #popup-article-mnf {
-    background-image: url("/assets/images/products_img.png");
+  
+  #popup-article-bankfin {
+  background-image: url("/assets/images/bk_img.png");
+  background-repeat: no-repeat;
+  }
+  
+  #popup-article-ecom {
+    background-image: url("/assets/images/eshop_img.png");
     background-repeat: no-repeat;
-    background-blend-mode:screen;
     }
+  
+    #popup-article-mnf {
+      background-image: url("/assets/images/products_img.png");
+      background-repeat: no-repeat;
+      background-blend-mode:screen;
+      }
+  
 
 
 .article-p1 p {
-margin-top: 26%;
+margin-top: 30%;
 padding-left: 2.5%;
 padding-right: 2.5%;
 color: black;
@@ -6736,7 +6763,7 @@ margin-left: -1.5%;
 .btm-image-wrapper img {
 height: 30vh;
 width: 100%;
-margin-bottom: 18%;
+margin-bottom: 32%;
 }
 
 
@@ -6760,10 +6787,7 @@ margin-bottom: 0%;
 .podcasts {
 background-color: rgba(14, 16, 31, 1);
 background-image: url("/assets/images/podcasts_img.png");
-background-size: contain;
-background-repeat:no-repeat;
-background-position: 0 80px;
-background-blend-mode:luminosity;
+background-size:400%;
 }
 
 .top-image-wrapper img {
@@ -6771,9 +6795,8 @@ display: none;
 }
 
 #header-podcasts {
-margin-top: 0.8%;
-text-align: center;  
-margin-left: 40%;
+margin-top: 1.7%;
+text-align: center;
 }
 
 .playlist {
@@ -6781,15 +6804,16 @@ position:absolute;
 overflow-y:hidden;
 height: 85vh;
 width: 100%;
-margin-top: 45%;
+margin-top: 6%;
 }
 
 iframe {
 background-color: transparent;
 filter:saturate(5%);
-width: 165px;
-height: 17vh;
+width: 200px;  
+height: 24vh;
 }
+
 
 .column{
 position:relative;
@@ -6840,13 +6864,14 @@ margin: 0 auto;
   display: flex;
   width: 100%;
   z-index: 0;
-  margin-top: 165%;
+  margin-top: 190%;
+  padding-top: 12%;
 }
 
 #wave1 {
   height: 5vh;
-  margin-top: -10%;
-  padding-top: 1.2%;
+  margin-top: -13%;
+  padding-top: 2%;
 }
 
  /*===================================== */
@@ -6855,15 +6880,14 @@ margin: 0 auto;
 
  .subscribe {
   background-color: rgba(14, 16, 31, 1);
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-blend-mode:difference;
-  color: rgba(0,0,0,1);
-}
+  background-position: right -350px;
+ }
 
 #subscribe-header {
-  margin-top: 0.8%;
-  margin-left: 34%;
+  margin-top: 2%;
+  padding-left: 0;
 }
 
 .subscribe-form {
@@ -6874,17 +6898,18 @@ margin: 0 auto;
 }
 
 .subscribe-form h1 {
- font-size: 22px;
+ font-size: 32px;
  font-weight: 700;
  color: black;
  min-width: 100%;
+ margin-top: 32%;
  margin-left: -5%;
 }
 
 .subscribe-form p {
  text-align: center;
  padding-right: 4%;
- margin-top: -0.5%;
+ margin-top: 6%;
  font-size: 18px;
  font-weight: 500;
 }
@@ -6892,58 +6917,67 @@ margin: 0 auto;
  max-width: 150px;
 }
 .subscribe-form input {
- border-top-right-radius: 0;
- border-bottom-right-radius: 0;
- height: 3vh;
- font-size: 12px;
- font-weight: 400;
- width: 100%;
- color: white;
- background-color: rgba(0, 0, 0, 0.6);
  position: relative;
  margin-left: -7%;
  margin-top: -10%;
+ background-color: rgba(127, 221, 252, 0.932);
+ color: black;
+ border: 2px solid white;
+ font-weight: 600;
 }
+
+
 
 #submit-button {
  position: absolute;
  display:block;
  font-size: 14px;
  font-weight: 700;
- margin-top: 34%;
- margin-left: 35.5%;
  padding-top: 2%;
  padding-bottom: 9%;
+ background-color:transparent;
+ filter: none;
+ margin-top: 62.8%;
+ margin-left: 40%;
+ height: 5.6vh;
+}
+
+#submit-button:hover {
+  filter: none;
+  background-color: rgba(14, 16, 31, 1);
 }
 
 #checkbox {
  position: absolute;
  display: flex;
  width: 20px;
- margin-top: 40.5%;
- margin-left: -5%;
- z-index: 1;
+ margin-top: 69.5%;
+ margin-left: -3.2%;
+
 }
 
 #subscribe-form > label {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   height: 2.5vh;
-  white-space: nowrap;
-  margin-top: 4%;
-  margin-right: 7%;
   white-space: pre-wrap;
   text-align: left;
   padding-left: 5%;
   font-size: 8px;
   font-weight: 400;
   line-height: 9px;
+  border: 2px solid white;
+  border-top: none;
+  margin-top: 0;
+  margin-right: 7%;
+  width: 86%;
 }
 
 
 #subscribe-footer {
  display: flex;
- margin-top: 170%;
+ margin-top: 201.5%;
+ padding-bottom: 3%;
 } 
 
 /* #contact section */
@@ -6953,11 +6987,6 @@ margin: 0 auto;
  background-blend-mode: difference;
  background-size: contain;
  background-position: center;
-}
-
-#contact-header {
-  margin-top: 0.8%;
-  margin-left: 40%;
 }
 
 .contact-container {
@@ -6991,7 +7020,7 @@ form .field textarea {
 }
 .contact-container form textarea:focus#msg,
 .contact-container form textarea:not(:placeholder-shown)#msg {
- height: 14vh;
+ height: 17vh;
  padding-top: 12%;
  padding-left: 2%;
  padding-right: 1%;
@@ -7021,7 +7050,7 @@ form .field textarea {
   display: flex;
   min-width: 100%;
   padding: 0;
-  height: 9.5vh;
+  height: 17vh;
   z-index: 0;
   margin-top: 70%;
   background-color: rgba(0, 0, 0, 0.3);
@@ -7039,8 +7068,3 @@ form .field textarea {
 }
 
 /*==========================================================================*/
-
-
-
-
-
