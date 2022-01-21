@@ -101,7 +101,7 @@ and (orientation: landscape) {
   #ai101-heading-2 {
   background-color: #0e101f;
   position: absolute;
-  height: 14vh;
+  height: 14.5vh;
   min-width: 100%;
   margin-top: 8.8%;
   z-index: 1;
@@ -114,34 +114,37 @@ and (orientation: landscape) {
     float: left;
     width: 100%;
     white-space: nowrap;
-    margin-top: -3.5%;
+    margin-top: -5.5%;
     margin-left: 1%;
     }
 
     .profile-photo {
       height: 35px;
       width: 35px;
-      margin-top: 4%;
+      margin-top: 4.5%;
     }
  
     .author p {
       float:left;
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 8px;
+      line-height: 10px;
     }
  
     .author aside {
-     line-height: 18px;
+     line-height: 10px;
      border-left: 2px solid rgba(127, 221, 252, 0.932);
-     height: 8vh;
+     height: 12vh;
+     font-size: 8px;
+     white-space: pre-line;
+     margin-top: 2%;
    }
 
    .author > aside > #read{
     float: left;
     letter-spacing: 3px;
     font-weight: 600;
-    margin-left: 140%;
-    margin-top: 10%;
+    margin-left: 71 %;
+    margin-top: -11.5%;
     font-size: 8px;
   }
 
@@ -150,8 +153,8 @@ and (orientation: landscape) {
     display: flex;
     filter:invert(100%);
     opacity: 1;
-    margin-top: 1%;
-    margin-left: 72%;
+    margin-top: 3%;
+    margin-left: 66%;
     z-index: 1;
   }
 
@@ -159,14 +162,14 @@ and (orientation: landscape) {
    position: relative;
    display: flex;
    color:black;
-   font-weight: 800;
+   font-weight: 600;
    letter-spacing: 2px;
    position: absolute;
    padding-left: 8%;
    margin-top: 6%;
    font-size: 6px;
-
   }
+
    audio {
      max-width: 150px;
      height: 5vh;
