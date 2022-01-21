@@ -78,7 +78,8 @@ and (orientation: portrait) {
     position: absolute;
     z-index: 11;
     margin-left: 43%;
-    padding-top: 3%;
+    padding-top: 2%;
+    z-index: 30;
     }
 
     
