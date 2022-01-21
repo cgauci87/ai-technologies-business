@@ -7,7 +7,8 @@ and (orientation: portrait) {
 
   .nav > .nav-header > .nav-title {
     font-size: 14px;
-    padding-top: 3.5%;
+    height: 10vh;
+    padding-top: 2.5%;
   }
   
   .nav > #nav-check:checked ~ .nav-links {
