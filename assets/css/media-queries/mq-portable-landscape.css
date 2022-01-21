@@ -2515,8 +2515,8 @@ form .field textarea {
 
 /*=======================================================================*/
 /* ----------- Nexus 4 ----------- */
-/* Landscape 640x384 -> PASS <-*/
-@media screen 
+/* Landscape 640x384 -> PASS  BUG <-*/
+@media screen
 and (min-width: 640px)  and (max-width: 667px) 
 and (min-height: 375px) and (max-height: 384px)
 and (orientation: landscape) {
@@ -3293,8 +3293,8 @@ form .field textarea {
 /* [L3]--------- iPhone 6, 6S, 7 and 8 ----------- */
 /* Landscape 667x375 -> PASS V <- */
 @media screen 
-and (min-width: 667px)
-and (min-height: 375px)
+and (max-width: 731px)
+and (max-height: 415px)
 and (orientation: landscape) { 
     .nav {
       z-index: 10;
@@ -4069,6 +4069,7 @@ margin: 0 auto;
 @media screen 
 and (min-width: 731px)
 and (max-width: 736px)
+and (min-height: 414px)
 and (orientation: landscape) { 
     .nav {
       z-index: 10;
