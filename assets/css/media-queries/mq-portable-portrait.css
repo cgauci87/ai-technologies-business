@@ -1,17 +1,24 @@
-/* smartphones, iPhone, portrait 480x320 phones*/
-@media (min-width: 320px) and (max-width: 480px)
+/* smartphones, iPhone, portrait 320x480 phones WIP*/
+@media (min-width: 320px) and (max-height: 480px)
 and (orientation: portrait) { 
   .nav {
-    z-index: 300;
+    z-index: 10;
   }
-  #ai-logo {
-    font-size: 22px;
+
+  .nav > .nav-header > .nav-title {
+    font-size: 14px;
+    padding-top: 3.5%;
+  }
+  
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(42vh - 10px);
   }
 
   .intro {
     background-color: rgb(28, 63, 71); /* lighter*/
     background-blend-mode: multiply;
-    background-position: 18%;
+    background-size: contain;
+    background-position: 0 100px;
   }
 
     .intro h1 {
@@ -23,14 +30,15 @@ and (orientation: portrait) {
    .line-wrapper-1 .line-1 { 
     font-size: 16px;
     word-spacing: 1px;
-    margin-top: 82%;
-    height: 12vh;
+    margin-top: 36%;
+    height: 18vh;
+    padding-top: 1%;
   }	
       
   .section-footer {   
-    height: 4.9vh;
+    height: 5.5vh;
     position: absolute;
-    margin-top: 105.5%;
+    margin-top: 70%;
   }
 
   .goto-btn {
@@ -44,16 +52,17 @@ and (orientation: portrait) {
     }
   
     .line-wrapper-2 .line-2 {
-      margin-top: 120%;
-      padding-left: 7%;
       white-space:pre-line;
       font-size: 10px;
       word-spacing: 0.5px;
+      margin-top: 91%;
+      padding-left: 4%;
+      height: 5.5vh;
     }	
   
   .spike#spike1 {
-    margin-top: 125%;
-    height: 13vh;
+    margin-top: 94.8%;
+    height: 4.8vh;
   }
 
   /* -=- #ai-101 section -=- */
