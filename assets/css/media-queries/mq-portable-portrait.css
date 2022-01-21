@@ -271,48 +271,46 @@ and (orientation: portrait) {
 
   #adjust-header {
     position: relative;
-    margin-top: 10%;
-    padding: 0;
-    z-index: 0; /*qw*/
+    padding-top: 8%;
+    margin-left: -50%;
   }
-
-  #adjust-footer {
-    position: absolute;
-    margin-top: 180%;
-  }
-
   
 .grid-template-rows-1 , .grid { 
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     display:grid;
     position: absolute;
-    margin-top: 20%;
-    margin-bottom: -90%;
+    margin-top: 16%;
 }
   
 .grid-template-rows-1{
-    grid-template-rows: 235.5px 235.5px;
-    padding-bottom: 2.5px; /*chk*/
+    grid-template-rows: 195px 195px;
 }
 
 
 .grid h3 {                
-	font-size: 16px;
-  font-weight:400;
+	font-size: 13px;
+  font-weight:600;
 }
 
 .grid-span {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 15px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
   margin-left: -13%;
   margin-right: -13%;
+  padding-left: 4%;
+  text-align: left;
 }
 
 
 .grid a {
   font-size: 10px;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+#adjust-footer {
+  position: absolute;
+  margin-top: 140.5%;
 }
 
 /*======================popup======================== */
