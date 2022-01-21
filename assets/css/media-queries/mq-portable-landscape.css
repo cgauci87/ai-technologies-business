@@ -345,11 +345,11 @@ and (orientation: landscape) {
 }
 
 .popup-heading-2 span  > .clock-pu{
-  display: none; /*old clock*/
+  display: none;
 }
 
 .pointer-pu {
-  display: none; /*old*/
+  display: none;
 }
 
 .popup-article {
@@ -481,7 +481,7 @@ and (orientation: landscape) {
   height: 100%;
   width: 50%;
   border-radius: 0%;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .article-p1 p { 
@@ -540,6 +540,10 @@ and (orientation: landscape) {
   word-spacing: -2px;
   position: relative;
   z-index: 1;
+}
+
+.article-p2 p {
+  padding-top: 3%;
 }
 
 .article-p2 h3 {
