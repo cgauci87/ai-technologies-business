@@ -672,10 +672,10 @@ height: 45vh;
 
  .subscribe {
   background-color: rgba(14, 16, 31, 1);
-  background-size: cover;
-  background-position: center;
   background-blend-mode:difference;
   color: rgba(0,0,0,1);
+  background-size: cover;
+  background-position: 0 -15px;
 }
 
 #subscribe-header {
@@ -685,10 +685,10 @@ height: 45vh;
 
 .subscribe-form {
   position: absolute;
-  margin-top: 10%;
   line-height: 20px;
   text-align: center;
-  margin-left: 15%;
+  margin-top: 6%;
+  margin-left: 7%;
 }
 
 .subscribe-form h1 {
@@ -700,7 +700,7 @@ height: 45vh;
 }
 
 .subscribe-form p {
- font-size: 12px;
+ font-size: 16px;
  font-weight: 600;
  text-align: center;
  margin-top: -1%;
@@ -718,23 +718,25 @@ height: 45vh;
  width: 100%;
  color: #0e101f;
  margin-left: -7%;
+ padding-bottom: 2%;
 }
 
 #submit-button {
  position: absolute;
- display:block; /* display block is compatible with all browsers - while displayt flex is compatible with only FF*/
- margin-top:  27.55%;
- margin-left: 35%;
+ display:block;
+ margin-top:  31.25%;
+ margin-left: 33%;
  font-weight: 600;
  font-size: 10px;
+ padding-bottom: 0.8%;
 }
 
 #checkbox {
  position: absolute;
  display: flex;
- width: 10px;
- margin-top: 32.3%;
- margin-left: -0.9%;
+ width: 12px;
+ margin-top: 35.5%;
+ margin-left: -2%;
  z-index: 1;
 }
 
@@ -748,14 +750,15 @@ height: 45vh;
   white-space: nowrap;
   padding-top: 1%;
   padding-left: 2%;
-  margin-top: 4%;
+  padding-right: 2%;
+  margin-top: 3%;
   margin-right: -30%;
 }
 
 
 #subscribe-footer {
  display: flex;
- margin-top: 53%;
+ margin-top: 63%;
 } 
 
 /* #contact section */
