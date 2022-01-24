@@ -615,7 +615,7 @@ margin-top: 0.5%;
 }
 
 #healthph {
-  background-image: url("../images/healthcare-image.png");
+  background-image: url("../images/healthcare_img.png");
   background-repeat: no-repeat;
   background-size:cover;
   background-blend-mode:overlay;
