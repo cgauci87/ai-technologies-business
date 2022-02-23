@@ -1,110 +1,136 @@
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" href="assets/css/style.css"/>
-		<link rel="stylesheet" media="screen and (max-width: 415px) and (orientation: portrait)" href="assets/css/media-queries/mq-portable-portrait.css"/>
-		<link rel="stylesheet" media="screen and (max-width: 813px) and (max-height: 415px) and (orientation: landscape)" href="assets/css/media-queries/mq-portable-landscape.css"/>
-		<link rel="stylesheet" media="screen and (max-width: 1367px)" href="assets/css/media-queries/mq-med-display.css"/>
-		<link rel="stylesheet" media="screen and (max-width: 1681px)" href="assets/css/media-queries/mq-large-display.css"/>
-		<link rel="icon" type="image/x-icon" href="assets/images/b2b_icon.png">
-		<title> Artificial Intelligence in Business World</title>
-	</head>
-			<body>
-				<header>
-					<div class="nav">
-						<input type="checkbox" id="nav-check">
-						<div class="nav-header">
-						<div class="nav-title">
-							<a href="#home">
-								<h2 id="ai-logo"><i class="fas fa-briefcase"></i>b2b.ai</h2>
-							</a>
-						</div>
-						</div>
-						<div class="nav-btn">
-						<label for="nav-check">
-							<span></span>
-							<span></span>
-							<span></span>
-						</label>
-						</div>			
-						<div class="nav-links">
-						<a href="#home">Home</a>
-						<a href="#ai-101">AI-101</a>
-						<a href="#industries">Industries</a> 
-						<a href="#podcasts">Podcasts</a>
-						<a href="#subscribe">Subscribe</a>
-						<a href="#contact">Contact</a>
-						</div>
-					</div>
-				</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 415px) and (orientation: portrait)" href="assets/css/media-queries/mq-portable-portraita.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 892px) and (max-height: 415px) and (orientation: landscape)" href="assets/css/media-queries/mq-portable-landscapea.css">
+    <link rel="stylesheet" media="screen and (max-width: 1367px)" href="assets/css/media-queries/mq-med-displaya.css">
+    <link rel="stylesheet" media="screen and (max-width: 1681px)" href="assets/css/media-queries/mq-large-displaya.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/b2b_icon.png">
+    <title>Artificial Intelligence (AI) in Business</title>
+</head>
+<body>
+    <div class="intro-wrapper">
+        <header>
+            <div class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                <div class="nav-title">
+                    <a id="logo" href="#intro">
+                        <span><i class="fas fa-briefcase"></i>b2b.ai</span>
+                    </a>
+                </div>
+                </div>
+                <div class="nav-btn" id="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                </div>			
+                <div class="nav-links">
+                <a href="#intro">Intro</a>
+                <a href="#ai-101">AI-101</a>
+                <a href="#industries">Industries</a> 
+                <a href="#podcasts">Podcasts</a>
+                <a href="#subscribe">Subscribe</a>
+                <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </header>
 
-				<section class="intro" id="home">
-					<h1 id="intro-h1">Artificial Intelligence</h1>
-					<div class="line-wrapper-1">
-						<p class="line-1">AI technologies can automate any business processes, gain insight through data analysis, and engage with customers and employees.</p>
-					</div>
-						<div class="line-wrapper-2">
-							<p class="line-2 anim-typewriter">#AI #Bigdata #MachineLearning #Automation #Catalyst 
-							#DigitalTransformation #Accelerate #Innovation #Tech</p>
-						</div>
-						<footer class=section-footer>
-							<form action="#ai-101" method="get" id="form1"></form>
-							<button type="submit" class="goto-btn goto-btn-txt" form="form1" value="Submit">Explore More</button>
-						</footer>
-						<div class="spike" id="spike1"></div>
-						<div class="spike" id="spike2"></div>
-				</section>
+        <main class="main-intro">
+            
+            <section class="intro" id="intro">
+                <h1 id="intro-h1">Artificial Intelligence</h1>
+                <div class="line-wrapper-1">
+                    <p class="line-1">AI technologies can automate any business processes, gain insight through data analysis, and engage with customers and employees.</p>
+                </div>
+                    <div class="line-wrapper-2">
+                        <p class="line-2 anim-typewriter">
+                        #AI #Bigdata #MachineLearning #Automation #Catalyst 
+                        #DigitalTransformation #Accelerate #Innovation #Tech
 
-				<section class="ai-101" id="ai-101">	
-					<header class="section-header"><h2>AI-101</h2></header>
-					<div id="ai101-heading-2">
-					<span><i class="far fa-clock" id="display-clock"> 1 min read</i></span>
-					
-					<div class="audio-player">
-					<audio controls id="ai-101-audio">
-						<source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
-						Your browser does not support the audio tag.
-					</audio>
-					<span id="listen-in"><i class="far fa-hand-pointer"></i> Listen to this article</span>
-					</div>
-					<span id="listen"><i class="far fa-hand-pointer"></i> Listen to this article</span>
-						<div class="author">
-							<img alt="Chris Gauci" class="profile-photo"
-							src="assets/images/profile_photo.png"><p><b>Chris Gauci</b></p>
-						<aside><p>Admin</p>
-							<p>Updated Dec 03, 2021</p>
-							<i class="far fa-clock" id="read"> 1 min read</i>
-						</aside>
-					</div>
-				</div>
-					
-					<div class="ai-101-container">
+                        #Tech #Innovation #Accelerate #DigitalTransformation
+                        #Catalyst #AI #Bigdata #MachineLearning #Automation
+
+                        #AI #Bigdata #MachineLearning #Automation #Catalyst 
+                        #DigitalTransformation #Accelerate #Innovation #Tech
+
+                        #Tech #Innovation #Accelerate #DigitalTransformation
+                        #Catalyst #AI #Bigdata #MachineLearning #Automation  
+                        </p>
+                    </div>
+                    <footer class=section-footer>
+                        <form action="#ai-101" method="get" id="form1"></form>
+                        <button type="submit" class="goto-btn goto-btn-txt" form="form1" value="Submit">Explore More</button>
+                    </footer>
+                    <div class="spike" id="spike1"></div>
+                    <div class="spike" id="spike2"></div>
+            </section>
+        </main> <!--main class closes-->
+    </div> <!--wrapper div closes-->
+
+    <section class="ai-101" id="ai-101">
+        <div class="ai-101-wrapper">
+            <header>   
+                 <div class="section-header-wrapper">
+                                <div class="box section-heading section-header"><h1>AI-101 <i class="read fas fa-clock">
+                                    <span>1 min read</span></i></h1>
+                                </div>
+
+                                     <div class="box author">
+                                          <div class="box profile-photo">
+                                            <img alt="Chris Gauci"
+                                            src="assets/images/profile_photo.png"><p class="author-name">Chris <br> Gauci</p>
+                                            <aside>Admin<span> | </span>
+                                                Updated Dec 03, 2021
+                                            </aside>
+                                          </div>
+                                      </div>
+
+                                      <div class="box audio">
+                                        <div class="box audio-player">
+                                            <audio controls id="ai-101-audio">
+                                            <source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
+                                            Your browser does not support the audio tag.
+                                            </audio>
+                                        </div>
+
+                                         <div class="box listen-in" id="ai-101-listen"><span><i class="far fa-hand-pointer">
+                                         </i> Listen to this article</span>
+                                        </div>
+                                     </div>
+                            <img src="assets/images/header_img.png" alt="black and white analog clock" class="header-img">
+                     </div>
+                </header>
+                    <div class="ai-101-container">
 						<article>
 							
-							<img src="assets/images/ai_img_1.png" alt="process" id="ai-img-1">
+							<img src="assets/images/ai_img_1.jpg" alt="process" id="ai-img-1">
 
 							<div class="ai-101-a">
-							<h3> What is AI? <img src="assets/images/ml_icon.png" alt="machine learning" id="ml-icon">
-											<img src="assets/images/mimic_icon.png" alt="mimic" id="mimic-icon">
-											<img src="assets/images/process_icon.png" alt="processor" id="process-icon">				 
+							<h3> What is AI? <img src="assets/images/ml_icon.png" alt="machine learning" id="ml-icon" class="ai-101-icons">
+											<img src="assets/images/mimic_icon.png" alt="mimic" id="mimic-icon" class="ai-101-icons">
+											<img src="assets/images/process_icon.png" alt="processor" id="process-icon" class="ai-101-icons">				 
 							</h3>
 							<p>AI technologies mimics human behavior in some way.</p>
 							<p>Think of it as a simulation of human intelligence processes by machines.</p>
 							</div> 
 							<br>
 							<div class="ai-101-b">
-							<h3>AI capabilities? <img src="assets/images/ux_icon.png" alt="user experience" id="ux-icon"></h3>
-							<p>AI can make the user experience similar to interacting with a human.</p>
-							<p>Interpret external data.</p>
-							<p>To learn from such data.</p>
-							<p>To use such learnings to achieve specific goals and tasks through flexible adaptation. </p>
+							<h3>AI capabilities? <img src="assets/images/ux_icon.png" alt="user experience" id="ux-icon" class="ai-101-icons"></h3>
+							<p>AI can make the user experience similar to interacting with a human.
+							Interpret external data.
+							To learn from such data.
+							To use such learnings to achieve specific goals and tasks through flexible adaptation. </p>
 							</div>
 							<br>
 							<div class="ai-101-c"> 
-							<h3>How? <img src="assets/images/big_data_icon.png" alt="big data" id="big-data-icon"></h3>
+							<h3>How? <img src="assets/images/big_data_icon.png" alt="big data" id="big-data-icon" class="ai-101-icons"></h3>
 							<p> The input is huge amounts of data.</p>
 							<p> The human part is the output.</p>
 							<p> That’s what allows the AI to learn and adapt.</p>
@@ -117,9 +143,9 @@
 																<img src="assets/images/elevate_icon.png" alt="business elevation" id="elv-icon">
 																<img src="assets/images/growth_icon.png" alt="business growth" id="growth-icon">
 							</h3>
-							<p>Artificial Intelligence (AI) and Machine Learning (ML) were buzzwords a few years back.</p>
-							<p>Until some industries started levering the full potential and embraced such technologies.</p>
-							<p>Nowadays most businesses rely heavily on AI & ML applications and take advantage of the benefits.</p>
+							<p>Artificial Intelligence (AI) and Machine Learning (ML) were buzzwords a few years back.
+							Until some industries started levering the full potential and embraced such technologies.
+							Nowadays most businesses rely heavily on AI & ML applications and take advantage of the benefits.</p>
 							</div>
 				
 								<img src="assets/images/ai_img_2.png" alt="data analysis" id="ai-img-2">
@@ -128,419 +154,449 @@
 					</div>
 					<footer class="section-footer form2-wrapper">
 						<form action="#industries" method="get" id="form2"></form>
-						<button type="submit" class="goto-btn goto-btn-txt" form="form2" value="Submit">Learn More</button>
+						<button type="submit" class="goto-btn  goto-btn-txt" form="form2" value="Submit">Learn More</button>
 						<div class="image-container">
 							<img src="assets/images/graphical_img.png" alt="data analysis" id="graphical-img">
 							</div>
 					</footer>
-					
-				</section>
-				
-				<section class="industries" id="industries">
-					<article>
-						<header class="section-header"><h2 id="adjust-header">Industries</h2></header>
-							<div class="grid-template-rows-1 grid">
-								<div class="item" id="healthph">
-									<h3><i class="fas fa-heartbeat"></i> Health & Pharma</h3>
-									<span class="grid-span">AI & ML have been playing a critical role in medical industry.</span>
-									<a href="#popup-article-healthph"><i class="fas fa-newspaper"></i> Read full article <i class="fas fa-arrow-right"></i></a>
-								</div>
 
-								<div class="item" id="bankfin">
-									<h3><i class="fas fa-money-check-alt"></i> Banking & Finance</h3>
-									<span class="grid-span">Artificial intelligence is fast evolving. Banking and finance industry are one of those 
-									finding ways to leverage this game changing technology.</span>
-									<a href="#popup-article-bankfin"><i class="fas fa-newspaper"></i> Read full article <i class="fas fa-arrow-right"></i></a>
-								</div>
+            </div> <!--wrapper div closes-->
 
-								<div class="item" id="retailecom">
-									<h3><i class="fas fa-shopping-cart"></i> eCommerce</h3>
-									<span class="grid-span">AI algorithms are being utilised to predict changes in consumer demand as to improve customer experience
-									in Retail and eCommerce industry.</span>	
-									<a href="#popup-article-ecom"><i class="fas fa-newspaper"></i> Read full article <i class="fas fa-arrow-right"></i></a>
-								</div>
+    </section>
+    
+    <section class="industries" id="industries">
+            <header class="section-header"><h2 id="header-industries">Industries</h2><i id="industry-icon" class="fas fa-industry"></i></header>
+                <div class="grid-template-rows-1 grid">
+                    <div class="item" id="healthph">
+                        <h3><i class="fas fa-heartbeat"></i> Health & Pharma</h3>
+                        <span class="grid-span">AI & ML have been playing a critical role in medical industry.</span>
+                        <a href="#popup-article-healthph"><i class="fas fa-newspaper"></i> Read full article <i class="fas fa-arrow-right"></i></a>
+                    </div>
 
-								<div class="item" id="manufacturing">
-									<h3><i class="fas fa-industry"></i> Manufacturing</h3>
-									<span class="grid-span">AI is extensively being used in the manufacturing sector, facilitating the industrial automation.</span>
-									<a href="#popup-article-mnf"><i class="fas fa-newspaper"></i> Read full article <i class="fas fa-arrow-right"></i></a>
-								</div>
-				</div>
+                    <div class="item" id="bankfin">
+                        <h3><i class="fas fa-money-check-alt"></i> Banking & Finance</h3>
+                        <span class="grid-span">Artificial intelligence is fast evolving. Banking and finance industry are one of those 
+                        finding ways to leverage this game changing technology.</span>
+                        <a href="#popup-article-bankfin"><i class="fas fa-newspaper"></i> Read full article <i class="fas fa-arrow-right"></i></a>
+                    </div>
 
-	<!--==========================================================Popup articles============================================-->
+                    <div class="item" id="retailecom">
+                        <h3><i class="fas fa-shopping-cart"></i> eCommerce</h3>
+                        <span class="grid-span">AI algorithms are being utilised to predict changes in consumer demand as to improve customer experience
+                        in Retail and eCommerce industry.</span>	
+                        <a href="#popup-article-ecom"><i class="fas fa-newspaper"></i> Read full article <i class="fas fa-arrow-right"></i></a>
+                    </div>
 
-	<div class="popup-main-container">
+                    <div class="item" id="manufacturing">
+                        <h3><i class="fas fa-server"></i> Manufacturing</h3>
+                        <span class="grid-span">AI is extensively being used in the manufacturing sector, facilitating the industrial automation.</span>
+                        <a href="#popup-article-mnf"><i class="fas fa-newspaper"></i> Read full article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+    </div>
 
-			<div class="popup-container"></div>	
-				<div id="popup-article-healthph" class="popup-article">
-						<header class="article-header">
-							<h2><i class="fas fa-heartbeat"></i> Health & Pharma</h2>
-								<div class="popup-heading-2">
-										<div class="audio-player-pu">
-											<audio controls class="audio-player-pu-small">
-												<source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
-												Your browser does not support the audio tag.
-											</audio>
-											<i class="listen-pu far fa-hand-pointer"> Listen to this article</i>
-										</div>
-											<div class="pointer-pu">
-												<i class="far fa-hand-pointer"><span> Listen to this article</span></i>
-											</div>
-											<div class="author-pu">
-												<img alt="Chris Gauci" class="profile-photo"
-												src="assets/images/profile_photo.png"><p><b>Chris Gauci</b></p>
-													<aside><span>Admin</span>
-													<br>
-													<span>Updated Dec 07, 2021</span>
-													</aside>
-													<i class="read-pu fas fa-clock"> 1 min read</i>
-										</div>
-									</div>
-					</header>	
-	<article>	<div class="lhs-image-wrapper">
-					<img id="medical-img" src="assets/images/medical_img.png" alt="Medical">
-				</div>
-				<div class="article-p1">
-				<p>AI & ML have been playing a critical role in medical industry. From disease identification and diagnosis, 
-					helping identify patients for clinical trials to drug manufacturing and predictive forecasting, these technologies have proven critical. 
-					State-of-the-art algorithms have achieved accuracies which are at par with human experts in the
-					field of medical sciences.</p>
+<!--==========================================================con articles============wip================================-->
 
-											<div class="quote-wrapper">
-												<figure>
-												<img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
-												<figcaption class="q-caption">California Biomedical Research Association</figcaption>
-												</figure>
-												<aside class="quote"><i>"It takes an average of 12 years for a drug to travel from the research lab to the patient.
-													By directing the latest advances in AI to streamline the drug discovery and 
-													drug repurposing processes there is the potential to significantly 
-													cut both the time to market for new drugs and their costs."</i>
-												</aside>
-											</div>
+<div class="popup-main-container">
 
-											<div class="quote-wrapper">
-												<figure>
-												<img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
-												<figcaption class="q-caption">American Cancer Society</figcaption>
-												</figure>
-												<aside class="quote"><i>"A high proportion of mammograms yield false results, leading to 1 in 2 healthy women 
-													being told they have cancer. The use of AI is enabling review and translation of mammograms 30 times faster
-													with 99% accuracy, reducing the need for unnecessary biopsies"</i>
-												</aside>
-											</div>
+<div class="popup-container"></div>	
+    <div id="popup-article-healthph" class="popup-article">
+        <header>   
+            <div class="article-header-wrapper">
+                           <div class="box article-heading"><h2>Health & Pharma <i class="read fas fa-clock">
+                            <span class="read-pu">1 min read</span></i></h2>
+                           </div>
 
-											<div class="quote-wrapper">
-												<figure>
-												<img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
-												<figcaption class="q-caption">Mayo Clinic</figcaption>
-												</figure>
-												<aside class="quote"><i>"Robots help doctors perform complex procedures with a precision, 
-													flexibility and control that goes beyond human capabilities. Robot-assisted surgeries 
-													have led to fewer surgery-related complications, less pain and a quicker recovery time."</i>
-												</aside>
-											</div>
-			</div>
-			
-		<div class="article-p2">
-			<h3>Instances of AI uses within the Medical Industry</h3>	
-				<p><b>Research & Development:</b> AI would enable R&D to scrap the traditional trial methods and embrace a more patient-driven biology via using more data-derived predictive hypotheses.</p>
-				<p><b>Precision Medicine:</b>AI apps helps in tailoring of medical treatment to the individual characteristics of each patient.</p>
-				<p><b>Clinical Diagnosis: </b> The use of AI can contribute in early detection of diseases including cancer. The process of Analyses and review of mammogram, radiology images can be speed up to 30 times with 99% accuracy using AI. </p>
-				<p><b>AI-assisted robotic surgery:</b> AI can help improve surgical performance. Utilization of AI can reduce the human variations and improve the efficiency.</p>
-				<div class="btm-image-wrapper">
-				<img src="assets/images/surgery_img.png" alt="Surgery" id="surgery-img">	
-				</div>
-		</div>
-	</article>
-	<footer class=popup-footer></footer>
-		<a href="#industries" class="cancel">×</a>
-	</div>
-	<div class="cover"></div>
+                                <div class="box author-pu">
+                                     <div class="box profile-photo">
+                                       <img alt="Chris Gauci"
+                                       src="assets/images/profile_photo.png"><p class="author-name">Chris <br> Gauci</p>
+                                       <aside>Admin<span> | </span>
+                                           Updated Dec 03, 2021
+                                       </aside>
+                                     </div>
+                                 </div>
 
+                                 <div class="box audio">
+                                   <div class="box audio-player">
+                                       <audio controls class="article-audio">
+                                       <source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio tag.
+                                       </audio>
+                                   </div>
 
-							<div class="popup-container"></div>
-									<div id="popup-article-bankfin" class="popup-article">
-											<header class="article-header">
-												<h2><i class="fas fa-money-check-alt"></i> Banking & Finance</h2>
-												<div class="popup-heading-2">
-																		<div class="audio-player-pu">
-																			<audio controls class="audio-player-pu-small">
-																				<source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
-																				Your browser does not support the audio tag.
-																			</audio>
-																			<i class="listen-pu far fa-hand-pointer"> Listen to this article</i>
-																		</div>
-																			<div class="pointer-pu">
-																				<i class="far fa-hand-pointer"><span> Listen to this article</span></i>
-																			</div>
-																			<div class="author-pu">
-																				<img alt="Chris Gauci" class="profile-photo"
-																				src="assets/images/profile_photo.png"><p><b>Chris Gauci</b></p>
-																					<aside><span>Admin</span>
-																					<br>
-																					<span>Updated Dec 07, 2021</span>
-																					</aside>
-																				<i class="read-pu fas fa-clock"> 1 min read</i>
-																		</div>
-																		
-													</div>
-											</header>	
-								<article>	<div class="lhs-image-wrapper">
-											<img id="bk-img" src="assets/images/bk_img.png" alt="banking">
-											</div>
-											<div class="article-p1">
-												<p>Artificial intelligence is fast evolving. Banking and finance industry are one of those finding ways to leverage this game changing technology.
-												Many financial institutions use AI and ML applications to streamline their operations such as automation process to identify fraud , detecting unusual transactions.
-												AI solutions can also assist in making the process of credit risk analysis more efficient, accurate, and effective.
-												Front and middle-office AI applications offer the greatest cost savings opportunity across digital banking.
-												AI in the realm of finance powers many solutions aimed at enhancing security precautions.
-												As AI continues to be a growing force within fintech, experts believe its usage will spread across more sectors.</p>
-																		
-																		
-																			<div class="quote-wrapper">
-																				<figure>
-																				<img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
-																				<figcaption class="q-caption">Deloitte Insights</figcaption>
-																				</figure>
-																				<aside class="quote"><i>"70% of all financial services firms are using machine learning to predict cash flow events, 
-																										fine-tune credit scores and detect fraud."</i></aside>
-																			</div>
-											</div>
-											
-										<div class="article-p2">
-											<h3>Instances of AI uses within the Finance Industry</h3>	
-												<p><b>Risk Management:</b> Financial institutions integrate AI and ML applications to their existing systems so to assist analysts pinpoint trends and ensure better future planning. </p>
-												<p><b>Fraud Detection:</b> Fraud detections solutions can capture abnormal transaction activity through specific algorithms.</p>
-												<p><b>Trading: </b> AI can handle large data sets, analyse patterns and sift through data faster than humans, which expedites the entire process and saves large chunks of time.</p>
-												<p><b>Cyberattacks Prevention:</b> Artificial intelligence can boost an organisation security by analyzing and determining normal data patterns and trends, and alerting companies of discrepancies or unusual activity.</p>
-												<div class="btm-image-wrapper">
-												<img src="assets/images/risk_compliance_img.png" alt="Risk Management and Compliance" id="risk-comp-img">	
-												</div>
-									</div>
-										
-										
-								
+                                    <div class="box listen-in"><span><i class="far fa-hand-pointer">
+                                    </i> Listen to this article</span>
+                                   </div>
+                                </div>
+                       <img src="assets/images/header_img.png" alt="black and white analog clock" class="header-img">
+                </div>
+           </header>
 
-									</article>
-									<footer class="popup-footer"></footer>
-										<a href="#industries" class="cancel">×</a>
-								</div>
-								<div class="cover"></div>
+<article>	<div class="lhs-image-wrapper">
+        <img id="medical-img" src="assets/images/medical_img.png" alt="Medical">
+    </div>
+    <div class="article-p1">
+    <p>AI & ML have been playing a critical role in medical industry. From disease identification and diagnosis, 
+        helping identify patients for clinical trials to drug manufacturing and predictive forecasting, these technologies have proven critical. 
+        State-of-the-art algorithms have achieved accuracies which are at par with human experts in the
+        field of medical sciences.</p>
 
-								
-							<div class="popup-container"></div>
-							<div id="popup-article-ecom" class="popup-article">
-									<header class="article-header">
-										<h2><i class="fas fa-shopping-cart"></i> eCommerce</h2>
-										<div class="popup-heading-2">
-																<div class="audio-player-pu">
-																	<audio controls class="audio-player-pu-small">
-																		<source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
-																		Your browser does not support the audio tag.
-																	</audio>
-																	<i class="listen-pu far fa-hand-pointer"> Listen to this article</i>
-																</div>
-																	<div class="pointer-pu">
-																		<i class="far fa-hand-pointer"><span> Listen to this article</span></i>
-																	</div>
-																	<div class="author-pu">
-																		<img alt="Chris Gauci" class="profile-photo"
-																		src="assets/images/profile_photo.png"><p><b>Chris Gauci</b></p>
-																			<aside><span>Admin</span>
-																			<br>
-																			<span>Updated Dec 07, 2021</span>
-																			</aside>
-																			<i class="read-pu fas fa-clock"> 1 min read</i>
-																</div>
-																
-											</div>
-									</header>	
-						<article>	<div class="lhs-image-wrapper">
-									<img src="assets/images/eshop_img.png" alt="eshop">
-									</div>
-									<div class="article-p1">
-										<p>AI algorithms are being utilised to predict changes in consumer demand as to improve customer experience in Retail and eCommerce industry.
-											Market leaders build models using Artificial Intelligence and Machine Learning  technologies to deliver customised experiences.
-											With the use of big data, AI is impacting customer choices thanks to its knowledge of previous purchases and searched products.
-											 By incorporating AI solutions into a retail or e-commerce organisation, storefronts of all shapes and sizes can deliver the right
-											 products to consumers with improved speed and accuracy.</p>
-																
-																
-																	<div class="quote-wrapper">
-																		<figure>
-																		<img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
-																		<figcaption class="q-caption">Forbes</figcaption>
-																		</figure>
-																		<aside class="quote"><i>"Around 90% of organizations using these predictive analytics have seen an increased return on 
-																			their investment.  For 40% of those organizations that increase went up to over 10%, and sometimes even way more."</i></aside>
-																	</div>
+                                <div class="quote-wrapper">
+                                    <figure>
+                                    <img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
+                                    <figcaption class="q-caption"><h3>California Biomedical Research Association</h3></figcaption>
+                                    </figure>
+                                    <aside class="quote"><i>"It takes an average of 12 years for a drug to travel from the research lab to the patient.
+                                        By directing the latest advances in AI to streamline the drug discovery and 
+                                        drug repurposing processes there is the potential to significantly 
+                                        cut both the time to market for new drugs and their costs."</i>
+                                    </aside>
+                                </div>
 
-																	<div class="quote-wrapper">
-																		<figure>
-																		<img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
-																		<figcaption class="q-caption">Survey at Dreamforce by Conversica</figcaption>
-																		</figure>
-																		<aside class="quote"><i>"Corporate sales and marketing executives agree that at 
-																			least 50% of their sales effort and 50% of their lead generation budget is 
-																			wasted on leads that are never contacted"</i></aside>
-																	</div>
+                                <div class="quote-wrapper">
+                                    <figure>
+                                    <img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
+                                    <figcaption class="q-caption"><h3>American Cancer Society</h3></figcaption>
+                                    </figure>
+                                    <aside class="quote"><i>"A high proportion of mammograms yield false results, leading to 1 in 2 healthy women 
+                                        being told they have cancer. The use of AI is enabling review and translation of mammograms 30 times faster
+                                        with 99% accuracy, reducing the need for unnecessary biopsies"</i>
+                                    </aside>
+                                </div>
 
-																	
-									</div>
-									
-								<div class="article-p2">
-									<h3>Instances of AI uses within the eCommerce Industry</h3>	
-										<p><b>Customer-centric search:</b> AI solutions are capable to supply recommendations on what could work with a specific product.</p>
-										<p><b>Sales Predictions:</b> AI has made it more simple to analyze purchasing patterns and gain a deeper understanding of consumers’ wants and marketing needs.</p>
-										<p><b>Customer Care: </b> The use of AI chat bots automated responding has many benefits like a faster response to customer queries and uninterrupted customer support. </p>
-										<p><b>Retarget potential customers:</b> Some retail outlets are now using facial recognition to capture customer dwell times in store. This means that if a 
-											customer spends a notable amount of time next to a specific product, then such data will be stored for use upon their next visit.</p>
-										<div class="btm-image-wrapper">
-										<img src="assets/images/retail_img.png" alt="Retail outlets" id="retail-img">	
-										</div>
-								</div>
-							</article>
-							<footer class="popup-footer"></footer>
-								<a href="#industries" class="cancel">×</a>
-						</div>
-						<div class="cover"></div>
+                                <div class="quote-wrapper">
+                                    <figure>
+                                    <img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
+                                    <figcaption class="q-caption"><h3>Mayo Clinic</h3></figcaption>
+                                    </figure>
+                                    <aside class="quote"><i>"Robots help doctors perform complex procedures with a precision, 
+                                        flexibility and control that goes beyond human capabilities. Robot-assisted surgeries 
+                                        have led to fewer surgery-related complications, less pain and a quicker recovery time."</i>
+                                    </aside>
+                                </div>
+</div>
 
-						<div class="popup-container"></div>
-							<div id="popup-article-mnf" class="popup-article">
-									<header class="article-header">
-										<h2><i class="fas fa-industry"></i> Manufacturing</h2>
-										<div class="popup-heading-2">
-																<div class="audio-player-pu">
-																	<audio controls class="audio-player-pu-small">
-																		<source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
-																		Your browser does not support the audio tag.
-																	</audio>
-																	<i class="listen-pu far fa-hand-pointer"> Listen to this article</i>
-																</div>
-																	<div class="pointer-pu">
-																		<i class="far fa-hand-pointer"><span> Listen to this article</span></i>
-																	</div>
-																	<div class="author-pu">
-																		<img alt="Chris Gauci" class="profile-photo"
-																		src="assets/images/profile_photo.png"><p><b>Chris Gauci</b></p>
-																			<aside><span>Admin</span>
-																			<br>
-																			<span>Updated Dec 07, 2021</span>
-																			</aside>
-																			<i class="read-pu fas fa-clock"> 1 min read</i>
-																</div>
-																
-											</div>
-									</header>	
-						<article>	<div class="lhs-image-wrapper">
-									<img src="assets/images/products_img.png" alt="products">
-									</div>
-									<div class="article-p1">
-										<p>AI is extensively being used in the manufacturing sector, facilitating the industrial automation.
-											Artificial intelligence can ingest a combination of data from sensors, machines, and people and then apply it to 
-											algorithms designed to optimize operations or achieve lights out manufacturing.
-											Process plants rely on AI to integrate data, analyze it, and produce the deep insights and predictions that help drive better decision-making across the board.
-											AI-driven machines yields a bunch of benefits offering new opportunities, enhancing production efficiencies, and bringing machine interaction closer to human interaction.
-											Many firms have already embraced AI technology to reduce downtime, and deliver high-quality products that meet unique 
-											consumer demands.</p>
-																
-																
-																	<div class="quote-wrapper">
-																		<figure>
-																		<img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
-																		<figcaption class="q-caption">Forbes</figcaption>
-																		</figure>
-																		<aside class="quote"><i>"Around 90% of organizations using these predictive analytics have seen an increased return on 
-																			their investment.  For 40% of those organizations that increase went up to over 10%, and sometimes even way more."</i></aside>
-																	</div>
+<div class="article-p2">
+<h3>Instances of AI uses within the Medical Industry</h3>	
+    <p><b>Research & Development:</b> AI would enable R&D to scrap the traditional trial methods and embrace a more patient-driven biology via using more data-derived predictive hypotheses.</p>
+    <p><b>Precision Medicine:</b> AI apps helps in tailoring of medical treatment to the individual characteristics of each patient.</p>
+    <p><b>Clinical Diagnosis:</b> The use of AI can contribute in early detection of diseases including cancer. The process of Analyses and review of mammogram, radiology images can be speed up to 30 times with 99% accuracy using AI. </p>
+    <p><b>AI-assisted robotic surgery:</b> AI can help improve surgical performance. Utilization of AI can reduce the human variations and improve the efficiency.</p>
+    <div class="btm-image-wrapper">
+    <img src="assets/images/surgery_img.png" alt="Surgery" id="surgery-img">	
+    </div>
+</div>
+</article>
+<footer class=popup-footer></footer>
+<a href="#industries" class="cancel">×</a>
+</div>
+<div class="cover"></div>
+                <div class="popup-container"></div>
+                        <div id="popup-article-bankfin" class="popup-article">
+                            <header>   
+                                <div class="article-header-wrapper">
+                                               <div class="box article-heading"><h2>Banking & Finance <i class="read fas fa-clock">
+                                                <span class="read-pu">1 min read</span></i></h2>
+                                               </div>
+                    
+                                                    <div class="box author-pu">
+                                                         <div class="box profile-photo">
+                                                           <img alt="Chris Gauci"
+                                                           src="assets/images/profile_photo.png"><p class="author-name">Chris <br> Gauci</p>
+                                                           <aside>Admin<span> | </span>
+                                                               Updated Dec 03, 2021
+                                                           </aside>
+                                                         </div>
+                                                     </div>
+                    
+                                                     <div class="box audio">
+                                                       <div class="box audio-player">
+                                                           <audio controls class="article-audio">
+                                                           <source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
+                                                           Your browser does not support the audio tag.
+                                                           </audio>
+                                                       </div>
+                    
+                                                        <div class="box listen-in"><span><i class="far fa-hand-pointer">
+                                                        </i> Listen to this article</span>
+                                                       </div>
+                                                    </div>
+                                           <img src="assets/images/header_img.png" alt="black and white analog clock" class="header-img">
+                                    </div>
+                               </header>
+                    
+                    <article>	<div class="lhs-image-wrapper">
+                                <img id="bk-img" src="assets/images/bk_img.png" alt="banking">
+                                </div>
+                                <div class="article-p1">
+                                    <p>Artificial intelligence is fast evolving. Banking and finance industry are one of those finding ways to leverage this game changing technology.
+                                    Many financial institutions use AI and ML applications to streamline their operations such as automation process to identify fraud , detecting unusual transactions.
+                                    AI solutions can also assist in making the process of credit risk analysis more efficient, accurate, and effective.
+                                    Front and middle-office AI applications offer the greatest cost savings opportunity across digital banking.
+                                    AI in the realm of finance powers many solutions aimed at enhancing security precautions.
+                                    As AI continues to be a growing force within fintech, experts believe its usage will spread across more sectors.</p>
+                                                            
+                                                            
+                                                                <div class="quote-wrapper">
+                                                                    <figure>
+                                                                    <img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
+                                                                    <figcaption class="q-caption"><h3>Deloitte Insights</h3></figcaption>
+                                                                    </figure>
+                                                                    <aside class="quote"><i>"70% of all financial services firms are using machine learning to predict cash flow events, 
+                                                                                            fine-tune credit scores and detect fraud."</i></aside>
+                                                                </div>
+                                </div>
+                                
+                            <div class="article-p2">
+                                <h3>Instances of AI uses within the Finance Industry</h3>	
+                                    <p><b>Risk Management:</b> Financial institutions integrate AI and ML applications to their existing systems so to assist analysts pinpoint trends and ensure better future planning. </p>
+                                    <p><b>Fraud Detection:</b> Fraud detections solutions can capture abnormal transaction activity through specific algorithms.</p>
+                                    <p><b>Trading:</b> AI can handle large data sets, analyse patterns and sift through data faster than humans, which expedites the entire process and saves large chunks of time.</p>
+                                    <p><b>Cyberattacks Prevention:</b> Artificial intelligence can boost an organisation security by analyzing and determining normal data patterns and trends, and alerting companies of discrepancies or unusual activity.</p>
+                                    <div class="btm-image-wrapper">
+                                    <img src="assets/images/risk_compliance_img.png" alt="Risk Management and Compliance" id="risk-comp-img">	
+                                    </div>
+                        </div>
+                            
+                            
+                    
 
-																	<div class="quote-wrapper">
-																		<figure>
-																		<img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
-																		<figcaption class="q-caption">Survey by Deloitte</figcaption>
-																		</figure>
-																		<aside class="quote"><i>"93 percent of companies believe AI will be a pivotal technology to drive growth and innovation in the sector. 
-																			China's performance in AI adoption is outstanding. The market size of AI in the manufacturing sector is expected to exceed USD2 billion by 2025,
-																			 posting average annual growth of more than 40 percent from 2019. The rise of AI adoption in China's manufacturing sector has been boosted by favorable policies,
-																			  ample funds, and the potential for AI implementation."</i></aside>
-																	</div>
-																	
-									</div>
-									
-								<div class="article-p2">
-									<h3>Instances of AI uses within the Manufacturing Industry</h3>	
-										<p><b>Quality Assessments:</b> AI can identify minor faults in machinery or product, giving engineers the option to replicate the issue before it could become a major flaw.</p>
-										<p><b>Predictive Maintenance:</b> ML-powered predictive tools and AI solutions can predict when equipment needs periodic maintenance so to avoid disruption that may occur on an entire production line. </p>
-										<p><b>Demand and Price Forecasting: </b> With the use of collecting data, AI systems produce predictive analysis and combine it with human intelligence to forecast the demand for products and pricing efficiently. </p>
-										<p><b>Inventory Management:</b> Machine Learning plays an integral role to manage and simplify management of inventories based on demand and supply which can reduce significant cost overheads for a manufacturing firm. </p>
-										<div class="btm-image-wrapper">
-										<img src="assets/images/factory_img.png" alt="Factory" id="factory-img">	
-										</div>
-								</div>
+                        </article>
+                        <footer class="popup-footer"></footer>
+                            <a href="#industries" class="cancel">×</a>
+                    </div>
+                    <div class="cover"></div>
 
-							</article>
-							<footer class="popup-footer"></footer>
-								<a href="#industries" class="cancel">×</a>
-						</div>
-						<div class="cover"></div>
-	</div>
-							
-									<footer class=section-footer id="adjust-footer"> 
-									<form action="#podcasts" method="get" id="form3"></form>
-									<button type="submit" class="goto-btn goto-btn-txt" form="form3" value="Submit">Listen to Podcasts</button>
-									</footer>
-					</article>
-					</section>
+                    
+                <div class="popup-container"></div>
+                <div id="popup-article-ecom" class="popup-article">
+                    <header>   
+                        <div class="article-header-wrapper">
+                                       <div class="box article-heading"><h2>eCommerce <i class="read fas fa-clock">
+                                        <span class="read-pu">1 min read</span></i></h2>
+                                       </div>
+            
+                                            <div class="box author-pu">
+                                                 <div class="box profile-photo">
+                                                   <img alt="Chris Gauci"
+                                                   src="assets/images/profile_photo.png"><p class="author-name">Chris <br> Gauci</p>
+                                                   <aside>Admin<span> | </span>
+                                                       Updated Dec 03, 2021
+                                                   </aside>
+                                                 </div>
+                                             </div>
+            
+                                             <div class="box audio">
+                                               <div class="box audio-player">
+                                                   <audio controls class="article-audio">
+                                                   <source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
+                                                   Your browser does not support the audio tag.
+                                                   </audio>
+                                               </div>
+            
+                                                <div class="box listen-in"><span><i class="far fa-hand-pointer">
+                                                </i> Listen to this article</span>
+                                               </div>
+                                            </div>
+                                   <img src="assets/images/header_img.png" alt="black and white analog clock" class="header-img">
+                            </div>
+                       </header>
+            <article>	<div class="lhs-image-wrapper">
+                        <img src="assets/images/eshop_img.png" alt="eshop">
+                        </div>
+                        <div class="article-p1">
+                            <p>AI algorithms are being utilised to predict changes in consumer demand as to improve customer experience in Retail and eCommerce industry.
+                                Market leaders build models using Artificial Intelligence and Machine Learning  technologies to deliver customised experiences.
+                                With the use of big data, AI is impacting customer choices thanks to its knowledge of previous purchases and searched products.
+                                 By incorporating AI solutions into a retail or e-commerce organisation, storefronts of all shapes and sizes can deliver the right
+                                 products to consumers with improved speed and accuracy.</p>
+                                                    
+                                                    
+                                                        <div class="quote-wrapper">
+                                                            <figure>
+                                                            <img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
+                                                            <figcaption class="q-caption"><h3>Forbes</h3></figcaption>
+                                                            </figure>
+                                                            <aside class="quote"><i>"Around 90% of organizations using these predictive analytics have seen an increased return on 
+                                                                their investment.  For 40% of those organizations that increase went up to over 10%, and sometimes even way more."</i></aside>
+                                                        </div>
 
-				<section class="podcasts" id="podcasts">
-					<header class="section-header" id="header-podcasts"><h2>Podcasts</h2></header>
-						<div class="podcasts-container">
-							<div class="top-image-wrapper">
-							<img src="assets/images/podcasts_img.png" alt="podcasts" id="podcasts-img">
-							</div>
-								<div class="playlist">
-								<div class="column" id="column-1">
-								<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1035131476&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
-									<p> In this episode,  University of Cambridge explore the future of AI - 
-									its potential benefits and harms. </p>
-								</div>
-							
-								<div class="column" id="column-2">
-									<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1087591735&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
-								<p> In this episode, University of Ottawa Professional Development Institute discuss the use of AI technologies 
-									by a broad range of businesses.</p>
-								</div>
-							
-								<div class="column" id="column-3">
-								<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/977961331&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
-								<p>In this episode, three top experts in artificial intelligence discuss the key factors driving the growth of this emerging technology.</p>
-								</div>
-							</div>
-			</div>
+                                                        <div class="quote-wrapper">
+                                                            <figure>
+                                                            <img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
+                                                            <figcaption class="q-caption"><h3>Survey at Dreamforce by Conversica</h3></figcaption>
+                                                            </figure>
+                                                            <aside class="quote"><i>"Corporate sales and marketing executives agree that at 
+                                                                least 50% of their sales effort and 50% of their lead generation budget is 
+                                                                wasted on leads that are never contacted"</i></aside>
+                                                        </div>
 
-						<footer class="section-footer" id=footer-pd>
-							<form action="#subscribe" method="get" id="form4"></form>
-							<div class="wave" id="wave1">
-							<button type="submit" class="goto-btn goto-btn-txt" form="form4" value="Submit" >Subscribe</button>
-						</div>
-						</footer>
+                                                        
+                        </div>
+                        
+                    <div class="article-p2">
+                        <h3>Instances of AI uses within the eCommerce Industry</h3>	
+                            <p><b>Customer-centric search:</b> AI solutions are capable to supply recommendations on what could work with a specific product.</p>
+                            <p><b>Sales Predictions:</b> AI has made it more simple to analyze purchasing patterns and gain a deeper understanding of consumers’ wants and marketing needs.</p>
+                            <p><b>Customer Care:</b> The use of AI chat bots automated responding has many benefits like a faster response to customer queries and uninterrupted customer support. </p>
+                            <p><b>Retarget potential customers:</b> Some retail outlets are now using facial recognition to capture customer dwell times in store. This means that if a 
+                                customer spends a notable amount of time next to a specific product, then such data will be stored for use upon their next visit.</p>
+                            <div class="btm-image-wrapper">
+                            <img src="assets/images/retail_img.png" alt="Retail outlets" id="retail-img">	
+                            </div>
+                    </div>
+                </article>
+                <footer class="popup-footer"></footer>
+                    <a href="#industries" class="cancel">×</a>
+            </div>
+            <div class="cover"></div>
 
-				</section>
+            <div class="popup-container"></div>
+                <div id="popup-article-mnf" class="popup-article">
+                    <header>   
+                        <div class="article-header-wrapper">
+                                       <div class="box article-heading"><h2>Manufacturing <i class="read fas fa-clock">
+                                        <span class="read-pu">1 min read</span></i></h2>
+                                       </div>
+            
+                                            <div class="box author-pu">
+                                                 <div class="box profile-photo">
+                                                   <img alt="Chris Gauci"
+                                                   src="assets/images/profile_photo.png"><p class="author-name">Chris <br> Gauci</p>
+                                                   <aside>Admin<span> | </span>
+                                                       Updated Dec 03, 2021
+                                                   </aside>
+                                                 </div>
+                                             </div>
+            
+                                             <div class="box audio">
+                                               <div class="box audio-player">
+                                                   <audio controls class="article-audio">
+                                                   <source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
+                                                   Your browser does not support the audio tag.
+                                                   </audio>
+                                               </div>
+            
+                                                <div class="box listen-in"><span><i class="far fa-hand-pointer">
+                                                </i> Listen to this article</span>
+                                               </div>
+                                            </div>
+                                   <img src="assets/images/header_img.png" alt="black and white analog clock" class="header-img">
+                            </div>
+                       </header>
+            <article>	<div class="lhs-image-wrapper">
+                        <img src="assets/images/production_line_img.png" alt="production line">
+                        </div>
+                        <div class="article-p1">
+                            <p>AI is extensively being used in the manufacturing sector, facilitating the industrial automation.
+                                Artificial intelligence can ingest a combination of data from sensors, machines, and people and then apply it to 
+                                algorithms designed to optimize operations or achieve lights out manufacturing.
+                                Process plants rely on AI to integrate data, analyze it, and produce the deep insights and predictions that help drive better decision-making across the board.
+                                AI-driven machines yields a bunch of benefits offering new opportunities, enhancing production efficiencies, and bringing machine interaction closer to human interaction.
+                                Many firms have already embraced AI technology to reduce downtime, and deliver high-quality products that meet unique 
+                                consumer demands.</p>
+                                                    
+                                                    
+                                                        <div class="quote-wrapper">
+                                                            <figure>
+                                                            <img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
+                                                            <figcaption class="q-caption"><h3>Forbes</h3></figcaption>
+                                                            </figure>
+                                                            <aside class="quote"><i>"Around 90% of organizations using these predictive analytics have seen an increased return on 
+                                                                their investment.  For 40% of those organizations that increase went up to over 10%, and sometimes even way more."</i></aside>
+                                                        </div>
 
+                                                        <div class="quote-wrapper">
+                                                            <figure>
+                                                            <img src="assets/images/quote_icon.png" alt="quote" class="q-icon">
+                                                            <figcaption class="q-caption"><h3>Survey by Deloitte</h3></figcaption>
+                                                            </figure>
+                                                            <aside class="quote"><i>"93 percent of companies believe AI will be a pivotal technology to drive growth and innovation in the sector. 
+                                                                China's performance in AI adoption is outstanding. The market size of AI in the manufacturing sector is expected to exceed USD2 billion by 2025,
+                                                                 posting average annual growth of more than 40 percent from 2019. The rise of AI adoption in China's manufacturing sector has been boosted by favorable policies,
+                                                                  ample funds, and the potential for AI implementation."</i></aside>
+                                                        </div>
+                                                        
+                        </div>
+                        
+                    <div class="article-p2">
+                        <h3>Instances of AI uses within the Manufacturing Industry</h3>	
+                            <p><b>Quality Assessments:</b> AI can identify minor faults in machinery or product, giving engineers the option to replicate the issue before it could become a major flaw.</p>
+                            <p><b>Predictive Maintenance:</b> ML-powered predictive tools and AI solutions can predict when equipment needs periodic maintenance so to avoid disruption that may occur on an entire production line. </p>
+                            <p><b>Demand and Price Forecasting:</b> With the use of collecting data, AI systems produce predictive analysis and combine it with human intelligence to forecast the demand for products and pricing efficiently. </p>
+                            <p><b>Inventory Management:</b> Machine Learning plays an integral role to manage and simplify management of inventories based on demand and supply which can reduce significant cost overheads for a manufacturing firm. </p>
+                            <div class="btm-image-wrapper">
+                            <img src="assets/images/factory_img.png" alt="Factory" id="factory-img">	
+                            </div>
+                    </div>
+
+                </article>
+                <footer class="popup-footer"></footer>
+                    <a href="#industries" class="cancel">×</a>
+            </div>
+            <div class="cover"></div>
+</div>
+                
+                        <footer class=section-footer id="adjust-footer"> 
+                        <form action="#podcasts" method="get" id="form3"></form>
+                        <button type="submit" class="goto-btn goto-btn-txt" form="form3" value="Submit">Listen to Podcasts</button>
+                        </footer>
+        </section>
+
+        <section class="podcasts" id="podcasts">
+            <header class="section-header" id="header-podcasts"><h2>Podcasts</h2></header>
+                <div class="podcasts-container">
+                    <div class="top-image-wrapper">
+                    <img src="assets/images/podcasts_img.png" alt="podcasts" id="podcasts-img">
+                    </div>
+                        <div class="playlist">
+                        <div class="column" id="column-1">
+                        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1035131476&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
+                            <p> In this episode,  University of Cambridge explore the future of AI - 
+                            its potential benefits and harms. </p>
+                        </div>
+                    
+                        <div class="column" id="column-2">
+                            <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1087591735&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
+                        <p> In this episode, University of Ottawa Professional Development Institute discuss the use of AI technologies 
+                            by a broad range of businesses.</p>
+                        </div>
+                    
+                        <div class="column" id="column-3">
+                        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/977961331&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
+                        <p>In this episode, three top experts in artificial intelligence discuss the key factors driving the growth of this emerging technology.</p>
+                        </div>
+                    </div>
+    </div>
+
+                <footer class="section-footer" id=footer-pd>
+                    <form action="#subscribe" method="get" id="form4"></form>
+                    <div class="wave" id="wave1">
+                    <button type="submit" class="goto-btn goto-btn-txt" form="form4" value="Submit" >Subscribe</button>
+                </div>
+                </footer>
+
+        </section>
+
+        
 				<section class="subscribe" id="subscribe">
-					<header class="section-header" id="subscribe-header"><h2>Subscribe</h2></header>
+					<header class="section-header" id="header-subscribe"><h1>Subscribe</h1></header>
 						<div class="subscribe-container">
 							<div class="subscribe-form">
-								<h1><i>Join our mailing list!</i></h1>
+								<h2><i>Join our mailing list!</i></h2>
 								<p>sign up to receive email updates on new articles and podcasts.</p>
-								<form id="subscribe-form" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+								<form id="form-s" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
 								<input type="email" name="email" maxlength="40" placeholder="Your email" onfocus="this.placeholder=''" 
 								onblur="this.placeholder='Your email'" autocomplete="off" required>
-								<input type="submit" value="OK" id="submit-button">
-								<input type="checkbox" name="checkbox" id="checkbox" required>
-								<label for="checkbox">I would like to receive the b2b.ai email newsletter</label>
+					            <input type="submit" value="OK" id="submit-button">
+								<input type="checkbox" name="checkbox" class="checkbox-small" id="checkbox" required>
+								<label class="label-small" for="checkbox">I would like to receive the b2b.ai email newsletter</label>
+                                <div class="agreed-upon" style="display: none;">
+                                    <input type="checkbox" name="checkbox" id="checkbox" required>
+                                    <label for="checkbox">I would like to receive the b2b.ai email newsletter</label>
+                                </div>
 								</form>
-								</div>
+                             </div>
 						</div>
 
 						<footer class="section-footer" id="subscribe-footer">
@@ -549,8 +605,8 @@
 						</footer>
 				</section>
 
-				<section class="contact" id="contact">	
-					<header class="section-header" id="contact-header"><h2>Contact</h2></header>
+                <section class="contact" id="contact">	
+					<header class="section-header" id="header-contact"><h2>Contact</h2></header>
 						<div class="contact-container">
 									<form id="contact-form" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
 									<div class="field">
@@ -571,7 +627,8 @@
 								</div>
 				</section>
 
-					<footer class="footer">
+
+                <footer class="footer" id="footer">
 					<ul class="social-icon">
 						<li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/" target="_blank" rel="noopener">
 						<i class="fab fa-facebook-square"></i></a>
@@ -589,7 +646,9 @@
 					<p>&copy;2021 Chris Gauci | All Rights Reserved</p>
 				</footer>
 
-				<script src="https://kit.fontawesome.com/45477b65ad.js" crossorigin="anonymous"></script>
-			</body>
 
-	</html>
+    <script src="https://kit.fontawesome.com/45477b65ad.js" crossorigin="anonymous"></script>
+    <!-- <script src="assets/js/scroll.js"></script> -->
+
+</body>
+</html>
